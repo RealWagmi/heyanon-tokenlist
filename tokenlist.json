@@ -1,0 +1,31 @@
+{
+    "tokens": [
+        {
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "source": [
+                { 
+                    "type": "oracle", 
+                    "data": { 
+                        "chainId": 1,
+                        "address": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419", 
+                        "decimals": 8
+                    } 
+                },
+                { 
+                    "type": "binance", 
+                    "data": "ETHUSDT"
+                },
+                { 
+                    "type": "coingecko", 
+                    "data": "ethereum"
+                }
+            ],
+            "contracts": [
+                { "chainId": 1, "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", "decimals": 18 }
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+            "timestamp": "2025-01-24T09:43:21.056Z"
+        }
+    ]
+}
