@@ -3,7 +3,7 @@
         {
             "name": "Wrapped Ether",
             "symbol": "WETH",
-            "source": [
+            "sources": [
                 { 
                     "type": "oracle", 
                     "data": { 

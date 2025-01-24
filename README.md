@@ -26,7 +26,7 @@ This document provides guidelines for filling out and maintaining a token list. 
 - **Description**: The short symbol used to identify the token.
 - **Example**: `"WETH"`
 
-### **3. `source`**
+### **3. `sources`**
 - **Description**: Specifies the data sources used to retrieve information about the token. Supported types are `oracle`, `binance`, and `coingecko`.
 
 #### **Oracle**
@@ -71,9 +71,9 @@ This document provides guidelines for filling out and maintaining a token list. 
   }
   ```
 
-#### **Full `source` Example**
+#### **Full `sources` Example**
 ```json
-"source": [
+"sources": [
     {
         "type": "oracle",
         "data": {
@@ -133,7 +133,7 @@ This document provides guidelines for filling out and maintaining a token list. 
 {
     "name": "Wrapped Ether",
     "symbol": "WETH",
-    "source": [
+    "sources": [
         {
             "type": "oracle",
             "data": {
@@ -166,7 +166,7 @@ This document provides guidelines for filling out and maintaining a token list. 
 1. Ensure the `name` and `symbol` fields are unique.
 2. Verify the structure of the JSON.
 3. Confirm that the logo URL is accessible.
-4. Double-check all `source` fields for correctness:
+4. Double-check all `sources` fields for correctness:
    - Ensure `oracle` contracts are valid and deployed.
    - Verify `binance` trading pairs exist.
    - Confirm `coingecko` identifiers are accurate.

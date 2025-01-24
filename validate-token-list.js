@@ -41,11 +41,11 @@ const validateTokenList = (filePath) => {
           symbols.add(token.symbol);
         }
 
-        // Validate source
-        if (!token.source || !Array.isArray(token.source)) {
+        // Validate sources
+        if (!token.sources || !Array.isArray(token.sources)) {
           tokenErrors.push(`${path}.source is missing or not an array.`);
         } else {
-          token.source.forEach((source, sourceIndex) => {
+          token.sources.forEach((source, sourceIndex) => {
             const sourcePath = `${path}.source[${sourceIndex}]`;
             if (!source.type || !['oracle', 'binance', 'coingecko'].includes(source.type)) {
               tokenErrors.push(`${sourcePath}.type is missing or invalid (must be one of: oracle, binance, coingecko).`);
