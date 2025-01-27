@@ -22,10 +22,285 @@
                 }
             ],
             "contracts": [
-                { "chainId": 1, "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", "decimals": 18 }
+                { "chainId": 1, "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", "decimals": 18 },
+                { "chainId": 42161, "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1", "decimals": 18 },
+                { "chainId": 8453, "address": "0x4200000000000000000000000000000000000006", "decimals": 18 },
+                { "chainId": 8822, "address": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8", "decimals": 18 },
+                { "chainId": 2222, "address": "0x2DfD4dE5AE386Cd3f4fC8e2cb39240852E47F5E8", "decimals": 18 },
+                { "chainId": 1088, "address": "0x420000000000000000000000000000000000000A", "decimals": 18 },
+                { "chainId": 10, "address": "0x4200000000000000000000000000000000000006", "decimals": 18 },
+                { "chainId": 146, "address": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b", "decimals": 18 }
             ],
             "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
-            "timestamp": "2025-01-24T09:43:21.056Z"
+            "timestamp": "2025-01-27T12:56:16.216Z"
+        },
+        {
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "sources": [
+                { 
+                    "type": "oracle", 
+                    "data": { 
+                        "chainId": 1,
+                        "address": "0xf4030086522a5beea4988f8ca5b36dbc97bee88c", 
+                        "decimals": 8
+                    } 
+                },
+                { 
+                    "type": "binance", 
+                    "data": "BTCUSDT"
+                },
+                { 
+                    "type": "coingecko", 
+                    "data": "wrapped-bitcoin"
+                }
+            ],
+            "contracts": [
+                { "chainId": 1, "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599", "decimals": 8 },
+                { "chainId": 42161, "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f", "decimals": 8 }
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
+            "timestamp": "2025-01-27T12:56:16.216Z"
+        },
+        {
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "sources": [
+                { 
+                    "type": "oracle", 
+                    "data": { 
+                        "chainId": 1,
+                        "address": "0x3e7d1eab13ad0104d2750b8863b489d65364e32d", 
+                        "decimals": 8
+                    } 
+                },
+                { 
+                    "type": "coingecko", 
+                    "data": "tether"
+                }
+            ],
+            "contracts": [
+                { "chainId": 1, "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7", "decimals": 6 },
+                { "chainId": 42161, "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9", "decimals": 6 },
+                { "chainId": 43114, "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7", "decimals": 6 },
+                { "chainId": 56, "address": "0x55d398326f99059fF775485246999027B3197955", "decimals": 18 },
+                { "chainId": 8822, "address": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4", "decimals": 6 },
+                { "chainId": 2222, "address": "0x919c1c267bc06a7039e03fcc2ef738525769109c", "decimals": 6 },
+                { "chainId": 1088, "address": "0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC", "decimals": 6 },
+                { "chainId": 10, "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58", "decimals": 6 }
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/1/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+            "timestamp": "2025-01-27T12:56:16.216Z"
+        },
+        {
+           "name": "Wagmi",
+            "symbol": "WAGMI",
+            "sources": [
+                { 
+                    "type": "coingecko", 
+                    "data": "wagmi-2"
+                }
+            ],
+            "contracts": [
+                { "chainId": 1, "address": "0x92CC36D66e9d739D50673d1f27929a371FB83a67", "decimals": 18 },
+                { "chainId": 42161, "address": "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7", "decimals": 18 },
+                { "chainId": 43114, "address": "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7", "decimals": 18 },
+                { "chainId": 8453, "address": "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7", "decimals": 18 },
+                { "chainId": 56, "address": "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7", "decimals": 18 },
+                { "chainId": 250, "address": "0xb1F795776cB9DdAC6E7e162f31C7419Dd3d48297", "decimals": 18 },
+                { "chainId": 8822, "address": "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7", "decimals": 18 },
+                { "chainId": 2222, "address": "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7", "decimals": 18 },
+                { "chainId": 1088, "address": "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7", "decimals": 18 },
+                { "chainId": 10, "address": "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7", "decimals": 18 },
+                { "chainId": 137, "address": "0x07Ed33a242BD9C08CA3C198e01189e35265024Da", "decimals": 18 },
+                { "chainId": 146, "address": "0x0e0Ce4D450c705F8a0B6Dd9d5123e3df2787D16B", "decimals": 18 }
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/1/0x92CC36D66e9d739D50673d1f27929a371FB83a67/logo.png",
+            "timestamp": "2025-01-27T12:56:16.216Z" 
+        },
+        {
+            "name": "Wrapped AVAX",
+            "symbol": "WAVAX",
+            "sources": [
+                { 
+                    "type": "oracle", 
+                    "data": { 
+                        "chainId": 1,
+                        "address": "0xff3eeb22b5e3de6e705b44749c2559d704923fd7", 
+                        "decimals": 8
+                    } 
+                },
+                { 
+                    "type": "binance", 
+                    "data": "AVAXUSDT"
+                },
+                { 
+                    "type": "coingecko", 
+                    "data": "wrapped-avax"
+                }
+            ],
+            "contracts": [
+                { "chainId": 43114, "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7", "decimals": 18 }
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/43114/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/logo.png",
+            "timestamp": "2025-01-27T12:56:16.216Z" 
+        },
+        {
+            "name": "Wrapped BNB",
+            "symbol": "WBNB",
+            "sources": [
+                { 
+                    "type": "oracle", 
+                    "data": { 
+                        "chainId": 1,
+                        "address": "0x14e613ac84a31f709eadbdf89c6cc390fdc9540a", 
+                        "decimals": 8
+                    } 
+                },
+                { 
+                    "type": "binance", 
+                    "data": "BNBUSDT"
+                },
+                { 
+                    "type": "coingecko", 
+                    "data": "wbnb"
+                }
+            ],
+            "contracts": [
+                { "chainId": 56, "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c", "decimals": 18 }
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/56/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/logo.png",
+            "timestamp": "2025-01-27T12:56:16.216Z" 
+        },
+        {
+            "name": "Wrapped FTM",
+            "symbol": "WFTM",
+            "sources": [
+                { 
+                    "type": "oracle", 
+                    "data": { 
+                        "chainId": 250,
+                        "address": "0xf4766552D15AE4d256Ad41B6cf2933482B0680dc", 
+                        "decimals": 8
+                    } 
+                },
+                { 
+                    "type": "coingecko", 
+                    "data": "wrapped-fantom"
+                }
+            ],
+            "contracts": [
+                { "chainId": 250, "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83", "decimals": 18 }
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/250/0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83/logo.png",
+            "timestamp": "2025-01-27T12:56:16.216Z" 
+        },
+        {
+            "name": "Wrapped IOTA",
+            "symbol": "WIOTA",
+            "sources": [
+                { 
+                    "type": "coingecko", 
+                    "data": "wrapped-iota"
+                },
+                { 
+                    "type": "binance", 
+                    "data": "IOTAUSDT"
+                }
+            ],
+            "contracts": [
+                { "chainId": 8822, "address": "0x6e47f8d48a01b44DF3fFF35d258A10A3AEdC114c", "decimals": 18 }
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/8822/0x6e47f8d48a01b44DF3fFF35d258A10A3AEdC114c/logo.png",
+            "timestamp": "2025-01-27T12:56:16.216Z" 
+        },
+        {
+            "name": "Wrapped KAVA",
+            "symbol": "WKAVA",
+            "sources": [
+                { 
+                    "type": "coingecko", 
+                    "data": "wrapped-kava"
+                },
+                { 
+                    "type": "binance", 
+                    "data": "KAVAUSDT"
+                }
+            ],
+            "contracts": [
+                { "chainId": 2222, "address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b", "decimals": 18 }
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/2222/0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b/logo.png",
+            "timestamp": "2025-01-27T12:56:16.216Z" 
+        },
+        {
+            "name": "Wrapped METIS",
+            "symbol": "WMETIS",
+            "sources": [
+                { 
+                    "type": "coingecko", 
+                    "data": "wmetis"
+                },
+                { 
+                    "type": "binance", 
+                    "data": "METISUSDT"
+                }
+            ],
+            "contracts": [
+                { "chainId": 1088, "address": "0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481", "decimals": 18 }
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/1088/0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481/logo.png",
+            "timestamp": "2025-01-27T12:56:16.216Z" 
+        },
+        {
+            "name": "Wrapped S",
+            "symbol": "WS",
+            "sources": [
+                { 
+                    "type": "binance", 
+                    "data": "SUSDT"
+                }
+            ],
+            "contracts": [
+                { "chainId": 146, "address": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38", "decimals": 18 }
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/146/0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38/logo.png",
+            "timestamp": "2025-01-27T12:56:16.216Z" 
+        },
+        {
+            "name": "HeyAnon",
+            "symbol": "Anon",
+            "sources": [
+                { 
+                    "type": "coingecko", 
+                    "data": "heyanon"
+                }
+            ],
+            "contracts": [
+                { "chainId": 1, "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C", "decimals": 18 },
+                { "chainId": 2222, "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C", "decimals": 18 },
+                { "chainId": 1088, "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C", "decimals": 18 },
+                { "chainId": 8453, "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C", "decimals": 18 },
+                { "chainId": 8822, "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C", "decimals": 18 },
+                { "chainId": 146, "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C", "decimals": 18 },
+                { "chainId": 42161, "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C", "decimals": 18 },
+                { "chainId": 43114, "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C", "decimals": 18 },
+                { "chainId": 56, "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C", "decimals": 18 }
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/146/0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C/logo.png",
+            "timestamp": "2025-01-27T12:56:16.216Z" 
+        },
+        {
+            "name": "Staked Wagmi Tokens",
+            "symbol": "sWAGMI",
+            "sources": [],
+            "contracts": [
+                { "chainId": 146, "address": "0x4b5d9db7910448e2F236509D9eE242673AFa28aA", "decimals": 18 },
+                { "chainId": 2222, "address": "0x3690D1A9Fb569C21372f8091527aB44f1DC9630F", "decimals": 18 },
+                { "chainId": 1088, "address": "0x5fb3983adc4dCc82A610a91D2e329F6401352558", "decimals": 18 }
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/2222/0x3690D1A9Fb569C21372f8091527aB44f1DC9630F/logo.png",
+            "timestamp": "2025-01-27T12:56:16.216Z" 
         }
     ]
 }
