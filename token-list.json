@@ -301,6 +301,29 @@
             ],
             "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/2222/0x3690D1A9Fb569C21372f8091527aB44f1DC9630F/logo.png",
             "timestamp": "2025-01-27T12:56:16.216Z" 
+        },
+        {
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "sources": [{ 
+                "type": "coingecko", 
+                "data": "usd-coin"
+            }],
+            "contracts": [
+                { "chainId": 1, "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", "decimals": 6 },
+                { "chainId": 10, "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85", "decimals": 6 },
+                { "chainId": 56, "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d", "decimals": 18 },
+                { "chainId": 137, "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359", "decimals": 6 },
+                { "chainId": 324, "address": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4", "decimals": 6 },
+                { "chainId": 1088, "address": "0xEA32A96608495e54156Ae48931A7c20f0dcc1a21", "decimals": 6 },
+                { "chainId": 2222, "address": "0xfa9343c3897324496a05fc75abed6bac29f8a40f", "decimals": 6 },
+                { "chainId": 43114, "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E", "decimals": 6 },
+                { "chainId": 8453, "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913", "decimals": 6 },
+                { "chainId": 146, "address": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894", "decimals": 6 },
+                { "chainId": 42161, "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831", "decimals": 6 } 
+            ],
+            "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/1/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+            "timestamp": "2025-01-27T12:56:16.216Z"
         }
     ]
 }
