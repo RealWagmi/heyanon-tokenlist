@@ -13,7 +13,6 @@ const validateTokenList = (filePath) => {
     const tokenList = JSON.parse(data);
 
     const errors = [];
-    const names = new Set();
     const symbols = new Set();
 
     if (!tokenList.tokens || !Array.isArray(tokenList.tokens)) {
@@ -26,10 +25,6 @@ const validateTokenList = (filePath) => {
         // Validate name
         if (!token.name || typeof token.name !== 'string') {
           tokenErrors.push(`${path}.name is missing or not a string.`);
-        } else if (names.has(token.name)) {
-          tokenErrors.push(`${path}.name (${token.name}) is not unique.`);
-        } else {
-          names.add(token.name);
         }
 
         // Validate symbol
@@ -55,8 +50,8 @@ const validateTokenList = (filePath) => {
               if (!source.data || typeof source.data !== 'object') {
                 tokenErrors.push(`${sourcePath}.data is missing or not an object.`);
               } else {
-                if (typeof source.data.chainId !== 'number') {
-                  tokenErrors.push(`${sourcePath}.data.chainId is missing or not a number.`);
+                if (typeof source.data.chain !== 'string') {
+                  tokenErrors.push(`${sourcePath}.data.chain is missing or not a string.`);
                 }
                 if (!source.data.address || typeof source.data.address !== 'string') {
                   tokenErrors.push(`${sourcePath}.data.address is missing or not a string.`);
@@ -81,8 +76,8 @@ const validateTokenList = (filePath) => {
         } else {
           token.contracts.forEach((contract, contractIndex) => {
             const contractPath = `${path}.contracts[${contractIndex}]`;
-            if (typeof contract.chainId !== 'number') {
-              tokenErrors.push(`${contractPath}.chainId is missing or not a number.`);
+            if (typeof contract.chain !== 'string') {
+              tokenErrors.push(`${contractPath}.chainId is missing or not a string.`);
             }
             if (!contract.address || typeof contract.address !== 'string') {
               tokenErrors.push(`${contractPath}.address is missing or not a string.`);
@@ -94,8 +89,10 @@ const validateTokenList = (filePath) => {
         }
 
         // Validate logo
-        if (!token.logo || typeof token.logo !== 'string' || !token.logo.startsWith('http')) {
-          tokenErrors.push(`${path}.logo is missing, not a string, or not a valid URL.`);
+        if(token.logo){
+          if (typeof token.logo !== 'string' || !token.logo.startsWith('http')) {
+            tokenErrors.push(`${path}.logo is missing, not a string, or not a valid URL.`);
+          }
         }
 
         // Validate timestamp
@@ -122,5 +119,5 @@ const validateTokenList = (filePath) => {
 };
 
 // Path to the token list JSON file (adjust as needed for your GitHub Actions workflow)
-const tokenListPath = './token-list.json';
+const tokenListPath = './tokens.json';
 validateTokenList(tokenListPath);
