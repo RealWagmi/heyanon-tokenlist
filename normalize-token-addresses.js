@@ -4,7 +4,7 @@ const { getAddress } = require('viem');
 
 /**
  * Normalize all 0x-prefixed addresses in the token list to their checksummed format
- * Creates a new file with normalized addresses
+ * Updates timestamp for modified tokens
  */
 const normalizeTokenAddresses = (inputPath, outputPath) => {
     try {
@@ -18,13 +18,19 @@ const normalizeTokenAddresses = (inputPath, outputPath) => {
 
         // Normalize addresses in the token list
         const normalizedTokens = tokenList.tokens.map(token => {
+            let isModified = false;
+
             // Normalize sources addresses
             if (token.sources && Array.isArray(token.sources)) {
                 token.sources = token.sources.map(source => {
                     if (source.type === 'oracle' &&
                         source.data?.address &&
                         source.data.address.startsWith('0x')) {
-                        source.data.address = getAddress(source.data.address);
+                        const normalizedAddress = getAddress(source.data.address);
+                        if (normalizedAddress !== source.data.address) {
+                            isModified = true;
+                            source.data.address = normalizedAddress;
+                        }
                     }
                     return source;
                 });
@@ -34,10 +40,19 @@ const normalizeTokenAddresses = (inputPath, outputPath) => {
             if (token.contracts && Array.isArray(token.contracts)) {
                 token.contracts = token.contracts.map(contract => {
                     if (contract.address && contract.address.startsWith('0x')) {
-                        contract.address = getAddress(contract.address);
+                        const normalizedAddress = getAddress(contract.address);
+                        if (normalizedAddress !== contract.address) {
+                            isModified = true;
+                            contract.address = normalizedAddress;
+                        }
                     }
                     return contract;
                 });
+            }
+
+            // Update timestamp only if addresses were modified
+            if (isModified) {
+                token.timestamp = new Date().toISOString();
             }
 
             return token;
