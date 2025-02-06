@@ -52,8 +52,8 @@ const validateTokenList = (filePath) => {
               if (!source.data || typeof source.data !== 'object') {
                 tokenErrors.push(`${sourcePath}.data is missing or not an object.`);
               } else {
-                if (typeof source.data.chain !== 'string') {
-                  tokenErrors.push(`${sourcePath}.data.chain is missing or not a string.`);
+                if (typeof source.data.chainId !== 'number') {
+                  tokenErrors.push(`${sourcePath}.data.chainId is missing or not a number.`);
                 }
                 if (!source.data.address || typeof source.data.address !== 'string') {
                   tokenErrors.push(`${sourcePath}.data.address is missing or not a string.`);
