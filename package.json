@@ -1,0 +1,22 @@
+{
+  "name": "heyanon-tokenlist",
+  "version": "1.0.0",
+  "description": "This document provides guidelines for filling out and maintaining a token list. Each token entry must meet specific criteria, and supported data sources must follow the outlined structure.",
+  "main": "validate-token-list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealWagmi/heyanon-tokenlist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "viem": "^2.21.40"
+  },
+  "bugs": {
+    "url": "https://github.com/RealWagmi/heyanon-tokenlist/issues"
+  },
+  "homepage": "https://github.com/RealWagmi/heyanon-tokenlist#readme"
+}
