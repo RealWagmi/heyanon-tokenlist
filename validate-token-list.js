@@ -1,9 +1,11 @@
 const fs = require('fs');
 const path = require('path');
+const { getAddress } = require('viem');
 
 /**
  * Validate the token list JSON file.
  * Ensure all required fields are present, unique, and correctly formatted.
+ * Verify all addresses match their checksummed format.
  */
 
 const validateTokenList = (filePath) => {
@@ -89,7 +91,7 @@ const validateTokenList = (filePath) => {
         }
 
         // Validate logo
-        if(token.logo){
+        if (token.logo) {
           if (typeof token.logo !== 'string' || !token.logo.startsWith('http')) {
             tokenErrors.push(`${path}.logo is missing, not a string, or not a valid URL.`);
           }
@@ -98,6 +100,42 @@ const validateTokenList = (filePath) => {
         // Validate timestamp
         if (!token.timestamp || !/\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z/.test(token.timestamp)) {
           tokenErrors.push(`${path}.timestamp is missing or not in ISO 8601 format.`);
+        }
+
+        // Validate addresses in sources are correctly checksummed
+        if (token.sources && Array.isArray(token.sources)) {
+          token.sources.forEach((source, sourceIndex) => {
+            const sourcePath = `${path}.sources[${sourceIndex}]`;
+            if (source.type === 'oracle' && source.data && source.data.address) {
+              if (source.data.address.startsWith('0x')) {
+                try {
+                  const checksummedAddress = getAddress(source.data.address);
+                  if (checksummedAddress !== source.data.address) {
+                    tokenErrors.push(`${sourcePath}.data.address is not correctly checksummed. Expected: ${checksummedAddress}, Got: ${source.data.address}`);
+                  }
+                } catch (error) {
+                  tokenErrors.push(`${sourcePath}.data.address is not a valid address: ${source.data.address}`);
+                }
+              }
+            }
+          });
+        }
+
+        // Validate contract addresses are correctly checksummed
+        if (token.contracts && Array.isArray(token.contracts)) {
+          token.contracts.forEach((contract, contractIndex) => {
+            const contractPath = `${path}.contracts[${contractIndex}]`;
+            if (contract.address && contract.address.startsWith('0x')) {
+              try {
+                const checksummedAddress = getAddress(contract.address);
+                if (checksummedAddress !== contract.address) {
+                  tokenErrors.push(`${contractPath}.address is not correctly checksummed. Expected: ${checksummedAddress}, Got: ${contract.address}`);
+                }
+              } catch (error) {
+                tokenErrors.push(`${contractPath}.address is not a valid address: ${contract.address}`);
+              }
+            }
+          });
         }
 
         if (tokenErrors.length > 0) {
@@ -110,7 +148,7 @@ const validateTokenList = (filePath) => {
       console.error('Validation errors found:\n', errors.join('\n'));
       process.exit(1);
     } else {
-      console.log('Token list is valid.');
+      console.log('Token list is valid. All addresses are correctly checksummed.');
     }
   } catch (error) {
     console.error('Error reading or parsing token list:', error.message);
