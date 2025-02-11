@@ -7,8 +7,9 @@ This document provides guidelines for filling out and maintaining a token list. 
 ## **General Principles**
 
 ### **Uniqueness**
-- The `name` and `symbol` fields must be unique for every token in the list.
-- Before adding a new token, ensure its `name` and `symbol` are not already present in the list.
+- The `symbol` fields must be unique for every token in the list.
+- Before adding a new token, ensure its `symbol` are not already present in the list.
+- Use validate-token-list.js and normalize-token-addresses.js before pr
 
 ### **Data Format**
 - The token list must adhere to the JSON format.
