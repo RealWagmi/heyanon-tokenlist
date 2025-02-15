@@ -13,7 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cowprotocol/cow-sdk": "^5.10.0",
     "viem": "^2.21.40"
   },
   "bugs": {
