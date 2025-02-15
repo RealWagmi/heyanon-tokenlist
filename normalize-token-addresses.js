@@ -79,9 +79,11 @@ const normalizeTokenAddresses = (inputPath, outputPath) => {
 
 // Example usage
 if (require.main === module) {
-    const inputPath = './tokens.json';
-    const outputPath = './tokens.json';
-    normalizeTokenAddresses(inputPath, outputPath);
+    // const inputPath = './tokens.json';
+    // const outputPath = './tokens.json';
+    // normalizeTokenAddresses(inputPath, outputPath);
+    const timestamp = new Date().toISOString();
+    console.log(timestamp);
 }
 
 // Export for use in other files
