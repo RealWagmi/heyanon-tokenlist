@@ -32,10 +32,10 @@ const validateTokenList = (filePath) => {
         // Validate symbol
         if (!token.symbol || typeof token.symbol !== 'string') {
           tokenErrors.push(`${path}.symbol is missing or not a string.`);
-        } else if (symbols.has(token.symbol)) {
+        } else if (symbols.has(token.symbol.toLowerCase())) {
           tokenErrors.push(`${path}.symbol (${token.symbol}) is not unique.`);
         } else {
-          symbols.add(token.symbol);
+          symbols.add(token.symbol.toLowerCase());
         }
 
         // Validate sources
