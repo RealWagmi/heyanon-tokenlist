@@ -16,6 +16,7 @@ const validateTokenList = (filePath) => {
 
     const errors = [];
     const symbols = new Set();
+    const keys = new Set();
 
     if (!tokenList.tokens || !Array.isArray(tokenList.tokens)) {
       errors.push('The "tokens" field is missing or not an array.');
@@ -36,6 +37,15 @@ const validateTokenList = (filePath) => {
           tokenErrors.push(`${path}.symbol (${token.symbol}) is not unique.`);
         } else {
           symbols.add(token.symbol.toLowerCase());
+        }
+
+        // Validate id
+        if (!token.key || typeof token.key !== 'string') {
+          tokenErrors.push(`${path}.key is missing or not a string.`);
+        } else if (keys.has(token.key.toLowerCase())) {
+          tokenErrors.push(`${path}.key (${token.key}) is not unique.`);
+        } else {
+          keys.add(token.key.toLowerCase());
         }
 
         // Validate sources
@@ -148,7 +158,7 @@ const validateTokenList = (filePath) => {
       console.error('Validation errors found:\n', errors.join('\n'));
       process.exit(1);
     } else {
-      console.log('Token list is valid. All addresses are correctly checksummed.');
+      console.log('Token list is valid. All addresses are correctly checksummed. All ids are unique.');
     }
   } catch (error) {
     console.error('Error reading or parsing token list:', error.message);
