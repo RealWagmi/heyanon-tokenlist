@@ -10,7 +10,7 @@ function main(){
     const data = fs.readFileSync(path.join(__dirname, filePath), 'utf-8');
     const tokenList = JSON.parse(data);
     tokenList.tokens = tokenList.tokens.map((token) => {
-        if (!token.id) {
+        if (!token.key) {
             token.key = createId();
             token.timestamp = new Date().toISOString();
         }
