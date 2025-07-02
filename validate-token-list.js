@@ -86,10 +86,18 @@ const validateTokenList = (filePath) => {
         if (!token.contracts || !Array.isArray(token.contracts)) {
           tokenErrors.push(`${path}.contracts is missing or not an array.`);
         } else {
+          const chainsSeen = new Set();
           token.contracts.forEach((contract, contractIndex) => {
             const contractPath = `${path}.contracts[${contractIndex}]`;
             if (typeof contract.chain !== 'string') {
-              tokenErrors.push(`${contractPath}.chainId is missing or not a string.`);
+              tokenErrors.push(`${contractPath}.chain is missing or not a string.`);
+            } else {
+              // Check for duplicate chains
+              if (chainsSeen.has(contract.chain)) {
+                tokenErrors.push(`${path}.contracts has duplicate chain: ${contract.chain} (found at index ${contractIndex})`);
+              } else {
+                chainsSeen.add(contract.chain);
+              }
             }
             if (!contract.address || typeof contract.address !== 'string') {
               tokenErrors.push(`${contractPath}.address is missing or not a string.`);
