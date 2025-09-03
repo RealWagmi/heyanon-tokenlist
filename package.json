@@ -4,7 +4,8 @@
   "description": "This document provides guidelines for filling out and maintaining a token list. Each token entry must meet specific criteria, and supported data sources must follow the outlined structure.",
   "main": "validate-token-list.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "validate": "node scripts/validate-token-list.js",
+    "validate-addresses": "node scripts/normalize-token-addresses.js"
   },
   "repository": {
     "type": "git",
