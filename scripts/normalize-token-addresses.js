@@ -34,17 +34,12 @@ try {
         }
 
         // Normalize contract addresses
-        if (token.contracts && Array.isArray(token.contracts)) {
-            token.contracts = token.contracts.map(contract => {
-                if (contract.address && contract.address.startsWith('0x')) {
-                    const normalizedAddress = getAddress(contract.address);
-                    if (normalizedAddress !== contract.address) {
-                        isModified = true;
-                        contract.address = normalizedAddress;
-                    }
-                }
-                return contract;
-            });
+        if (token.address && token.address.startsWith('0x')) {
+            const normalizedAddress = getAddress(token.address);
+            if (normalizedAddress !== token.address) {
+                isModified = true;
+                token.address = normalizedAddress;
+            }
         }
 
         // Update timestamp only if addresses were modified
