@@ -20456,7 +20456,7 @@
       "timestamp": "2025-07-02T12:47:44.451Z"
     },
     {
-      "chain": "kava",
+      "chain": "kava_evm",
       "name": "ENA",
       "symbol": "ENA",
       "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
@@ -157968,7 +157968,7 @@
       "timestamp": "2025-08-29T10:41:15.095Z"
     },
     {
-      "chain": "kava",
+      "chain": "kava_evm",
       "name": "Magic Internet Money",
       "symbol": "MIM",
       "address": "0xB153FB3d196A8eB25522705560ac152eeEc57901",
