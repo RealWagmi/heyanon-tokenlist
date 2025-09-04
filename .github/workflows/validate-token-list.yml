@@ -26,4 +26,4 @@ jobs:
 
       # Step 4: Run the validation script
       - name: Run validation
-        run: node ./validate-token-list.js
+        run: npm run validate
