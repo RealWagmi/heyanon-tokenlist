@@ -485,6 +485,28 @@
       "timestamp": "2025-08-29T11:06:52.096Z"
     },
     {
+      "chain": "optimism",
+      "name": "USDT0",
+      "symbol": "USDT0",
+      "address": "0x01bFF41798a0BcF287b996046Ca68b395DbC1071",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "oracle",
+          "data": {
+            "chainId": 1,
+            "address": "0x3E7d1eAB13ad0104d2750B8863b489D65364e32D",
+            "decimals": 8
+          }
+        },
+        {
+          "type": "coingecko",
+          "data": "tether"
+        }
+      ],
+      "timestamp": "2025-09-04T11:13:07.096Z"
+    },
+    {
       "chain": "solana",
       "name": "Tether USD",
       "symbol": "USDT",
