@@ -166125,6 +166125,20 @@
         }
       ],
       "timestamp": "2025-09-02T15:13:02.707Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Sonic",
+      "symbol": "S",
+      "address": "3rQK45d1ojXR7vtvCmeNjKKVycnVWqaVcP3zk1G39RJR",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "binance",
+          "data": "SUSDT"
+        }
+      ],
+      "timestamp": "2025-09-14T15:13:02.707Z"
     }
   ]
 }
