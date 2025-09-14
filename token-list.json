@@ -166203,6 +166203,20 @@
         }
       ],
       "timestamp": "2025-09-14T15:13:02.707Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Maverick Token",
+      "symbol": "MAV",
+      "address": "0x7448c7456a97769F6cD04F1E83A4a23cCdC46aBD",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "maverick-protocol"
+        }
+      ],
+      "timestamp": "2025-04-18T14:25:01.348Z"
     }
   ]
 }
