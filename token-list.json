@@ -166167,6 +166167,42 @@
         }
       ],
       "timestamp": "2025-09-14T15:13:02.707Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "Optimism",
+      "symbol": "OP",
+      "address": "0xaC800FD6159c2a2CB8fC31EF74621eB430287a5A",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "binance",
+          "data": "OPUSDT"
+        },
+        {
+          "type": "coingecko",
+          "data": "optimism"
+        }
+      ],
+      "timestamp": "2025-09-14T15:13:02.707Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Optimism",
+      "symbol": "OP",
+      "address": "0xaC800FD6159c2a2CB8fC31EF74621eB430287a5A",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "binance",
+          "data": "OPUSDT"
+        },
+        {
+          "type": "coingecko",
+          "data": "optimism"
+        }
+      ],
+      "timestamp": "2025-09-14T15:13:02.707Z"
     }
   ]
 }
