@@ -166125,6 +166125,98 @@
         }
       ],
       "timestamp": "2025-09-02T15:13:02.707Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Sonic",
+      "symbol": "S",
+      "address": "3rQK45d1ojXR7vtvCmeNjKKVycnVWqaVcP3zk1G39RJR",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "binance",
+          "data": "SUSDT"
+        }
+      ],
+      "timestamp": "2025-09-14T15:13:02.707Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "ChainLink Token",
+      "symbol": "LINK0",
+      "address": "0x9A12CB8869498D8826567437abEA27Be1c2ba9Ab",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "chainlink"
+        }
+      ],
+      "timestamp": "2025-09-14T15:13:02.707Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "Wrapped HYPE",
+      "symbol": "wHYPE",
+      "address": "0xd83E3d560bA6F05094d9D8B3EB8aaEA571D1864E",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-hype"
+        }
+      ],
+      "timestamp": "2025-09-14T15:13:02.707Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "Optimism",
+      "symbol": "OP",
+      "address": "0xaC800FD6159c2a2CB8fC31EF74621eB430287a5A",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "binance",
+          "data": "OPUSDT"
+        },
+        {
+          "type": "coingecko",
+          "data": "optimism"
+        }
+      ],
+      "timestamp": "2025-09-14T15:13:02.707Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Optimism",
+      "symbol": "OP",
+      "address": "0xaC800FD6159c2a2CB8fC31EF74621eB430287a5A",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "binance",
+          "data": "OPUSDT"
+        },
+        {
+          "type": "coingecko",
+          "data": "optimism"
+        }
+      ],
+      "timestamp": "2025-09-14T15:13:02.707Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Maverick Token",
+      "symbol": "MAV",
+      "address": "0x7448c7456a97769F6cD04F1E83A4a23cCdC46aBD",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "maverick-protocol"
+        }
+      ],
+      "timestamp": "2025-04-18T14:25:01.348Z"
     }
   ]
 }
