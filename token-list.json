@@ -166217,6 +166217,90 @@
         }
       ],
       "timestamp": "2025-04-18T14:25:01.348Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Virtual Protocol",
+      "symbol": "VIRTUAL",
+      "address": "3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "virtual-protocol"
+        }
+      ],
+      "timestamp": "2025-09-16T14:25:01.351Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "dogwifhat",
+      "symbol": "WIF",
+      "address": "0x2DCE707c47Fd9C0f1833A281F45e3e41Ace2725B",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "dogwifcoin"
+        }
+      ],
+      "timestamp": "2025-09-16T14:25:01.351Z"
+    },
+    {
+      "chain": "base",
+      "name": "dogwifhat",
+      "symbol": "WIF",
+      "address": "0x1fba65dE0a9cBD2D1DF82d141897042d36Bb6c86",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "dogwifcoin"
+        }
+      ],
+      "timestamp": "2025-09-16T14:25:01.351Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "address": "0x6418c0dd099a9FDA397C766304CDd918233E8847",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "pudgy-penguins"
+        }
+      ],
+      "timestamp": "2025-04-18T14:25:01.362Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "address": "0xFa44C2634fF17CBE26dc3007D36BD61c79068c14",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "pudgy-penguins"
+        }
+      ],
+      "timestamp": "2025-04-18T14:25:01.362Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "address": "0x6418c0dd099a9FDA397C766304CDd918233E8847",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "pudgy-penguins"
+        }
+      ],
+      "timestamp": "2025-04-18T14:25:01.362Z"
     }
   ]
 }
