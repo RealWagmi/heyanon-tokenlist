@@ -166301,6 +166301,20 @@
         }
       ],
       "timestamp": "2025-04-18T14:25:01.362Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Aster",
+      "symbol": "ASTER",
+      "address": "0x000Ae314E2A2172a039B26378814C252734f556A",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "aster-2"
+        }
+      ],
+      "timestamp": "2025-09-20T11:30:29.779Z"
     }
   ]
 }

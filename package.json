@@ -5,7 +5,7 @@
   "main": "validate-token-list.js",
   "scripts": {
     "validate": "node scripts/validate-token-list.js",
-    "validate-addresses": "node scripts/normalize-token-addresses.js"
+    "normalize": "node scripts/normalize-token-addresses.js"
   },
   "repository": {
     "type": "git",

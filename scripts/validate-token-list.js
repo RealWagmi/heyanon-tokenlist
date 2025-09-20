@@ -16,6 +16,7 @@ try {
   if (!tokenList.tokens || !Array.isArray(tokenList.tokens)) {
     errors.push('The "tokens" field is missing or not an array.');
   } else {
+    console.log(`Processing ${tokenList.tokens.length} tokens...`);
     tokenList.tokens.forEach((token, index) => {
       const tokenErrors = [];
       const tokenPath = `tokens[${index}]`;
