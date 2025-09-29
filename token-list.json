@@ -166315,6 +166315,132 @@
         }
       ],
       "timestamp": "2025-09-20T11:30:29.779Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Ethena USDe",
+      "symbol": "USDE",
+      "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ethena-usde"
+        }
+      ],
+      "timestamp": "2025-09-29T10:24:03.060Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "USDT0",
+      "symbol": "USDT",
+      "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "usdt0"
+        }
+      ],
+      "timestamp": "2025-09-29T10:34:56.608Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Ethena Staked USDe",
+      "symbol": "SUSDE",
+      "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ethena-staked-usde"
+        }
+      ],
+      "timestamp": "2025-09-29T10:34:56.608Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "USDai",
+      "symbol": "USDAI",
+      "address": "0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "usdai"
+        }
+      ],
+      "timestamp": "2025-09-29T10:34:56.608Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Staked USDai",
+      "symbol": "SUSDAI",
+      "address": "0x0B2b2B2076d95dda7817e785989fE353fe955ef9",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "staked-usdai"
+        }
+      ],
+      "timestamp": "2025-09-29T10:34:56.608Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Wrapped eETH",
+      "symbol": "WEETH",
+      "address": "0xA3D68b74bF0528fdD07263c60d6488749044914b",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-eeth"
+        }
+      ],
+      "timestamp": "2025-09-29T10:34:56.609Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Stargate Bridged WETH",
+      "symbol": "WETH",
+      "address": "0x9895D81bB462A195b4922ED7De0e3ACD007c32CB",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "stargate-bridged-weth"
+        }
+      ],
+      "timestamp": "2025-09-29T10:34:56.609Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Trillions",
+      "symbol": "TRILLIONS",
+      "address": "0x92A01Ab7317Ac318b39b00EB6704ba56F0245D7a",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "trillions"
+        }
+      ],
+      "timestamp": "2025-09-29T10:34:56.609Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Tether Gold Tokens",
+      "symbol": "XAUT0",
+      "address": "0x1B64B9025EEbb9A6239575dF9Ea4b9Ac46D4d193",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "tether-gold-tokens"
+        }
+      ],
+      "timestamp": "2025-09-29T10:38:36.715Z"
     }
   ]
 }
