@@ -166458,8 +166458,8 @@
     },
     {
       "chain": "bsc",
-      "name": "Wrapped XPL",
-      "symbol": "WXPL",
+      "name": "Plasma",
+      "symbol": "XPL",
       "address": "0x405FBc9004D857903bFD6b3357792D71a50726b0",
       "decimals": 18,
       "sources": [
@@ -166468,7 +166468,7 @@
           "data": "wrapped-xpl"
         }
       ],
-      "timestamp": "2025-09-29T10:46:22.651Z"
+      "timestamp": "2025-09-29T13:09:26.970Z"
     }
   ]
 }
