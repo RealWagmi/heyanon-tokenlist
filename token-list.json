@@ -166441,6 +166441,34 @@
         }
       ],
       "timestamp": "2025-09-29T10:38:36.715Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Wrapped XPL",
+      "symbol": "WXPL",
+      "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-xpl"
+        }
+      ],
+      "timestamp": "2025-09-29T10:46:22.650Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Wrapped XPL",
+      "symbol": "WXPL",
+      "address": "0x405FBc9004D857903bFD6b3357792D71a50726b0",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-xpl"
+        }
+      ],
+      "timestamp": "2025-09-29T10:46:22.651Z"
     }
   ]
 }
