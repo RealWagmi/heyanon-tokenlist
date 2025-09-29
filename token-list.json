@@ -166469,6 +166469,34 @@
         }
       ],
       "timestamp": "2025-09-29T13:09:26.970Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Pendle",
+      "symbol": "PENDLE",
+      "address": "0xD6Eb81136884713E843936843E286FD2a85A205A",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "pendle"
+        }
+      ],
+      "timestamp": "2025-04-18T14:25:01.349Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Pendle",
+      "symbol": "PENDLE",
+      "address": "0x17Bac5F906c9A0282aC06a59958D85796c831f24",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "pendle"
+        }
+      ],
+      "timestamp": "2025-04-18T14:25:01.349Z"
     }
   ]
 }
