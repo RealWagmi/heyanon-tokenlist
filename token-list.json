@@ -33499,62 +33499,6 @@
     },
     {
       "chain": "ethereum",
-      "name": "Bold Stablecoin",
-      "symbol": "Bold",
-      "address": "0xb01dd87B29d187F3E3a4Bf6cdAebfb97F3D9aB98",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "liquity-bold"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.348Z"
-    },
-    {
-      "chain": "base",
-      "name": "Bold Stablecoin",
-      "symbol": "Bold",
-      "address": "0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "liquity-bold"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.348Z"
-    },
-    {
-      "chain": "arbitrum",
-      "name": "Bold Stablecoin",
-      "symbol": "Bold",
-      "address": "0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "liquity-bold"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.348Z"
-    },
-    {
-      "chain": "optimism",
-      "name": "Bold Stablecoin",
-      "symbol": "Bold",
-      "address": "0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "liquity-bold"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.348Z"
-    },
-    {
-      "chain": "ethereum",
       "name": "Lisk",
       "symbol": "LSK",
       "address": "0x6033F7f88332B8db6ad452B7C6D5bB643990aE3f",
@@ -86981,15 +86925,15 @@
       "chain": "bsc",
       "name": "ARK",
       "symbol": "ARK",
-      "address": "0x6b954B64EF0E5dbe738a4eBe466Bd5A8529E7844",
+      "address": "0xCae117ca6Bc8A341D2E7207F30E180f0e5618B9D",
       "decimals": 18,
       "sources": [
         {
           "type": "coingecko",
-          "data": "ark-fintech"
+          "data": "ark-3"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.355Z"
+      "timestamp": "2025-10-10T13:58:32.639Z"
     },
     {
       "chain": "bsc",
@@ -114069,17 +114013,17 @@
     },
     {
       "chain": "solana",
-      "name": "Emptiness Coin",
+      "name": "Voidify",
       "symbol": "∅",
-      "address": "ExocdWVMKbZBsMo21M6c6SCj7n4k4s7vmUVz3mGvpump",
+      "address": "J2bUGZDxRDpsVfjZqKwn6yYCUKFmqzHgt8UajhGtpump",
       "decimals": 6,
       "sources": [
         {
           "type": "coingecko",
-          "data": "emptiness-coin"
+          "data": "-7"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.358Z"
+      "timestamp": "2025-10-10T13:45:00.000Z"
     },
     {
       "chain": "solana",
@@ -139955,17 +139899,31 @@
     },
     {
       "chain": "solana",
-      "name": "Cyphomancer",
+      "name": "42-coin",
       "symbol": "42",
-      "address": "CexCXDGoZUWqkSnaovysnHXkF6teX4p8tjhns6rhaCZ2",
-      "decimals": 6,
+      "address": "42c846hyuCL5vMfqWifNvddUqHSqAFeJX7rDQBEBpKmM",
+      "decimals": 8,
       "sources": [
         {
           "type": "coingecko",
-          "data": "cyphomancer"
+          "data": "42-coin"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.361Z"
+      "timestamp": "2025-10-10T13:45:00.000Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "42-coin",
+      "symbol": "42",
+      "address": "0x73CF73c2503154dE4Dc12067546AA9357DaDAFF2",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "42-coin"
+        }
+      ],
+      "timestamp": "2025-10-10T13:54:09.200Z"
     },
     {
       "chain": "zksync",
@@ -140195,15 +140153,15 @@
       "chain": "solana",
       "name": "AIntivirus",
       "symbol": "Ainti",
-      "address": "BAezfVmia8UYLt4rst6PCU4dvL2i2qHzqn4wGhytpNJW",
+      "address": "EiVMQrvdDYK77eK6N6cyh5sGBe5Y1MQWVA7YaURVpump",
       "decimals": 6,
       "sources": [
         {
           "type": "coingecko",
-          "data": "aintivirus-2"
+          "data": "aintivirus"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.361Z"
+      "timestamp": "2025-10-10T13:45:00.000Z"
     },
     {
       "chain": "ethereum",
@@ -157501,48 +157459,6 @@
     },
     {
       "chain": "ethereum",
-      "name": "YieldFi yToken",
-      "symbol": "yUSD",
-      "address": "0x1CE7D9942ff78c328A4181b9F3826fEE6D845A97",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "yieldfi-ytoken"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.363Z"
-    },
-    {
-      "chain": "base",
-      "name": "YieldFi yToken",
-      "symbol": "yUSD",
-      "address": "0x895e15020C3f52ddD4D8e9514eB83C39F53B1579",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "yieldfi-ytoken"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.363Z"
-    },
-    {
-      "chain": "arbitrum",
-      "name": "YieldFi yToken",
-      "symbol": "yUSD",
-      "address": "0x895e15020C3f52ddD4D8e9514eB83C39F53B1579",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "yieldfi-ytoken"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.363Z"
-    },
-    {
-      "chain": "ethereum",
       "name": "ZAI Stablecoin",
       "symbol": "ZAI",
       "address": "0x69000dFD5025E82f48Eb28325A2B88a241182CEd",
@@ -160931,17 +160847,17 @@
     },
     {
       "chain": "solana",
-      "name": "Lord Of Sol",
+      "name": "ANALOS",
       "symbol": "LOS",
-      "address": "44bzge9EZJGPJRYNmsA64mdKZ1eeLdDcDiczRmoyAtez",
-      "decimals": 6,
+      "address": "6d2Wze1KMUxQ28sFLrH9DKfgBXpUJSJYZaRbufucvBLV",
+      "decimals": 9,
       "sources": [
         {
           "type": "coingecko",
-          "data": "lord-of-sol"
+          "data": "analos-2"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.363Z"
+      "timestamp": "2025-10-10T13:45:00.000Z"
     },
     {
       "chain": "solana",
@@ -166906,20 +166822,6 @@
     },
     {
       "chain": "avalanche",
-      "name": "Aegis YUSD",
-      "symbol": "YUSD",
-      "address": "0xca2671Dcd031a72359f456C212F62A9bDa737cD7",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "aegis-yusd"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:24.561Z"
-    },
-    {
-      "chain": "avalanche",
       "name": "Gunz",
       "symbol": "GUN",
       "address": "0x26deBD39D5eD069770406FCa10A0E4f8d2c743eB",
@@ -167393,20 +167295,6 @@
         }
       ],
       "timestamp": "2025-10-09T16:39:25.950Z"
-    },
-    {
-      "chain": "bsc",
-      "name": "Aegis YUSD",
-      "symbol": "YUSD",
-      "address": "0xAB3dBcD9B096C3fF76275038bf58eAC10D22C61f",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "aegis-yusd"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:25.951Z"
     },
     {
       "chain": "bsc",
@@ -169412,20 +169300,6 @@
     },
     {
       "chain": "scroll",
-      "name": "Legacy BOLD",
-      "symbol": "BOLD",
-      "address": "0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "liquity-bold"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:34.966Z"
-    },
-    {
-      "chain": "scroll",
       "name": "Quill USDQ",
       "symbol": "USDQ",
       "address": "0xdb9E8F82D6d45fFf803161F2a5f75543972B229a",
@@ -170056,20 +169930,6 @@
     },
     {
       "chain": "sonic",
-      "name": "YieldFi yToken",
-      "symbol": "YUSD",
-      "address": "0x4772D2e014F9fC3a820C444e3313968e9a5C8121",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "yieldfi-ytoken"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:40.006Z"
-    },
-    {
-      "chain": "sonic",
       "name": "Wrapped Savings rUSD",
       "symbol": "WSRUSD",
       "address": "0x4809010926aec940b550D34a46A52739f996D75D",
@@ -170641,6 +170501,118 @@
         }
       ],
       "timestamp": "2025-10-09T16:39:40.425Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "Liquity BOLD",
+      "symbol": "Bold",
+      "address": "0x6440f144b7e50D6a8439336510312d2F54beB01D",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "liquity-bold-2"
+        }
+      ],
+      "timestamp": "2025-10-10T13:54:09.219Z"
+    },
+    {
+      "chain": "base",
+      "name": "Liquity BOLD",
+      "symbol": "Bold",
+      "address": "0x03569CC076654F82679C4BA2124D64774781B01D",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "liquity-bold-2"
+        }
+      ],
+      "timestamp": "2025-10-10T13:54:09.219Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "Liquity BOLD",
+      "symbol": "Bold",
+      "address": "0x03569CC076654F82679C4BA2124D64774781B01D",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "liquity-bold-2"
+        }
+      ],
+      "timestamp": "2025-10-10T13:54:09.219Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "YieldFi yToken",
+      "symbol": "YUSD",
+      "address": "0x19Ebd191f7A24ECE672ba13A302212b5eF7F35cb",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "yieldfi-ytoken"
+        }
+      ],
+      "timestamp": "2025-10-10T16:06:16.260Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "YieldFi yToken",
+      "symbol": "YUSD",
+      "address": "0x4772D2e014F9fC3a820C444e3313968e9a5C8121",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "yieldfi-ytoken"
+        }
+      ],
+      "timestamp": "2025-10-10T13:58:32.675Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "YieldFi yToken",
+      "symbol": "YUSD",
+      "address": "0x4772D2e014F9fC3a820C444e3313968e9a5C8121",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "yieldfi-ytoken"
+        }
+      ],
+      "timestamp": "2025-10-10T13:58:32.675Z"
+    },
+    {
+      "chain": "base",
+      "name": "YieldFi yToken",
+      "symbol": "YUSD",
+      "address": "0x4772D2e014F9fC3a820C444e3313968e9a5C8121",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "yieldfi-ytoken"
+        }
+      ],
+      "timestamp": "2025-10-10T13:58:32.675Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "YieldFi yToken",
+      "symbol": "YUSD",
+      "address": "0x4772D2e014F9fC3a820C444e3313968e9a5C8121",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "yieldfi-ytoken"
+        }
+      ],
+      "timestamp": "2025-10-10T13:58:32.675Z"
     }
   ]
 }

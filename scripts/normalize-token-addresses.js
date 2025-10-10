@@ -42,7 +42,12 @@ try {
             }
         }
 
-        // Update timestamp only if addresses were modified
+        // Check if timestamp is missing or invalid
+        if (!token.timestamp || !/\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z/.test(token.timestamp)) {
+            isModified = true;
+        }
+
+        // Update timestamp if addresses were modified or timestamp was missing
         if (isModified) {
             token.timestamp = new Date().toISOString();
         }

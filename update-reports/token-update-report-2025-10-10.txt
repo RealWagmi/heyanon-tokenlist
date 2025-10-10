@@ -1,0 +1,229 @@
+======================================================================
+TOKEN UPDATE REPORT - DUPLICATE RESOLUTION
+======================================================================
+
+Report Date: 2025-10-10
+Generated At: 2025-10-10T13:45:00.000Z
+
+This report documents manual token updates performed to resolve
+duplicates and replace outdated/unreliable tokens with better versions.
+
+======================================================================
+SUMMARY
+======================================================================
+
+Total Updates: 10
+- Symbol Conflicts Resolved: 7
+- Contract Updates: 1
+- Token Replacements: 2
+
+======================================================================
+DETAILED CHANGES
+======================================================================
+
+1. BOLD STABLECOIN REPLACEMENT
+──────────────────────────────────────────────────────────────────────
+Action: Replaced Legacy BOLD with new Liquity BOLD (liquity-bold-2)
+Reason: New version has 84x larger supply, better market cap rank
+
+Ethereum:
+  OLD: 0xb01dd87B29d187F3E3a4Bf6cdAebfb97F3D9aB98 (Legacy BOLD, rank #5065)
+  NEW: 0x6440f144b7e50d6a8439336510312d2f54beb01d (Liquity BOLD, rank #844)
+
+Base:
+  OLD: 0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b (Legacy BOLD)
+  NEW: 0x03569cc076654f82679c4ba2124d64774781b01d (Liquity BOLD)
+
+Optimism:
+  OLD: 0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b (Legacy BOLD, 549K mcap)
+  NEW: 0x03569cc076654f82679c4ba2124d64774781b01d (Liquity BOLD, 38M mcap)
+
+Removed Chains: Arbitrum, Scroll (not supported by new version)
+CoinGecko ID: liquity-bold → liquity-bold-2
+
+──────────────────────────────────────────────────────────────────────
+
+2. SYMBOL "∅" (EMPTY SET) CONFLICT RESOLUTION
+──────────────────────────────────────────────────────────────────────
+Action: Replaced Emptiness Coin with Voidify
+Reason: Much better performance and market metrics
+
+Solana:
+  OLD: ExocdWVMKbZBsMo21M6c6SCj7n4k4s7vmUVz3mGvpump (Emptiness Coin)
+       Market Cap Rank: #9578
+       Performance: Minimal with liquidity warning
+  
+  NEW: J2bUGZDxRDpsVfjZqKwn6yYCUKFmqzHgt8UajhGtpump (Voidify)
+       Market Cap Rank: #2444
+       Performance: +53% (24h), +2078% (60d)
+       Features: Has whitepaper, Privacy/ZK categories
+
+CoinGecko ID: emptiness-coin → -7
+Timestamp Updated: 2025-10-10T13:45:00.000Z
+
+──────────────────────────────────────────────────────────────────────
+
+3. SYMBOL "42" CONFLICT RESOLUTION
+──────────────────────────────────────────────────────────────────────
+Action: Replaced Cyphomancer with 42-coin (multi-chain)
+Reason: Legendary ultra-scarce token vs struggling AI meme
+
+Solana:
+  OLD: CexCXDGoZUWqkSnaovysnHXkF6teX4p8tjhns6rhaCZ2 (Cyphomancer)
+       Market Cap Rank: #9810
+       Performance: -1.64% (24h), -83.79% (200d)
+       Supply: 928M tokens
+  
+  NEW: 42c846hyuCL5vMfqWifNvddUqHSqAFeJX7rDQBEBpKmM (42-coin)
+       Decimals: 8
+
+BSC (Added):
+  NEW: 0x73cf73c2503154de4dc12067546aa9357dadaff2 (42-coin)
+       Market Cap Rank: #3158
+       Performance: +110% (1y)
+       Supply: Only 42 coins total (ultra-scarce)
+       Genesis: 2016-11-12
+
+CoinGecko ID: cyphomancer → 42-coin
+Timestamp Updated: 2025-10-10T13:45:00.000Z
+
+──────────────────────────────────────────────────────────────────────
+
+4. SYMBOL "LOS" CONFLICT RESOLUTION
+──────────────────────────────────────────────────────────────────────
+Action: Replaced Lord Of SOL with ANALOS
+Reason: Real L1 infrastructure vs meme coin
+
+Solana:
+  OLD: 44bzge9EZJGPJRYNmsA64mdKZ1eeLdDcDiczRmoyAtez (Lord Of SOL)
+       Market Cap Rank: #5878
+       Category: Meme, Solana Meme
+       Decimals: 6
+  
+  NEW: 6d2Wze1KMUxQ28sFLrH9DKfgBXpUJSJYZaRbufucvBLV (ANALOS)
+       Market Cap Rank: #4136
+       Category: Layer 1 (L1), Solana Ecosystem
+       Description: First Solana fork with native RPC, Wallet, 
+                   Explorer, Bridge, DEX, and Launchpad
+       Decimals: 9
+
+CoinGecko ID: lord-of-sol → analos-2
+Timestamp Updated: 2025-10-10T13:45:00.000Z
+
+──────────────────────────────────────────────────────────────────────
+
+5. SYMBOL "AINTI" CONFLICT RESOLUTION
+──────────────────────────────────────────────────────────────────────
+Action: Replaced aintivirus-2 with aintivirus (original)
+Reason: Original version with much better metrics
+
+Solana:
+  OLD: BAezfVmia8UYLt4rst6PCU4dvL2i2qHzqn4wGhytpNJW (aintivirus-2)
+       Market Cap Rank: #2733
+       Performance: +12.74% (24h), -12.63% (200d)
+  
+  NEW: EiVMQrvdDYK77eK6N6cyh5sGBe5Y1MQWVA7YaURVpump (aintivirus)
+       Market Cap Rank: #1045
+       Performance: +139,606.55% (200d)
+       Description: John McAfee AI incarnate with full utility
+
+CoinGecko ID: aintivirus-2 → aintivirus
+Timestamp Updated: 2025-10-10T13:45:00.000Z
+
+──────────────────────────────────────────────────────────────────────
+
+6. ARK TOKEN CONTRACT UPDATE
+──────────────────────────────────────────────────────────────────────
+Action: Updated contract address on BSC
+Status: ✓ Completed
+
+BSC:
+  NEW: 0xCae117ca6Bc8A341D2E7207F30E180f0e5618B9D
+  Market Cap: 280M
+
+──────────────────────────────────────────────────────────────────────
+
+7. RWA SYMBOL CONFLICT RESOLUTION
+──────────────────────────────────────────────────────────────────────
+Action: Removed Allo, kept RWA Inc
+Decision: Kept established token despite lower market cap
+Status: ✓ Completed
+
+Removed:
+  • Allo (RWA)
+    BSC: 0x9c8b5ca345247396bdfac0395638ca9045c6586e
+    Market Cap: 11M
+    CoinGecko ID: allo
+
+Kept:
+  • RWA Inc (RWA)
+    Base: 0xE2B1dc2D4A3b4E59FDF0c47B71A7A86391a8B35a
+    BSC:  0xE2B1dc2D4A3b4E59FDF0c47B71A7A86391a8B35a
+    Market Cap: 3M
+    CoinGecko ID: rwa-inc
+
+──────────────────────────────────────────────────────────────────────
+
+8. YUSD SYMBOL CONFLICT RESOLUTION
+──────────────────────────────────────────────────────────────────────
+Action: Kept YieldFi yToken, removed Aegis YUSD
+Reason: Better market cap rank and multi-chain support
+Status: ✓ Completed
+
+Kept (YieldFi yToken - yieldfi-ytoken):
+  • Market Cap Rank: #344 (vs #1020 for Aegis)
+  • Chains: 7 (Ethereum, Sonic, Optimism, Katana, Plume, Base, Arbitrum)
+  • Ethereum: 0x19ebd191f7a24ece672ba13a302212b5ef7f35cb (migrated contract)
+  • Other chains: 0x4772d2e014f9fc3a820c444e3313968e9a5c8121
+  • Features: ~25% APY, cross-chain asset management
+  • Supply: 188M YUSD
+
+Removed (Aegis YUSD - aegis-yusd):
+  • Market Cap Rank: #1020
+  • Chains: 3 (Ethereum, BSC, Avalanche)
+  • Ethereum: 0x4274cD7277C7bb0806Bd5FE84b9aDAE466a8DA0a
+  • Supply: 35M YUSD
+  • Reason: Lower market rank despite larger community
+
+──────────────────────────────────────────────────────────────────────
+
+9. EURE GNOSIS DECISION
+──────────────────────────────────────────────────────────────────────
+Action: Kept old contract, rejected new one
+Reason: Maintaining stability with existing integration
+Status: ✓ Completed
+
+Gnosis:
+  KEPT: 0xcB444e90D8198415266c6a2724b7900fb12FC56E (old contract)
+  REJECTED: 0x420CA0f9B9b604cE0fd9C18EF134C705e5Fa3430 (new contract)
+  
+Note: Duplicate chain+symbol conflict, prioritized existing integration
+
+──────────────────────────────────────────────────────────────────────
+======================================================================
+TIMESTAMP UPDATES
+======================================================================
+
+All updated token entries now have timestamp: 2025-10-10T13:45:00.000Z
+
+======================================================================
+NOTES
+======================================================================
+
+1. All changes prioritized tokens with:
+   - Better market cap rankings
+   - Superior performance metrics
+   - More complete project documentation
+   - Real utility over meme status
+   - Larger community adoption
+
+2. Multi-chain tokens were added where supported by CoinGecko data
+
+3. Symbol conflicts were resolved by keeping the most reliable version
+
+4. Legacy/outdated versions were replaced with current active versions
+
+======================================================================
+END OF REPORT
+======================================================================
+

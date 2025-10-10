@@ -102,7 +102,7 @@ try {
 
       // Validate timestamp
       if (!token.timestamp || !/\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z/.test(token.timestamp)) {
-        tokenErrors.push(`${tokenPath}.timestamp is missing or not in ISO 8601 format.`);
+        tokenErrors.push(`${tokenPath}.timestamp is missing or not in ISO 8601 format. Token: ${token.symbol || 'unknown'} (${token.address || 'unknown'}) - ${token.name || 'unknown'}`);
       }
 
       // Validate addresses in sources are correctly checksummed (for EVM chains)
