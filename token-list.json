@@ -170599,6 +170599,524 @@
         }
       ],
       "timestamp": "2025-10-10T13:58:32.675Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Ethena USDe",
+      "symbol": "USDE",
+      "address": "0:086fa2a675f74347b08dd4606a549b8fdb98829cb282bc1949d3b12fbaed9dcc",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ethena-usde"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.889Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Ethena Staked USDe",
+      "symbol": "SUSDE",
+      "address": "0:d0e545323c7acb7102653c073377f7e3c67f122eb94d430a250739f109d4a57d",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ethena-staked-usde"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "First Digital USD",
+      "symbol": "FDUSD",
+      "address": "0:f412fa64e2d8a614e1e6cb84afde5fca1145e533e74dd7f2a1ae84c27c1db090",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "first-digital-usd"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "GoMining Token",
+      "symbol": "GOMINING",
+      "address": "0:f495a8a4d0580757c68d7d185e6e2f060c6daba43c8a1977a6d0c05fc9afc4c3",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "gmt-token"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "MVL",
+      "symbol": "MVL",
+      "address": "0:f6c9acc0db07f9018da3a04cc65031a4d1c416c446b635d88fe1981ff7e785d3",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "mass-vehicle-ledger"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Dogs",
+      "symbol": "DOGS",
+      "address": "0:afc49cb8786f21c87045b19ede78fc6b46c51048513f8e9a6d44060199c1bf0c",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "dogs-2"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Hamster Kombat",
+      "symbol": "HMSTR",
+      "address": "0:09f2e59dec406ab26a5259a45d7ff23ef11f3e5c7c21de0b0d2a1cbe52b76b3d",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "hamster-kombat"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Tether Gold Tokens",
+      "symbol": "XAUT0",
+      "address": "0:3547f2ee4022c794c80ea354b81bb63b5b571dd05ac091b035d19abbadd74ac6",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "tether-gold-tokens"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "EVAA Protocol",
+      "symbol": "EVAA",
+      "address": "0:4a31f8d7fdafddb0e2e6fa3bb1c95672b453fbfca2a7cc6bfa274d6419cef681",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "evaa-protocol"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "DuckChain Token",
+      "symbol": "DUCK",
+      "address": "0:d65e39d55a17857a66806859fe0a9e270de86f1a596b5ce67cc2a1e6f2c0c4c2",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "duckchain-token"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "TAC",
+      "symbol": "TAC",
+      "address": "0:44fe006b53798f23d8478e526847f918cab8508320850fa11459f6b8d96f13ec",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "tac"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Blum",
+      "symbol": "BLUM",
+      "address": "0:808f9a22451ad7a2462c83f07e7b4286f71330879ba9af923c1d0cc4ae6d3f04",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "blum"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Gram",
+      "symbol": "GRAM",
+      "address": "0:b8ef4f77a17e5785bd31ba4da50abd91852f2b8febee97ad6ee16d941f939198",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "gram-2"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "uTON",
+      "symbol": "UTON",
+      "address": "0:1f1798f724c2296652e6002bfb51bed11fb5a689532e5788af7203581ef367a8",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "uton"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "PinGo",
+      "symbol": "PINGO",
+      "address": "0:915a941099f4a09692e9e83e5779b8b1e74012b41c637d040d92cb053ff22c89",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "pingo"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "HyperGPT",
+      "symbol": "HGPT",
+      "address": "0:2ec34d649712fca8a7bd7018a84df8ecb7477a19d6a0839d7f73bdf3f17dbecc",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "hypergpt"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "WATCoin",
+      "symbol": "WATC",
+      "address": "0:27381992a2a7cd7f0fdb1846158ee1b9eaa2d05dc446055e3b2e202766ae4fc5",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "watcoin-2"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Tower",
+      "symbol": "TOWER",
+      "address": "0:b8ed87d52d6a3e53fcfbb3a8843a4600004285fc2d3e801881f0a24beace66e0",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "tower"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Hipo Governance Token",
+      "symbol": "HPO",
+      "address": "0:d0114af42cf8bc9ba0fa1745abbeea24eed65b01caf4ca7d98ee12b6f7530ccc",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "hipo-governance-token"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "GAMEE",
+      "symbol": "GMEE",
+      "address": "0:aa9e166774119bc233e957c2bff1638ae7c66440f5e54bf6ec85abbd0ca5a700",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "gamee"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Storm Trade",
+      "symbol": "STORM",
+      "address": "0:6ca2c99c66b0fa1478a303ba9618bc39c28fda1fc50de37e618bddf98c9fd24c",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "storm-trade"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Bombie",
+      "symbol": "BOMB",
+      "address": "0:106447fa03e05f37cc185678ddc8f5a9097c244d28e17c5e5958fec08d178ce1",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "bombie"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "MOEW",
+      "symbol": "MOEW",
+      "address": "0:16b0818ca0695b8c9248b2293ef7fe80e088a875bd4cecb5b7926bb4e6ff2e8e",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "moew"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Mynth",
+      "symbol": "MNT",
+      "address": "0:a3643f28665ff4bb32e641ac039a171cb652ca58a3b41da99e12b9670f3fccca",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "mynth"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.890Z"
+    },
+    {
+      "chain": "ton",
+      "name": "TON Station",
+      "symbol": "MRSOON",
+      "address": "0:b07b4837704161b33e152b99ebb4e641905792212c6109552abce37b226fff48",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "tonstation"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.891Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Hipo Staked TON",
+      "symbol": "HTON",
+      "address": "0:cf76af318c0872b58a9f1925fc29c156211782b9fb01f56760d292e56123bf87",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "hipo-staked-ton"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.891Z"
+    },
+    {
+      "chain": "ton",
+      "name": "SOEX",
+      "symbol": "SOEX",
+      "address": "0:8fada77ca1c0ee229e1b01b19bc5d03b0567561361ace0e8802fb62baedbba05",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "soex"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.891Z"
+    },
+    {
+      "chain": "ton",
+      "name": "TON FISH MEMECOIN",
+      "symbol": "FISH",
+      "address": "0:1371473af6c19208231269db1550a746c0cd4130a4be1ca09618f93ad3164683",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ton-fish-memecoin"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.891Z"
+    },
+    {
+      "chain": "ton",
+      "name": "MEMES",
+      "symbol": "MEMES",
+      "address": "0:0242039ead1119d1dcea9837f24584abcab3490906dd34bf29c7180809e9cb12",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "memes"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.891Z"
+    },
+    {
+      "chain": "ton",
+      "name": "PirateCash",
+      "symbol": "PIRATE",
+      "address": "0:c26f696830807c612e77184a36af68204bd016d43cfecd7fdab380edc57575bb",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "piratecash"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.891Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Clayton",
+      "symbol": "CLAY",
+      "address": "0:7ebdcd3483d3de5162e9b52007e20d49e64612ed64e0b5511f848ea829d42d46",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "clayton"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.891Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Hot Cherry",
+      "symbol": "CHERRY",
+      "address": "0:4a45235191e3f5fb68dc8394ff7ffff4b391e3fafadb7cd2cc432f1d9d9b3bc5",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "hot-cherry"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.891Z"
+    },
+    {
+      "chain": "ton",
+      "name": "EvoSimGame",
+      "symbol": "ESIM",
+      "address": "0:9d6fc86f3030d972aa4f187f9c0a3de232ea26f4fe7b98ccab7681cd3725c733",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "evosimgame"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.891Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Tonio",
+      "symbol": "TONIO",
+      "address": "0:8719fb83fa3e34cba2b14e6c820b8ba5b6ecf42b73c4be0467afc532746b60fc",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "tonio"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.891Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Bemo",
+      "symbol": "BMTON",
+      "address": "0:92c4664f1ea6b74ed9ce0e031a9fc0843348dfe87a58faea27fcd31e1608caaa",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "bemo"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.891Z"
+    },
+    {
+      "chain": "ton",
+      "name": "PunkCity",
+      "symbol": "PUNK",
+      "address": "0:9da73e90849b43b66dacf7e92b576ca0978e4fc25f8a249095d7e5eb3fe5eebb",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "punk-2"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.891Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Bridged Tether (TON Bridge)",
+      "symbol": "JUSDT",
+      "address": "0:729c13b6df2c07cbf0a06ab63d34af454f3d320ec1bcd8fb5c6d24d0806a17c2",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "bridged-tether-ton-bridge"
+        }
+      ],
+      "timestamp": "2025-10-13T10:30:03.891Z"
     }
   ]
 }
