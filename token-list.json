@@ -168390,20 +168390,6 @@
     },
     {
       "chain": "kava_evm",
-      "name": "Multichain Bridged USDC (Kava)",
-      "symbol": "USDC",
-      "address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "multichain-bridged-usdc-kava"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:28.964Z"
-    },
-    {
-      "chain": "kava_evm",
       "name": "Kinetix Finance Token",
       "symbol": "KAI",
       "address": "0x52369B1539EA8F4e1eadEEF18D85462Dcf9a3658",
