@@ -1161,7 +1161,7 @@
       "chain": "zksync",
       "name": "USD Coin",
       "symbol": "USDC",
-      "address": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+      "address": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4",
       "decimals": 6,
       "sources": [
         {
@@ -1169,7 +1169,7 @@
           "data": "usd-coin"
         }
       ],
-      "timestamp": "2025-08-29T11:06:52.096Z"
+      "timestamp": "2025-10-13T13:22:27.898Z"
     },
     {
       "chain": "avalanche",
@@ -138682,7 +138682,7 @@
     {
       "chain": "metis",
       "name": "USDT Token",
-      "symbol": "m.USDT",
+      "symbol": "USDT",
       "address": "0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC",
       "decimals": 6,
       "sources": [
@@ -138691,7 +138691,7 @@
           "data": "bridged-usdt"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.361Z"
+      "timestamp": "2025-10-13T13:24:12.728Z"
     },
     {
       "chain": "metis",
@@ -167715,6 +167715,20 @@
         }
       ],
       "timestamp": "2025-10-09T16:39:26.876Z"
+    },
+    {
+      "chain": "gnosis",
+      "name": "Gnosis xDAI Bridged USDC (Gnosis)",
+      "symbol": "USDC.e",
+      "address": "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "bridged-usdc-gnosis"
+        }
+      ],
+      "timestamp": "2025-10-13T13:22:27.995Z"
     },
     {
       "chain": "gnosis",

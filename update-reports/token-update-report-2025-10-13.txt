@@ -1,0 +1,103 @@
+======================================================================
+TOKEN UPDATE REPORT - DUPLICATE RESOLUTION
+======================================================================
+
+Report Date: 2025-10-13
+Generated At: 2025-10-13T00:00:00.000Z
+
+This report documents manual token updates performed to resolve
+duplicates and replace outdated/unreliable tokens with better versions.
+
+======================================================================
+SUMMARY
+======================================================================
+
+Total Updates: 3
+- Token Additions: 1
+- Symbol Renames: 1
+- Contract Replacements: 1
+
+======================================================================
+DETAILED CHANGES
+======================================================================
+
+1. GNOSIS BRIDGED USDC ADDITION
+──────────────────────────────────────────────────────────────────────
+Action: Added Gnosis xDAI Bridged USDC
+Reason: Additional bridged USDC version for Gnosis chain
+
+Gnosis:
+  NEW: 0x2a22f9c3b484c3629090feed35f17ff8f88f76f0
+  Name: Gnosis xDAI Bridged USDC (Gnosis)
+  Symbol: USDC.E (was listed as usdc.e in CoinGecko)
+  Decimals: 6
+
+CoinGecko ID: bridged-usdc-gnosis
+Timestamp: 2025-10-13T00:00:00.000Z
+
+Note: This is a bridged version separate from native USDC on Gnosis
+
+──────────────────────────────────────────────────────────────────────
+
+2. METIS USDT SYMBOL RENAME
+──────────────────────────────────────────────────────────────────────
+Action: Renamed m.USDT to USDT on Metis chain
+Reason: Standardize symbol naming
+
+Metis:
+  Address: 0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC
+  OLD Symbol: m.USDT
+  NEW Symbol: USDT
+  Name: USDT Token
+  Decimals: 6
+
+CoinGecko ID: bridged-usdt
+Timestamp Updated: 2025-04-18T14:25:01.361Z
+
+──────────────────────────────────────────────────────────────────────
+
+3. ZKSYNC USDC CONTRACT REPLACEMENT
+──────────────────────────────────────────────────────────────────────
+Action: Replaced Bridged USDC with Native Circle USDC
+Reason: Native Circle USDC is the official version, redeemable 1:1 for USD
+
+zkSync:
+  OLD: 0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4 (Bridged USDC.e)
+       Source: zkSync bridge (NOT Circle)
+       Description: Wrapped/bridged version of Ethereum USDC
+  
+  NEW: 0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4 (Native USDC)
+       Source: Circle (Official)
+       Description: Officially minted by Circle, redeemable 1:1 for USD
+
+Symbol: USDC (unchanged)
+Decimals: 6
+CoinGecko ID: usd-coin
+Timestamp Updated: 2025-10-13T00:00:00.000Z
+
+──────────────────────────────────────────────────────────────────────
+======================================================================
+TIMESTAMP UPDATES
+======================================================================
+
+Updated token entries:
+- Gnosis Bridged USDC: 2025-10-13T00:00:00.000Z
+- zkSync Native USDC: 2025-10-13T00:00:00.000Z
+- Metis USDT: 2025-04-18T14:25:01.361Z (existing timestamp preserved)
+
+======================================================================
+NOTES
+======================================================================
+
+1. zkSync USDC upgrade prioritizes:
+   - Official Circle minting over bridge wrappers
+   - Direct 1:1 USD redeemability
+   - Native integration over bridged versions
+
+2. Gnosis chain now has bridged USDC.E in addition to other USDC versions
+
+3. Metis USDT symbol standardized to match other chains
+
+======================================================================
+END OF REPORT
+======================================================================
