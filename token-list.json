@@ -75079,20 +75079,6 @@
     },
     {
       "chain": "avalanche",
-      "name": "Tether USD",
-      "symbol": "USDT.e",
-      "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "tether-avalanche-bridged-usdt-e"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.353Z"
-    },
-    {
-      "chain": "avalanche",
       "name": "Big Red",
       "symbol": "$Td",
       "address": "0x87bbFc9DCB66Caa8ce7582A3F17B60a25cd8A248",
