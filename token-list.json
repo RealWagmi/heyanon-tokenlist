@@ -167704,20 +167704,6 @@
     },
     {
       "chain": "gnosis",
-      "name": "Gnosis xDAI Bridged USDC (Gnosis)",
-      "symbol": "USDC.e",
-      "address": "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "bridged-usdc-gnosis"
-        }
-      ],
-      "timestamp": "2025-10-13T13:22:27.995Z"
-    },
-    {
-      "chain": "gnosis",
       "name": "Frankencoin",
       "symbol": "ZCHF",
       "address": "0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553",
