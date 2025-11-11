@@ -171103,6 +171103,48 @@
         }
       ],
       "timestamp": "2025-10-13T10:30:03.891Z"
+    },
+    {
+      "chain": "solana",
+      "name": "CASH",
+      "symbol": "CASH",
+      "address": "CASHx9KJUStyftLFWGvEVf59SGeG9sh5FfcnZMVPCASH",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "cash-4"
+        }
+      ],
+      "timestamp": "2025-11-11T13:22:30.698Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Global Dollar",
+      "symbol": "USDG",
+      "address": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "global-dollar"
+        }
+      ],
+      "timestamp": "2025-11-11T13:22:30.699Z"
+    },
+    {
+      "chain": "solana",
+      "name": "OKX Wrapped BTC",
+      "symbol": "xBTC",
+      "address": "CtzPWv73Sn1dMGVU3ZtLv9yWSyUAanBni19YWDaznnkn",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "okx-wrapped-btc"
+        }
+      ],
+      "timestamp": "2025-11-11T13:22:30.699Z"
     }
   ]
 }
