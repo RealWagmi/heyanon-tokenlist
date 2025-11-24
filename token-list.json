@@ -171145,6 +171145,1210 @@
         }
       ],
       "timestamp": "2025-11-11T13:22:30.699Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Corn",
+      "symbol": "CORN",
+      "address": "0x44f49ff0da2498bCb1D3Dc7C0f999578F67FD8C6",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "corn-3"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:28.831Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Capx AI",
+      "symbol": "CAPX",
+      "address": "0x97e66D3C4d5bCd7c64e3e55Af28544C9ADdf9281",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "capx-ai"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:28.832Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "AllUnity EUR",
+      "symbol": "EURAU",
+      "address": "0x4933A85b5b5466Fbaf179F72D3DE273c287EC2c2",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "allunity-eur"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:28.832Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Alphabet xStock",
+      "symbol": "GOOGLX",
+      "address": "0xe92f673Ca36C5E2Efd2DE7628f815f84807e803F",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alphabet-xstock"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:28.832Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "GHO",
+      "symbol": "GHO",
+      "address": "0xfc421aD3C883Bf9E7C4f42dE845C4e4405799e73",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "gho"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:33.245Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "Janus Henderson Anemoy Treasury Fund",
+      "symbol": "JTRSY",
+      "address": "0xa5d465251fBCc907f5Dd6bB2145488DFC6a2627b",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "janus-henderson-anemoy-treasury-fund"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:33.245Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "FOLKS",
+      "symbol": "FOLKS",
+      "address": "0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "folks"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:33.245Z"
+    },
+    {
+      "chain": "base",
+      "name": "AUSD",
+      "symbol": "AUSD",
+      "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "agora-dollar"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:33.574Z"
+    },
+    {
+      "chain": "base",
+      "name": "Allora",
+      "symbol": "ALLO",
+      "address": "0x032d86656Db142138AC97d2c5C4E3766E8c0482d",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "allora"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:33.575Z"
+    },
+    {
+      "chain": "base",
+      "name": "ANyONe Protocol",
+      "symbol": "ANYONE",
+      "address": "0xe67F39FbE8C24ef8b3542efED1eE9963cEFC1f2a",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "airtor-protocol"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:33.575Z"
+    },
+    {
+      "chain": "base",
+      "name": "AllUnity EUR",
+      "symbol": "EURAU",
+      "address": "0x4933A85b5b5466Fbaf179F72D3DE273c287EC2c2",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "allunity-eur"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:33.575Z"
+    },
+    {
+      "chain": "base",
+      "name": "Anyspend",
+      "symbol": "ANY",
+      "address": "0xC17dda248E2D50fC006d8fEbb5A406dd31972712",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "anyspend"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:33.575Z"
+    },
+    {
+      "chain": "base",
+      "name": "Backstage",
+      "symbol": "BKS",
+      "address": "0xf578c9E57b40A00aEf168774F3e47B04c03BF59a",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "backstage"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:33.575Z"
+    },
+    {
+      "chain": "base",
+      "name": "Attention Token",
+      "symbol": "ATTN",
+      "address": "0x032a7252B4932c44bdE89AEE6275744376a96BFF",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "attention-token"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:33.575Z"
+    },
+    {
+      "chain": "base",
+      "name": "A0x",
+      "symbol": "A0X",
+      "address": "0x820C5F0fB255a1D18fd0eBB0F1CCefbC4D546dA7",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "a0x"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:33.576Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Apro",
+      "symbol": "AT",
+      "address": "0x9be61A38725b265BC3eb7Bfdf17AfDFc9d26C130",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apro"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:34.075Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "aPriori",
+      "symbol": "APR",
+      "address": "0x299AD4299Da5b2b93Fba4c96967B040C7F611099",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apriori"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:34.075Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Allora",
+      "symbol": "ALLO",
+      "address": "0xCCe5F304fD043d6A4E8cCB5376A4a4Fb583B98d5",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "allora"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:34.075Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Aria",
+      "symbol": "ARIAIP",
+      "address": "0x2A7e3392458307493C86388d5E544AAd93286836",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "aria-2"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:34.075Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "AITV",
+      "symbol": "AITV",
+      "address": "0x1b93875B82Da65fb3f8a3591B21888f41517be93",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "agentcoin-tv"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:34.075Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Alphabet xStock",
+      "symbol": "GOOGLX",
+      "address": "0xe92f673Ca36C5E2Efd2DE7628f815f84807e803F",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alphabet-xstock"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:34.075Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Alltoscan",
+      "symbol": "ATS",
+      "address": "0x75D8BB7fBd4782a134211dc350Ba5c715197B81d",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alltoscan"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:34.075Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Nexera",
+      "symbol": "NXRA",
+      "address": "0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "allianceblock-nexera"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:34.075Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "Allora",
+      "symbol": "ALLO",
+      "address": "0x8408D45b61f5823298F19a09B53b7339c0280489",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "allora"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:35.731Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "Alphabet Class A (Ondo Tokenized Stock)",
+      "symbol": "GOOGLON",
+      "address": "0xbA47214eDd2bb43099611b208f75E4b42FDcfEDc",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alphabet-class-a-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:35.731Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "AIntivirus",
+      "symbol": "AINTI",
+      "address": "0x686c5961370Db7F14F57f5a430e05DeaE64df504",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "aintivirus-2"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:35.731Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "Abbott (Ondo Tokenized Stock)",
+      "symbol": "ABTON",
+      "address": "0x3859385363f7BB4Dfe42811cCF3F294FcD41dd1D",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "abbott-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:35.731Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "Accenture (Ondo Tokenized Stock)",
+      "symbol": "ACNON",
+      "address": "0xAbA9Ae731Aad63335C604E5f6E6A5db2e05f549d",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "accenture-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:35.732Z"
+    },
+    {
+      "chain": "gnosis",
+      "name": "GHO",
+      "symbol": "GHO",
+      "address": "0xfc421aD3C883Bf9E7C4f42dE845C4e4405799e73",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "gho"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:36.201Z"
+    },
+    {
+      "chain": "gnosis",
+      "name": "IDRX",
+      "symbol": "IDRX",
+      "address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+      "decimals": 2,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "idrx"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:36.202Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Mantle Restaked ETH",
+      "symbol": "CMETH",
+      "address": "0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "mantle-restaked-eth"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:36.646Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Rekt",
+      "symbol": "REKT",
+      "address": "0xc12E26AB94D1e62F18373cF25e43AFA7B2AF1cDc",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "rekt-4"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:36.646Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Ventuals vHYPE",
+      "symbol": "VHYPE",
+      "address": "0x8888888FdAAc0E7CF8C6523c8955bF7954c216fa",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ventuals-vhype"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:36.647Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "SEDA",
+      "symbol": "SEDA",
+      "address": "0x4F96b683714377C38123631f2d17cDF18b3F46a7",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "seda-2"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:36.647Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Hyperbeat LST Vault",
+      "symbol": "LSTHYPE",
+      "address": "0x81e064d0eB539de7c3170EDF38C1A42CBd752A76",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "hyperbeat-lst-vault"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:36.647Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Harmonix kHYPE",
+      "symbol": "HAKHYPE",
+      "address": "0x1368Ee9d1212AE5B26Ff166049220051a9EEbc42",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "harmonix-khype"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:36.647Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Last USD",
+      "symbol": "USDXL",
+      "address": "0xca79db4B49f608eF54a5CB813FbEd3a6387bC645",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "last-usd"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:36.647Z"
+    },
+    {
+      "chain": "monad",
+      "name": "USDC",
+      "symbol": "USDC",
+      "address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "usd-coin"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:41.980Z"
+    },
+    {
+      "chain": "monad",
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "usdt0"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:41.981Z"
+    },
+    {
+      "chain": "monad",
+      "name": "AUSD",
+      "symbol": "AUSD",
+      "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "agora-dollar"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:41.981Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Wrapped MON",
+      "symbol": "WMON",
+      "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-monad"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:41.981Z"
+    },
+    {
+      "chain": "monad",
+      "name": "MOLANDAK",
+      "symbol": "MOLANDAK",
+      "address": "0xD32E9dDD968b18E8429F2d1DA7efb2cc1F01d42d",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "molandak-2"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:41.981Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Salmonad",
+      "symbol": "SAL",
+      "address": "0x65EA4cDAF74537202bFb1124131e1C68F9512d1B",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "salmonad"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:41.981Z"
+    },
+    {
+      "chain": "monad",
+      "name": "MonadPrinter",
+      "symbol": "MONADP",
+      "address": "0x25Ac11cB986CA6910501803AF5b4e41cf3ad9999",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "monadprinter"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:41.981Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Gmonad",
+      "symbol": "GMONAD",
+      "address": "0x1f80C65cC2c37Af84ABbe1ea03183A624a6F8888",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "gmonad-2"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:41.982Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Mu Digital AZND",
+      "symbol": "AZND",
+      "address": "0x4917a5ec9fCb5e10f47CBB197aBe6aB63be81fE8",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "mu-digital-aznd"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:41.982Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Alloca",
+      "symbol": "ALLOCA",
+      "address": "0x1aD7052BB331A0529c1981c3EC2bC4663498A110",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alloca"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:41.982Z"
+    },
+    {
+      "chain": "monad",
+      "name": "AethonSwap",
+      "symbol": "AETHON",
+      "address": "0xC88cACD6fe1838C8dd1F0244b6cc0DEe910dD261",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "aethonswap"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:41.982Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Mu Digital muBOND",
+      "symbol": "MUBOND",
+      "address": "0x336D414754967C6682B5A665C7DAF6F1409E63e8",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "mu-digital-mubond"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:41.982Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Mu Digital Locked AZND",
+      "symbol": "LOAZND",
+      "address": "0x9c82eB49B51F7Dc61e22Ff347931CA32aDc6cd90",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "mu-digital-locked-aznd"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:41.982Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "Vana",
+      "symbol": "VANA",
+      "address": "0x7FF7Fa94b8b66Ef313f7970d4EEbd2CB3103a2C0",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "vana"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:42.278Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "Venus",
+      "symbol": "XVS",
+      "address": "0x4a971e87ad1F61f7f3081645f52a99277AE917cF",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "venus"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:42.278Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "Synthetix sUSD",
+      "symbol": "SUSD",
+      "address": "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "nusd"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:42.278Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "address": "0x76a443768A5e3B8d1AED0105FC250877841Deb40",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "chainlink"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.174Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "GHO",
+      "symbol": "GHO",
+      "address": "0xb77E872A68C62CfC0dFb02C067Ecc3DA23B4bbf3",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "gho"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.174Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Fluid",
+      "symbol": "FLUID",
+      "address": "0x61E030A56D33e8260FdD81f03B162A79Fe3449Cd",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "instadapp"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.174Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Resolv Liquidity Provider Token",
+      "symbol": "RLP",
+      "address": "0x35533f54740F1F1aA4179E57bA37039dfa16868B",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "resolv-rlp"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.174Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Midas mHYPER",
+      "symbol": "MHYPER",
+      "address": "0xb31BeA5c2a43f942a3800558B1aa25978da75F8a",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "midas-mhyper"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.174Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Metronome Synth USD",
+      "symbol": "MSUSD",
+      "address": "0x29AD7fE4516909b9e498B5a65339e54791293234",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "metronome-synth-usd"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.174Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Yuzu USD",
+      "symbol": "YZUSD",
+      "address": "0x6695c0f8706C5ACe3Bdf8995073179cCA47926dc",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "yuzu-usd"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.174Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Trevee Staked Plasma USD",
+      "symbol": "SPLUSD",
+      "address": "0x616185600989Bf8339b58aC9e539d49536598343",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "trevee-staked-plasma-usd"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.174Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Trevee Plasma USD",
+      "symbol": "PLUSD",
+      "address": "0xf91c31299E998C5127Bc5F11e4a657FC0cF358CD",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "trevee-plasma-usd"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.175Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "BiLira",
+      "symbol": "TRYB",
+      "address": "0x90729a45948c3078890Bc80F2a4e7870A2Ea4C5E",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "bilira"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.175Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Trevee",
+      "symbol": "TREVEE",
+      "address": "0xe90FE2DE4A415aD48B6DcEc08bA6ae98231948Ac",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "trevee"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.175Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Lithos",
+      "symbol": "LITH",
+      "address": "0xAbB48792A3161E81B47cA084c0b7A22a50324A44",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "lithos"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.175Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Ionex Token",
+      "symbol": "INX",
+      "address": "0x133a09Dd6169f6F0509658a911F2a82Fc8ab6A0D",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ionex-token"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.175Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Staked Yuzu USD",
+      "symbol": "SYZUSD",
+      "address": "0xC8A8DF9B210243c55D31c73090F06787aD0A1Bf6",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "staked-yuzu-usd"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.175Z"
+    },
+    {
+      "chain": "polygon",
+      "name": "AllUnity EUR",
+      "symbol": "EURAU",
+      "address": "0x4933A85b5b5466Fbaf179F72D3DE273c287EC2c2",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "allunity-eur"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.619Z"
+    },
+    {
+      "chain": "polygon",
+      "name": "AI Network",
+      "symbol": "AIN",
+      "address": "0xD4423795fd904D9B87554940a95FB7016f172773",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ai-network"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:44.619Z"
+    },
+    {
+      "chain": "solana",
+      "name": "375ai",
+      "symbol": "EAT",
+      "address": "375aiUqZERLrB9sHtsArKr4nuWCgBrtqibUDBMGeLvZC",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "375ai"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:45.107Z"
+    },
+    {
+      "chain": "solana",
+      "name": "AllDomains Name Service",
+      "symbol": "ADNS",
+      "address": "ADNScivK6Pt2XsfsufuyUiZaKbRww5JANDvZ7texDid1",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alldomains-name-service"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:45.108Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Ace Data Cloud",
+      "symbol": "$ACE",
+      "address": "GEuuznWpn6iuQAJxLKQDVGXPtrqXHNWTk3gZqqvJpump",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ace-data-cloud"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:45.108Z"
+    },
+    {
+      "chain": "solana",
+      "name": "All Roads Lead To Rome",
+      "symbol": "ROME",
+      "address": "8ZeTmGGktvSwSSghx8btbTAVGdWogThKM4DQBJgRpump",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "all-roads-lead-to-rome"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:45.108Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Anduril PreStocks",
+      "symbol": "ANDURIL",
+      "address": "PresTj4Yc2bAR197Er7wz4UUKSfqt6FryBEdAriBoQB",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "anduril-prestocks-2"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:45.108Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Aiki",
+      "symbol": "AIKI",
+      "address": "aikiZ7nfvtnZh6gDqpeZ6LqURmqznY42eDPnU3GP18c",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "aiki"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:45.108Z"
+    },
+    {
+      "chain": "solana",
+      "name": "AgentAlgo",
+      "symbol": "AGENT",
+      "address": "BKgcrCw55yb1ocLS2MnQLT2dSkWtAPjxTanLoWB8oZso",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "agentaigo"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:45.108Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "Function FBTC",
+      "symbol": "FBTC",
+      "address": "0xC96dE26018A54D51c097160568752c4E3BD6C364",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ignition-fbtc"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:49.837Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "YieldFi vyUSD",
+      "symbol": "VYUSD",
+      "address": "0xF4F447E6AFa04c9D11Ef0e2fC0d7f19C24Ee55de",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "yieldfi-vyusd"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:49.837Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "GammaSwap",
+      "symbol": "GS",
+      "address": "0xf9F143705b2BBDE9b4ABfD0320F328aE59364f5e",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "gammaswap"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:49.837Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "Trevee",
+      "symbol": "TREVEE",
+      "address": "0xe90FE2DE4A415aD48B6DcEc08bA6ae98231948Ac",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "trevee"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:49.838Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "JACK",
+      "symbol": "JACK",
+      "address": "0x9d549C39E5E1A0e7eF41D4b7d74c49f976102E36",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "jack-2"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:49.838Z"
+    },
+    {
+      "chain": "ton",
+      "name": "ARTDRA Coin",
+      "symbol": "ARTDRA",
+      "address": "0:5644258b5c88a3bca7208e39dad9b5ac4513fa21f551ee037218cb08e644041c",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "artdra-coin"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:50.565Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Capybobo",
+      "symbol": "PYBOBO",
+      "address": "0:f7f83b1c76310cf79cd1996f77eaf195afa3bbb852755ba6bcfbeefe560debb5",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "capybobo"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:50.565Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Vertus",
+      "symbol": "VERT",
+      "address": "0:df8257eb7f43acdfc70a3c768e2aa41e9c9a65b36b3471ecbc69c4058cf0bf54",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "vertus"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:50.565Z"
+    },
+    {
+      "chain": "ton",
+      "name": "NikolAI",
+      "symbol": "NIKO",
+      "address": "0:e8f100ba9958bb1aaeae1960c5e17569ddc678c0a67e6ea28192685530f9bed6",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "nikolai"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:50.565Z"
+    },
+    {
+      "chain": "zksync",
+      "name": "Wild Goat Coin",
+      "symbol": "WGC",
+      "address": "0x05B65997FF7CB7976B43000aD376f91108b30d40",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wild-goat-coin-2"
+        }
+      ],
+      "timestamp": "2025-11-24T20:12:51.339Z"
     }
   ]
 }
