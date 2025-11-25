@@ -172349,6 +172349,20 @@
         }
       ],
       "timestamp": "2025-11-24T20:12:51.339Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Wormhole Bridged WETH",
+      "symbol": "WETH",
+      "address": "0xEE8c0E9f1BFFb4Eb878d8f15f368A02a35481242",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wormhole-bridged-weth-monad"
+        }
+      ],
+      "timestamp": "2025-11-25T12:55:51.952Z"
     }
   ]
 }
