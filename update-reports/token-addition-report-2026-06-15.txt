@@ -1,0 +1,1154 @@
+======================================================================
+TOKEN ADDITION SUMMARY REPORT
+======================================================================
+
+
+ARBITRUM
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (9):
+  • ApeCoin (APE) - 0x7f9FBf9bDd3F4105C478b996B648FE6e828a1e98
+  • Arbitrum Bridged wstETH (Arbitrum) (WSTETH) - 0x5979D7b546E38E414F7E9822514be443A4800529
+  • USD.AI (CHIP) - 0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e
+  • Altura Vault Tokens (AVLT) - 0x74dB7a52773A52699dbC0c01b1254E5301E3e119
+  • Backed CSPX Core S&P 500 (BCSPX) - 0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59
+  • Backed IB01 $ Treasury Bond 0-1yr (BIB01) - 0xCA30c93B02514f86d5C86a6e375E3A330B435Fb5
+  • Caldera (ERA) - 0x00312400303d02c323295f6E8b7309bc30FB6BcE
+  • Alchemix ETH (ALETH) - 0x17573150d67d820542EFb24210371545a4868B03
+  • Backed GOVIES 0-6 months EURO (BC3M) - 0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7
+
+○ Already Existed (41):
+  • LINK (0xf97f4df75117a78c1A5a0DBb814Af92458539FB4) - duplicate chain+address
+  • CBBTC (0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf) - duplicate chain+address
+  • AWETH (0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8) - duplicate chain+address
+  • BUIDL (0xA6525Ae43eDCd03dC08E775774dCAbd3bb925872) - duplicate chain+address
+  • AAVE (0xba5DdD1f9d7F570dc94a51479a000E3BCE967196) - duplicate chain+address
+  • CLBTC (0x1792865D493FE4DFdD504010D3c0f6da11E8046D) - duplicate chain+address
+  • ARB (0x912CE59144191C1204E64559FE8253a0e49E6548) - duplicate chain+address
+  • WBTC (0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f) - duplicate chain+address
+  • BONK (0x09199d9A5F4448D0848e4395D065e1ad9c4a1F74) - duplicate chain+address
+  • CRV (0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978) - duplicate chain+address
+  • CBETH (0x1DEBd73E752bEaF79865Fd6446b0c970EaE7732f) - duplicate chain+address
+  • WETH (0x82aF49447D8a07e3bd95BD0d56f35241523fBab1) - duplicate chain+address
+  • CRVUSD (0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5) - duplicate chain+address
+  • COMP (0x354A6dA3fcde098F8389cad84b0182725c6C91dE) - duplicate chain+address
+  • AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+  • WEETH (0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe) - duplicate chain+address
+  • ATH (0xc87B37a581ec3257B734886d9d3a581F5A9d056c) - duplicate chain+address
+  • DRV (0x77b7787a09818502305C95d68A2571F090abb135) - duplicate chain+address
+  • COW (0xcb8b5CD20BdCaea9a010aC1F8d835824F5C87A04) - duplicate chain+address
+  • AXL (0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f) - duplicate chain+address
+  • DEGEN (0x9F07F8A82cB1af1466252e505b7b7ddee103bC91) - duplicate chain+address
+  • CRCLX (0xfEbDEd1B0986a8ee107f5AB1a1c5a813491DeCEB) - duplicate chain+address
+  • APEX (0x61A1ff55C5216b636a294A07D77C6F4Df10d3B56) - duplicate chain+address
+  • ANKR (0xAeAeeD23478c3a4b798e4ed40D8B7F41366Ae861) - duplicate chain+address
+  • ACX (0x53691596d1BCe8CEa565b84d4915e69e03d9C99d) - duplicate chain+address
+  • CARV (0xc08Cd26474722cE93F4D0c34D16201461c10AA8C) - duplicate chain+address
+  • GOOGLX (0xe92f673Ca36C5E2Efd2DE7628f815f84807e803F) - duplicate chain+address
+  • CORN (0x44f49ff0da2498bCb1D3Dc7C0f999578F67FD8C6) - duplicate chain+address
+  • CTSI (0x319f865b287fCC10b30d8cE6144e8b6D1b476999) - duplicate chain+address
+  • ANT (0xa78d8321B20c4Ef90eCd72f2588AA985A4BDb684) - duplicate chain+address
+  • ANIME (0x37a645648dF29205C6261289983FB04ECD70b4B3) - duplicate chain+address
+  • CAPX (0x97e66D3C4d5bCd7c64e3e55Af28544C9ADdf9281) - duplicate chain+address
+  • ANKRETH (0xe05A08226c49b636ACf99c40Da8DC6aF83CE5bB3) - duplicate chain+address
+  • BICO (0xa68Ec98D7ca870cF1Dd0b00EBbb7c4bF60A8e74d) - duplicate chain+address
+  • CELR (0x3a8B787f78D775AECFEEa15706D4221B40F345AB) - duplicate chain+address
+  • BIC (0xB1C3960aeeAf4C255A877da04b06487BBa698386) - duplicate chain+address
+  • ALUSD (0xCB8FA9a76b8e203D8C3797bF438d8FB81Ea3326A) - duplicate chain+address
+  • MONEY (0x69420f9E38a4e60a62224C489be4BF7a94402496) - duplicate chain+address
+  • CX (0x000000000000012DeF132E61759048bE5b5C6033) - duplicate chain+address
+  • DAO (0xcaA38bcc8Fb3077975BBE217aCFaA449e6596a84) - duplicate chain+address
+  • OLAS (0x064F8B858C2A603e1b106a2039f5446D32dc81c1) - duplicate chain+address
+
+AVALANCHE
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (9):
+  • Kelp DAO Restaked ETH (RSETH) - 0xc430c78Da6E4AF49bD115F0329D154Bb135f1363
+  • Janus Henderson Anemoy AAA CLO Fund (JAAA) - 0x58F93d6b1EF2F44eC379Cb975657C132CBeD3B6b
+  • Kite (KITE) - 0x904567252D8F48555b7447c67dCA23F0372E16be
+  • Flying Tulip (FT) - 0x5DD1A7A369e8273371d2DBf9d83356057088082c
+  • Bridged NXPC (NXPC) - 0x5E0E90E268BC247Cc850c789A0DB0d5c7621fb59
+  • Mog Coin (MOG) - 0xEb2729257280580694A06C499CB8C622e74215c8
+  • Backed CSPX Core S&P 500 (BCSPX) - 0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59
+  • Kyber Network Crystal (KNC) - 0x39fC9e94Caeacb435842FADeDeCB783589F50f5f
+  • JPY Coin (JPYC) - 0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29
+
+🚫 Excluded (2):
+  • YUSD (0xca2671Dcd031a72359f456C212F62A9bDa737cD7) - YUSD symbol conflict - keeping YieldFi yToken instead (better market rank #344 vs #1020)
+  • JPYC (0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB) - JPYC duplicate token conflict
+
+○ Already Existed (39):
+  • LINK (0x5947BB275c521040051D82396192181b413227A3) - duplicate chain+address
+  • USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+  • AWETH (0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8) - duplicate chain+address
+  • BUIDL (0x53FC82f14F009009b440a706e31c9021E1196A2F) - duplicate chain+address
+  • SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+  • AAVE (0x63a72806098Bd3D9520cC43356dD78afe5D386D9) - duplicate chain+address
+  • JTRSY (0xa5d465251fBCc907f5Dd6bB2145488DFC6a2627b) - duplicate chain+address
+  • ENA (0x58538e6A46E07434d7E7375Bc268D3cb839C0133) - duplicate chain+address
+  • GHO (0xfc421aD3C883Bf9E7C4f42dE845C4e4405799e73) - duplicate chain+address
+  • EURC (0xC891EB4cbdEFf6e073e859e987815Ed1505c2ACD) - duplicate chain+address
+  • ZRO (0x6985884C4392D348587B19cb9eAAf157F13271cd) - duplicate chain+address
+  • BUSD (0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39) - duplicate chain+address
+  • FRAX (0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64) - duplicate chain+address
+  • DOGE (0x846E52D0dd71C2FDC891538b2D37Ff84345c7B9f) - duplicate chain+address
+  • SAVAX (0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE) - duplicate chain+address
+  • COMP (0xc3048E19E76CB9a3Aa9d77D8C03c29Fc906e2437) - duplicate chain+address
+  • BTC.B (0x152b9d0FdC40C096757F570A51E494bd4b943E50) - duplicate chain+address
+  • BAT (0x98443B96EA4b0858FDF3219Cd13e98C7A4690588) - duplicate chain+address
+  • AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+  • FRXUSD (0x80Eede496655FB9047dd39d9f418d5483ED600df) - duplicate chain+address
+  • ACRED (0x7C64925002BFA705834B118a923E9911BeE32875) - duplicate chain+address
+  • AVUSD (0x24dE8771bC5DdB3362Db529Fc3358F2df3A0E346) - duplicate chain+address
+  • SAVUSD (0x06d47F3fb376649c3A9Dafe069B3D6E35572219E) - duplicate chain+address
+  • SNX (0xBeC243C995409E6520D7C41E404da5dEba4b209B) - duplicate chain+address
+  • BEAM (0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE) - duplicate chain+address
+  • GMX (0x62edc0692BD897D2295872a9FFCac5425011c661) - duplicate chain+address
+  • AXL (0x44c784266cf024a60e8acF2427b9857Ace194C5d) - duplicate chain+address
+  • BRZ (0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f) - duplicate chain+address
+  • ANKR (0xDF474B7109b73b7D57926d43598D5934131136b2) - duplicate chain+address
+  • ZCHF (0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553) - duplicate chain+address
+  • FOLKS (0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B) - duplicate chain+address
+  • DEP (0xD4d026322C88C2d49942A75DfF920FCfbC5614C1) - duplicate chain+address
+  • FRAX (0x214DB107654fF987AD859F34125307783fC8e387) - duplicate chain+address
+  • EUL (0x9ceeD3A7f753608372eeAb300486cc7c2F38AC68) - duplicate chain+address
+  • CTSI (0x6b289CCeAA8639e3831095D75A3e43520faBf552) - duplicate chain+address
+  • WETH (0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB) - duplicate chain+address
+  • WBTC.E (0x50b7545627a5162F82A992c33b87aDc75187B218) - duplicate chain+address
+  • HUNDRED (0x4586AF10ecceeD4E383e3f2Ec93b6C61e26500b5) - duplicate chain+address
+  • BIB01 (0xCA30c93B02514f86d5C86a6e375E3A330B435Fb5) - duplicate chain+address
+
+BASE
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (16):
+  • apxUSD (APXUSD) - 0xD993935E13851dd7517af10687EC7e5022127228
+  • apyUSD (APYUSD) - 0x2c271ddF484aC0386d216eB7eB9Ff02D4Dc0F6AA
+  • Baby Doge Coin (BABYDOGE) - 0x58ecEF26335Af7b04A998105a6603B0Dc475aF33
+  • Altura Vault Tokens (AVLT) - 0x5BE98f7084814Ec1D53D2ba364c8bc8201AB05f7
+  • Backed CSPX Core S&P 500 (BCSPX) - 0xC3cE78B037DDA1B966D31EC7979d3f3a38571A8E
+  • Acurast (ACU) - 0xc5fEd7c8cCC75D8A72b601a66DffD7A489073F0b
+  • Backed IB01 $ Treasury Bond 0-1yr (BIB01) - 0xCA30c93B02514f86d5C86a6e375E3A330B435Fb5
+  • Backed GOVIES 0-6 months EURO (BC3M) - 0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7
+  • AS Roma Fan Token (ASR) - 0x53838837f258f8Ef337C8b4CEb60a89190EcBa8B
+  • Atletico Madrid Fan Token (ATM) - 0xb46357d8Ed050D35D3a24154c39d7236dAE86187
+  • Backed Coinbase Global (BCOIN) - 0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9
+  • Argentine Football Association Fan Token (ARG) - 0xB2798C409e58db6bE0998cD9bF8Ab8081BC949a4
+  • AC Milan Fan Token (ACM) - 0x886eDf4ce5D879667bb62271bB9d59227b689cdc
+  • Arsenal Fan Token (AFC) - 0x580edA966a8129C3c01D149871B47feFcC599D28
+  • aeon (AEON) - 0xBf8E8f0e8866a7052F948C16508644347c57aba3
+  • Aussie Dollar Token (AUDX) - 0xD687759f35bb747A29246a4b9495C8f52C49E00C
+
+🚫 Excluded (1):
+  • AP3X (0x9208d82F121806A34a39bB90733b4C5c54F3993e) - APEX symbol mismatch - CoinGecko AP3X vs on-chain bAP3X
+
+○ Already Existed (33):
+  • AWETH (0xD4a0e0b9149BCee3C920d2E00b5dE09138fd8bb7) - duplicate chain+address
+  • AAVE (0x63706e401c06ac8513145b7687A14804d17f814b) - duplicate chain+address
+  • AERO (0x940181a94A35A4569E4529A3CDfB74e38FD98631) - duplicate chain+address
+  • AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+  • 1INCH (0xc5fecC3a29Fb57B5024eEc8a2239d4621e111CBE) - duplicate chain+address
+  • ALLO (0x032d86656Db142138AC97d2c5C4E3766E8c0482d) - duplicate chain+address
+  • AXL (0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f) - duplicate chain+address
+  • AVNT (0x696F9436B67233384889472Cd7cD58A6fB5DF4f1) - duplicate chain+address
+  • B3 (0xB3B32F9f8827D4634fE7d973Fa1034Ec9fdDB3B3) - duplicate chain+address
+  • AUKI (0xF9569cFb8FD265e91aa478d86ae8c78b8AF55Df4) - duplicate chain+address
+  • AIXBT (0x4F9Fd6Be4a90f2620860d680c0d4d5Fb53d1A825) - duplicate chain+address
+  • ADS (0xb20A4Bd059F5914a2F8B9c18881c637f79efb7df) - duplicate chain+address
+  • AVAIL (0xd89d90d26B48940FA8F58385Fe84625d468E057a) - duplicate chain+address
+  • ALI (0x97c806e7665d3AFd84A8Fe1837921403D59F3Dcc) - duplicate chain+address
+  • WALLET (0x0BbbEad62f7647AE8323d2cb243A0DB74B7C2b80) - duplicate chain+address
+  • ASM (0x3b53604113B5677291BFc0bc255379E7a796559b) - duplicate chain+address
+  • OLAS (0x54330d28ca3357F294334BDC454a032e7f353416) - duplicate chain+address
+  • USDZ (0x04D5ddf5f3a8939889F11E97f8c4BB48317F1938) - duplicate chain+address
+  • APU (0xB9926b3fBc5873Db0182016D55727D5ae89E5EFd) - duplicate chain+address
+  • BAL (0x4158734D47Fc9692176B5085E0F52ee0Da5d47F1) - duplicate chain+address
+  • ANYONE (0xe67F39FbE8C24ef8b3542efED1eE9963cEFC1f2a) - duplicate chain+address
+  • ANY (0xC17dda248E2D50fC006d8fEbb5A406dd31972712) - duplicate chain+address
+  • ALU (0x91Ad1b44913cD1B8241A4Ff1e2EAa198DA6Bf4c9) - duplicate chain+address
+  • ATTN (0x032a7252B4932c44bdE89AEE6275744376a96BFF) - duplicate chain+address
+  • A0T (0xCc4ADB618253ED0d4d8A188fB901d70C54735e03) - duplicate chain+address
+  • GHST (0xcD2F22236DD9Dfe2356D7C543161D4d260FD9BcB) - duplicate chain+address
+  • AIN (0xD4423795fd904D9B87554940a95FB7016f172773) - duplicate chain+address
+  • ALEPH (0xc0Fbc4967259786C743361a5885ef49380473dCF) - duplicate chain+address
+  • WIRE (0x0b3AE50BaBE7FFa4E1A50569ceE6bDEFd4ccAeE0) - duplicate chain+address
+  • AUBRAI (0x9d56c29e820Dd13b0580B185d0e0Dc301d27581d) - duplicate chain+address
+  • ALTT (0x1B5cE2a593a840E3ad3549a34D7b3dEc697c114D) - duplicate chain+address
+  • EURA (0xA61BeB4A3d02decb01039e378237032B351125B4) - duplicate chain+address
+  • AMETA (0x90eC58EF4cc9F37B96DE1e203b65bD4e6E79580E) - duplicate chain+address
+
+BSC
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (13):
+  • Audiera (BEAT) - 0xcf3232B85b43BCa90E51D38cc06Cc8bB8C8A3E36
+  • apxUSD (APXUSD) - 0x6b3788Fd6604BBF03c5378D24e57BB334BAAD4aF
+  • apyUSD (APYUSD) - 0xa14556f13516C53FF035858Ffd21E1625e7EADfd
+  • ApeCoin (APE) - 0x8f86a15EC17cb3369d8b3E666dAdBC11daA82b79
+  • APES (APES) - 0xfBd09f771D1D76275B58ECA4016978a8A8dc46DE
+  • Alphabet Class A (Ondo Tokenized Stock) (GOOGLON) - 0x091FC7778e6932d4009B087B191D1EE3bac5729A
+  • Acurast (ACU) - 0x6EF2FFB38D64aFE18ce782DA280b300e358CFeAF
+  • Apple (Ondo Tokenized Stock) (AAPLON) - 0x390a684EF9cADE28A7AD0DFa61AB1Eb3842618c4
+  • Arm Holdings plc (Ondo Tokenized Stock) (ARMON) - 0x527C6436E1eAa4f2065CDE4090F798Cb5D031dD6
+  • AMD (Ondo Tokenized Stock) (AMDON) - 0x9f16E46c73b43BDB70861247d537bEE4eA18F639
+  • Apple xStock (AAPLX) - 0x9d275685dC284C8eB1C79f6ABA7a63Dc75ec890a
+  • Amazon (Ondo Tokenized Stock) (AMZNON) - 0x4553cFe1C09f37f38b12dC509F676964e392F8Fc
+  • Amazon xStock (AMZNX) - 0x3557Ba345B01EFa20A1bdDC61F573BFD87195081
+
+🚫 Excluded (1):
+  • YUSD (0xAB3dBcD9B096C3fF76275038bf58eAC10D22C61f) - YUSD symbol conflict - keeping YieldFi yToken instead (better market rank #344 vs #1020)
+
+○ Already Existed (36):
+  • ASTER (0x000Ae314E2A2172a039B26378814C252734f556A) - duplicate chain+address
+  • AAVE (0xfb6115445Bff7b52FeB98650C87f44907E58f802) - duplicate chain+address
+  • NFT (0x20eE7B720f4E4c4FFcB00C4065cdae55271aECCa) - duplicate chain+address
+  • AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+  • ASBNB (0x77734e70b6E88b4d82fE632a168EDf6e700912b6) - duplicate chain+address
+  • USDF (0x5A110fC00474038f6c02E89C707D638602EA44B5) - duplicate chain+symbol
+  • 1INCH (0x111111111117dC0aa78b770fA6A738034120C302) - duplicate chain+address
+  • ALLO (0xCCe5F304fD043d6A4E8cCB5376A4a4Fb583B98d5) - duplicate chain+address
+  • AIOZ (0x33d08D8C7a168333a85285a68C0042b39fC3741D) - duplicate chain+address
+  • ELF (0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9) - duplicate chain+address
+  • APR (0x299AD4299Da5b2b93Fba4c96967B040C7F611099) - duplicate chain+address
+  • ALT (0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB) - duplicate chain+address
+  • ANKR (0xf307910A4c7bbc79691fD374889b36d8531B08e3) - duplicate chain+address
+  • ALEO (0x6CFfFa5bFD4277a04D83307fEedFe2D18D944DD2) - duplicate chain+address
+  • AT (0x9be61A38725b265BC3eb7Bfdf17AfDFc9d26C130) - duplicate chain+address
+  • GOOGLX (0xe92f673Ca36C5E2Efd2DE7628f815f84807e803F) - duplicate chain+address
+  • XAN (0x7427bd9542e64d1Ac207a540CfCE194B7390a07f) - duplicate chain+address
+  • AIC (0xbe6Ad1eB9876cf3D3f9b85fEeCfB400298E80143) - duplicate chain+address
+  • ADS (0xcfcEcFe2bD2FED07A9145222E8a7ad9Cf1Ccd22A) - duplicate chain+address
+  • ARARA (0xDa05cA5303D75f14e298FB8aEFF51fD2F2105803) - duplicate chain+address
+  • ANKRETH (0xe05A08226c49b636ACf99c40Da8DC6aF83CE5bB3) - duplicate chain+address
+  • ADX (0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819) - duplicate chain+address
+  • ALT (0x2Eb0D0586454f6D4B1BC00e9E79Bf8aA2233c258) - duplicate chain+symbol
+  • 4 (0x0A43fC31a73013089DF59194872Ecae4cAe14444) - duplicate chain+address
+  • ARPA (0x6F769E65c14Ebd1f68817F5f1DcDb61Cfa2D6f7e) - duplicate chain+address
+  • ASP (0xad8c787992428cD158E451aAb109f724B6bc36de) - duplicate chain+address
+  • APX (0x78F5d389F5CDCcFc41594aBaB4B0Ed02F31398b3) - duplicate chain+address
+  • ANY (0xF68C9Df95a18B2A5a5fa1124d79EEEffBaD0B6Fa) - duplicate chain+address
+  • TLM (0x2222227E22102Fe3322098e4CBfE18cFebD57c95) - duplicate chain+address
+  • AKE (0x2c3a8Ee94dDD97244a93Bc48298f97d2C412F7Db) - duplicate chain+address
+  • ATS (0x75D8BB7fBd4782a134211dc350Ba5c715197B81d) - duplicate chain+address
+  • APRA (0x0c4ac8952c28e2e7fe22033C8D2F1263372d301d) - duplicate chain+address
+  • AIA (0x53EC33Cd4fA46b9ecED9cA3f6dB626C5FfCd55cC) - duplicate chain+symbol
+  • ARIA (0x5d3A12c42E5372B2CC3264AB3cdcF660a1555238) - duplicate chain+address
+  • ALPH (0x8683BA2F8b0f69b2105f26f488bADe1d3AB4dec8) - duplicate chain+address
+  • AMPL (0xDB021b1B247fe2F1fa57e0A87C748Cc1E321F07F) - duplicate chain+address
+
+ETHEREUM
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (5):
+  • A7A5 (A7A5) - 0x6fA0BE17e4beA2fCfA22ef89BF8ac9aab0AB0fc9
+  • ADI (ADI) - 0x8B1484d57abBE239bB280661377363b03c89CaEa
+  • Acurast (ACU) - 0x216b3643ff8b7BB30d8A48E9F1BD550126202AdD
+  • Alpha Quark (AQT) - 0x2a9bDCFF37aB68B95A53435ADFd8892e86084F93
+  • House Party Protocol (HPP) - 0xe33fbE7584EB79e2673abe576B7AC8C0De62565c
+
+🚫 Excluded (1):
+  • YUSD (0x4274cD7277C7bb0806Bd5FE84b9aDAE466a8DA0a) - YUSD symbol conflict - keeping YieldFi yToken instead (better market rank #344 vs #1020)
+
+○ Already Existed (44):
+  • AWETH (0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8) - duplicate chain+address
+  • AAVE (0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9) - duplicate chain+address
+  • AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+  • 1INCH (0x111111111117dC0aa78b770fA6A738034120C302) - duplicate chain+address
+  • ATH (0xbe0Ed4138121EcFC5c0E56B40517da27E6c5226B) - duplicate chain+address
+  • ALLO (0x8408D45b61f5823298F19a09B53b7339c0280489) - duplicate chain+address
+  • ZRX (0xE41d2489571d322189246DaFA5ebDe1F4699F498) - duplicate chain+address
+  • AIOZ (0x626E8036dEB333b408Be468F951bdB42433cBF18) - duplicate chain+address
+  • ELF (0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e) - duplicate chain+address
+  • AUSDT (0x9EEAD9ce15383CaEED975427340b3A369410CFBF) - duplicate chain+address
+  • ACX (0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F) - duplicate chain+address
+  • GOOGLX (0xe92f673Ca36C5E2Efd2DE7628f815f84807e803F) - duplicate chain+address
+  • GOOGLON (0xbA47214eDd2bb43099611b208f75E4b42FDcfEDc) - duplicate chain+address
+  • AIAT (0x0501b9188436E35bB10F35998c40ADC079003866) - duplicate chain+address
+  • AIXBT (0x0D37aF9D8AE74F35F3A38bD2a08FcB29890Ca6d2) - duplicate chain+address
+  • CAW (0xf3b9569F82B18aEf890De263B84189bd33EBe452) - duplicate chain+address
+  • AEVO (0xB528edBef013aff855ac3c50b381f253aF13b997) - duplicate chain+address
+  • ALETH (0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6) - duplicate chain+address
+  • ADS (0xcfcEcFe2bD2FED07A9145222E8a7ad9Cf1Ccd22A) - duplicate chain+address
+  • ADCO (0xB6c3DC857845a713d3531cea5ac546F6767992F4) - duplicate chain+address
+  • AGLD (0x32353A6C91143bfd6C7d363B546e62a9A2489A20) - duplicate chain+address
+  • ALI (0x6B0b3a982b4634aC68dD83a4DBF02311cE324181) - duplicate chain+address
+  • AWETH (0x030bA81f1c18d280636F32af80b9AAd02Cf0854e) - duplicate chain+address
+  • ADX (0xADE00C28244d5CE17D72E40330B1c318cD12B7c3) - duplicate chain+address
+  • ALUSD (0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9) - duplicate chain+address
+  • ALCX (0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF) - duplicate chain+address
+  • TLM (0x888888848B652B3E3a0f34c96E00EEC0F3a23F72) - duplicate chain+address
+  • ANYONE (0xFeAc2Eae96899709a43E252B6B92971D32F9C0F9) - duplicate chain+address
+  • AGRS (0x738865301A9b7Dd80Dc3666dD48cF034ec42bdDa) - duplicate chain+address
+  • ALPH (0x590F820444fA3638e022776752c5eEF34E2F89A6) - duplicate chain+address
+  • ADO (0xf9902EdfCa4F49DcaEBC335C73aEbD82C79C2886) - duplicate chain+address
+  • 0X0 (0x5a3e6A77ba2f983eC0d371ea3B475F8Bc0811AD5) - duplicate chain+address
+  • GHST (0x3F382DbD960E3a9bbCeaE22651E88158d2791550) - duplicate chain+address
+  • BABAON (0x41765F0FCddC276309195166C7A62AE522FA09ef) - duplicate chain+address
+  • AIN (0x3A810ff7211b40c4fA76205a14efe161615d0385) - duplicate chain+address
+  • ALEPH (0x27702a26126e0B3702af63Ee09aC4d1A084EF628) - duplicate chain+address
+  • LENDS (0x343324F53CBEEE3Ee6d171f2a20F005964C98047) - duplicate chain+symbol
+  • ALD (0xb26C4B3Ca601136Daf98593feAeff9E0CA702a8D) - duplicate chain+address
+  • NXRA (0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e) - duplicate chain+address
+  • ADP (0xc314b0E758D5FF74f63e307A86EbfE183C95767b) - duplicate chain+address
+  • EURA (0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8) - duplicate chain+address
+  • ALEX (0xA831a4E181F25D3B35949E582Ff27Cc44e703F37) - duplicate chain+address
+  • AKITA (0x7deF4573628021500c3207994935a51801fB56bE) - duplicate chain+symbol
+  • EURAU (0x4933A85b5b5466Fbaf179F72D3DE273c287EC2c2) - duplicate chain+address
+
+GNOSIS
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (3):
+  • JPY Coin v1 (JPYC) - 0x417602f4fbdd471A431Ae29fB5fe0A681964C11b
+  • Backed GOVIES 0-6 months EURO (BC3M) - 0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7
+  • Backed Coinbase Global (BCOIN) - 0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9
+
+🚫 Excluded (3):
+  • AWETH (0xa818F1B57c201E092C4A2017A91815034326Efd1) - AWETH symbol mismatch - CoinGecko AWETH vs on-chain aGnoWETH
+  • JPYC (0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB) - JPYC duplicate token conflict
+  • USDC.E (0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0) - we have USDC already on gnosis
+
+○ Already Existed (44):
+  • LINK (0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2) - duplicate chain+address
+  • UNI (0x4537e328Bf7e4eFA29D05CAeA260D7fE26af9D74) - duplicate chain+address
+  • GHO (0xfc421aD3C883Bf9E7C4f42dE845C4e4405799e73) - duplicate chain+address
+  • GNO (0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb) - duplicate chain+address
+  • CRVUSD (0xaBEf652195F98A91E490f047A5006B71c85f058d) - duplicate chain+address
+  • COW (0x177127622c4A00F3d409B75571e12cB3c8973d3c) - duplicate chain+address
+  • XDAI (0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d) - duplicate chain+address
+  • SAFE (0x4d18815D14fe5c3304e87B3FA18318baa5c23820) - duplicate chain+address
+  • YFI (0xbf65bfcb5da067446CeE6A706ba3Fe2fB1a9fdFd) - duplicate chain+address
+  • SDAI (0xaf204776c7245bF4147c2612BF6e5972Ee483701) - duplicate chain+address
+  • WSTETH (0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6) - duplicate chain+address
+  • TRB (0xAAd66432d27737ecf6ED183160Adc5eF36aB99f2) - duplicate chain+address
+  • ZCHF (0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553) - duplicate chain+address
+  • EURE (0x420CA0f9B9b604cE0fd9C18EF134C705e5Fa3430) - duplicate chain+symbol
+  • BRLA (0xFECB3F7c54E2CAAE9dC6Ac9060A822D47E053760) - duplicate chain+address
+  • BCSPX (0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59) - duplicate chain+address
+  • EURE (0xcB444e90D8198415266c6a2724b7900fb12FC56E) - duplicate chain+address
+  • BIB01 (0xCA30c93B02514f86d5C86a6e375E3A330B435Fb5) - duplicate chain+address
+  • USDC (0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83) - duplicate chain+address
+  • HOPR (0xD057604A14982FE8D88c5fC25Aac3267eA142a08) - duplicate chain+address
+  • MIMATIC (0x3F56e0c36d275367b8C502090EDF38289b3dEa0d) - duplicate chain+address
+  • WETH (0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1) - duplicate chain+address
+  • OLAS (0xcE11e14225575945b8E6Dc0D4F2dD4C570f79d9f) - duplicate chain+address
+  • ETHIX (0xec3f3e6d7907acDa3A7431abD230196CDA3FbB19) - duplicate chain+address
+  • BAL (0x7eF541E2a22058048904fE5744f9c7E4C57AF717) - duplicate chain+address
+  • BADGER (0xdfc20AE04ED70bd9c7D720F449eEDAe19F659D65) - duplicate chain+address
+  • PNK (0x37b60f4E9A31A64cCc0024dce7D0fD07eAA0F7B3) - duplicate chain+address
+  • REG (0x0AA1e96D2a46Ec6beB2923dE1E61Addf5F5f1dce) - duplicate chain+address
+  • DPI (0xD3D47d5578e55C880505dC40648F7F9307C3e7A8) - duplicate chain+address
+  • BZZ (0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da) - duplicate chain+address
+  • AGVE (0x3a97704a1b25F08aa230ae53B352e2e72ef52843) - duplicate chain+address
+  • MPS (0xfa57AA7beED63D03Aaf85fFd1753f5f6242588fb) - duplicate chain+address
+  • FOX (0x21a42669643f45Bc0e086b8Fc2ed70c23D67509d) - duplicate chain+address
+  • WBTC (0x8e5bBbb09Ed1ebdE8674Cda39A0c169401db4252) - duplicate chain+address
+  • EURA (0x4b1E2c2762667331Bc91648052F646d1b0d35984) - duplicate chain+address
+  • SWASH (0x84E2C67CBEfae6B5148fcA7d02B341B12ff4b5Bb) - duplicate chain+address
+  • PERP (0x7ecF26cd9A36990b8ea477853663092333f59979) - duplicate chain+address
+  • BIBTA (0x52d134c6DB5889FaD3542A09eAf7Aa90C0fdf9E4) - duplicate chain+address
+  • IDRX (0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22) - duplicate chain+address
+  • FUSE (0xD589F00Fa2Eb83367f732AB3CDA92eE0940389cF) - duplicate chain+address
+  • DATA (0x256eb8a51f382650B2A1e946b8811953640ee47D) - duplicate chain+address
+  • GBPE (0x5Cb9073902F2035222B9749F8fB0c9BFe5527108) - duplicate chain+address
+  • SHU (0x8CCd277Cc638E7e17F8100cE583cBcEf42007Dca) - duplicate chain+address
+  • USDT (0x4ECaBa5870353805a9F068101A40E0f32ed605C6) - duplicate chain+address
+
+HYPEREVM
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (19):
+  • ApeCoin (APE) - 0xab11329560Fa9C9c860Bb21A9342215a1265BBB0
+  • Circle Internet Group (Ondo Tokenized Stock) (CRCLON) - 0x13a81c5e8b4AB05Fc721DfF7bA95e250b29458F8
+  • Micron Technology (Ondo Tokenized Stock) (MUON) - 0x0f8E33F5CdefAE9C2E59de8fB61feD347046D046
+  • iShares Core S&P 500 ETF (Ondo Tokenized ETF) (IVVON) - 0xAd26B6048cc3682f67Fe4C829b7Ac99dbF95920e
+  • Kinetiq (KNTQ) - 0x000000000000780555bD0BCA3791f89f9542c2d6
+  • Hex Trust Wrapped XRP (WXRP) - 0xB73eE5488647a6302EBf5FEE8Af3152F6960AE4c
+  • NVIDIA (Ondo Tokenized Stock) (NVDAON) - 0xB989ad9b91886b1Aaed8DaADb26F028b29b40945
+  • Movement (MOVE) - 0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073
+  • Kinetiq Markets HYPE (KMHYPE) - 0x360C140E5344A1A0593D44B4ea6Fc7C3DAf0C473
+  • SPDR S&P 500 ETF (Ondo Tokenized ETF) (SPYON) - 0x32eC2792aeC02122eDD9f28866B720db1e1c1B54
+  • Altura Vault Tokens (AVLT) - 0xd0Ee0CF300DFB598270cd7F4D0c6E0D8F6e13f29
+  • Invesco QQQ ETF (Ondo Tokenized ETF) (QQQON) - 0x911e2dCD2b70F44231F3F0f1C6ec9aF75068FD85
+  • iShares Silver Trust (Ondo Tokenized Stock) (SLVON) - 0xd53d98d13D93C817011645442c2e4d46E499B460
+  • Tesla (Ondo Tokenized Stock) (TSLAON) - 0x417883b1709545f1211A25b00ad13455fC7F1bc5
+  • Alphabet Class A (Ondo Tokenized Stock) (GOOGLON) - 0x4D34798f18Eb747F7225663F0553eA2D880cf75D
+  • Based (BASED) - 0x053f6755320d06b8fd6675581b0475B2E32399b1
+  • Intel (Ondo Tokenized Stock) (INTCON) - 0x7bf529bb5Db370D679F33f4fe5420F48eE234bB7
+  • MicroStrategy (Ondo Tokenized Stock) (MSTRON) - 0x8a64FDf0857c1C734A594cd1DB20B3f8E3f133f6
+  • Apple (Ondo Tokenized Stock) (AAPLON) - 0x81db0DF77669b3BE563e7a0591685a2C8C3EE1c5
+
+○ Already Existed (31):
+  • USDC (0xb88339CB7199b77E23DB6E890353E22632Ba630f) - duplicate chain+address
+  • LINK (0x1AC2EE68b8d038C982C1E1f73F596927dd70De59) - duplicate chain+address
+  • USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+  • USDT0 (0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb) - duplicate chain+address
+  • WEETH (0xA3D68b74bF0528fdD07263c60d6488749044914b) - duplicate chain+address
+  • SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+  • KHYPE (0xfD739d4e423301CE9385c1fb8850539D657C296D) - duplicate chain+address
+  • PENGU (0xFa44C2634fF17CBE26dc3007D36BD61c79068c14) - duplicate chain+address
+  • SOLVBTC (0xaE4EFbc7736f963982aACb17EFA37fCBAb924cB3) - duplicate chain+address
+  • WHYPE (0x5555555555555555555555555555555555555555) - duplicate chain+address
+  • PENDLE (0xD6Eb81136884713E843936843E286FD2a85A205A) - duplicate chain+address
+  • UBTC (0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463) - duplicate chain+address
+  • UNIBTC (0xF9775085d726E782E83585033B58606f7731AB18) - duplicate chain+address
+  • STHYPE (0xfFaa4a3D97fE9107Cef8a3F48c069F577Ff76cC1) - duplicate chain+address
+  • THBILL (0xfDD22Ce6D1F66bc0Ec89b20BF16CcB6670F55A5a) - duplicate chain+address
+  • XAUT0 (0xf4D9235269a96aaDaFc9aDAe454a0618eBE37949) - duplicate chain+address
+  • FEUSD (0x02c6a2fA58cC01A18B8D9E00eA48d65E4dF26c70) - duplicate chain+address
+  • WSRUSD (0x04716DB62C085D9e08050fcF6F7D775A03d07720) - duplicate chain+address
+  • XSOLVBTC (0xc99F5c922DAE05B6e2ff83463ce705eF7C91F077) - duplicate chain+address
+  • PURR (0x9b498C3c8A0b8CD8BA1D9851d40D186F1872b44E) - duplicate chain+address
+  • BRBTC (0xDfc7D2d003A053b2E0490531e9317A59962b511E) - duplicate chain+address
+  • VKHYPE (0x9BA2EDc44E0A4632EB4723E81d4142353e1bB160) - duplicate chain+address
+  • UPUMP (0x27eC642013bcB3D80CA3706599D3cdA04F6f4452) - duplicate chain+address
+  • CMETH (0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA) - duplicate chain+address
+  • REKT (0xc12E26AB94D1e62F18373cF25e43AFA7B2AF1cDc) - duplicate chain+address
+  • UXPL (0x33Af3c2540Ba72054e044EFe504867B39aE421f5) - duplicate chain+address
+  • VHYPE (0x8888888FdAAc0E7CF8C6523c8955bF7954c216fa) - duplicate chain+address
+  • NEIRO (0x226702c0ca528c29EB9252b773c4f06492510F4c) - duplicate chain+address
+  • SEDA (0x4F96b683714377C38123631f2d17cDF18b3F46a7) - duplicate chain+address
+  • USDH (0x111111a1a0667d36bD57c0A9f569b98057111111) - duplicate chain+address
+  • UETH (0xBe6727B535545C67d5cAa73dEa54865B92CF7907) - duplicate chain+address
+
+KAVA_EVM
+──────────────────────────────────────────────────────────────────────
+
+○ Already Existed (21):
+  • USDT (0x919C1c267BC06a7039e03fcc2eF738525769109c) - duplicate chain+address
+  • USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+  • SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+  • ATOM (0x15932E26f5BD4923d46a2b205191C4b5d5f43FE3) - duplicate chain+address
+  • ENA (0x58538e6A46E07434d7E7375Bc268D3cb839C0133) - duplicate chain+address
+  • STG (0x83c30eb8bc9ad7C56532895840039E62659896ea) - duplicate chain+address
+  • ANON (0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C) - duplicate chain+address
+  • GBYTE (0x0b93109d05Ef330acD2c75148891cc61D20C3EF1) - duplicate chain+address
+  • TAROT (0x2E4c7bf66d0484E44FeA0eC273b85A00Af92B2e3) - duplicate chain+address
+  • WAGMI (0xaf20f5f19698f1D19351028cd7103B63D30DE7d7) - duplicate chain+address
+  • WETH (0x2DfD4dE5AE386Cd3f4fC8e2cb39240852E47F5E8) - duplicate chain+address
+  • AXLETH (0xb829b68f57CC546dA7E5806A929e53bE32a4625D) - duplicate chain+address
+  • MVX (0x0018D96C579121a94307249d47F053E2D687b5e7) - duplicate chain+address
+  • WKAVA (0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b) - duplicate chain+address
+  • LION (0x990e157fC8a492c28F5B50022F000183131b9026) - duplicate chain+address
+  • TIGER (0x471F79616569343e8e84a66F342B7B433b958154) - duplicate chain+address
+  • AXLUSDC (0xEB466342C4d449BC9f53A865D5Cb90586f405215) - duplicate chain+address
+  • AXLUSDT (0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6) - duplicate chain+address
+  • ACS (0x8888888888f004100C0353d657BE6300587A6CcD) - duplicate chain+address
+  • BEAR (0x38481Fdc1aF61E6E72E0Ff46F069315A59779C65) - duplicate chain+address
+  • HKAVA (0xb51eFaF2f7aFb8a2F5Be0b730281E414FB487636) - duplicate chain+address
+
+✗ Failed (1):
+  • Merlin's Seal BTC (M-BTC) - kava1txyfkuppys7mtv0qv5u9lyvrzmxep4rvh0ne4g - Invalid EVM address: kava1txyfkuppys7mtv0qv5u9lyvrzmxep4rvh0ne4g
+
+METIS
+──────────────────────────────────────────────────────────────────────
+
+🚫 Excluded (1):
+  • METIS (0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000) - we can confuse name "METIS" with native
+
+○ Already Existed (28):
+  • LINK (0xd2FE54D1E5F568eB710ba9d898Bf4bD02C7c0353) - duplicate chain+address
+  • USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+  • AWETH (0x8acAe35059C9aE27709028fF6689386a44c09f3a) - duplicate chain+address
+  • SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+  • ENA (0x58538e6A46E07434d7E7375Bc268D3cb839C0133) - duplicate chain+address
+  • ALETH (0x0E17934B9735D479B2388347fAeF0F4e58b9cc06) - duplicate chain+address
+  • MIMATIC (0xdFA46478F9e5EA86d57387849598dbFB2e964b02) - duplicate chain+address
+  • ALUSD (0x303241e2B3b4aeD0bb0F8623e7442368FED8Faf3) - duplicate chain+address
+  • HERA (0x6F05709bc91Bad933346F9E159f0D3FdBc2c9DCE) - duplicate chain+address
+  • ANON (0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C) - duplicate chain+address
+  • M.USDC (0xEA32A96608495e54156Ae48931A7c20f0dcc1a21) - duplicate chain+address
+  • USDT (0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC) - duplicate chain+address
+  • WETH (0x420000000000000000000000000000000000000A) - duplicate chain+address
+  • WAGMI (0xaf20f5f19698f1D19351028cd7103B63D30DE7d7) - duplicate chain+address
+  • JEWEL (0x17C09cfC96C865CF546d73365Cedb6dC66986963) - duplicate chain+address
+  • NETT (0x90fE084F877C65e1b577c7b2eA64B8D8dd1AB278) - duplicate chain+address
+  • WMETIS (0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481) - duplicate chain+address
+  • ENKI (0x096A84536ab84E68ee210561FFD3A038E79736F1) - duplicate chain+address
+  • WBTC (0xa5B55ab1dAF0F8e1EFc0eB1931a957fd89B918f4) - duplicate chain+address
+  • XCAD (0x66673f0a3b5d99524bA76A558B93A9ca1386f4Cd) - duplicate chain+address
+  • TORCH (0xbB1676046C36BCd2F6fD08d8f60672c7087d9aDF) - duplicate chain+address
+  • WOW (0x5CE34d9abe4bF239cbc08B89287c87f4CD6d80B7) - duplicate chain+address
+  • ARTMETIS (0x2583A2538272f31e9A15dD12A432B8C96Ab4821d) - duplicate chain+address
+  • ADAI (0x85ABAdDcae06efee2CB5F75f33b6471759eFDE24) - duplicate chain+address
+  • STONE (0x80137510979822322193FC997d400D5A6C747bf7) - duplicate chain+address
+  • AUSDC (0x885C8AEC5867571582545F894A5906971dB9bf27) - duplicate chain+address
+  • ZEUSD (0x2d3D1a6982840Dd88bC2380Fd557F8A9D5e27a77) - duplicate chain+address
+  • AMETIS (0x7314Ef2CA509490f65F52CC8FC9E0675C66390b8) - duplicate chain+address
+
+MONAD
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (41):
+  • Wrapped stETH (WSTETH) - 0x10Aeaf63194db8d453d4D85a06E5eFE1dd0b5417
+  • Wrapped Bitcoin (WBTC) - 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c
+  • Coinbase Wrapped BTC (CBBTC) - 0xd18B7EC58Cdf4876f6AFebd3Ed1730e4Ce10414b
+  • USD1 (USD1) - 0x111111d2bf19e43C34263401e0CAd979eD1cdb61
+  • Wrapped eETH (WEETH) - 0xA3D68b74bF0528fdD07263c60d6488749044914b
+  • Janus Henderson Anemoy Treasury Fund (JTRSY) - 0xC18e6f730896971a79D748E8deA61067A9Bc6040
+  • Janus Henderson Anemoy AAA CLO Fund (JAAA) - 0xAD48F183E586e92A591A610397ebf534609DF797
+  • Solv Protocol BTC (SOLVBTC) - 0xaE4EFbc7736f963982aACb17EFA37fCBAb924cB3
+  • ApeCoin (APE) - 0x6a7E3F839382FBb6A6131D4Aae864AAEb362292d
+  • Tether Gold Tokens (XAUT0) - 0x01bFF41798a0BcF287b996046Ca68b395DbC1071
+  • Solv Protocol Staked BTC (XSOLVBTC) - 0xc99F5c922DAE05B6e2ff83463ce705eF7C91F077
+  • Anemoy Tokenized Apollo Diversified Credit Fund (ACRDX) - 0x2FaBf1c784B8583d63C00c5c9C0377D8cf1a3245
+  • Bridged NXPC (NXPC) - 0xD33F18D8d48CbbB2f8b47063DE97f94De0D49B99
+  • aPriori (APR) - 0x0a332311633C0625f63CFc51EE33fC49826E0a3C
+  • Staked Yuzu USD (SYZUSD) - 0x484be0540aD49f351eaa04eeB35dF0f937D4E73f
+  • Midas Hyperithm BTC (MHYPERBTC) - 0xF7Cf282eC810fDed974F99c0163E792f432892BC
+  • eBTC (EBTC) - 0xd691b0aFed67F96CEC28Ab6308Cbe5b2C103b7e9
+  • MetaMask USD (MUSD) - 0xacA92E438df0B2401fF60dA7E4337B687a2435DA
+  • Midas mHYPER (MHYPER) - 0xd90F6bFEd23fFDE40106FC4498DD2e9EDB95E4e7
+  • FOLKS (FOLKS) - 0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B
+  • earnAUSD (EARNAUSD) - 0x103222f020e98Bba0AD9809A011FDF8e6F067496
+  • ShMonad (SHMON) - 0x1B68626dCa36c7fE922fD2d55E4f631d962dE19c
+  • Wrapped Neverland USDT0 (WNUSDT0) - 0x4e8aaecCE10ad9394e96fE5f2bd4e587A7B04298
+  • leverup (LV) - 0x1001fF13bf368Aa4fa85F21043648079F00E1001
+  • Wrapped Neverland AUSD (WNAUSD) - 0x82c370ba90E38ef6Acd8b1b078d34fD86FC6bAC9
+  • Midas mEDGE (MEDGE) - 0x1c8eE940B654bFCeD403f2A44C1603d5be0F50Fa
+  • Chog (CHOG) - 0x350035555E10d9AfAF1566AaebfCeD5BA6C27777
+  • StakeStone USD (STONEUSD) - 0x095957CEB9f317ac1328f0aB3123622401766D71
+  • Kintsu Staked Monad (SMON) - 0xA3227C5969757783154C60bF0bC1944180ed81B9
+  • Magma Staked Monad (GMON) - 0x8498312A6B3CbD158bf0c93AbdCF29E6e4F55081
+  • HOLD (EARN) - 0x3dB619ff72D877490699276061FB0Fa0618FDf47
+  • LeverUp MON (LVMON) - 0x91b81bfbe3A747230F0529Aa28d8b2Bc898E6D56
+  • LeverUp USD (LVUSD) - 0xFD44B35139Ae53FFF7d8F2A9869c503D987f00d1
+  • Pixie Dust (DUST) - 0xAD96C3dffCD6374294e2573A7fBBA96097CC8d7c
+  • Newrails Euro (EURW) - 0x1111B3DED9F1fE1801AD4ebeF8E2788183a24111
+  • aPriori Monad LST (APRMON) - 0x0c65A0BC65a5D819235B71F554D210D3F80E0852
+  • emonad (EMO) - 0x81A224F8A62f52BdE942dBF23A56df77A10b7777
+  • zkSwap Finance (ZF) - 0x2f2f2f74ab5db61AE8BD3c13ccD4Dc8c9E8A2f2f
+  • Long (LONG) - 0x123468b48EADbC13c65cd9c66A9913cdE4e94321
+  • Bob (BOB) - 0x21E325B059Cd83d4037C82F0F5998Ba2dF3d7777
+  • Etherfuse TESOURO (TESOURO) - 0x7A9990ffe3057EDC18558cA4C8804430fe917456
+
+○ Already Existed (8):
+  • USDC (0x754704Bc059F8C67012fEd69BC8A327a5aafb603) - duplicate chain+address
+  • USDT0 (0xe7cd86e13AC4309349F30B3435a9d337750fC82D) - duplicate chain+address
+  • AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+  • MUBOND (0x336D414754967C6682B5A665C7DAF6F1409E63e8) - duplicate chain+address
+  • WMON (0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A) - duplicate chain+address
+  • WETH (0xEE8c0E9f1BFFb4Eb878d8f15f368A02a35481242) - duplicate chain+address
+  • AZND (0x4917a5ec9fCb5e10f47CBB197aBe6aB63be81fE8) - duplicate chain+address
+  • LOAZND (0x9c82eB49B51F7Dc61e22Ff347931CA32aDc6cd90) - duplicate chain+address
+
+✗ Failed (1):
+  • Chainlink (LINK) - 0x6fE981Dbd557f81ff66836af0932cba535Cbc343 - Failed to fetch token info after 3 attempts: The contract function "symbol" returned no data ("0x").
+
+This could be due to any of the following:
+  - The contract does not have the function "symbol",
+  - The parameters passed to the contract function may be invalid, or
+  - The address is not a contract.
+ 
+Contract Call:
+  address:   0x6fE981Dbd557f81ff66836af0932cba535Cbc343
+  function:  symbol()
+
+Docs: https://viem.sh/docs/contract/multicall
+Version: viem@2.38.0
+
+OPTIMISM
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (9):
+  • Wrapped Bitcoin (WBTC) - 0x68f180fcCe6836688e9084f035309E29Bf0A2095
+  • Wrapped eETH (WEETH) - 0x5A7fACB970D094B6C7FF1df0eA68D99E6e73CBFF
+  • Kelp DAO Restaked ETH (RSETH) - 0x4186BFC76E2E237523CBC30FD220FE055156b41F
+  • EURC (EURC) - 0xDCB612005417Dc906fF72c87DF732e5a90D49e11
+  • Wrapped HYPE (WHYPE) - 0xd83E3d560bA6F05094d9D8B3EB8aaEA571D1864E
+  • Olympus (OHM) - 0x060cb087a9730E13aa191f31A6d86bFF8DfcdCC0
+  • yearn.finance (YFI) - 0x9046D36440290FfDE54FE0DD84Db8b1CfEE9107B
+  • Hex Trust Wrapped XRP (WXRP) - 0xB73eE5488647a6302EBf5FEE8Af3152F6960AE4c
+  • Superbridge Bridged wstETH (Optimism) (WSTETH) - 0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb
+
+○ Already Existed (41):
+  • USDC (0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85) - duplicate chain+address
+  • SUSDS (0xb5B2dc7fd34C249F4be7fB1fCea07950784229e0) - duplicate chain+address
+  • LINK (0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6) - duplicate chain+address
+  • USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+  • AWETH (0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8) - duplicate chain+address
+  • USDT0 (0x01bFF41798a0BcF287b996046Ca68b395DbC1071) - duplicate chain+address
+  • BUIDL (0xa1CDAb15bBA75a80dF4089CaFbA013e376957cF5) - duplicate chain+address
+  • WLD (0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1) - duplicate chain+address
+  • DOT (0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8) - duplicate chain+address
+  • SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+  • UNI (0x6fd9d7AD17242c41f7131d257212c54A0e816691) - duplicate chain+address
+  • AAVE (0x76FB31fb4af56892A25e32cFC43De717950c9278) - duplicate chain+address
+  • CLBTC (0x1792865D493FE4DFdD504010D3c0f6da11E8046D) - duplicate chain+address
+  • ENA (0x58538e6A46E07434d7E7375Bc268D3cb839C0133) - duplicate chain+address
+  • RETH (0x9Bcef72be871e61ED4fBbc7630889beE758eb81D) - duplicate chain+address
+  • CRV (0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53) - duplicate chain+address
+  • KBTC (0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98) - duplicate chain+address
+  • TBTC (0x6c84a8f1c29108F47a79964b5Fe888D4f4D0dE40) - duplicate chain+address
+  • ZRO (0x6985884C4392D348587B19cb9eAAf157F13271cd) - duplicate chain+address
+  • CBETH (0xadDb6A0412DE1BA0F936DCaeb8Aaa24578dcF3B2) - duplicate chain+address
+  • BUSD (0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39) - duplicate chain+address
+  • FRAX (0x2E3D870790dC77A83DD1d18184Acc7439A53f475) - duplicate chain+address
+  • OP (0x4200000000000000000000000000000000000042) - duplicate chain+address
+  • PENDLE (0xBC7B1Ff1c6989f006a1185318eD4E7b5796e66E1) - duplicate chain+address
+  • LDO (0xFdb794692724153d1488CcdBE0C56c252596735F) - duplicate chain+address
+  • CRVUSD (0xC52D7F23a2e460248Db6eE192Cb23dD12bDDCbf6) - duplicate chain+address
+  • UNIBTC (0x93919784C523f39CACaa98Ee0a9d96c3F32b593e) - duplicate chain+address
+  • SDAI (0x2218a117083f5B482B0bB821d27056Ba9c04b1D3) - duplicate chain+address
+  • FRXUSD (0x80Eede496655FB9047dd39d9f418d5483ED600df) - duplicate chain+address
+  • FRXETH (0x6806411765Af15Bddd26f8f544A34cC40cb9838B) - duplicate chain+address
+  • DRV (0x33800De7E817A70A694F31476313A7c572BBa100) - duplicate chain+address
+  • SNX (0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4) - duplicate chain+address
+  • SFRXETH (0x484c2D6e3cDd945a8B2DF735e079178C1036578c) - duplicate chain+address
+  • VCNT (0xc6BDFC4f2E90196738873E824a9eFa03F7c64176) - duplicate chain+address
+  • AXL (0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f) - duplicate chain+address
+  • WRSETH (0x87eEE96D50Fb761AD85B1c982d28A042169d61b1) - duplicate chain+address
+  • DOLA (0x8aE125E8653821E851F12A49F7765db9a9ce7384) - duplicate chain+address
+  • T (0x747e42Eb0591547a0ab429B3627816208c734EA7) - duplicate chain+address
+  • XVS (0x4a971e87ad1F61f7f3081645f52a99277AE917cF) - duplicate chain+address
+  • WETH (0x4200000000000000000000000000000000000006) - duplicate chain+address
+  • ANKR (0xAeAeeD23478c3a4b798e4ed40D8B7F41366Ae861) - duplicate chain+address
+
+PLASMA
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (8):
+  • Kelp DAO Restaked ETH (RSETH) - 0x9eCaf80c1303CCA8791aFBc0AD405c8a35e8d9f1
+  • Metronome Synth ETH (MSETH) - 0x7230a9D42D622E18FDf7207041EcA18465F9F1bE
+  • EURØP (EUROP) - 0x98658Bd74EF231158Cadc21d8AbA733a4E947e6a
+  • Yuzu Protection Pool (YZPP) - 0xEbFC8C2Fe73C431Ef2A371AeA9132110aaB50DCa
+  • Chateau USD (CHUSD) - 0x22222215d4EdC5510d23D0886133E7ece7F5fdC1
+  • Wild Goat Coin [OLD] (WGC) - 0xc53ac24320E3A54C7211e4993c8095078a0Cb3Cf
+  • Axis USD (USDX) - 0xA1FA77779e6866fa3eF48FC0720657E042158387
+  • Staked chUSD (SCHUSD) - 0x888888bAb58A7bd3068110749BC7B63B62CE874d
+
+○ Already Existed (30):
+  • LINK (0x76a443768A5e3B8d1AED0105FC250877841Deb40) - duplicate chain+address
+  • USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+  • USDT0 (0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb) - duplicate chain+address
+  • WEETH (0xA3D68b74bF0528fdD07263c60d6488749044914b) - duplicate chain+address
+  • SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+  • GHO (0xb77E872A68C62CfC0dFb02C067Ecc3DA23B4bbf3) - duplicate chain+address
+  • SYRUPUSDT (0xC4374775489CB9C56003BF2C9b12495fC64F0771) - duplicate chain+address
+  • SUSDAI (0x0B2b2B2076d95dda7817e785989fE353fe955ef9) - duplicate chain+address
+  • USDAI (0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF) - duplicate chain+address
+  • XAUT0 (0x1B64B9025EEbb9A6239575dF9Ea4b9Ac46D4d193) - duplicate chain+address
+  • FLUID (0x61E030A56D33e8260FdD81f03B162A79Fe3449Cd) - duplicate chain+address
+  • SYZUSD (0xC8A8DF9B210243c55D31c73090F06787aD0A1Bf6) - duplicate chain+address
+  • WAPLAUSDT0 (0xE0126F0c4451B2B917064A93040fd4770D6774b5) - duplicate chain+address
+  • YZUSD (0x6695c0f8706C5ACe3Bdf8995073179cCA47926dc) - duplicate chain+address
+  • WXPL (0x6100E367285b01F48D07953803A2d8dCA5D19873) - duplicate chain+address
+  • MHYPER (0xb31BeA5c2a43f942a3800558B1aa25978da75F8a) - duplicate chain+address
+  • MSUSD (0x29AD7fE4516909b9e498B5a65339e54791293234) - duplicate chain+address
+  • EUL (0xca632FA58397391C750c13F935DAA61AbBe0BaA6) - duplicate chain+address
+  • NBASIS (0x11113Ff3a60C2450F4b22515cB760417259eE94B) - duplicate chain+address
+  • TRILLIONS (0x92A01Ab7317Ac318b39b00EB6704ba56F0245D7a) - duplicate chain+address
+  • XUSD (0x6eAf19b2FC24552925dB245F9Ff613157a7dbb4C) - duplicate chain+address
+  • WETH (0x9895D81bB462A195b4922ED7De0e3ACD007c32CB) - duplicate chain+address
+  • RLP (0x35533f54740F1F1aA4179E57bA37039dfa16868B) - duplicate chain+address
+  • TRYB (0x90729a45948c3078890Bc80F2a4e7870A2Ea4C5E) - duplicate chain+address
+  • TREVEE (0xe90FE2DE4A415aD48B6DcEc08bA6ae98231948Ac) - duplicate chain+address
+  • WSTUSR (0x2a52B289bA68bBd02676640aA9F605700c9e5699) - duplicate chain+address
+  • PLAZZY (0x5C22b3Cb1152D1EB77F5fadD4Ea9504cDE899dd4) - duplicate chain+address
+  • INX (0x133a09Dd6169f6F0509658a911F2a82Fc8ab6A0D) - duplicate chain+address
+  • LITH (0xAbB48792A3161E81B47cA084c0b7A22a50324A44) - duplicate chain+address
+  • FUS (0xDfAD3B638Fb77cCBd0712516877541CF7FA3341E) - duplicate chain+address
+
+POLYGON
+──────────────────────────────────────────────────────────────────────
+
+🚫 Excluded (1):
+  • USDC.E (0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174) - we have USDC already on polygon
+
+○ Already Existed (41):
+  • LINK (0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39) - duplicate chain+address
+  • AWETH (0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8) - duplicate chain+address
+  • BUIDL (0x2893Ef551B6dD69F661Ac00F11D93E5Dc5Dc0e99) - duplicate chain+address
+  • AAVE (0xD6DF932A45C0f255f85145f286eA0b292B21C90B) - duplicate chain+address
+  • BONK (0xe5B49820e5A1063F6F4DdF851327b5E8B2301048) - duplicate chain+address
+  • CRV (0x172370d5Cd63279eFa6d502DAB29171933a610AF) - duplicate chain+address
+  • CBETH (0x4b4327dB1600B8B1440163F667e199CEf35385f5) - duplicate chain+address
+  • BUSD (0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39) - duplicate chain+address
+  • APEPE (0xA3f751662e282E83EC3cBc387d225Ca56dD63D3A) - duplicate chain+address
+  • CRVUSD (0xc4Ce1D6F5D98D65eE25Cf85e9F2E9DcFEe6Cb5d6) - duplicate chain+address
+  • COMP (0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c) - duplicate chain+address
+  • BAT (0x3Cef98bb43d732E2F285eE605a8158cDE967D219) - duplicate chain+address
+  • MANA (0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4) - duplicate chain+address
+  • AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+  • APE (0xB7b31a6BC18e48888545CE79e83E06003bE70930) - duplicate chain+address
+  • ACRED (0xFCe60bBc52a5705CeC5B445501FBAf3274Dc43D0) - duplicate chain+address
+  • COW (0x2F4efd3Aa42E15a1eC6114547151B63EE5D39958) - duplicate chain+address
+  • AXL (0x6e4E624106Cb12E168E6533F8ec7c82263358940) - duplicate chain+address
+  • BRZ (0x4eD141110F6EeeAbA9A1df36d8c26f684d2475Dc) - duplicate chain+address
+  • ANKR (0x101A023270368c0D50BFfb62780F4aFd4ea79C35) - duplicate chain+address
+  • ACX (0xF328b73B6c685831F238c30a23Fc19140CB4D8FC) - duplicate chain+address
+  • BRLA (0xE6A537a407488807F0bbeb0038B79004f19DDDFb) - duplicate chain+address
+  • CXO (0xf2ae0038696774d65E67892c9D301C5f2CbbDa58) - duplicate chain+address
+  • CTSI (0x2727Ab1c2D22170ABc9b595177B2D5C6E1Ab7B7B) - duplicate chain+address
+  • CBK (0x4EC203dD0699Fac6adAF483CDd2519BC05D2c573) - duplicate chain+address
+  • CVC (0x66Dc5A08091d1968e08C16aA5b27BAC8398b02Be) - duplicate chain+address
+  • B2M (0xE613a914bbb433855378183c3aB13003285da40A) - duplicate chain+address
+  • ADS (0x598e49f01bEfeB1753737934a5b11fea9119C796) - duplicate chain+address
+  • VATRENI (0xD60DebA014459F07BBcC077a5B817f31DaFD5229) - duplicate chain+address
+  • C98 (0x77f56cf9365955486B12C4816992388eE8606f0E) - duplicate chain+address
+  • ALI (0xbFc70507384047Aa74c29Cdc8c5Cb88D0f7213AC) - duplicate chain+address
+  • VEE (0xf1c1A3C2481A3a8A3f173A9ab5Ade275292A6fA3) - duplicate chain+address
+  • WALLET (0x564906ec1DF8399F00e4ad32c0eCAC0404a27A1c) - duplicate chain+address
+  • ARPA (0xEE800B277A96B0f490a1A732e1D6395FAD960A26) - duplicate chain+address
+  • OLAS (0xFEF5d947472e72Efbb2E388c730B7428406F2F95) - duplicate chain+address
+  • ANY (0x6aB6d61428fde76768D7b45D8BFeec19c6eF91A8) - duplicate chain+address
+  • BAL (0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3) - duplicate chain+address
+  • AMWETH (0x28424507fefb6f7f8E9D3860F56504E4e5f5f390) - duplicate chain+address
+  • BOSON (0x9B3B0703D392321AD24338Ff1f846650437A43C9) - duplicate chain+address
+  • GBYTE (0xAB5F7a0e20b0d056Aed4Aa4528C78da45BE7308b) - duplicate chain+address
+  • DPI (0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369) - duplicate chain+address
+
+✗ Failed (8):
+  • AI Powered Finance (AIPF) - 0x2c72D25530191EBD244Eb6325E1892480b0e6E28 - Failed to fetch token info after 3 attempts: HTTP request failed.
+
+Status: 401
+URL: https://polygon-rpc.com
+Request body: {"method":"eth_call","params":[{"data":"0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000002c72d25530191ebd244eb6325e1892480b0e6e2800000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b41000000000000000000000000000000000000000000000000000000000000000000000000000000002c72d25530191ebd244eb6325e1892480b0e6e28000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000","to":"0xca11bde05977b3631167028862be2a173976ca11"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0xca11bde05977b3631167028862be2a173976ca11
+  data:  0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000002c72d25530191ebd244eb6325e1892480b0e6e2800000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b41000000000000000000000000000000000000000000000000000000000000000000000000000000002c72d25530191ebd244eb6325e1892480b0e6e28000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000
+ 
+Contract Call:
+  address:   0xca11bde05977b3631167028862be2a173976ca11
+  function:  aggregate3((address target, bool allowFailure, bytes callData)[])
+  args:                ([{"allowFailure":true,"callData":"0x95d89b41","target":"0x2c72D25530191EBD244Eb6325E1892480b0e6E28"},{"allowFailure":true,"callData":"0x313ce567","target":"0x2c72D25530191EBD244Eb6325E1892480b0e6E28"}])
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: "message: API key disabled, reason: tenant disabled, json-rpc code: -32051, rest code: 403"
+Version: viem@2.38.0
+  • Altura Vault Tokens (AVLT) - 0x74dB7a52773A52699dbC0c01b1254E5301E3e119 - Failed to fetch token info after 3 attempts: HTTP request failed.
+
+Status: 401
+URL: https://polygon-rpc.com
+Request body: {"method":"eth_call","params":[{"data":"0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000074db7a52773a52699dbc0c01b1254e5301e3e11900000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b410000000000000000000000000000000000000000000000000000000000000000000000000000000074db7a52773a52699dbc0c01b1254e5301e3e119000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000","to":"0xca11bde05977b3631167028862be2a173976ca11"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0xca11bde05977b3631167028862be2a173976ca11
+  data:  0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000074db7a52773a52699dbc0c01b1254e5301e3e11900000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b410000000000000000000000000000000000000000000000000000000000000000000000000000000074db7a52773a52699dbc0c01b1254e5301e3e119000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000
+ 
+Contract Call:
+  address:   0xca11bde05977b3631167028862be2a173976ca11
+  function:  aggregate3((address target, bool allowFailure, bytes callData)[])
+  args:                ([{"allowFailure":true,"callData":"0x95d89b41","target":"0x74dB7a52773A52699dbC0c01b1254E5301E3e119"},{"allowFailure":true,"callData":"0x313ce567","target":"0x74dB7a52773A52699dbC0c01b1254E5301E3e119"}])
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: "message: API key disabled, reason: tenant disabled, json-rpc code: -32051, rest code: 403"
+Version: viem@2.38.0
+  • Backed CSPX Core S&P 500 (BCSPX) - 0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59 - Failed to fetch token info after 3 attempts: HTTP request failed.
+
+Status: 401
+URL: https://polygon-rpc.com
+Request body: {"method":"eth_call","params":[{"data":"0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000001e2c4fb7ede391d116e6b41cd0608260e8801d5900000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b41000000000000000000000000000000000000000000000000000000000000000000000000000000001e2c4fb7ede391d116e6b41cd0608260e8801d59000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000","to":"0xca11bde05977b3631167028862be2a173976ca11"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0xca11bde05977b3631167028862be2a173976ca11
+  data:  0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000001e2c4fb7ede391d116e6b41cd0608260e8801d5900000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b41000000000000000000000000000000000000000000000000000000000000000000000000000000001e2c4fb7ede391d116e6b41cd0608260e8801d59000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000
+ 
+Contract Call:
+  address:   0xca11bde05977b3631167028862be2a173976ca11
+  function:  aggregate3((address target, bool allowFailure, bytes callData)[])
+  args:                ([{"allowFailure":true,"callData":"0x95d89b41","target":"0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59"},{"allowFailure":true,"callData":"0x313ce567","target":"0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59"}])
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: "message: API key disabled, reason: tenant disabled, json-rpc code: -32051, rest code: 403"
+Version: viem@2.38.0
+  • Backed IB01 $ Treasury Bond 0-1yr (BIB01) - 0xCA30c93B02514f86d5C86a6e375E3A330B435Fb5 - Failed to fetch token info after 3 attempts: HTTP request failed.
+
+Status: 401
+URL: https://polygon-rpc.com
+Request body: {"method":"eth_call","params":[{"data":"0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000ca30c93b02514f86d5c86a6e375e3a330b435fb500000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b4100000000000000000000000000000000000000000000000000000000000000000000000000000000ca30c93b02514f86d5c86a6e375e3a330b435fb5000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000","to":"0xca11bde05977b3631167028862be2a173976ca11"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0xca11bde05977b3631167028862be2a173976ca11
+  data:  0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000ca30c93b02514f86d5c86a6e375e3a330b435fb500000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b4100000000000000000000000000000000000000000000000000000000000000000000000000000000ca30c93b02514f86d5c86a6e375e3a330b435fb5000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000
+ 
+Contract Call:
+  address:   0xca11bde05977b3631167028862be2a173976ca11
+  function:  aggregate3((address target, bool allowFailure, bytes callData)[])
+  args:                ([{"allowFailure":true,"callData":"0x95d89b41","target":"0xCA30c93B02514f86d5C86a6e375E3A330B435Fb5"},{"allowFailure":true,"callData":"0x313ce567","target":"0xCA30c93B02514f86d5C86a6e375E3A330B435Fb5"}])
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: "message: API key disabled, reason: tenant disabled, json-rpc code: -32051, rest code: 403"
+Version: viem@2.38.0
+  • Backed GOVIES 0-6 months EURO (BC3M) - 0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7 - Failed to fetch token info after 3 attempts: HTTP request failed.
+
+Status: 401
+URL: https://polygon-rpc.com
+Request body: {"method":"eth_call","params":[{"data":"0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000002f123cf3f37ce3328cc9b5b8415f9ec5109b45e700000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b41000000000000000000000000000000000000000000000000000000000000000000000000000000002f123cf3f37ce3328cc9b5b8415f9ec5109b45e7000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000","to":"0xca11bde05977b3631167028862be2a173976ca11"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0xca11bde05977b3631167028862be2a173976ca11
+  data:  0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000002f123cf3f37ce3328cc9b5b8415f9ec5109b45e700000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b41000000000000000000000000000000000000000000000000000000000000000000000000000000002f123cf3f37ce3328cc9b5b8415f9ec5109b45e7000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000
+ 
+Contract Call:
+  address:   0xca11bde05977b3631167028862be2a173976ca11
+  function:  aggregate3((address target, bool allowFailure, bytes callData)[])
+  args:                ([{"allowFailure":true,"callData":"0x95d89b41","target":"0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7"},{"allowFailure":true,"callData":"0x313ce567","target":"0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7"}])
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: "message: API key disabled, reason: tenant disabled, json-rpc code: -32051, rest code: 403"
+Version: viem@2.38.0
+  • Backed Coinbase Global (BCOIN) - 0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9 - Failed to fetch token info after 3 attempts: HTTP request failed.
+
+Status: 401
+URL: https://polygon-rpc.com
+Request body: {"method":"eth_call","params":[{"data":"0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000bbcb0356bb9e6b3faa5cbf9e5f36185d53403ac900000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b4100000000000000000000000000000000000000000000000000000000000000000000000000000000bbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000","to":"0xca11bde05977b3631167028862be2a173976ca11"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0xca11bde05977b3631167028862be2a173976ca11
+  data:  0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000bbcb0356bb9e6b3faa5cbf9e5f36185d53403ac900000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b4100000000000000000000000000000000000000000000000000000000000000000000000000000000bbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000
+ 
+Contract Call:
+  address:   0xca11bde05977b3631167028862be2a173976ca11
+  function:  aggregate3((address target, bool allowFailure, bytes callData)[])
+  args:                ([{"allowFailure":true,"callData":"0x95d89b41","target":"0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9"},{"allowFailure":true,"callData":"0x313ce567","target":"0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9"}])
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: "message: API key disabled, reason: tenant disabled, json-rpc code: -32051, rest code: 403"
+Version: viem@2.38.0
+  • Chrema Coin (CRMC) - 0x61cA155F1660b0af117Ed00321d1c3EE264ef943 - Failed to fetch token info after 3 attempts: HTTP request failed.
+
+Status: 401
+URL: https://polygon-rpc.com
+Request body: {"method":"eth_call","params":[{"data":"0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000061ca155f1660b0af117ed00321d1c3ee264ef94300000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b410000000000000000000000000000000000000000000000000000000000000000000000000000000061ca155f1660b0af117ed00321d1c3ee264ef943000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000","to":"0xca11bde05977b3631167028862be2a173976ca11"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0xca11bde05977b3631167028862be2a173976ca11
+  data:  0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000061ca155f1660b0af117ed00321d1c3ee264ef94300000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b410000000000000000000000000000000000000000000000000000000000000000000000000000000061ca155f1660b0af117ed00321d1c3ee264ef943000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000
+ 
+Contract Call:
+  address:   0xca11bde05977b3631167028862be2a173976ca11
+  function:  aggregate3((address target, bool allowFailure, bytes callData)[])
+  args:                ([{"allowFailure":true,"callData":"0x95d89b41","target":"0x61cA155F1660b0af117Ed00321d1c3EE264ef943"},{"allowFailure":true,"callData":"0x313ce567","target":"0x61cA155F1660b0af117Ed00321d1c3EE264ef943"}])
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: "message: API key disabled, reason: tenant disabled, json-rpc code: -32051, rest code: 403"
+Version: viem@2.38.0
+  • crow with knife (CAW) - 0xbbBBbBbBB7949dcC7d1539c91b81A5BF09E37bDB - Failed to fetch token info after 3 attempts: HTTP request failed.
+
+Status: 401
+URL: https://polygon-rpc.com
+Request body: {"method":"eth_call","params":[{"data":"0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000bbbbbbbbb7949dcc7d1539c91b81a5bf09e37bdb00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b4100000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbb7949dcc7d1539c91b81a5bf09e37bdb000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000","to":"0xca11bde05977b3631167028862be2a173976ca11"},"latest"]}
+ 
+Raw Call Arguments:
+  to:    0xca11bde05977b3631167028862be2a173976ca11
+  data:  0x82ad56cb00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000bbbbbbbbb7949dcc7d1539c91b81a5bf09e37bdb00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000495d89b4100000000000000000000000000000000000000000000000000000000000000000000000000000000bbbbbbbbb7949dcc7d1539c91b81a5bf09e37bdb000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004313ce56700000000000000000000000000000000000000000000000000000000
+ 
+Contract Call:
+  address:   0xca11bde05977b3631167028862be2a173976ca11
+  function:  aggregate3((address target, bool allowFailure, bytes callData)[])
+  args:                ([{"allowFailure":true,"callData":"0x95d89b41","target":"0xbbBBbBbBB7949dcC7d1539c91b81A5BF09E37bDB"},{"allowFailure":true,"callData":"0x313ce567","target":"0xbbBBbBbBB7949dcC7d1539c91b81A5BF09E37bDB"}])
+
+Docs: https://viem.sh/docs/contract/readContract
+Details: "message: API key disabled, reason: tenant disabled, json-rpc code: -32051, rest code: 403"
+Version: viem@2.38.0
+
+SCROLL
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (3):
+  • USX (USX) - 0x3b005fefC63Ca7c8d25eE21FbA3787229ba4CF03
+  • Wild Goat Coin [OLD] (WGC) - 0xc53ac24320E3A54C7211e4993c8095078a0Cb3Cf
+  • sUSX (SUSX) - 0xcB14BcdF6cD483665D10dfD6f87d908996C7F922
+
+○ Already Existed (38):
+  • LINK (0x548C6944cba02B9D1C0570102c89de64D258d3Ac) - duplicate chain+address
+  • USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+  • WEETH (0x01f0a31698C4d065659b9bdC21B3610292a1c506) - duplicate chain+address
+  • SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+  • RSETH (0x65421ba909200b81640d98B979d07487C9781B66) - duplicate chain+address
+  • ENA (0x58538e6A46E07434d7E7375Bc268D3cb839C0133) - duplicate chain+address
+  • ETHFI (0x056A5FA5da84ceb7f93d36e545C5905607D8bD81) - duplicate chain+address
+  • FRXUSD (0x397F939C3b91A74C321ea7129396492bA9Cdce82) - duplicate chain+address
+  • WRSETH (0xa25b25548B4C98B0c7d3d27dcA5D5ca743d68b7F) - duplicate chain+address
+  • ANKR (0xDF474B7109b73b7D57926d43598D5934131136b2) - duplicate chain+address
+  • STG (0x8731d54E9D02c286767d56ac03e8037C07e01e98) - duplicate chain+address
+  • EURE (0xd7BB130A48595fCDf9480E36C1aE97ff2938aC21) - duplicate chain+address
+  • RSWETH (0x89f17aB70cAFB1468D633056161573efEfeA0713) - duplicate chain+address
+  • WFRAX (0x879BA0EFE1AB0119FefA745A21585Fa205B07907) - duplicate chain+address
+  • ANKRETH (0x12D8CE035c5DE3Ce39B1fDD4C1d5a745EAbA3b8C) - duplicate chain+address
+  • USDC (0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4) - duplicate chain+address
+  • YNETHX (0xE231DB5F348d709239Ef1741EA30961B3B635a61) - duplicate chain+address
+  • SCR (0xd29687c813D741E2F938F4aC377128810E217b1b) - duplicate chain+address
+  • USDT (0xf55BEC9cafDbE8730f096Aa55dad6D22d44099Df) - duplicate chain+address
+  • SIS (0x1467b62A6AE5CdcB10A6a8173cfe187DD2C5a136) - duplicate chain+address
+  • WBTC (0x3C1BCa5a656e69edCD0D4E36BEbb3FcDAcA60Cf1) - duplicate chain+address
+  • IZI (0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747) - duplicate chain+address
+  • WSTETH (0xf610A9dfB7C89644979b4A0f27063E9e7d7Cda32) - duplicate chain+address
+  • POOL (0xF9Af83FC41e0cc2af2fba93644D542Df6eA0F2b7) - duplicate chain+address
+  • WETH (0x5300000000000000000000000000000000000004) - duplicate chain+address
+  • IBEX (0x78Ab77F7D590FB101AA18affc238cbfEA31EAd5b) - duplicate chain+address
+  • MVX (0x0018D96C579121a94307249d47F053E2D687b5e7) - duplicate chain+address
+  • SKY (0x95a52EC1d60e74CD3Eb002fE54A2c74b185A4C16) - duplicate chain+address
+  • DACKIE (0xB9010964301326160173da694c0697a2FcE82F39) - duplicate chain+address
+  • IUSD (0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D) - duplicate chain+address
+  • STONE (0x80137510979822322193FC997d400D5A6C747bf7) - duplicate chain+address
+  • PUNK (0xDdEB23905F6987d5f786A93C00bBED3d97Af1ccc) - duplicate chain+address
+  • AXLUSDC (0xEB466342C4d449BC9f53A865D5Cb90586f405215) - duplicate chain+address
+  • SCRIBES (0x750351a9F75F98f2c2E91D4eDb3BeB14e719557E) - duplicate chain+address
+  • ZP (0x2147a89fb4608752807216D5070471c09A0DcE32) - duplicate chain+address
+  • PAPYRUS (0x0Fc479e2f9b7310BfB1Db606CF565deA6910eedc) - duplicate chain+address
+  • ABCNURI (0x330c43d22bD65a60FfeA93a197f04e87FaA27b70) - duplicate chain+address
+  • PED (0xfeC65bFB6e5BbCC9ab8aE98f62A8AaB2EA51c495) - duplicate chain+address
+
+✗ Failed (1):
+  • Smart Layer Network (SLN) - 18 - Invalid EVM address: 18
+
+SOLANA
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (19):
+  • Aave (AAVE) - AavE1kKKnesPw4MuRJmJ9jZs9QzEE8CPxQ3ViczUDfc1
+  • AI XOVIA (AIX) - AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF
+  • Alphabet Class A (Ondo Tokenized Stock) (GOOGLON) - bbahNA5vT9WJeYft8tALrH1LXWffjwqVoUbqYa1ondo
+  • Amazon (Ondo Tokenized Stock) (AMZNON) - 14Tqdo8V1FhzKsE3W2pFsZCzYPQxxupXRcqw9jv6ondo
+  • ALTSEASON (ALTSZN) - CcLd8HTAKLWtQHatqPwBQjtuCA72FNB9E1ckRTEzpump
+  • Emblem Vault (EMBLEM) - 6HHzBVkxtoz86Bjy2duaUw77hVfJzQkuoLizWeEMBLEM
+  • AIXDROP (AIXDROP) - DRoPH9pb1eXQ3VvhwWuP1k5P5R9hkxVmniZCouihxH6w
+  • Alibaba (Ondo Tokenized Stock) (BABAON) - 1zvb9ELBFShBCWKEk5jRTJAaPAwtVt7quEXx1X4ondo
+  • Alpie (PIE) - aqQRs3UJmHs7ktoLo46HZAzvG9P3oCoZ41nENqFbory
+  • 8-Bit Coin (COIN) - 3xvLSHrLcM7246X1vu34cM9gNX741kQrzqj6T2HhLvXp
+  • AllUnity EUR (EURAU) - 9pCWprxbZMW2rYSMhPTeoyLMV2sN2WJqshdT7DQVt6hS
+  • Abbott (Ondo Tokenized Stock) (ABTON) - 129gRoHKhVg7CvPMrqVsEB4uYZo6zV4yDZX6NBg9ondo
+  • Airbnb (Ondo Tokenized Stock) (ABNBON) - 128qNYovdGv2YqayErcJgU7gDwbNVX1VuoxbtWz8ondo
+  • Adobe (Ondo Tokenized Stock) (ADBEON) - 12Rh6JhfW4X5fKP16bbUdb4pcVCKDHFB48x8GG33ondo
+  • Accenture (Ondo Tokenized Stock) (ACNON) - 12LxMMJYVSf4LoeqjFE47BQQNRciaH9E3nbDfjH4ondo
+  • Airdrops Quest (DROP) - xgC6VcsoC43ejNvPjwVLgp8KpPVfau9aYqHGX3WDrop
+  • AgenC (AGENC) - 5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump
+  • AI Slop (AISLOP) - 2wzVMXhLypmP92mXNCq4fuFcd9TCC972AbMfuiH3pump
+  • Ace Data Cloud (ACE) - GnHpRsrcyfHSMZNzmpjAzTFQA26vnbRMzbKQ11ZKpump
+
+○ Already Existed (31):
+  • AUSD (AUSD1jCcCyPLybk1YnvPWsHQSrZ46dxwoMniN4N2UEB9) - duplicate chain+address
+  • ATH (Dm5BxyMetG3Aq5PaG1BrG7rBYqEMtnkjvPNMExfacVk7) - duplicate chain+address
+  • ARC (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump) - duplicate chain+address
+  • ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump) - duplicate chain+address
+  • AINTI (EiVMQrvdDYK77eK6N6cyh5sGBe5Y1MQWVA7YaURVpump) - duplicate chain+address
+  • GOOGLX (XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN) - duplicate chain+address
+  • AIXBT (14zP2ToQ79XWvc7FQpm4bRnp9d6Mp1rFfsUW3gpLcRX) - duplicate chain+address
+  • ALI (9wvorGtBJ8gyLorFTmwXWcymPoGVUBn6MRzHwFpCdCeC) - duplicate chain+address
+  • ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump) - duplicate chain+address
+  • ACS (5MAYDfq5yxtudAhtfyuMBuHZjgAbaS9tbEyEQYAhDS5y) - duplicate chain+address
+  • AISM (9ZFfZwZDfoSqj7HFD7BNGy57XVNkd1BR2UrNYKsnpump) - duplicate chain+address
+  • AMZNX (Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg) - duplicate chain+address
+  • ALLINDOGE (HyDKNdnhZNVYQMruBevbNsUWruA9STmAQrS4srXApump) - duplicate chain+address
+  • ACM (H5qGPniSX2uCNtAnxr7RpdfFAZcGkr6dknjgpa1AKHe1) - duplicate chain+symbol
+  • 401JK (Cz7LGKdZPpAxonXx23ZYPW3RtDQvjcf17ZDCZEzFpump) - duplicate chain+address
+  • EAT (375aiUqZERLrB9sHtsArKr4nuWCgBrtqibUDBMGeLvZC) - duplicate chain+address
+  • ALPHA (3wtGGWZ8wLWW6BqtC5rxmkHdqvM62atUcGTH4cw3pump) - duplicate chain+symbol
+  • "　" (9qriMjPPAJTMCtfQnz7Mo9BsV2jAWTr2ff7yc3JWpump) - duplicate chain+address
+  • A47 (CN162nCPpq3DxPCyKLbAvEJeB1aCxsnVTEG4ZU8vpump) - duplicate chain+address
+  • 1-COIN-CAN-CHANGE-YOUR-LIFE (GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk) - duplicate chain+address
+  • ABR0 (a11bdAAuV8iB2fu7X6AxAvDTo1QZ8FXB3kk5eecdasp) - duplicate chain+address
+  • AART (F3nefJBcejYbtdREjui1T9DPh5dBgpkKq7u2GAAMXs5B) - duplicate chain+address
+  • AIRCOIN (GpdRNotihwXZJ3z3y6yCRAhecFrALc4J8SX92pxnbonk) - duplicate chain+address
+  • ALON (8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS) - duplicate chain+address
+  • MLG (7XJiwLDrjzxDYdZipnJXzpr1iDTmK55XixSFAa7JgNEL) - duplicate chain+address
+  • 42 (42c846hyuCL5vMfqWifNvddUqHSqAFeJX7rDQBEBpKmM) - duplicate chain+address
+  • ∅ (J2bUGZDxRDpsVfjZqKwn6yYCUKFmqzHgt8UajhGtpump) - duplicate chain+address
+  • AWR (Ai4CL1SAxVRigxQFwBH8S2JkuL7EqrdiGwTC7JpCpump) - duplicate chain+address
+  • AI16Z (HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC) - duplicate chain+address
+  • AGIALPHA (tWKHzXd5PRmxTF5cMfJkm2Ua3TcjwNNoSRUqx6Apump) - duplicate chain+address
+  • AIKEK (CotWkXoBD3edLb6opEGHV9tb3pyKmeoWBLwdMJ8ZDimW) - duplicate chain+address
+
+SONIC
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (9):
+  • Kelp DAO Restaked ETH (RSETH) - 0xd75787bA9ABa324420d522BdA84c08c87e5099b1
+  • Flying Tulip (FT) - 0x5DD1A7A369e8273371d2DBf9d83356057088082c
+  • SODAX (SODA) - 0x7c7d53EEcda37a87ce0D5bf8E0b24512A48dC963
+  • Backed CSPX Core S&P 500 (BCSPX) - 0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59
+  • Wrapped FRAX (WFRAX) - 0x64445f0aecC51E94aD52d8AC56b7190e764E561a
+  • evaUSDT (EVAUSDT) - 0x501eBf66d76A96D4FB26ccead42957653e16B8B8
+  • evaUSDC (EVAUSDC) - 0x741bD193B6b40f8703d2e116FD1965421f290F58
+  • US Sonic Dollar (USSD) - 0x000000000eCcFf26B795F73fb0A70d48da657fEf
+  • Parallel Governance (PRL) - 0xfD28f108e95f4D41daAE9dbfFf707D677985998E
+
+○ Already Existed (40):
+  • USDC (0x29219dd400f2Bf60E5a23d13Be72B486D4038894) - duplicate chain+address
+  • WBTC (0x0555E30da8f98308EdB960aa94C0Db47230d2B9c) - duplicate chain+address
+  • LINK (0x71052BAe71C25C78E37fD12E5ff1101A71d9018F) - duplicate chain+address
+  • WEETH (0xA3D68b74bF0528fdD07263c60d6488749044914b) - duplicate chain+address
+  • FBTC (0xC96dE26018A54D51c097160568752c4E3BD6C364) - duplicate chain+address
+  • LBTC (0xecAc9C5F704e954931349Da37F60E39f515c11c1) - duplicate chain+address
+  • SOLVBTC (0x541FD749419CA806a8bc7da8ac23D346f2dF8B77) - duplicate chain+address
+  • PENDLE (0xf1eF7d2D4C0c881cd634481e0586ed5d2871A74B) - duplicate chain+address
+  • UNIBTC (0xC3827A4BC8224ee2D116637023b124CED6db6e90) - duplicate chain+address
+  • SATUSD (0xb4818BB69478730EF4e33Cc068dD94278e2766cB) - duplicate chain+address
+  • FRXUSD (0x80Eede496655FB9047dd39d9f418d5483ED600df) - duplicate chain+address
+  • MSUSD (0xE5Fb2Ed6832deF99ddE57C0b9d9A56537C89121D) - duplicate chain+address
+  • WSRUSD (0x4809010926aec940b550D34a46A52739f996D75D) - duplicate chain+address
+  • XSOLVBTC (0xCC0966D8418d412c599A6421b760a847eB169A8c) - duplicate chain+address
+  • ZCHF (0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553) - duplicate chain+address
+  • SFRXUSD (0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0) - duplicate chain+address
+  • OGN (0x61647882acF21792e577a963D320d51e2c8f6194) - duplicate chain+address
+  • YUSD (0x4772D2e014F9fC3a820C444e3313968e9a5C8121) - duplicate chain+address
+  • PEAS (0x02f92800F57BCD74066F5709F1Daa1A4302Df875) - duplicate chain+address
+  • ANON (0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C) - duplicate chain+address
+  • STS (0xE5DA20F15420aD15DE0fa650600aFc998bbE3955) - duplicate chain+address
+  • WETH (0x50c42dEAcD8Fc9773493ED674b675bE577f2634b) - duplicate chain+address
+  • ASONUSDC (0x578Ee1ca3a8E1b54554Da1Bf7C583506C4CD11c6) - duplicate chain+address
+  • USDP (0x08417cdb7F52a5021bB4eb6E0deAf3f295c3f182) - duplicate chain+address
+  • VYUSD (0xF4F447E6AFa04c9D11Ef0e2fC0d7f19C24Ee55de) - duplicate chain+address
+  • TREVEE (0xe90FE2DE4A415aD48B6DcEc08bA6ae98231948Ac) - duplicate chain+address
+  • GS (0xf9F143705b2BBDE9b4ABfD0320F328aE59364f5e) - duplicate chain+address
+  • SCUSD (0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE) - duplicate chain+address
+  • RZR (0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5) - duplicate chain+address
+  • USDT (0x6047828dc181963ba44974801FF68e538dA5eaF9) - duplicate chain+address
+  • WAGMI (0x0e0Ce4D450c705F8a0B6Dd9d5123e3df2787D16B) - duplicate chain+address
+  • SHADOW (0x3333b97138D4b086720b5aE8A7844b1345a33333) - duplicate chain+address
+  • JACK (0x9d549C39E5E1A0e7eF41D4b7d74c49f976102E36) - duplicate chain+address
+  • X33 (0x3333111A391cC08fa51353E9195526A70b333333) - duplicate chain+address
+  • BEETS (0x2D0E0814E62D80056181F5cd932274405966e4f0) - duplicate chain+address
+  • RUSD (0x09D4214C03D01F49544C0448DBE3A27f768F2b34) - duplicate chain+address
+  • OS (0xb1e25689D55734FD3ffFc939c4C3Eb52DFf8A794) - duplicate chain+address
+  • ZF (0x2f2f2f74ab5db61AE8BD3c13ccD4Dc8c9E8A2f2f) - duplicate chain+address
+  • FIVE (0xb0695ce12c56AAe40894235e2d1888D0b62Dd110) - duplicate chain+address
+  • BRUSH (0xE51EE9868C1f0d6cd968A8B8C8376Dc2991BFE44) - duplicate chain+address
+
+✗ Failed (1):
+  • Euler (EUL) - 0x2117E8b79e8E176A670c9fCf945d4348556bfFad - Failed to fetch token info after 3 attempts: The contract function "symbol" returned no data ("0x").
+
+This could be due to any of the following:
+  - The contract does not have the function "symbol",
+  - The parameters passed to the contract function may be invalid, or
+  - The address is not a contract.
+ 
+Contract Call:
+  address:   0x2117E8b79e8E176A670c9fCf945d4348556bfFad
+  function:  symbol()
+
+Docs: https://viem.sh/docs/contract/multicall
+Version: viem@2.38.0
+
+TON
+──────────────────────────────────────────────────────────────────────
+
+✓ Successfully Added (14):
+  • Baby Doge Coin (BABYDOGE) - 0:960e3e3d1c52274b04a4e3d780a38efa135601cb02e816e499e8e3b7c7b8e63f
+  • Tesla xStock (TSLAX) - 0:78230a9664f51cce7b5daf2f2f48ddadb092adfbd17b8886fb80415111860e07
+  • NVIDIA xStock (NVDAX) - 0:af6be39feda710754fe98800dd95c6f3b05b40fb127066872dcfc64e5c1741a1
+  • Alphabet xStock (GOOGLX) - 0:0bc09cd79f116372436cbab0a2f4eda4560ff46f529db633927ef39e765637ee
+  • Utya (UTYA) - 0:5a0a05303a873a80708d967fe82736f4995b3bf581bbc18a1abe1fa8d48b5a9d
+  • Apple xStock (AAPLX) - 0:ec8c0c1f2a8fba15566fd8462dfb509a65363f64bfa97e448877a8de41c84dc2
+  • Amazon xStock (AMZNX) - 0:ad0f6fbbab11e1428361c6b8b6252cc7f9d9665aa298083b65119a918b7fb9ea
+  • Meta xStock (METAX) - 0:f7720420e37d81882491962fa132cc2856ebcd9cee3616e31d73e017a9df3749
+  • Microsoft xStock (MSFTX) - 0:c8f49c246131073364d214f49615bc339c1ab4eff238029cbd4c1871b0395968
+  • Berkshire Hathaway xStock (BRK.BX) - 0:f3eb6247f93e6ae305ba0e9cee2fe44e292729382702d6222ff1d5c09d854d21
+  • Chevron xStock (CVXX) - 0:cefa62b68c7340a90079365c992803be09be1a67991fd11f354cfd72a8450ee9
+  • Broadcom xStock (AVGOX) - 0:ece24ecf4801f79ee5f0ddb5cf119eda15ab5c7a390aadffcc8b80afdfec8b02
+  • Groyper (GROYP) - 0:2dc28eaa30dc2daf489303d78a559df672e002149d1529defc1ab05639ef37f9
+  • Exxon Mobil xStock (XOMX) - 0:b869381323270118e36b6cfeef13be6545d563fa5cb3f2a61773c8ec316676a4
+
+○ Already Existed (34):
+  • USDT (0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe) - duplicate chain+address
+  • GRAM (0:0000000000000000000000000000000000000000000000000000000000000000) - duplicate chain+address
+  • USDE (0:086fa2a675f74347b08dd4606a549b8fdb98829cb282bc1949d3b12fbaed9dcc) - duplicate chain+address
+  • SUSDE (0:d0e545323c7acb7102653c073377f7e3c67f122eb94d430a250739f109d4a57d) - duplicate chain+address
+  • FDUSD (0:f412fa64e2d8a614e1e6cb84afde5fca1145e533e74dd7f2a1ae84c27c1db090) - duplicate chain+address
+  • XAUT0 (0:3547f2ee4022c794c80ea354b81bb63b5b571dd05ac091b035d19abbadd74ac6) - duplicate chain+address
+  • GOMINING (0:f495a8a4d0580757c68d7d185e6e2f060c6daba43c8a1977a6d0c05fc9afc4c3) - duplicate chain+address
+  • TAC (0:44fe006b53798f23d8478e526847f918cab8508320850fa11459f6b8d96f13ec) - duplicate chain+address
+  • NOT (0:2f956143c461769579baef2e32cc2d7bc18283f40d20bb03e432cd603ac33ffc) - duplicate chain+address
+  • MVL (0:f6c9acc0db07f9018da3a04cc65031a4d1c416c446b635d88fe1981ff7e785d3) - duplicate chain+address
+  • CATI (0:fe72f474373e97032441bdb873f9a6d3ad10bab08e6dbc7befa5e42b695f5400) - duplicate chain+address
+  • DOGS (0:afc49cb8786f21c87045b19ede78fc6b46c51048513f8e9a6d44060199c1bf0c) - duplicate chain+address
+  • PYBOBO (0:f7f83b1c76310cf79cd1996f77eaf195afa3bbb852755ba6bcfbeefe560debb5) - duplicate chain+address
+  • STON (0:3690254dc15b2297610cda60744a45f2b710aa4234b89adb630e99d79b01bd4f) - duplicate chain+address
+  • HMSTR (0:09f2e59dec406ab26a5259a45d7ff23ef11f3e5c7c21de0b0d2a1cbe52b76b3d) - duplicate chain+address
+  • ARTDRA (0:5644258b5c88a3bca7208e39dad9b5ac4513fa21f551ee037218cb08e644041c) - duplicate chain+address
+  • REDO (0:59fdc69f3f20ebe4a513b3468dc61d194c3864a4464e3662c903648d1a52e6e0) - duplicate chain+address
+  • EVAA (0:4a31f8d7fdafddb0e2e6fa3bb1c95672b453fbfca2a7cc6bfa274d6419cef681) - duplicate chain+address
+  • PINGO (0:915a941099f4a09692e9e83e5779b8b1e74012b41c637d040d92cb053ff22c89) - duplicate chain+address
+  • GRM (0:b8ef4f77a17e5785bd31ba4da50abd91852f2b8febee97ad6ee16d941f939198) - duplicate chain+address
+  • PX (0:78db4c90b19a1b19ccb45580df48a1e91b6410970fa3d5ffed3eed49e3cf08ff) - duplicate chain+address
+  • HTON (0:cf76af318c0872b58a9f1925fc29c156211782b9fb01f56760d292e56123bf87) - duplicate chain+address
+  • GMEE (0:aa9e166774119bc233e957c2bff1638ae7c66440f5e54bf6ec85abbd0ca5a700) - duplicate chain+address
+  • STTON (0:cd872fa7c5816052acdf5332260443faec9aacc8c21cca4d92e7f47034d11892) - duplicate chain+address
+  • HPO (0:d0114af42cf8bc9ba0fa1745abbeea24eed65b01caf4ca7d98ee12b6f7530ccc) - duplicate chain+address
+  • STORM (0:6ca2c99c66b0fa1478a303ba9618bc39c28fda1fc50de37e618bddf98c9fd24c) - duplicate chain+address
+  • HGPT (0:2ec34d649712fca8a7bd7018a84df8ecb7477a19d6a0839d7f73bdf3f17dbecc) - duplicate chain+address
+  • MOEW (0:16b0818ca0695b8c9248b2293ef7fe80e088a875bd4cecb5b7926bb4e6ff2e8e) - duplicate chain+address
+  • PIRATE (0:c26f696830807c612e77184a36af68204bd016d43cfecd7fdab380edc57575bb) - duplicate chain+address
+  • JETTON (0:105e5589bc66db15f13c177a12f2cf3b94881da2f4b8e7922c58569176625eb5) - duplicate chain+address
+  • NIKO (0:e8f100ba9958bb1aaeae1960c5e17569ddc678c0a67e6ea28192685530f9bed6) - duplicate chain+address
+  • CHERRY (0:4a45235191e3f5fb68dc8394ff7ffff4b391e3fafadb7cd2cc432f1d9d9b3bc5) - duplicate chain+address
+  • TOWER (0:b8ed87d52d6a3e53fcfbb3a8843a4600004285fc2d3e801881f0a24beace66e0) - duplicate chain+address
+  • SOEX (0:8fada77ca1c0ee229e1b01b19bc5d03b0567561361ace0e8802fb62baedbba05) - duplicate chain+address
+
+✗ Failed (2):
+  • Ethena (ENA) - 0:0f87d442a6b820e642ae9ad262f2e07b9c529cb4f070b9152ef362604c69b392 - TON token not found in cache: 0:0F87D442A6B820E642AE9AD262F2E07B9C529CB4F070B9152EF362604C69B392
+  • GOATS (GOATS) - 0:b609442a309b9590efe2a1713d32f5bd724341bb1a8507b5dc7bb060c059d66a - Invalid token_info for TON token: 0:B609442A309B9590EFE2A1713D32F5BD724341BB1A8507B5DC7BB060C059D66A
+
+ZKSYNC
+──────────────────────────────────────────────────────────────────────
+
+🚫 Excluded (16):
+  • PC0000031 (0xAc4DE1E9A9e83524F24af77972Dd39D588De8164) - Tradable PC000 token
+  • PC0000033 (0x6FF4fAfD8D604614c704a5936D9146C0af19BD1E) - Tradable PC000 token
+  • PC0000097 (0x5aBe0a2ead1357F70E73F5b60E227dF64A54ddD5) - Tradable PC000 token
+  • PC0000023 (0x5C8c39E167C604B036afd3FBB65426f9fe78Ce6d) - Tradable PC000 token
+  • PC0000015 (0xd8916e15D351DC728414e99A4883c72010eE11f8) - Tradable PC000 token
+  • PC0000085 (0xfeAfDE23fb2364896C297c3Fa6628f04601a035b) - Tradable PC000 token
+  • PC0000077 (0x18012CB9e1478EF458C8c996F99b8DcEcA60795c) - Tradable PC000 token
+  • PC0000101 (0x3D19625Bb8E4B52Ac4ca28ecec2B5E243ae2EE81) - Tradable PC000 token
+  • PC0000023 (0xAE0d8cad4cE522538AE34386c319C7ccD11FE428) - Tradable PC000 token
+  • PC0000019 (0x1F179A51Ab46252f469733DFcbD9115090A91f03) - Tradable PC000 token
+  • PC0000081 (0xA4b3dC5433EcAbDd1498cA7f3f4d890b185C0B0A) - Tradable PC000 token
+  • PC0000049 (0xe53dBcEf6F700536a912c51CAEa4D0E2bE2b1388) - Tradable PC000 token
+  • PC0000089 (0xfB3fCCdD38A96C3f769c62E578323f22c3BFCbEc) - Tradable PC000 token
+  • PC0000027 (0xC629D9E3d1A4325DBfAff85D5a61Da956cc5e32b) - Tradable PC000 token
+  • PC0016245 (0xe3D53AdDadb3F87ADC38B4192171aAf5A07A3738) - Tradable PC000 token
+  • PC0000111 (0x53ACd3c88Ec04b8E22B8EF768EC4d928153d892E) - Tradable PC000 token
+
+○ Already Existed (34):
+  • USDC (0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4) - duplicate chain+address
+  • LINK (0x52869bae3E091e36b0915941577F2D47d8d8B534) - duplicate chain+address
+  • USDE (0x39Fe7a0DACcE31Bd90418e3e659fb0b5f0B3Db0d) - duplicate chain+address
+  • WEETH (0xc1Fa6E2E8667d9bE0Ca938a54c7E0285E9Df924a) - duplicate chain+address
+  • SUSDE (0xAD17Da2f6Ac76746EF261E835C50b2651ce36DA8) - duplicate chain+address
+  • BCAP (0x57fD71a86522Dc06D6255537521886057c1772A3) - duplicate chain+address
+  • ENA (0x686b311F82b407f0be842652a98e5619F64cC25F) - duplicate chain+address
+  • M-BTC (0xE757355edba7ced7B8c0271BBA4eFDa184aD75Ab) - duplicate chain+address
+  • CAKE (0x3A287a06c66f9E95a56327185cA2BDF5f031cEcD) - duplicate chain+address
+  • SOLVBTC (0x74eD17608cc2B5f30a59d6aF07C9aD1B1aB3A5b1) - duplicate chain+address
+  • FRXUSD (0xEa77c590Bb36c43ef7139cE649cFBCFD6163170d) - duplicate chain+address
+  • ZK (0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E) - duplicate chain+address
+  • WRSETH (0xd4169E045bcF9a86cC00101225d9ED61D2F51af2) - duplicate chain+address
+  • FIUSD (0x2AB105A3eAd22731082B790CA9A00D9A3A7627F9) - duplicate chain+address
+  • XVS (0xD78ABD81a3D57712a3af080dc4185b698Fe9ac5A) - duplicate chain+address
+  • WETH (0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91) - duplicate chain+address
+  • USN (0x0469d9d1dE0ee58fA1153ef00836B9BbCb84c0B6) - duplicate chain+address
+  • SUSN (0xB6a09d426861c63722Aa0b333a9cE5d5a9B04c4f) - duplicate chain+address
+  • LUSD (0x503234F203fC7Eb888EEC8513210612a43Cf6115) - duplicate chain+address
+  • WOO (0x9E22D758629761FC5708c171d06c2faBB60B5159) - duplicate chain+address
+  • USDC (0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4) - duplicate chain+symbol
+  • KNC (0x6ee46Cb7cD2f15Ee1ec9534cf29a5b51C83283e6) - duplicate chain+address
+  • FUL (0xe593853b4d603d5b8f21036Bb4AD0D1880097a6e) - duplicate chain+address
+  • MAV (0x787c09494Ec8Bcb24DcAf8659E7d5D69979eE508) - duplicate chain+address
+  • SLR (0xE027D939f7dE6F521675907Cf086F59E4D75B876) - duplicate chain+address
+  • NODL (0xBD4372e44c5eE654dd838304006E1f0f69983154) - duplicate chain+address
+  • DEXTF (0x9929bCAC4417A21d7e6FC86F6Dae1Cc7f27A2e41) - duplicate chain+address
+  • VNO (0xE75A17b4F5c4F844688d5670B684515d7c785E63) - duplicate chain+address
+  • TAROT (0x7F2FD959013eEC5144269ac6edD0015Cb10968Fc) - duplicate chain+address
+  • SIS (0xdd9f72afED3631a6C85b5369D84875e6c42f1827) - duplicate chain+address
+  • WBTC (0xBBeB516fb02a01611cBBE0453Fe3c580D7281011) - duplicate chain+address
+  • WUSDM (0xA900cbE7739c96D2B153a273953620A701d5442b) - duplicate chain+address
+  • ZFI (0x5d0d7BCa050e2E98Fd4A5e8d3bA823B49f39868d) - duplicate chain+address
+  • IDO (0xDea6d5161978d36b5C0FA6a491faA754f4BC809C) - duplicate chain+address
+
+======================================================================
+OVERALL SUMMARY
+======================================================================
+Total Chains Processed: 18
+Total Tokens Processed: 831
+Successfully Added: 177
+Excluded: 26
+Already Existed: 614
+Failed: 14
+======================================================================
+
+Report generated at: 2026-06-15T15:01:03.627Z

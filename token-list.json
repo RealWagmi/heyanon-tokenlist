@@ -172377,6 +172377,2484 @@
         }
       ],
       "timestamp": "2025-12-17T19:23:36.588Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "ApeCoin",
+      "symbol": "APE",
+      "address": "0x7f9FBf9bDd3F4105C478b996B648FE6e828a1e98",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apecoin"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.597Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Arbitrum Bridged wstETH (Arbitrum)",
+      "symbol": "WSTETH",
+      "address": "0x5979D7b546E38E414F7E9822514be443A4800529",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "arbitrum-bridged-wsteth-arbitrum"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.598Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "USD.AI",
+      "symbol": "CHIP",
+      "address": "0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "chip-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.598Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Altura Vault Tokens",
+      "symbol": "AVLT",
+      "address": "0x74dB7a52773A52699dbC0c01b1254E5301E3e119",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "altura-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.598Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Backed CSPX Core S&P 500",
+      "symbol": "BCSPX",
+      "address": "0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "backed-cspx-core-s-p-500"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.598Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Backed IB01 $ Treasury Bond 0-1yr",
+      "symbol": "BIB01",
+      "address": "0xCA30c93B02514f86d5C86a6e375E3A330B435Fb5",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "backed-ib01-treasury-bond-0-1yr"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.598Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Caldera",
+      "symbol": "ERA",
+      "address": "0x00312400303d02c323295f6E8b7309bc30FB6BcE",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "caldera"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.598Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Alchemix ETH",
+      "symbol": "ALETH",
+      "address": "0x17573150d67d820542EFb24210371545a4868B03",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alchemix-eth"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.598Z"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Backed GOVIES 0-6 months EURO",
+      "symbol": "BC3M",
+      "address": "0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "backed-govies-0-6-months-euro"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.599Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "Kelp DAO Restaked ETH",
+      "symbol": "RSETH",
+      "address": "0xc430c78Da6E4AF49bD115F0329D154Bb135f1363",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "kelp-dao-restaked-eth"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.784Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "Janus Henderson Anemoy AAA CLO Fund",
+      "symbol": "JAAA",
+      "address": "0x58F93d6b1EF2F44eC379Cb975657C132CBeD3B6b",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "janus-henderson-anemoy-aaa-clo-fund"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.784Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "Kite",
+      "symbol": "KITE",
+      "address": "0x904567252D8F48555b7447c67dCA23F0372E16be",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "kite-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.784Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "Flying Tulip",
+      "symbol": "FT",
+      "address": "0x5DD1A7A369e8273371d2DBf9d83356057088082c",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "flying-tulip"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.784Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "Bridged NXPC",
+      "symbol": "NXPC",
+      "address": "0x5E0E90E268BC247Cc850c789A0DB0d5c7621fb59",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "bridged-nxpc"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.784Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "Mog Coin",
+      "symbol": "MOG",
+      "address": "0xEb2729257280580694A06C499CB8C622e74215c8",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "mog-coin"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.784Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "Backed CSPX Core S&P 500",
+      "symbol": "BCSPX",
+      "address": "0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "backed-cspx-core-s-p-500"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.784Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "Kyber Network Crystal",
+      "symbol": "KNC",
+      "address": "0x39fC9e94Caeacb435842FADeDeCB783589F50f5f",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "kyber-network-crystal"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.785Z"
+    },
+    {
+      "chain": "avalanche",
+      "name": "JPY Coin",
+      "symbol": "JPYC",
+      "address": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "jpycoin"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.785Z"
+    },
+    {
+      "chain": "base",
+      "name": "apxUSD",
+      "symbol": "APXUSD",
+      "address": "0xD993935E13851dd7517af10687EC7e5022127228",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apxusd"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.998Z"
+    },
+    {
+      "chain": "base",
+      "name": "apyUSD",
+      "symbol": "APYUSD",
+      "address": "0x2c271ddF484aC0386d216eB7eB9Ff02D4Dc0F6AA",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apyusd"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.999Z"
+    },
+    {
+      "chain": "base",
+      "name": "Baby Doge Coin",
+      "symbol": "BABYDOGE",
+      "address": "0x58ecEF26335Af7b04A998105a6603B0Dc475aF33",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "baby-doge-coin"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.999Z"
+    },
+    {
+      "chain": "base",
+      "name": "Altura Vault Tokens",
+      "symbol": "AVLT",
+      "address": "0x5BE98f7084814Ec1D53D2ba364c8bc8201AB05f7",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "altura-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.999Z"
+    },
+    {
+      "chain": "base",
+      "name": "Backed CSPX Core S&P 500",
+      "symbol": "BCSPX",
+      "address": "0xC3cE78B037DDA1B966D31EC7979d3f3a38571A8E",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "backed-cspx-core-s-p-500"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.999Z"
+    },
+    {
+      "chain": "base",
+      "name": "Acurast",
+      "symbol": "ACU",
+      "address": "0xc5fEd7c8cCC75D8A72b601a66DffD7A489073F0b",
+      "decimals": 12,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "acurast"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.999Z"
+    },
+    {
+      "chain": "base",
+      "name": "Backed IB01 $ Treasury Bond 0-1yr",
+      "symbol": "BIB01",
+      "address": "0xCA30c93B02514f86d5C86a6e375E3A330B435Fb5",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "backed-ib01-treasury-bond-0-1yr"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.999Z"
+    },
+    {
+      "chain": "base",
+      "name": "Backed GOVIES 0-6 months EURO",
+      "symbol": "BC3M",
+      "address": "0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "backed-govies-0-6-months-euro"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:44.999Z"
+    },
+    {
+      "chain": "base",
+      "name": "AS Roma Fan Token",
+      "symbol": "ASR",
+      "address": "0x53838837f258f8Ef337C8b4CEb60a89190EcBa8B",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "as-roma-fan-token"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.000Z"
+    },
+    {
+      "chain": "base",
+      "name": "Atletico Madrid Fan Token",
+      "symbol": "ATM",
+      "address": "0xb46357d8Ed050D35D3a24154c39d7236dAE86187",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "atletico-madrid"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.000Z"
+    },
+    {
+      "chain": "base",
+      "name": "Backed Coinbase Global",
+      "symbol": "BCOIN",
+      "address": "0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "backed-coinbase-global"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.000Z"
+    },
+    {
+      "chain": "base",
+      "name": "Argentine Football Association Fan Token",
+      "symbol": "ARG",
+      "address": "0xB2798C409e58db6bE0998cD9bF8Ab8081BC949a4",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "argentine-football-association-fan-token"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.000Z"
+    },
+    {
+      "chain": "base",
+      "name": "AC Milan Fan Token",
+      "symbol": "ACM",
+      "address": "0x886eDf4ce5D879667bb62271bB9d59227b689cdc",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ac-milan-fan-token"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.000Z"
+    },
+    {
+      "chain": "base",
+      "name": "Arsenal Fan Token",
+      "symbol": "AFC",
+      "address": "0x580edA966a8129C3c01D149871B47feFcC599D28",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "arsenal-fan-token"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.000Z"
+    },
+    {
+      "chain": "base",
+      "name": "aeon",
+      "symbol": "AEON",
+      "address": "0xBf8E8f0e8866a7052F948C16508644347c57aba3",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "aeon-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.000Z"
+    },
+    {
+      "chain": "base",
+      "name": "Aussie Dollar Token",
+      "symbol": "AUDX",
+      "address": "0xD687759f35bb747A29246a4b9495C8f52C49E00C",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "aussie-dollar-token"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.000Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Audiera",
+      "symbol": "BEAT",
+      "address": "0xcf3232B85b43BCa90E51D38cc06Cc8bB8C8A3E36",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "audiera"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.303Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "apxUSD",
+      "symbol": "APXUSD",
+      "address": "0x6b3788Fd6604BBF03c5378D24e57BB334BAAD4aF",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apxusd"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.303Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "apyUSD",
+      "symbol": "APYUSD",
+      "address": "0xa14556f13516C53FF035858Ffd21E1625e7EADfd",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apyusd"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.303Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "ApeCoin",
+      "symbol": "APE",
+      "address": "0x8f86a15EC17cb3369d8b3E666dAdBC11daA82b79",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apecoin"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.303Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "APES",
+      "symbol": "APES",
+      "address": "0xfBd09f771D1D76275B58ECA4016978a8A8dc46DE",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apes-2-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.303Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Alphabet Class A (Ondo Tokenized Stock)",
+      "symbol": "GOOGLON",
+      "address": "0x091FC7778e6932d4009B087B191D1EE3bac5729A",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alphabet-class-a-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.303Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Acurast",
+      "symbol": "ACU",
+      "address": "0x6EF2FFB38D64aFE18ce782DA280b300e358CFeAF",
+      "decimals": 12,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "acurast"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.303Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Apple (Ondo Tokenized Stock)",
+      "symbol": "AAPLON",
+      "address": "0x390a684EF9cADE28A7AD0DFa61AB1Eb3842618c4",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apple-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.304Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Arm Holdings plc (Ondo Tokenized Stock)",
+      "symbol": "ARMON",
+      "address": "0x527C6436E1eAa4f2065CDE4090F798Cb5D031dD6",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "arm-holdings-plc-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.304Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "AMD (Ondo Tokenized Stock)",
+      "symbol": "AMDON",
+      "address": "0x9f16E46c73b43BDB70861247d537bEE4eA18F639",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "amd-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.304Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Apple xStock",
+      "symbol": "AAPLX",
+      "address": "0x9d275685dC284C8eB1C79f6ABA7a63Dc75ec890a",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apple-xstock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.304Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Amazon (Ondo Tokenized Stock)",
+      "symbol": "AMZNON",
+      "address": "0x4553cFe1C09f37f38b12dC509F676964e392F8Fc",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "amazon-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.304Z"
+    },
+    {
+      "chain": "bsc",
+      "name": "Amazon xStock",
+      "symbol": "AMZNX",
+      "address": "0x3557Ba345B01EFa20A1bdDC61F573BFD87195081",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "amazon-xstock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.304Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "A7A5",
+      "symbol": "A7A5",
+      "address": "0x6fA0BE17e4beA2fCfA22ef89BF8ac9aab0AB0fc9",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "a7a5"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.611Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "ADI",
+      "symbol": "ADI",
+      "address": "0x8B1484d57abBE239bB280661377363b03c89CaEa",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "adi-token"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.611Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "Acurast",
+      "symbol": "ACU",
+      "address": "0x216b3643ff8b7BB30d8A48E9F1BD550126202AdD",
+      "decimals": 12,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "acurast"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.611Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "Alpha Quark",
+      "symbol": "AQT",
+      "address": "0x2a9bDCFF37aB68B95A53435ADFd8892e86084F93",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alpha-quark-token"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.611Z"
+    },
+    {
+      "chain": "ethereum",
+      "name": "House Party Protocol",
+      "symbol": "HPP",
+      "address": "0xe33fbE7584EB79e2673abe576B7AC8C0De62565c",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "aergo-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.611Z"
+    },
+    {
+      "chain": "gnosis",
+      "name": "JPY Coin v1",
+      "symbol": "JPYC",
+      "address": "0x417602f4fbdd471A431Ae29fB5fe0A681964C11b",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "jpyc"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.901Z"
+    },
+    {
+      "chain": "gnosis",
+      "name": "Backed GOVIES 0-6 months EURO",
+      "symbol": "BC3M",
+      "address": "0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "backed-govies-0-6-months-euro"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.901Z"
+    },
+    {
+      "chain": "gnosis",
+      "name": "Backed Coinbase Global",
+      "symbol": "BCOIN",
+      "address": "0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "backed-coinbase-global"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:45.902Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "ApeCoin",
+      "symbol": "APE",
+      "address": "0xab11329560Fa9C9c860Bb21A9342215a1265BBB0",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apecoin"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.706Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Circle Internet Group (Ondo Tokenized Stock)",
+      "symbol": "CRCLON",
+      "address": "0x13a81c5e8b4AB05Fc721DfF7bA95e250b29458F8",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "circle-internet-group-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.707Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Micron Technology (Ondo Tokenized Stock)",
+      "symbol": "MUON",
+      "address": "0x0f8E33F5CdefAE9C2E59de8fB61feD347046D046",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "micron-technology-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.707Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "iShares Core S&P 500 ETF (Ondo Tokenized ETF)",
+      "symbol": "IVVON",
+      "address": "0xAd26B6048cc3682f67Fe4C829b7Ac99dbF95920e",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ishares-core-s-p-500-etf-ondo-tokenized-etf"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.707Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Kinetiq",
+      "symbol": "KNTQ",
+      "address": "0x000000000000780555bD0BCA3791f89f9542c2d6",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "kinetiq"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.707Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Hex Trust Wrapped XRP",
+      "symbol": "WXRP",
+      "address": "0xB73eE5488647a6302EBf5FEE8Af3152F6960AE4c",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "hex-trust-wrapped-xrp"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.707Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "NVIDIA (Ondo Tokenized Stock)",
+      "symbol": "NVDAON",
+      "address": "0xB989ad9b91886b1Aaed8DaADb26F028b29b40945",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "nvidia-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.707Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Movement",
+      "symbol": "MOVE",
+      "address": "0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "movement"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.707Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Kinetiq Markets HYPE",
+      "symbol": "KMHYPE",
+      "address": "0x360C140E5344A1A0593D44B4ea6Fc7C3DAf0C473",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "kinetiq-markets-lst"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.708Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "SPDR S&P 500 ETF (Ondo Tokenized ETF)",
+      "symbol": "SPYON",
+      "address": "0x32eC2792aeC02122eDD9f28866B720db1e1c1B54",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "spdr-s-p-500-etf-ondo-tokenized-etf"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.708Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Altura Vault Tokens",
+      "symbol": "AVLT",
+      "address": "0xd0Ee0CF300DFB598270cd7F4D0c6E0D8F6e13f29",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "altura-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.708Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Invesco QQQ ETF (Ondo Tokenized ETF)",
+      "symbol": "QQQON",
+      "address": "0x911e2dCD2b70F44231F3F0f1C6ec9aF75068FD85",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "invesco-qqq-etf-ondo-tokenized-etf"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.708Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "iShares Silver Trust (Ondo Tokenized Stock)",
+      "symbol": "SLVON",
+      "address": "0xd53d98d13D93C817011645442c2e4d46E499B460",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ishares-silver-trust-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.708Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Tesla (Ondo Tokenized Stock)",
+      "symbol": "TSLAON",
+      "address": "0x417883b1709545f1211A25b00ad13455fC7F1bc5",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "tesla-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.708Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Alphabet Class A (Ondo Tokenized Stock)",
+      "symbol": "GOOGLON",
+      "address": "0x4D34798f18Eb747F7225663F0553eA2D880cf75D",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alphabet-class-a-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.708Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Based",
+      "symbol": "BASED",
+      "address": "0x053f6755320d06b8fd6675581b0475B2E32399b1",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "based-one"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.708Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Intel (Ondo Tokenized Stock)",
+      "symbol": "INTCON",
+      "address": "0x7bf529bb5Db370D679F33f4fe5420F48eE234bB7",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "intel-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.708Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "MicroStrategy (Ondo Tokenized Stock)",
+      "symbol": "MSTRON",
+      "address": "0x8a64FDf0857c1C734A594cd1DB20B3f8E3f133f6",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "microstrategy-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.709Z"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "Apple (Ondo Tokenized Stock)",
+      "symbol": "AAPLON",
+      "address": "0x81db0DF77669b3BE563e7a0591685a2C8C3EE1c5",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apple-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:48.709Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Wrapped stETH",
+      "symbol": "WSTETH",
+      "address": "0x10Aeaf63194db8d453d4D85a06E5eFE1dd0b5417",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-steth"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.226Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-bitcoin"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.226Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Coinbase Wrapped BTC",
+      "symbol": "CBBTC",
+      "address": "0xd18B7EC58Cdf4876f6AFebd3Ed1730e4Ce10414b",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "coinbase-wrapped-btc"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.227Z"
+    },
+    {
+      "chain": "monad",
+      "name": "USD1",
+      "symbol": "USD1",
+      "address": "0x111111d2bf19e43C34263401e0CAd979eD1cdb61",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "usd1-wlfi"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.227Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Wrapped eETH",
+      "symbol": "WEETH",
+      "address": "0xA3D68b74bF0528fdD07263c60d6488749044914b",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-eeth"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.227Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Janus Henderson Anemoy Treasury Fund",
+      "symbol": "JTRSY",
+      "address": "0xC18e6f730896971a79D748E8deA61067A9Bc6040",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "janus-henderson-anemoy-treasury-fund"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.227Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Janus Henderson Anemoy AAA CLO Fund",
+      "symbol": "JAAA",
+      "address": "0xAD48F183E586e92A591A610397ebf534609DF797",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "janus-henderson-anemoy-aaa-clo-fund"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.227Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Solv Protocol BTC",
+      "symbol": "SOLVBTC",
+      "address": "0xaE4EFbc7736f963982aACb17EFA37fCBAb924cB3",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "solv-btc"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.227Z"
+    },
+    {
+      "chain": "monad",
+      "name": "ApeCoin",
+      "symbol": "APE",
+      "address": "0x6a7E3F839382FBb6A6131D4Aae864AAEb362292d",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apecoin"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.227Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Tether Gold Tokens",
+      "symbol": "XAUT0",
+      "address": "0x01bFF41798a0BcF287b996046Ca68b395DbC1071",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "tether-gold-tokens"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.227Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Solv Protocol Staked BTC",
+      "symbol": "XSOLVBTC",
+      "address": "0xc99F5c922DAE05B6e2ff83463ce705eF7C91F077",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "solv-protocol-solvbtc-bbn"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.228Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Anemoy Tokenized Apollo Diversified Credit Fund",
+      "symbol": "ACRDX",
+      "address": "0x2FaBf1c784B8583d63C00c5c9C0377D8cf1a3245",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "anemoy-tokenized-apollo-diversified-credit-fund"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.228Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Bridged NXPC",
+      "symbol": "NXPC",
+      "address": "0xD33F18D8d48CbbB2f8b47063DE97f94De0D49B99",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "bridged-nxpc"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.228Z"
+    },
+    {
+      "chain": "monad",
+      "name": "aPriori",
+      "symbol": "APR",
+      "address": "0x0a332311633C0625f63CFc51EE33fC49826E0a3C",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apriori"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.228Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Staked Yuzu USD",
+      "symbol": "SYZUSD",
+      "address": "0x484be0540aD49f351eaa04eeB35dF0f937D4E73f",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "staked-yuzu-usd"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.228Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Midas Hyperithm BTC",
+      "symbol": "MHYPERBTC",
+      "address": "0xF7Cf282eC810fDed974F99c0163E792f432892BC",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "midas-hyperithm-btc"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.228Z"
+    },
+    {
+      "chain": "monad",
+      "name": "eBTC",
+      "symbol": "EBTC",
+      "address": "0xd691b0aFed67F96CEC28Ab6308Cbe5b2C103b7e9",
+      "decimals": 10,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ebtc-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.228Z"
+    },
+    {
+      "chain": "monad",
+      "name": "MetaMask USD",
+      "symbol": "MUSD",
+      "address": "0xacA92E438df0B2401fF60dA7E4337B687a2435DA",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "metamask-usd"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.228Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Midas mHYPER",
+      "symbol": "MHYPER",
+      "address": "0xd90F6bFEd23fFDE40106FC4498DD2e9EDB95E4e7",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "midas-mhyper"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.228Z"
+    },
+    {
+      "chain": "monad",
+      "name": "FOLKS",
+      "symbol": "FOLKS",
+      "address": "0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "folks"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.228Z"
+    },
+    {
+      "chain": "monad",
+      "name": "earnAUSD",
+      "symbol": "EARNAUSD",
+      "address": "0x103222f020e98Bba0AD9809A011FDF8e6F067496",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "earnausd"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.229Z"
+    },
+    {
+      "chain": "monad",
+      "name": "ShMonad",
+      "symbol": "SHMON",
+      "address": "0x1B68626dCa36c7fE922fD2d55E4f631d962dE19c",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "shmonad"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.229Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Wrapped Neverland USDT0",
+      "symbol": "WNUSDT0",
+      "address": "0x4e8aaecCE10ad9394e96fE5f2bd4e587A7B04298",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-neverland-usdt0"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.229Z"
+    },
+    {
+      "chain": "monad",
+      "name": "leverup",
+      "symbol": "LV",
+      "address": "0x1001fF13bf368Aa4fa85F21043648079F00E1001",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "leverup"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.229Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Wrapped Neverland AUSD",
+      "symbol": "WNAUSD",
+      "address": "0x82c370ba90E38ef6Acd8b1b078d34fD86FC6bAC9",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-neverland-ausd"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.229Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Midas mEDGE",
+      "symbol": "MEDGE",
+      "address": "0x1c8eE940B654bFCeD403f2A44C1603d5be0F50Fa",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "midas-medge"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.229Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Chog",
+      "symbol": "CHOG",
+      "address": "0x350035555E10d9AfAF1566AaebfCeD5BA6C27777",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "chog"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.229Z"
+    },
+    {
+      "chain": "monad",
+      "name": "StakeStone USD",
+      "symbol": "STONEUSD",
+      "address": "0x095957CEB9f317ac1328f0aB3123622401766D71",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "stakestone-usd"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.229Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Kintsu Staked Monad",
+      "symbol": "SMON",
+      "address": "0xA3227C5969757783154C60bF0bC1944180ed81B9",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "kintsu-staked-monad"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.229Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Magma Staked Monad",
+      "symbol": "GMON",
+      "address": "0x8498312A6B3CbD158bf0c93AbdCF29E6e4F55081",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "magma-staked-monad"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.230Z"
+    },
+    {
+      "chain": "monad",
+      "name": "HOLD",
+      "symbol": "EARN",
+      "address": "0x3dB619ff72D877490699276061FB0Fa0618FDf47",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "hold-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.230Z"
+    },
+    {
+      "chain": "monad",
+      "name": "LeverUp MON",
+      "symbol": "LVMON",
+      "address": "0x91b81bfbe3A747230F0529Aa28d8b2Bc898E6D56",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "leverup-mon"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.230Z"
+    },
+    {
+      "chain": "monad",
+      "name": "LeverUp USD",
+      "symbol": "LVUSD",
+      "address": "0xFD44B35139Ae53FFF7d8F2A9869c503D987f00d1",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "leverup-usd"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.230Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Pixie Dust",
+      "symbol": "DUST",
+      "address": "0xAD96C3dffCD6374294e2573A7fBBA96097CC8d7c",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "pixie-dust"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.230Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Newrails Euro",
+      "symbol": "EURW",
+      "address": "0x1111B3DED9F1fE1801AD4ebeF8E2788183a24111",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "newrails-euro"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.230Z"
+    },
+    {
+      "chain": "monad",
+      "name": "aPriori Monad LST",
+      "symbol": "APRMON",
+      "address": "0x0c65A0BC65a5D819235B71F554D210D3F80E0852",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apriori-monad-lst"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.230Z"
+    },
+    {
+      "chain": "monad",
+      "name": "emonad",
+      "symbol": "EMO",
+      "address": "0x81A224F8A62f52BdE942dBF23A56df77A10b7777",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "emonad"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.230Z"
+    },
+    {
+      "chain": "monad",
+      "name": "zkSwap Finance",
+      "symbol": "ZF",
+      "address": "0x2f2f2f74ab5db61AE8BD3c13ccD4Dc8c9E8A2f2f",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "zkswap-finance"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.230Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Long",
+      "symbol": "LONG",
+      "address": "0x123468b48EADbC13c65cd9c66A9913cdE4e94321",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "long-3"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.230Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Bob",
+      "symbol": "BOB",
+      "address": "0x21E325B059Cd83d4037C82F0F5998Ba2dF3d7777",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "bob-6"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.231Z"
+    },
+    {
+      "chain": "monad",
+      "name": "Etherfuse TESOURO",
+      "symbol": "TESOURO",
+      "address": "0x7A9990ffe3057EDC18558cA4C8804430fe917456",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "etherfuse-tesouro"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.231Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-bitcoin"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.436Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "Wrapped eETH",
+      "symbol": "WEETH",
+      "address": "0x5A7fACB970D094B6C7FF1df0eA68D99E6e73CBFF",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-eeth"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.436Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "Kelp DAO Restaked ETH",
+      "symbol": "RSETH",
+      "address": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "kelp-dao-restaked-eth"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.436Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "EURC",
+      "symbol": "EURC",
+      "address": "0xDCB612005417Dc906fF72c87DF732e5a90D49e11",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "euro-coin"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.436Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "Wrapped HYPE",
+      "symbol": "WHYPE",
+      "address": "0xd83E3d560bA6F05094d9D8B3EB8aaEA571D1864E",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-hype"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.436Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "Olympus",
+      "symbol": "OHM",
+      "address": "0x060cb087a9730E13aa191f31A6d86bFF8DfcdCC0",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "olympus"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.436Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "yearn.finance",
+      "symbol": "YFI",
+      "address": "0x9046D36440290FfDE54FE0DD84Db8b1CfEE9107B",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "yearn-finance"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.437Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "Hex Trust Wrapped XRP",
+      "symbol": "WXRP",
+      "address": "0xB73eE5488647a6302EBf5FEE8Af3152F6960AE4c",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "hex-trust-wrapped-xrp"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.437Z"
+    },
+    {
+      "chain": "optimism",
+      "name": "Superbridge Bridged wstETH (Optimism)",
+      "symbol": "WSTETH",
+      "address": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "superbridge-bridged-wsteth-optimism"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.437Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Kelp DAO Restaked ETH",
+      "symbol": "RSETH",
+      "address": "0x9eCaf80c1303CCA8791aFBc0AD405c8a35e8d9f1",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "kelp-dao-restaked-eth"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.623Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Metronome Synth ETH",
+      "symbol": "MSETH",
+      "address": "0x7230a9D42D622E18FDf7207041EcA18465F9F1bE",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "metronome-synth-eth"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.623Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "EURØP",
+      "symbol": "EUROP",
+      "address": "0x98658Bd74EF231158Cadc21d8AbA733a4E947e6a",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "schuman-europ"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.623Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Yuzu Protection Pool",
+      "symbol": "YZPP",
+      "address": "0xEbFC8C2Fe73C431Ef2A371AeA9132110aaB50DCa",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "yuzu-protection-pool"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.623Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Chateau USD",
+      "symbol": "CHUSD",
+      "address": "0x22222215d4EdC5510d23D0886133E7ece7F5fdC1",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "chateau-usd"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.623Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Wild Goat Coin [OLD]",
+      "symbol": "WGC",
+      "address": "0xc53ac24320E3A54C7211e4993c8095078a0Cb3Cf",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wild-goat-coin-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.623Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Axis USD",
+      "symbol": "USDX",
+      "address": "0xA1FA77779e6866fa3eF48FC0720657E042158387",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "axis-usd"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.623Z"
+    },
+    {
+      "chain": "plasma",
+      "name": "Staked chUSD",
+      "symbol": "SCHUSD",
+      "address": "0x888888bAb58A7bd3068110749BC7B63B62CE874d",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "staked-chusd"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:53.623Z"
+    },
+    {
+      "chain": "scroll",
+      "name": "USX",
+      "symbol": "USX",
+      "address": "0x3b005fefC63Ca7c8d25eE21FbA3787229ba4CF03",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "usx-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.423Z"
+    },
+    {
+      "chain": "scroll",
+      "name": "Wild Goat Coin [OLD]",
+      "symbol": "WGC",
+      "address": "0xc53ac24320E3A54C7211e4993c8095078a0Cb3Cf",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wild-goat-coin-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.423Z"
+    },
+    {
+      "chain": "scroll",
+      "name": "sUSX",
+      "symbol": "SUSX",
+      "address": "0xcB14BcdF6cD483665D10dfD6f87d908996C7F922",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "susx"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.423Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Aave",
+      "symbol": "AAVE",
+      "address": "AavE1kKKnesPw4MuRJmJ9jZs9QzEE8CPxQ3ViczUDfc1",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "aave"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.798Z"
+    },
+    {
+      "chain": "solana",
+      "name": "AI XOVIA",
+      "symbol": "AIX",
+      "address": "AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ai-xovia"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.799Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Alphabet Class A (Ondo Tokenized Stock)",
+      "symbol": "GOOGLON",
+      "address": "bbahNA5vT9WJeYft8tALrH1LXWffjwqVoUbqYa1ondo",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alphabet-class-a-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.799Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Amazon (Ondo Tokenized Stock)",
+      "symbol": "AMZNON",
+      "address": "14Tqdo8V1FhzKsE3W2pFsZCzYPQxxupXRcqw9jv6ondo",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "amazon-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.799Z"
+    },
+    {
+      "chain": "solana",
+      "name": "ALTSEASON",
+      "symbol": "ALTSZN",
+      "address": "CcLd8HTAKLWtQHatqPwBQjtuCA72FNB9E1ckRTEzpump",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "altseason"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.799Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Emblem Vault",
+      "symbol": "EMBLEM",
+      "address": "6HHzBVkxtoz86Bjy2duaUw77hVfJzQkuoLizWeEMBLEM",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "agent-hustle-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.799Z"
+    },
+    {
+      "chain": "solana",
+      "name": "AIXDROP",
+      "symbol": "AIXDROP",
+      "address": "DRoPH9pb1eXQ3VvhwWuP1k5P5R9hkxVmniZCouihxH6w",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "aixdrop"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.799Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Alibaba (Ondo Tokenized Stock)",
+      "symbol": "BABAON",
+      "address": "1zvb9ELBFShBCWKEk5jRTJAaPAwtVt7quEXx1X4ondo",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alibaba-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.799Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Alpie",
+      "symbol": "PIE",
+      "address": "aqQRs3UJmHs7ktoLo46HZAzvG9P3oCoZ41nENqFbory",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alpie"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.799Z"
+    },
+    {
+      "chain": "solana",
+      "name": "8-Bit Coin",
+      "symbol": "COIN",
+      "address": "3xvLSHrLcM7246X1vu34cM9gNX741kQrzqj6T2HhLvXp",
+      "decimals": 5,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "8-bit-coin"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.800Z"
+    },
+    {
+      "chain": "solana",
+      "name": "AllUnity EUR",
+      "symbol": "EURAU",
+      "address": "9pCWprxbZMW2rYSMhPTeoyLMV2sN2WJqshdT7DQVt6hS",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "allunity-eur"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.800Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Abbott (Ondo Tokenized Stock)",
+      "symbol": "ABTON",
+      "address": "129gRoHKhVg7CvPMrqVsEB4uYZo6zV4yDZX6NBg9ondo",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "abbott-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.800Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Airbnb (Ondo Tokenized Stock)",
+      "symbol": "ABNBON",
+      "address": "128qNYovdGv2YqayErcJgU7gDwbNVX1VuoxbtWz8ondo",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "airbnb-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.800Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Adobe (Ondo Tokenized Stock)",
+      "symbol": "ADBEON",
+      "address": "12Rh6JhfW4X5fKP16bbUdb4pcVCKDHFB48x8GG33ondo",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "adobe-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.800Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Accenture (Ondo Tokenized Stock)",
+      "symbol": "ACNON",
+      "address": "12LxMMJYVSf4LoeqjFE47BQQNRciaH9E3nbDfjH4ondo",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "accenture-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.800Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Airdrops Quest",
+      "symbol": "DROP",
+      "address": "xgC6VcsoC43ejNvPjwVLgp8KpPVfau9aYqHGX3WDrop",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "airdrops-quest"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.800Z"
+    },
+    {
+      "chain": "solana",
+      "name": "AgenC",
+      "symbol": "AGENC",
+      "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "agenc"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.800Z"
+    },
+    {
+      "chain": "solana",
+      "name": "AI Slop",
+      "symbol": "AISLOP",
+      "address": "2wzVMXhLypmP92mXNCq4fuFcd9TCC972AbMfuiH3pump",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ai-slop"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.800Z"
+    },
+    {
+      "chain": "solana",
+      "name": "Ace Data Cloud",
+      "symbol": "ACE",
+      "address": "GnHpRsrcyfHSMZNzmpjAzTFQA26vnbRMzbKQ11ZKpump",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ace-data-cloud-2"
+        }
+      ],
+      "timestamp": "2026-06-15T15:00:58.800Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "Kelp DAO Restaked ETH",
+      "symbol": "RSETH",
+      "address": "0xd75787bA9ABa324420d522BdA84c08c87e5099b1",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "kelp-dao-restaked-eth"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.090Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "Flying Tulip",
+      "symbol": "FT",
+      "address": "0x5DD1A7A369e8273371d2DBf9d83356057088082c",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "flying-tulip"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.090Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "SODAX",
+      "symbol": "SODA",
+      "address": "0x7c7d53EEcda37a87ce0D5bf8E0b24512A48dC963",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "sodax"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.090Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "Backed CSPX Core S&P 500",
+      "symbol": "BCSPX",
+      "address": "0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "backed-cspx-core-s-p-500"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.090Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "Wrapped FRAX",
+      "symbol": "WFRAX",
+      "address": "0x64445f0aecC51E94aD52d8AC56b7190e764E561a",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-frax"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.091Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "evaUSDT",
+      "symbol": "EVAUSDT",
+      "address": "0x501eBf66d76A96D4FB26ccead42957653e16B8B8",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "evausdt"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.091Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "evaUSDC",
+      "symbol": "EVAUSDC",
+      "address": "0x741bD193B6b40f8703d2e116FD1965421f290F58",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "evausdc"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.091Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "US Sonic Dollar",
+      "symbol": "USSD",
+      "address": "0x000000000eCcFf26B795F73fb0A70d48da657fEf",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "us-sonic-dollar"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.091Z"
+    },
+    {
+      "chain": "sonic",
+      "name": "Parallel Governance",
+      "symbol": "PRL",
+      "address": "0xfD28f108e95f4D41daAE9dbfFf707D677985998E",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "mimo-parallel-governance-token"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.091Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Baby Doge Coin",
+      "symbol": "BABYDOGE",
+      "address": "0:960e3e3d1c52274b04a4e3d780a38efa135601cb02e816e499e8e3b7c7b8e63f",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "baby-doge-coin"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.485Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Tesla xStock",
+      "symbol": "TSLAX",
+      "address": "0:78230a9664f51cce7b5daf2f2f48ddadb092adfbd17b8886fb80415111860e07",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "tesla-xstock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.485Z"
+    },
+    {
+      "chain": "ton",
+      "name": "NVIDIA xStock",
+      "symbol": "NVDAX",
+      "address": "0:af6be39feda710754fe98800dd95c6f3b05b40fb127066872dcfc64e5c1741a1",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "nvidia-xstock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.485Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Alphabet xStock",
+      "symbol": "GOOGLX",
+      "address": "0:0bc09cd79f116372436cbab0a2f4eda4560ff46f529db633927ef39e765637ee",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alphabet-xstock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.485Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Utya",
+      "symbol": "UTYA",
+      "address": "0:5a0a05303a873a80708d967fe82736f4995b3bf581bbc18a1abe1fa8d48b5a9d",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "utya"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.485Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Apple xStock",
+      "symbol": "AAPLX",
+      "address": "0:ec8c0c1f2a8fba15566fd8462dfb509a65363f64bfa97e448877a8de41c84dc2",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apple-xstock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.485Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Amazon xStock",
+      "symbol": "AMZNX",
+      "address": "0:ad0f6fbbab11e1428361c6b8b6252cc7f9d9665aa298083b65119a918b7fb9ea",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "amazon-xstock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.485Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Meta xStock",
+      "symbol": "METAX",
+      "address": "0:f7720420e37d81882491962fa132cc2856ebcd9cee3616e31d73e017a9df3749",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "meta-xstock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.486Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Microsoft xStock",
+      "symbol": "MSFTX",
+      "address": "0:c8f49c246131073364d214f49615bc339c1ab4eff238029cbd4c1871b0395968",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "microsoft-xstock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.486Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Berkshire Hathaway xStock",
+      "symbol": "BRK.BX",
+      "address": "0:f3eb6247f93e6ae305ba0e9cee2fe44e292729382702d6222ff1d5c09d854d21",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "berkshire-hathaway-xstock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.486Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Chevron xStock",
+      "symbol": "CVXX",
+      "address": "0:cefa62b68c7340a90079365c992803be09be1a67991fd11f354cfd72a8450ee9",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "chevron-xstock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.486Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Broadcom xStock",
+      "symbol": "AVGOX",
+      "address": "0:ece24ecf4801f79ee5f0ddb5cf119eda15ab5c7a390aadffcc8b80afdfec8b02",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "broadcom-xstock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.486Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Groyper",
+      "symbol": "GROYP",
+      "address": "0:2dc28eaa30dc2daf489303d78a559df672e002149d1529defc1ab05639ef37f9",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "groyper-3"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.486Z"
+    },
+    {
+      "chain": "ton",
+      "name": "Exxon Mobil xStock",
+      "symbol": "XOMX",
+      "address": "0:b869381323270118e36b6cfeef13be6545d563fa5cb3f2a61773c8ec316676a4",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "exxon-mobil-xstock"
+        }
+      ],
+      "timestamp": "2026-06-15T15:01:03.486Z"
     }
   ]
 }
