@@ -111,11 +111,11 @@ This document provides guidelines for filling out and maintaining a token list. 
 
 ---
 
-### **5. `logo`**
+### **5. `logoURI`**
 - **Description**: A URL pointing to the token’s logo.
 - **Example**:
   ```json
-  "logo": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+  "logoURI": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
   ```
 
 ---
