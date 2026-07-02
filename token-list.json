@@ -187320,6 +187320,1026 @@
       ],
       "timestamp": "2026-06-15T18:37:26.885Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/67512/small/metronome_mseth.png?1753017508"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Bending Spoons xStock",
+      "symbol": "BSPX",
+      "address": "0x7796F4E23a62eF3653829c21032A9E24bEaf4Cf5",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "bending-spoons-xstock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:33.310Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174230/small/BSPx.png?1782604454"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "DeFi Janus Henderson Anemoy AAA CLO Fund",
+      "symbol": "DEJAAA",
+      "address": "0xAAA0008C8CF3A7Dca931adaF04336A5D808C82Cc",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "defi-janus-henderson-anemoy-aaa-clo-fund"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:33.311Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102172528/small/deJAAA.png?1773764620"
+    },
+    {
+      "chain": "avalanche",
+      "name": "Cortex",
+      "symbol": "CX",
+      "address": "0x000000000000012DeF132E61759048bE5b5C6033",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "cortex-2"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:33.469Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/53285/small/CX_Round.png?1735994730"
+    },
+    {
+      "chain": "base",
+      "name": "AIUSD",
+      "symbol": "AIUSD",
+      "address": "0x409e79C96389C00Fb5a46586acE2615c6d09C76e",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "aiusd"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:33.640Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174109/small/200%D1%85200.png?1782413913"
+    },
+    {
+      "chain": "bsc",
+      "name": "Arcium",
+      "symbol": "ARX",
+      "address": "0xd5f6ef5dEabE61E6d5CDB49BFB6f156F2c1cA715",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "arcium"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:33.956Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/54948/small/Arcium_Logomark_04_400x400_circle.png?1782278429"
+    },
+    {
+      "chain": "ethereum",
+      "name": "Airbnb (Ondo Tokenized Stock)",
+      "symbol": "ABNBON",
+      "address": "0xb035c3d5083bdc80074F380aeBc9Fcb68aBa0A28",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "airbnb-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:34.138Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/68565/small/abnbon_160x160.png?1756106088"
+    },
+    {
+      "chain": "hyperevm",
+      "name": "iShares Gold Trust (Ondo Tokenized Stock)",
+      "symbol": "IAUON",
+      "address": "0x83b01AC9e2D1632A70Dd1C813c5B8eDF29cd707f",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ishares-gold-trust-ondo-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:34.491Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/68653/small/iauon_160x160.png?1756156321"
+    },
+    {
+      "chain": "monad",
+      "name": "Pendle",
+      "symbol": "PENDLE",
+      "address": "0x5E49E1f85813F2B65858860A3FA231b4186f2e0E",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "pendle"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:38.771Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/15069/small/Pendle_Logo_Normal-03.png?1696514728"
+    },
+    {
+      "chain": "monad",
+      "name": "Wrapped Neverland USDC",
+      "symbol": "WNUSDC",
+      "address": "0x8d5c2Df3Eef09088Fcccf3376D8EcD0Dd505f642",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "wrapped-neverland-usdc"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:38.771Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102172925/small/wnusdc.png?1776663817"
+    },
+    {
+      "chain": "monad",
+      "name": "Etherfuse GILTS",
+      "symbol": "GILTS",
+      "address": "0x46080F31351A6568f44575E3EFfDE7f0C86867f9",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "etherfuse-gilts"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:38.771Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102172091/small/GILTS_Image.png?1771517121"
+    },
+    {
+      "chain": "optimism",
+      "name": "Cortex",
+      "symbol": "CX",
+      "address": "0x000000000000012DeF132E61759048bE5b5C6033",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "cortex-2"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:38.991Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/53285/small/CX_Round.png?1735994730"
+    },
+    {
+      "chain": "optimism",
+      "name": "Frankencoin",
+      "symbol": "ZCHF",
+      "address": "0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "frankencoin"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:38.991Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/37150/small/Coin_Logo_Frankencoin_1024px.png?1728679791"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Ethena USDe",
+      "symbol": "USDE",
+      "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ethena-usde"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.051Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/33613/small/usde.png?1733810059"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Global Dollar",
+      "symbol": "USDG",
+      "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "global-dollar"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.051Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/51281/small/GDN_USDG_Token_200x200.png?1730484111"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Tesla (Robinhood Tokenized Stock)",
+      "symbol": "TSLA",
+      "address": "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "tesla-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.051Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174112/small/0x322f0929c4625ed5bad873c95208d54e1c003b2d.png?1782444570"
+    },
+    {
+      "chain": "robinhood",
+      "name": "NVIDIA (Robinhood Tokenized Stock)",
+      "symbol": "NVDA",
+      "address": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "nvidia-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.051Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174110/small/0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec.png?1782444565"
+    },
+    {
+      "chain": "robinhood",
+      "name": "AMD (Robinhood Tokenized Stock)",
+      "symbol": "AMD",
+      "address": "0x86923f96303D656E4aa86D9d42D1e57ad2023fdC",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "amd-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.051Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174114/small/0x86923f96303d656e4aa86d9d42d1e57ad2023fdc.png?1782444575"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Sandisk Corporation (Robinhood Tokenized Stock)",
+      "symbol": "SNDK",
+      "address": "0xB90A19fF0Af67f7779afF50A882A9CfF42446400",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "sandisk-corporation-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.051Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174113/small/0xb90a19ff0af67f7779aff50a882a9cff42446400.png?1782444573"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Micron Technology (Robinhood Tokenized Stock)",
+      "symbol": "MU",
+      "address": "0xfF080c8ce2E5feadaCa0Da81314Ae59D232d4afD",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "micron-technology-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.051Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174111/small/0xff080c8ce2e5feadaca0da81314ae59d232d4afd.png?1782444567"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Coinbase (Robinhood Tokenized Stock)",
+      "symbol": "COIN",
+      "address": "0x6330D8C3178a418788dF01a47479c0ce7CCF450b",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "coinbase-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.052Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174136/small/0x6330d8c3178a418788df01a47479c0ce7ccf450b.png?1782444632"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Palantir Technologies (Robinhood Tokenized Stock)",
+      "symbol": "PLTR",
+      "address": "0x894E1EC2D74FFE5AEF8Dc8A9e84686acCB964F2A",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "palantir-technologies-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.052Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174117/small/0x894e1ec2d74ffe5aef8dc8a9e84686accb964f2a.png?1782444583"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Meta Platforms (Robinhood Tokenized Stock)",
+      "symbol": "META",
+      "address": "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "meta-platforms-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.052Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174122/small/0xc0d6457c16cc70d6790dd43521c899c87ce02f35.png?1782444595"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Circle Internet Group (Robinhood Tokenized Stock)",
+      "symbol": "CRCL",
+      "address": "0xdF0992E440dD0be65BD8439b609d6D4366bf1CB5",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "circle-internet-group-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.052Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174121/small/0xdf0992e440dd0be65bd8439b609d6d4366bf1cb5.png?1782444593"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Microsoft (Robinhood Tokenized Stock)",
+      "symbol": "MSFT",
+      "address": "0xe93237C50D904957Cf27E7B1133b510C669c2e74",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "microsoft-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.052Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174116/small/0xe93237c50d904957cf27e7b1133b510c669c2e74.png?1782444580"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Apple (Robinhood Tokenized Stock)",
+      "symbol": "AAPL",
+      "address": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "apple-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.052Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174123/small/0xaf3d76f1834a1d425780943c99ea8a608f8a93f9.png?1782444598"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Amazon (Robinhood Tokenized Stock)",
+      "symbol": "AMZN",
+      "address": "0x12f190a9F9d7D37a250758b26824B97CE941bF54",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "amazon-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.052Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174126/small/0x12f190a9f9d7d37a250758b26824b97ce941bf54.png?1782444606"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Alphabet Class A (Robinhood Tokenized Stock)",
+      "symbol": "GOOGL",
+      "address": "0x2e0847E8910a9732eB3fb1bb4b70a580ADAD4FE3",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alphabet-class-a-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.052Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174124/small/0x2e0847e8910a9732eb3fb1bb4b70a580adad4fe3.png?1782444601"
+    },
+    {
+      "chain": "robinhood",
+      "name": "SPDR S&P 500 ETF Trust (Robinhood Tokenized Stock)",
+      "symbol": "SPY",
+      "address": "0x117cc2133c37B721F49dE2A7a74833232B3B4C0C",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "spdr-s-p-500-etf-trust-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.052Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174115/small/0x117cc2133c37b721f49de2a7a74833232b3b4c0c.png?1782444578"
+    },
+    {
+      "chain": "robinhood",
+      "name": "iShares Silver Trust (Robinhood Tokenized Stock)",
+      "symbol": "SLV",
+      "address": "0x411eFb0E7f985935DAec3D4C3ebaEa0d0AD7D89f",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ishares-silver-trust-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.052Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174120/small/0x411efb0e7f985935daec3d4c3ebaea0d0ad7d89f.png?1782444590"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Oracle (Robinhood Tokenized Stock)",
+      "symbol": "ORCL",
+      "address": "0xb0992820E760d836549ba69BC7598b4af75dEE03",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "oracle-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.053Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174128/small/0xb0992820e760d836549ba69bc7598b4af75dee03.png?1782444611"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Invesco QQQ (Robinhood Tokenized Stock)",
+      "symbol": "QQQ",
+      "address": "0xD5f3879160bc7c32ebb4dC785F8a4F505888de68",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "invesco-qqq-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.053Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174119/small/0xd5f3879160bc7c32ebb4dc785f8a4f505888de68.png?1782444588"
+    },
+    {
+      "chain": "robinhood",
+      "name": "United States Oil Fund (Robinhood Tokenized Stock)",
+      "symbol": "USO",
+      "address": "0xa30FA36Db767ad9eD3f7a60fC79526fB4d56D344",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "united-states-oil-fund-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.053Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174125/small/0xa30fa36db767ad9ed3f7a60fc79526fb4d56d344.png?1782444603"
+    },
+    {
+      "chain": "robinhood",
+      "name": "SpaceX (Robinhood Tokenized Stock)",
+      "symbol": "SPCX",
+      "address": "0x4a0E65A3EcceC6dBe60AE065F2e7bb85Fae35eEa",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "spacex-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.053Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174129/small/0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea.png?1782444614"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Intel (Robinhood Tokenized Stock)",
+      "symbol": "INTC",
+      "address": "0xc72b96e0E48ecd4DC75E1e45396e26300BC39681",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "intel-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.053Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174118/small/0xc72b96e0e48ecd4dc75e1e45396e26300bc39681.png?1782444585"
+    },
+    {
+      "chain": "robinhood",
+      "name": "CoreWeave (Robinhood Tokenized Stock)",
+      "symbol": "CRWV",
+      "address": "0x5f10A1C971B69e47e059e1dC91901B59b3fB49C3",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "coreweave-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.053Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174127/small/0x5f10a1c971b69e47e059e1dc91901b59b3fb49c3.png?1782444608"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Alibaba (Robinhood Tokenized Stock)",
+      "symbol": "BABA",
+      "address": "0xad25Ac6C84D497db898fa1E8387bf6Af3532a1c4",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "alibaba-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.053Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174135/small/0xad25ac6c84d497db898fa1e8387bf6af3532a1c4.png?1782444629"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Strategy Inc. (Robinhood Tokenized Stock)",
+      "symbol": "MSTR",
+      "address": "0xec262a75e413fAfD0dF80480274532C79D42da09",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "strategy-inc-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.053Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174143/small/0xec262a75e413fafd0df80480274532c79d42da09.png?1782444651"
+    },
+    {
+      "chain": "robinhood",
+      "name": "iShares MSCI South Korea fund (Robinhood Tokenized Stock)",
+      "symbol": "EWY",
+      "address": "0x7f0aBeF0C07280F82c6a08ead09dEd6BAE2C13Fc",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ishares-msci-south-korea-fund-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.053Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174159/small/0x7f0abef0c07280f82c6a08ead09ded6bae2c13fc.png?1782444694"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Cash Cat",
+      "symbol": "CASHCAT",
+      "address": "0x020bfC650A365f8BB26819deAAbF3E21291018b4",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "cash-cat"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.053Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174280/small/cashcat-logo.jpg?1782922765"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Nebius Group (Robinhood Tokenized Stock)",
+      "symbol": "NBIS",
+      "address": "0x9D9c6684F596F66a64C030B93A886D51Fd4D7931",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "nebius-group-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.053Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174160/small/0x9d9c6684f596f66a64c030b93a886d51fd4d7931.png?1782444697"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Rocket Lab Corporation (Robinhood Tokenized Stock)",
+      "symbol": "RKLB",
+      "address": "0x3b14C39E89D60D627b42a1A4CA45b5bb45Fc12e2",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "rocket-lab-corporation-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.054Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174133/small/0x3b14c39e89d60d627b42a1a4ca45b5bb45fc12e2.png?1782444624"
+    },
+    {
+      "chain": "robinhood",
+      "name": "ASML Holding NV (Robinhood Tokenized Stock)",
+      "symbol": "ASML",
+      "address": "0x47F93d52cBeC7C6D2CfC080e154002370a60dAEA",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "asml-holding-nv-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.054Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174168/small/0x47f93d52cbec7c6d2cfc080e154002370a60daea.png?1782444718"
+    },
+    {
+      "chain": "robinhood",
+      "name": "GameStop (Robinhood Tokenized Stock)",
+      "symbol": "GME",
+      "address": "0x1b0E319c6A659F002271B69dB8A7df2F911c153E",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "gamestop-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.054Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174150/small/0x1b0e319c6a659f002271b69db8a7df2f911c153e.png?1782444670"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Taiwan Semiconductor Manufacturing (Robinhood Tokenized Stock)",
+      "symbol": "TSM",
+      "address": "0x58FfE4a942d3885bAa22D7520691F611EF09e7AA",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "taiwan-semiconductor-manufacturing-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.054Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174148/small/0x58ffe4a942d3885baa22d7520691f611ef09e7aa.png?1782444664"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Rigetti Computing (Robinhood Tokenized Stock)",
+      "symbol": "RGTI",
+      "address": "0x284358abc07F9359f19f4b5b4aC91901Be2597Ba",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "rigetti-computing-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.054Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174146/small/0x284358abc07f9359f19f4b5b4ac91901be2597ba.png?1782444659"
+    },
+    {
+      "chain": "robinhood",
+      "name": "IonQ (Robinhood Tokenized Stock)",
+      "symbol": "IONQ",
+      "address": "0x558378E000D634A36593E338eBacdd6207640EfE",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ionq-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.054Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174166/small/0x558378e000d634a36593e338ebacdd6207640efe.png?1782444713"
+    },
+    {
+      "chain": "robinhood",
+      "name": "CleanSpark (Robinhood Tokenized Stock)",
+      "symbol": "CLSK",
+      "address": "0xcBB95BBF36099d34dA091dc6Fa6F49EfA257Cee3",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "cleanspark-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.054Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174156/small/0xcbb95bbf36099d34da091dc6fa6f49efa257cee3.png?1782444686"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Eli Lilly (Robinhood Tokenized Stock)",
+      "symbol": "LLY",
+      "address": "0x8005d266423c7ea827372c9c864491e5786600ea",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "eli-lilly-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.054Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174175/small/0x8005d266423c7ea827372c9c864491e5786600ea.png?1782444737"
+    },
+    {
+      "chain": "robinhood",
+      "name": "The Hood",
+      "symbol": "HOOD",
+      "address": "0x79D2234Ed4Ee24880835F261DF9A98FcEfC7600e",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "the-hood"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.054Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174284/small/the-hood.jpg?1782938983"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Permian Resources (Robinhood Tokenized Stock)",
+      "symbol": "PR",
+      "address": "0x4189F0c66EBBB0bfeF1C31f763131361EF32f77C",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "permian-resources-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.054Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174186/small/0x4189f0c66ebbb0bfef1c31f763131361ef32f77c.png?1782444766"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Penguin Solutions (Robinhood Tokenized Stock)",
+      "symbol": "PENG",
+      "address": "0x9b23573b156B52565012F5cE02CDF60AFBaa70Be",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "penguin-solutions-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.055Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174204/small/0x9b23573b156b52565012f5ce02cdf60afbaa70be.png?1782444814"
+    },
+    {
+      "chain": "robinhood",
+      "name": "CrowdStrike Holdings (Robinhood Tokenized Stock)",
+      "symbol": "CRWD",
+      "address": "0xea72Ecca2d0f6bFA1394DBBCff85b52CD4233931",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "crowdstrike-holdings-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.055Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174169/small/0xea72ecca2d0f6bfa1394dbbcff85b52cd4233931.png?1782444721"
+    },
+    {
+      "chain": "robinhood",
+      "name": "ServiceNow (Robinhood Tokenized Stock)",
+      "symbol": "NOW",
+      "address": "0x0C3260aF4B8f13a69c4c2dFb84fD667890CDFa14",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "servicenow-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.055Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174161/small/0x0c3260af4b8f13a69c4c2dfb84fd667890cdfa14.png?1782444700"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Intuitive Machines (Robinhood Tokenized Stock)",
+      "symbol": "LUNR",
+      "address": "0xa5D4968421bA94814Be3B136b15cf422101aC1a3",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "intuitive-machines-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.055Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174177/small/0xa5d4968421ba94814be3b136b15cf422101ac1a3.png?1782444742"
+    },
+    {
+      "chain": "robinhood",
+      "name": "USA Rare Earth (Robinhood Tokenized Stock)",
+      "symbol": "USAR",
+      "address": "0xd917B029C761D264c6A312BBbcDA868658eF86a6",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "usa-rare-earth-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.055Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174132/small/0xd917b029c761d264c6a312bbbcda868658ef86a6.png?1782444621"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Rivian Automotive (Robinhood Tokenized Stock)",
+      "symbol": "RIVN",
+      "address": "0xB1BF26c1D20ff267A4f93550d1E0d06ac40a114B",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "rivian-automotive-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.055Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174195/small/0xb1bf26c1d20ff267a4f93550d1e0d06ac40a114b.png?1782444790"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Tower Semiconductor (Robinhood Tokenized Stock)",
+      "symbol": "TSEM",
+      "address": "0x89776d4Cd68193597A2fC132cfaC1fDe36CCeA8a",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "tower-semiconductor-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.055Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174184/small/0x89776d4cd68193597a2fc132cfac1fde36ccea8a.png?1782444761"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Nu (Robinhood Tokenized Stock)",
+      "symbol": "NU",
+      "address": "0x408c14038a04f7bD235329E26d2bf569ee20e250",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "nu-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.055Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174171/small/0x408c14038a04f7bd235329e26d2bf569ee20e250.png?1782444726"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Navitas Semiconductor (Robinhood Tokenized Stock)",
+      "symbol": "NVTS",
+      "address": "0xbE6702d7b70315376dC48a3293f24f0982F86386",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "navitas-semiconductor-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.055Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174153/small/0xbe6702d7b70315376dc48a3293f24f0982f86386.png?1782444678"
+    },
+    {
+      "chain": "robinhood",
+      "name": "United Microelectronics (Robinhood Tokenized Stock)",
+      "symbol": "UMC",
+      "address": "0x0E6e67Ba88e7b5d9B67636A215c76779B948dE79",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "united-microelectronics-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.055Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174147/small/0x0e6e67ba88e7b5d9b67636a215c76779b948de79.png?1782444661"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Corning (Robinhood Tokenized Stock)",
+      "symbol": "GLW",
+      "address": "0x7c04E6A3368F2A1DE3874f0e80d2e0A1a9915da6",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "corning-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.055Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174144/small/0x7c04e6a3368f2a1de3874f0e80d2e0a1a9915da6.png?1782444653"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Fluence Energy (Robinhood Tokenized Stock)",
+      "symbol": "FLNC",
+      "address": "0x282e87451E10fA6679BC7D76C69BE44cD3fC777C",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "fluence-energy-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.055Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174194/small/0x282e87451e10fa6679bc7d76c69be44cd3fc777c.png?1782444787"
+    },
+    {
+      "chain": "solana",
+      "name": "3lon",
+      "symbol": "3LON",
+      "address": "3uZvNEKqXjLV8HYVNyiRtTpc2bvjQTCF6XaggxH2DXkW",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "3lon"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:44.260Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174004/small/hWxPX-XY_400x400.jpg?1781767204"
+    },
+    {
+      "chain": "ton",
+      "name": "Bending Spoons xStock",
+      "symbol": "BSPX",
+      "address": "0:dcde4441c230ed57f2929b715b80636a53d3803f0d370ec035dce5a759c4e169",
+      "decimals": 8,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "bending-spoons-xstock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:48.838Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174230/small/BSPx.png?1782604454"
+    },
+    {
+      "chain": "ton",
+      "name": "Povel Durev",
+      "symbol": "DUREV",
+      "address": "0:74d8327471d503e2240345b06fe1a606de1b5e3c70512b5b46791b429dab5eb1",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "povel-durev"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:48.838Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/37544/small/durev-logo.png?1714729933"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Robinhood Wrapped ETH (Robinhood Chain)",
+      "symbol": "WETH",
+      "address": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "robinhood-wrapped-eth-robinhood-chain"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:56.105Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174283/small/weth-robinhood.jpeg?1782924507"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Bloom Energy (Robinhood Tokenized Stock)",
+      "symbol": "BE",
+      "address": "0x822CC93fFD030293E9842c30BBD678F530701867",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "bloom-energy-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:56.105Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174131/small/0x822cc93ffd030293e9842c30bbd678f530701867.png?1782444619"
+    },
+    {
+      "chain": "robinhood",
+      "name": "iShares 0-3 Month Treasury Bond ETF (Robinhood Tokenized Stock)",
+      "symbol": "SGOV",
+      "address": "0x92FD66527192E3e61d4DDd13322Aa222DE86F9B5",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "ishares-0-3-month-treasury-bond-etf-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-07-02T11:43:56.105Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174130/small/0x92fd66527192e3e61d4ddd13322aa222de86f9b5.png?1782444616"
     }
   ]
 }
