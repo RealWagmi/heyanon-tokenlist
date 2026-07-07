@@ -82,60 +82,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/279/small/ethereum.png?1696501628"
     },
     {
-      "chain": "kava_evm",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "address": "0x2DfD4dE5AE386Cd3f4fC8e2cb39240852E47F5E8",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "oracle",
-          "data": {
-            "chainId": 1,
-            "address": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
-            "decimals": 8
-          }
-        },
-        {
-          "type": "binance",
-          "data": "ETHUSDT"
-        },
-        {
-          "type": "coingecko",
-          "data": "ethereum"
-        }
-      ],
-      "timestamp": "2025-08-29T11:06:52.095Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/279/small/ethereum.png?1696501628"
-    },
-    {
-      "chain": "metis",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "address": "0x420000000000000000000000000000000000000A",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "oracle",
-          "data": {
-            "chainId": 1,
-            "address": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
-            "decimals": 8
-          }
-        },
-        {
-          "type": "binance",
-          "data": "ETHUSDT"
-        },
-        {
-          "type": "coingecko",
-          "data": "ethereum"
-        }
-      ],
-      "timestamp": "2025-08-29T11:06:52.095Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/279/small/ethereum.png?1696501628"
-    },
-    {
       "chain": "optimism",
       "name": "Wrapped Ether",
       "symbol": "WETH",
@@ -459,29 +405,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/325/small/Tether.png?1696501661"
     },
     {
-      "chain": "kava_evm",
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "address": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "oracle",
-          "data": {
-            "chainId": 1,
-            "address": "0x3E7d1eAB13ad0104d2750B8863b489D65364e32D",
-            "decimals": 8
-          }
-        },
-        {
-          "type": "coingecko",
-          "data": "tether"
-        }
-      ],
-      "timestamp": "2025-08-29T11:06:52.096Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/325/small/Tether.png?1696501661"
-    },
-    {
       "chain": "optimism",
       "name": "Tether USD",
       "symbol": "USDT",
@@ -695,36 +618,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/31887/small/wagmi_token_logo.png?1696530698"
     },
     {
-      "chain": "kava_evm",
-      "name": "Wagmi",
-      "symbol": "WAGMI",
-      "address": "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "wagmi-2"
-        }
-      ],
-      "timestamp": "2025-08-29T11:06:52.096Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/31887/small/wagmi_token_logo.png?1696530698"
-    },
-    {
-      "chain": "metis",
-      "name": "Wagmi",
-      "symbol": "WAGMI",
-      "address": "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "wagmi-2"
-        }
-      ],
-      "timestamp": "2025-08-29T11:06:52.096Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/31887/small/wagmi_token_logo.png?1696530698"
-    },
-    {
       "chain": "optimism",
       "name": "Wagmi",
       "symbol": "WAGMI",
@@ -854,44 +747,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/12591/small/binance-coin-logo.png?1696512401"
     },
     {
-      "chain": "kava_evm",
-      "name": "Wrapped KAVA",
-      "symbol": "WKAVA",
-      "address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "wrapped-kava"
-        },
-        {
-          "type": "binance",
-          "data": "KAVAUSDT"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.344Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/26387/small/kava.jpeg?1696525465"
-    },
-    {
-      "chain": "metis",
-      "name": "Wrapped METIS",
-      "symbol": "WMETIS",
-      "address": "0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "wmetis"
-        },
-        {
-          "type": "binance",
-          "data": "METISUSDT"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.344Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/34526/small/metis.jpeg?1705305707"
-    },
-    {
       "chain": "sonic",
       "name": "Wrapped S",
       "symbol": "WS",
@@ -908,36 +763,6 @@
     },
     {
       "chain": "ethereum",
-      "name": "HeyAnon",
-      "symbol": "Anon",
-      "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "heyanon"
-        }
-      ],
-      "timestamp": "2025-08-29T11:06:52.096Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/52961/small/AAI__ANON_SQ_Wb_250x250.png?1740500195"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "HeyAnon",
-      "symbol": "Anon",
-      "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "heyanon"
-        }
-      ],
-      "timestamp": "2025-08-29T11:06:52.096Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/52961/small/AAI__ANON_SQ_Wb_250x250.png?1740500195"
-    },
-    {
-      "chain": "metis",
       "name": "HeyAnon",
       "symbol": "Anon",
       "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
@@ -1061,26 +886,6 @@
       "name": "Staked Wagmi Tokens",
       "symbol": "sWAGMI",
       "address": "0x4b5d9db7910448e2F236509D9eE242673AFa28aA",
-      "decimals": 18,
-      "sources": [],
-      "timestamp": "2025-04-18T14:25:01.344Z",
-      "logoURI": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/2222/0x3690D1A9Fb569C21372f8091527aB44f1DC9630F/logo.png"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Staked Wagmi Tokens",
-      "symbol": "sWAGMI",
-      "address": "0x3690D1A9Fb569C21372f8091527aB44f1DC9630F",
-      "decimals": 18,
-      "sources": [],
-      "timestamp": "2025-04-18T14:25:01.344Z",
-      "logoURI": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/2222/0x3690D1A9Fb569C21372f8091527aB44f1DC9630F/logo.png"
-    },
-    {
-      "chain": "metis",
-      "name": "Staked Wagmi Tokens",
-      "symbol": "sWAGMI",
-      "address": "0x5fb3983adc4dCc82A610a91D2e329F6401352558",
       "decimals": 18,
       "sources": [],
       "timestamp": "2025-04-18T14:25:01.344Z",
@@ -10946,21 +10751,6 @@
       "name": "Imported GBYTE",
       "symbol": "GBYTE",
       "address": "0xeb34De0C4B2955CE0ff1526CDf735c9E6d249D09",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "byteball"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.345Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/561/small/byteball.png?1696501768"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Imported GBYTE",
-      "symbol": "GBYTE",
-      "address": "0x0b93109d05Ef330acD2c75148891cc61D20C3EF1",
       "decimals": 18,
       "sources": [
         {
@@ -21922,37 +21712,7 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/36530/small/ethena.png?1711701436"
     },
     {
-      "chain": "kava_evm",
-      "name": "ENA",
-      "symbol": "ENA",
-      "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "ethena"
-        }
-      ],
-      "timestamp": "2025-07-02T12:47:44.451Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/36530/small/ethena.png?1711701436"
-    },
-    {
       "chain": "arbitrum",
-      "name": "ENA",
-      "symbol": "ENA",
-      "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "ethena"
-        }
-      ],
-      "timestamp": "2025-07-02T12:47:44.451Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/36530/small/ethena.png?1711701436"
-    },
-    {
-      "chain": "metis",
       "name": "ENA",
       "symbol": "ENA",
       "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
@@ -22103,21 +21863,6 @@
     },
     {
       "chain": "optimism",
-      "name": "Staked USDe",
-      "symbol": "sUSDe",
-      "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "ethena-staked-usde"
-        }
-      ],
-      "timestamp": "2025-08-28T10:52:59.426Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/33669/small/sUSDe-Symbol-Color.png?1716307680"
-    },
-    {
-      "chain": "metis",
       "name": "Staked USDe",
       "symbol": "sUSDe",
       "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
@@ -51322,21 +51067,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/17816/small/relay-logo-200.png?1696517336"
     },
     {
-      "chain": "metis",
-      "name": "Relay Token",
-      "symbol": "RELAY",
-      "address": "0xfe282Af5f9eB59C30A3f78789EEfFA704188bdD4",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "relay-token"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.350Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/17816/small/relay-logo-200.png?1696517336"
-    },
-    {
       "chain": "ethereum",
       "name": "renBTC",
       "symbol": "renBTC",
@@ -61642,21 +61372,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/17422/small/usx_32.png?1696516969"
     },
     {
-      "chain": "kava_evm",
-      "name": "dForce USD",
-      "symbol": "USX",
-      "address": "0xDb0E1e86B01c4ad25241b1843E407Efc4D615248",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "token-dforce-usd"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.351Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/17422/small/usx_32.png?1696516969"
-    },
-    {
       "chain": "ethereum",
       "name": "Tokenlon",
       "symbol": "LON",
@@ -68257,21 +67972,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/15857/small/xcad_logo.jpg?1707832192"
     },
     {
-      "chain": "metis",
-      "name": "XCAD Token",
-      "symbol": "XCAD",
-      "address": "0x66673f0a3b5d99524bA76A558B93A9ca1386f4Cd",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "xcad-network"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.352Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/15857/small/xcad_logo.jpg?1707832192"
-    },
-    {
       "chain": "ethereum",
       "name": "XCELTOKEN PLUS",
       "symbol": "XLAB",
@@ -71526,21 +71226,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/31002/small/uusdt_D_3x.png?1696529840"
     },
     {
-      "chain": "kava_evm",
-      "name": "Axelar Wrapped USDT",
-      "symbol": "axlUSDT",
-      "address": "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "axelar-usdt"
-        }
-      ],
-      "timestamp": "2025-08-29T10:41:15.086Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/31002/small/uusdt_D_3x.png?1696529840"
-    },
-    {
       "chain": "polygon",
       "name": "Axion",
       "symbol": "AXN",
@@ -74469,21 +74154,6 @@
       "name": "Axelar Wrapped Lqdr",
       "symbol": "axlLqdr",
       "address": "0x4b6B3d425F82248996D77EcC3F3df1E500aaC1db",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "liquiddriver"
-        }
-      ],
-      "timestamp": "2025-08-29T10:41:15.086Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/15782/small/LQDR_Glowing_Icon.png?1696515405"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Axelar Wrapped Lqdr",
-      "symbol": "axlLqdr",
-      "address": "0x332c72dd7E77070740F01d2d35851c461585D5d0",
       "decimals": 18,
       "sources": [
         {
@@ -77810,21 +77480,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/13403/small/aETHc.png?1696513165"
     },
     {
-      "chain": "kava_evm",
-      "name": "Axelar Wrapped ETH",
-      "symbol": "axlETH",
-      "address": "0xb829b68f57CC546dA7E5806A929e53bE32a4625D",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "axlweth"
-        }
-      ],
-      "timestamp": "2025-08-29T10:41:15.088Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/28171/small/weth-wei_D_3x.png?1696527174"
-    },
-    {
       "chain": "base",
       "name": "Fantom Bomb",
       "symbol": "fBOMB",
@@ -78894,21 +78549,6 @@
       "name": "JEWEL",
       "symbol": "JEWEL",
       "address": "0x997Ddaa07d716995DE90577C123Db411584E5E46",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "defi-kingdoms"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.353Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/18570/small/jewel_token_x2.png?1702076846"
-    },
-    {
-      "chain": "metis",
-      "name": "JEWEL",
-      "symbol": "JEWEL",
-      "address": "0x17C09cfC96C865CF546d73365Cedb6dC66986963",
       "decimals": 18,
       "sources": [
         {
@@ -81606,21 +81246,6 @@
     },
     {
       "chain": "base",
-      "name": "Axelar Wrapped WBTC",
-      "symbol": "axlWBTC",
-      "address": "0x1a35EE4640b0A3B87705B0A4B45D227Ba60Ca2ad",
-      "decimals": 8,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "axlwbtc"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.353Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/28173/small/wbtc-satoshi_D_3x.png?1696986732"
-    },
-    {
-      "chain": "kava_evm",
       "name": "Axelar Wrapped WBTC",
       "symbol": "axlWBTC",
       "address": "0x1a35EE4640b0A3B87705B0A4B45D227Ba60Ca2ad",
@@ -95169,21 +94794,6 @@
       "symbol": "ATOM",
       "address": "0x0Eb3a705fc54725037CC9e008bDede697f62F335",
       "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "cosmos"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.355Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/1481/small/cosmos_hub.png?1696502525"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Cosmos Token",
-      "symbol": "ATOM",
-      "address": "0x15932E26f5BD4923d46a2b205191C4b5d5f43FE3",
-      "decimals": 6,
       "sources": [
         {
           "type": "coingecko",
@@ -148511,231 +148121,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/22910/small/zip.png?1696522207"
     },
     {
-      "chain": "metis",
-      "name": "BlockChat",
-      "symbol": "BCD",
-      "address": "0xC029adf62Cf8F91985c49e1FDe6900affcBa0424",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "blockchat"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/38195/small/BCD_Icon.png?1716790204"
-    },
-    {
-      "chain": "metis",
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "address": "0xEA32A96608495e54156Ae48931A7c20f0dcc1a21",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "bridged-usdc"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/69751/small/usdc.jpg?1759486323"
-    },
-    {
-      "chain": "metis",
-      "name": "USDT Token",
-      "symbol": "USDT",
-      "address": "0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "bridged-usdt"
-        }
-      ],
-      "timestamp": "2025-10-13T13:24:12.728Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/70631/small/usdt.jpg?1762857609"
-    },
-    {
-      "chain": "metis",
-      "name": "CACA",
-      "symbol": "CACA",
-      "address": "0xfBae1EAb52af0Ea3d35cB12F1221cE32D377D08E",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "caca"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/39171/small/200x200_CACA_logo.png?1720798446"
-    },
-    {
-      "chain": "metis",
-      "name": "CERUS",
-      "symbol": "CERUS",
-      "address": "0xb0cf600A62C94451b844B5161A57F7ceC4Cef9ae",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "cerus"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/36167/small/cerus-token-logo-small.jpg?1710745687"
-    },
-    {
-      "chain": "metis",
-      "name": "Cronus",
-      "symbol": "CRONUS",
-      "address": "0x3dbb8D7B18b83B6109829b018875fCD192D2F3Ff",
-      "decimals": 9,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "cronus"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/34536/small/cronus-icon-trans.png?1705324872"
-    },
-    {
-      "chain": "metis",
-      "name": "Hummus",
-      "symbol": "HUM",
-      "address": "0x4aAC94985cD83be30164DfE7e9AF7C054D7d2121",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "hummus"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/25116/small/6238d9732c84fbda3a99f518_hummus_ssymbol.png?1696524266"
-    },
-    {
-      "chain": "metis",
-      "name": "Monkex",
-      "symbol": "Monkex",
-      "address": "0x186573b175aDF5801cF95Fb06b232ccAB123c6F4",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "monkex"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/28834/small/monkexlogo.png?1703415265"
-    },
-    {
-      "chain": "metis",
-      "name": "Netswap Token",
-      "symbol": "NETT",
-      "address": "0x90fE084F877C65e1b577c7b2eA64B8D8dd1AB278",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "netswap"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/22262/small/netswpa.PNG?1696521606"
-    },
-    {
-      "chain": "metis",
-      "name": "Revenant",
-      "symbol": "GAMEFI",
-      "address": "0x966B25D174bE6Ba703E0fF80c68BB6e167236BA2",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "revenant"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/26005/small/icon.png?1696525082"
-    },
-    {
-      "chain": "metis",
-      "name": "Staked Metis Token",
-      "symbol": "artMETIS",
-      "address": "0x2583A2538272f31e9A15dD12A432B8C96Ab4821d",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "staked-metis-token"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/36629/small/artMETIS.png?1712021137"
-    },
-    {
-      "chain": "metis",
-      "name": "Tethys",
-      "symbol": "TETHYS",
-      "address": "0x69fdb77064ec5c84FA2F21072973eB28441F43F3",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "tethys-finance"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/22141/small/wjoZJvzA_400x400.jpg?1696521487"
-    },
-    {
-      "chain": "metis",
-      "name": "TitanBorn",
-      "symbol": "TITANS",
-      "address": "0xa11DD414Ad9b68cc1fe4d0a256f0F4413169Dd5E",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "titanborn"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/34145/small/tb_logo.png?1704182944"
-    },
-    {
-      "chain": "metis",
-      "name": "WOW Token",
-      "symbol": "m.WOW",
-      "address": "0x5CE34d9abe4bF239cbc08B89287c87f4CD6d80B7",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "wowswap"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/14101/small/Group-423.png?1696513823"
-    },
-    {
-      "chain": "metis",
-      "name": "ZKE Token",
-      "symbol": "ZKE",
-      "address": "0xdf020cBd1897133978C7FcDF04B07E69d8934Efc",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "zkera-finance"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/33928/small/token_png.png?1715327053"
-    },
-    {
       "chain": "zksync",
       "name": "ZKE Token",
       "symbol": "ZKE",
@@ -148884,111 +148269,6 @@
       ],
       "timestamp": "2025-04-18T14:25:01.361Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/36011/small/about_img01.png?1710324761"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Vara",
-      "symbol": "VARA",
-      "address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "equilibre"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/29243/small/logos_200_200_px.png?1696528199"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Lending KAVA",
-      "symbol": "hKAVA",
-      "address": "0xb51eFaF2f7aFb8a2F5Be0b730281E414FB487636",
-      "decimals": 8,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "hkava"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/36101/small/hover.jpeg?1710483234"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Hover",
-      "symbol": "HOV",
-      "address": "0xCe82db637A2D750380ef27063518eAa263fbe10E",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "hover"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/35187/small/HM-token-BG.png?1707815790"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Mare Finance",
-      "symbol": "MARE",
-      "address": "0xd86C8d4279CCaFbec840c782BcC50D201f277419",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "mare-finance"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/29288/small/mare-icon.png?1696528240"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Pinjam.Kava Ecosystem Token",
-      "symbol": "PINKAV",
-      "address": "0xE5274E38E91b615D8822e8512a29A16FF1B9C4Af",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "pinjam-kava"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/30803/small/PINKAV_Logo_%28200x200%29.png?1696529661"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Pozo Coin",
-      "symbol": "POZO",
-      "address": "0x2d519B9308AEb0C57921030dD5DE4E88c44ceC7c",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "pozo-coin"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/50663/small/ppn-ceum_400x400.jpg?1728666342"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Lion Shares",
-      "symbol": "TIGER",
-      "address": "0x471F79616569343e8e84a66F342B7B433b958154",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "tiger-scrub-money-2"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/28277/small/Tiger.png?1696527278"
     },
     {
       "chain": "zksync",
@@ -151047,21 +150327,6 @@
     },
     {
       "chain": "optimism",
-      "name": "Axelar Wrapped USDC",
-      "symbol": "axlUSDC",
-      "address": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "axlusdc"
-        }
-      ],
-      "timestamp": "2025-08-29T10:41:15.094Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/26476/small/uausdc_D_3x.png?1696525548"
-    },
-    {
-      "chain": "kava_evm",
       "name": "Axelar Wrapped USDC",
       "symbol": "axlUSDC",
       "address": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
@@ -159510,21 +158775,6 @@
       "name": "Hera Token",
       "symbol": "HERA",
       "address": "0xA2c2C937333165d4c5f2dC5f31a43E1239FeCfeB",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "hera-finance"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.362Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/24751/small/heraLogo-200px.png?1721043422"
-    },
-    {
-      "chain": "metis",
-      "name": "Hera Token",
-      "symbol": "HERA",
-      "address": "0x6F05709bc91Bad933346F9E159f0D3FdBc2c9DCE",
       "decimals": 18,
       "sources": [
         {
@@ -169140,21 +168390,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/37658/small/mim.png?1715164970"
     },
     {
-      "chain": "kava_evm",
-      "name": "Magic Internet Money",
-      "symbol": "MIM",
-      "address": "0xB153FB3d196A8eB25522705560ac152eeEc57901",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "magic-internet-money"
-        }
-      ],
-      "timestamp": "2025-08-29T10:41:15.095Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/16786/small/mimlogopng.png?1696516358"
-    },
-    {
       "chain": "base",
       "name": "Magic Internet Money",
       "symbol": "MIM",
@@ -169280,21 +168515,6 @@
       "symbol": "LINK",
       "address": "LinkhB3afbBKb2EQQu7s7umdZceV3wcvAUJhQAfQ23L",
       "decimals": 9,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "chainlink"
-        }
-      ],
-      "timestamp": "2025-09-02T15:05:27.535Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/877/small/Chainlink_Logo_500.png?1760023405"
-    },
-    {
-      "chain": "metis",
-      "name": "ChainLink Token",
-      "symbol": "LINK",
-      "address": "0xd2FE54D1E5F568eB710ba9d898Bf4bD02C7c0353",
-      "decimals": 18,
       "sources": [
         {
           "type": "coingecko",
@@ -169576,21 +168796,6 @@
     },
     {
       "chain": "scroll",
-      "name": "Metavault Trade",
-      "symbol": "MVX",
-      "address": "0x0018D96C579121a94307249d47F053E2D687b5e7",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "metavault-trade"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.363Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/25402/small/mvx.png?1696524534"
-    },
-    {
-      "chain": "kava_evm",
       "name": "Metavault Trade",
       "symbol": "MVX",
       "address": "0x0018D96C579121a94307249d47F053E2D687b5e7",
@@ -176193,21 +175398,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/31800/small/TAROT.jpg?1696530615"
     },
     {
-      "chain": "kava_evm",
-      "name": "Tarot",
-      "symbol": "TAROT",
-      "address": "0x2E4c7bf66d0484E44FeA0eC273b85A00Af92B2e3",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "tarot-2"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.364Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/31800/small/TAROT.jpg?1696530615"
-    },
-    {
       "chain": "base",
       "name": "Tarot",
       "symbol": "TAROT",
@@ -176373,21 +175563,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/33613/small/usde.png?1733810059"
     },
     {
-      "chain": "metis",
-      "name": "USDe",
-      "symbol": "USDe",
-      "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "ethena-usde"
-        }
-      ],
-      "timestamp": "2025-07-02T12:47:44.552Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/33613/small/usde.png?1733810059"
-    },
-    {
       "chain": "scroll",
       "name": "USDe",
       "symbol": "USDe",
@@ -176407,21 +175582,6 @@
       "name": "USDe",
       "symbol": "USDe",
       "address": "0x39Fe7a0DACcE31Bd90418e3e659fb0b5f0B3Db0d",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "ethena-usde"
-        }
-      ],
-      "timestamp": "2025-07-02T12:47:44.552Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/33613/small/usde.png?1733810059"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "USDe",
-      "symbol": "USDe",
-      "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
       "decimals": 18,
       "sources": [
         {
@@ -180338,320 +179498,6 @@
       ],
       "timestamp": "2025-10-09T16:39:27.536Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/67796/small/HMN_Logo_-_Square_-_Light_%281%29.png?1753906923"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Ethena Staked USDe",
-      "symbol": "SUSDE",
-      "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "ethena-staked-usde"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:28.963Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/33669/small/sUSDe-Symbol-Color.png?1716307680"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Stargate Finance",
-      "symbol": "STG",
-      "address": "0x83c30eb8bc9ad7C56532895840039E62659896ea",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "stargate-finance"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:28.963Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/24413/small/STG_LOGO.png?1696523595"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Kinetix Finance Token",
-      "symbol": "KAI",
-      "address": "0x52369B1539EA8F4e1eadEEF18D85462Dcf9a3658",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "kinetixfi"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:28.964Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/34031/small/KFI_Token_1.png?1703675672"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "MAI (Kava)",
-      "symbol": "MIMATIC",
-      "address": "0xb84Df10966a5D7e1ab46D9276F55d57bD336AFC7",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "mai-kava"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:28.964Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/35574/small/mimatic-red.png?1709193822"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Lion Scrub Money",
-      "symbol": "LION",
-      "address": "0x990e157fC8a492c28F5B50022F000183131b9026",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "lion-scrub-money-2"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:28.964Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/28276/small/Lion.png?1696527277"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "ACryptoS",
-      "symbol": "ACS",
-      "address": "0x8888888888f004100C0353d657BE6300587A6CcD",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "acryptos-2"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:28.964Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/32721/small/ACS.jpg?1699009686"
-    },
-    {
-      "chain": "kava_evm",
-      "name": "Bear Scrub Money",
-      "symbol": "BEAR",
-      "address": "0x38481Fdc1aF61E6E72E0Ff46F069315A59779C65",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "bear-scrub-money"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:28.964Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/29960/small/Bear.png?1696528886"
-    },
-    {
-      "chain": "metis",
-      "name": "MAI",
-      "symbol": "MIMATIC",
-      "address": "0xdFA46478F9e5EA86d57387849598dbFB2e964b02",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "mimatic"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.673Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/15264/small/mimatic-red.png?1696514916"
-    },
-    {
-      "chain": "metis",
-      "name": "Alchemix USD",
-      "symbol": "ALUSD",
-      "address": "0x303241e2B3b4aeD0bb0F8623e7442368FED8Faf3",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "alchemix-usd"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.673Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/14114/small/Alchemix_USD.png?1696513835"
-    },
-    {
-      "chain": "metis",
-      "name": "Hercules Token",
-      "symbol": "TORCH",
-      "address": "0xbB1676046C36BCd2F6fD08d8f60672c7087d9aDF",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "hercules-token"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.673Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/36601/small/hercules_logo_transp_128px.png?1711953416"
-    },
-    {
-      "chain": "metis",
-      "name": "ENKI Protocol",
-      "symbol": "ENKI",
-      "address": "0x096A84536ab84E68ee210561FFD3A038E79736F1",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "enki-protocol"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.673Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/37228/small/token-logo.png?1713779279"
-    },
-    {
-      "chain": "metis",
-      "name": "Metis Bridged WBTC (Metis Andromeda)",
-      "symbol": "WBTC",
-      "address": "0xa5B55ab1dAF0F8e1EFc0eB1931a957fd89B918f4",
-      "decimals": 8,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "metis-bridged-wbtc-metis-andromeda"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.673Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/39556/small/wbtc.png?1722898064"
-    },
-    {
-      "chain": "metis",
-      "name": "StakeStone ETH",
-      "symbol": "STONE",
-      "address": "0x80137510979822322193FC997d400D5A6C747bf7",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "stakestone-ether"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.673Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/33103/small/200_200.png?1702602672"
-    },
-    {
-      "chain": "metis",
-      "name": "Alium Finance",
-      "symbol": "ALM",
-      "address": "0x1581929770bE3275a82068c1135b6dD59c5334Ed",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "alium-finance"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.673Z"
-    },
-    {
-      "chain": "metis",
-      "name": "BinaryDAO",
-      "symbol": "BYTE",
-      "address": "0x721532bC0dA5ffaeB0a6A45fB24271E8098629A7",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "binarydao"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.674Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/24539/small/binarydao.PNG?1696523717"
-    },
-    {
-      "chain": "metis",
-      "name": "Alchemix ETH",
-      "symbol": "ALETH",
-      "address": "0x0E17934B9735D479B2388347fAeF0F4e58b9cc06",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "alchemix-eth"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.674Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/16271/small/aleth.png?1696515869"
-    },
-    {
-      "chain": "metis",
-      "name": "Aave v3 USDC",
-      "symbol": "AUSDC",
-      "address": "0x885C8AEC5867571582545F894A5906971dB9bf27",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "aave-v3-usdc"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.674Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/32847/small/usdc_%281%29.png?1699619355"
-    },
-    {
-      "chain": "metis",
-      "name": "Aave v3 WETH",
-      "symbol": "AWETH",
-      "address": "0x8acAe35059C9aE27709028fF6689386a44c09f3a",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "aave-v3-weth"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.674Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/32882/small/WETH_%281%29.png?1699716492"
-    },
-    {
-      "chain": "metis",
-      "name": "Aave v3 DAI",
-      "symbol": "ADAI",
-      "address": "0x85ABAdDcae06efee2CB5F75f33b6471759eFDE24",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "aave-v3-dai"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.674Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/32886/small/dai.png?1699769446"
-    },
-    {
-      "chain": "metis",
-      "name": "ZeUSD",
-      "symbol": "ZEUSD",
-      "address": "0x2d3D1a6982840Dd88bC2380Fd557F8A9D5e27a77",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "zeusd"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.674Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/54829/small/zoth_32.webp?1741933336"
-    },
-    {
-      "chain": "metis",
-      "name": "Aave v3 Metis",
-      "symbol": "AMETIS",
-      "address": "0x7314Ef2CA509490f65F52CC8FC9E0675C66390b8",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "aave-v3-metis"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:29.674Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/32927/small/metis.png?1699826503"
     },
     {
       "chain": "optimism",
