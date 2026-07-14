@@ -187186,6 +187186,21 @@
       ],
       "timestamp": "2026-07-02T11:43:56.105Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/102174130/small/0x92fd66527192e3e61d4ddd13322aa222de86f9b5.png?1782444616"
+    },
+    {
+      "chain": "solana",
+      "name": "The Black Bull",
+      "symbol": "ANSEM",
+      "address": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "the-black-bull"
+        }
+      ],
+      "timestamp": "2026-07-14T00:00:00.000Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174035/small/IMG_9497.jpeg?1782005339"
     }
   ]
 }
