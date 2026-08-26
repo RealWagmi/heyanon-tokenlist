@@ -882,6 +882,21 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/52961/small/AAI__ANON_SQ_Wb_250x250.png?1740500195"
     },
     {
+      "chain": "robinhood",
+      "name": "HeyAnon",
+      "symbol": "Anon",
+      "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "heyanon"
+        }
+      ],
+      "timestamp": "2026-08-26T16:13:53.094Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/52961/small/AAI__ANON_SQ_Wb_250x250.png?1740500195"
+    },
+    {
       "chain": "sonic",
       "name": "Staked Wagmi Tokens",
       "symbol": "sWAGMI",
