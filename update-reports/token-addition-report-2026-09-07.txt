@@ -1,0 +1,2278 @@
+======================================================================
+TOKEN ADDITION SUMMARY REPORT
+======================================================================
+
+
+ARBITRUM
+----------------------------------------------------------------------
+
+Successfully Added (8):
+   1INCH (1INCH) - 0x6314C31A7a1652cE482cffe247E9CB7c3f4BB9aF
+   DGrid AI (DGAI) - 0x12C2dE43878FB1A06C1Ead481f11E0C693a719c7
+   VNX (VNX) - 0xB638f8EB4F242EB1883De8553998aA89624E9e81
+   Intel xStock (INTCX) - 0xf8A80D1cb9cFD70D03D655D9dF42339846F3B3C8
+   saffron.finance (SFI) - 0xFF0490bF1a58a4151D4D6EC6cb3d2959a561874c
+   Coinbase xStock (COINX) - 0x364f210f430eC2448Fc68A49203040F6124096F0
+   SpaceX (Reality Protocol) (RSPCX) - 0x5181b7Dd097B42d7787ee78Efab86f43D4E12f44
+   Meta xStock (METAX) - 0x96702be57Cd9777f835117a809C7124fe4ec989A
+
+Excluded (3):
+   FRAX (0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F) - manual review required: incoming symbol collision between 0x17fc002b466eec40dae837fc4be5c67993ddbd6f (topTokens_arbitrum_200.json); 0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7 (topTokens_arbitrum_200.json)
+   USDC.E (0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8) - we have USDC already on arbitrum
+   FRAX (0x9d2F299715D94d8A7E6F5eaa8E654E8c74a988A7) - manual review required: incoming symbol collision between 0x17fc002b466eec40dae837fc4be5c67993ddbd6f (topTokens_arbitrum_200.json); 0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7 (topTokens_arbitrum_200.json)
+
+Already Existed (189):
+   USDC (0xaf88d065e77c8cC2239327C5EDb3A432268e5831) - duplicate chain+address
+   RAIN (0x25118290e6A5f4139381D072181157035864099d) - duplicate chain+address
+   USDS (0x6491c05A82219b8D1479057361ff1654749b876b) - duplicate chain+address
+   LINK (0xf97f4df75117a78c1A5a0DBb814Af92458539FB4) - duplicate chain+address
+   CBBTC (0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf) - duplicate chain+address
+   AWETH (0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8) - duplicate chain+address
+   SUSDS (0xdDb46999F8891663a8F2828d25298f70416d7610) - duplicate chain+address
+   USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+   UNI (0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0) - duplicate chain+address
+   USDT0 (0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9) - duplicate chain+address
+   PYUSD (0x46850aD61C2B7d64d08c9C754F45254596696984) - duplicate chain+address
+   BUIDL (0xA6525Ae43eDCd03dC08E775774dCAbd3bb925872) - duplicate chain+address
+   USDY (0x35e050d3C0eC2d29D269a8EcEa763a183bDF9A9D) - duplicate chain+address
+   AAVE (0xba5DdD1f9d7F570dc94a51479a000E3BCE967196) - duplicate chain+address
+   MORPHO (0x40BD670A58238e6E230c430BBb5cE6ec0d40df48) - duplicate chain+address
+   ENA (0x58538e6A46E07434d7E7375Bc268D3cb839C0133) - duplicate chain+address
+   PEPE (0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00) - duplicate chain+address
+   SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+   EURSAFO (0x1412632f2b89E87bFa20C1318A43CeD25F1D7b76) - duplicate chain+address
+   ARB (0x912CE59144191C1204E64559FE8253a0e49E6548) - duplicate chain+address
+   CLBTC (0x1792865D493FE4DFdD504010D3c0f6da11E8046D) - duplicate chain+address
+   RSETH (0x4186BFC76E2E237523CBC30FD220FE055156b41F) - duplicate chain+address
+   SYRUPUSDC (0x41CA7586cC1311807B4605fBB748a3B8862b42b5) - duplicate chain+address
+   RETH (0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8) - duplicate chain+address
+   EUTBL (0xCBeb19549054CC0a6257A77736FC78C367216cE7) - duplicate chain+address
+   CAKE (0x1b896893dfc86bb67Cf57767298b9073D2c1bA2c) - duplicate chain+address
+   GHO (0x7dfF72693f6A4149b17e7C6314655f6A9F7c8B33) - duplicate chain+address
+   FBTC (0xC96dE26018A54D51c097160568752c4E3BD6C364) - duplicate chain+address
+   CRV (0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978) - duplicate chain+address
+   WBTC (0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f) - duplicate chain+address
+   ETHFI (0x7189fb5B6504bbfF6a852B13B7B82a3c118fDc27) - duplicate chain+address
+   USD0 (0x35f1C5cB7Fb977E669fD244C567Da99d8a3a6850) - duplicate chain+address
+   SOLVBTC (0x3647c54c4c2C65bC7a2D63c0Da2809B399DBBDC0) - duplicate chain+address
+   CBETH (0x1DEBd73E752bEaF79865Fd6446b0c970EaE7732f) - duplicate chain+address
+   SUSDAI (0x0B2b2B2076d95dda7817e785989fE353fe955ef9) - duplicate chain+address
+   ZRO (0x6985884C4392D348587B19cb9eAAf157F13271cd) - duplicate chain+address
+   PENDLE (0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8) - duplicate chain+address
+   OSETH (0xf7d4e7273E5015C96728A6b02f31C505eE184603) - duplicate chain+address
+   TBTC (0x6c84a8f1c29108F47a79964b5Fe888D4f4D0dE40) - duplicate chain+address
+   LDO (0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60) - duplicate chain+address
+   FDUSD (0x93C9932E4afa59201F0B5E63f7d816516F1669fE) - duplicate chain+address
+   GNO (0xa0b862F60edEf4452F25B4160F177db44DeB6Cf1) - duplicate chain+address
+   OHM (0xf0cb2dc0db5e6c66B9a70Ac27B06b878da017028) - duplicate chain+address
+   WETH (0x82aF49447D8a07e3bd95BD0d56f35241523fBab1) - duplicate chain+address
+   USDAI (0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF) - duplicate chain+address
+   BONK (0x09199d9A5F4448D0848e4395D065e1ad9c4a1F74) - duplicate chain+address
+   AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+   REUSD (0x76cE01F0Ef25AA66cC5F1E546a005e4A63B25609) - duplicate chain+address
+   CRVUSD (0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5) - duplicate chain+address
+   UNIBTC (0x6B2a01A5f79dEb4c2f3c0eDa7b01DF456FbD726a) - duplicate chain+address
+   COMP (0x354A6dA3fcde098F8389cad84b0182725c6C91dE) - duplicate chain+address
+   GRT (0x9623063377AD1B27544C965cCd7342f7EA7e88C7) - duplicate chain+address
+   USTBL (0x021289588cd81dC1AC87ea91e91607eEF68303F5) - duplicate chain+address
+   TEL (0x0419E8bfBBB2623728c3A6129090DA4Ff4e48113) - duplicate chain+address
+   SAFO (0x0C709396739b9cFB72bcea6ac691Ce0Ddf66479C) - duplicate chain+address
+   DRV (0x77b7787a09818502305C95d68A2571F090abb135) - duplicate chain+address
+   FRXETH (0x178412e79c25968a32e89b11f63B33F733770c2A) - duplicate chain+address
+   WSTETH (0x5979D7b546E38E414F7E9822514be443A4800529) - duplicate chain+address
+   VSN (0x6fBBbD8bFB1cd3986B1D05e7861a0f62F87DB74b) - duplicate chain+address
+   APE (0x7f9FBf9bDd3F4105C478b996B648FE6e828a1e98) - duplicate chain+address
+   WEETH (0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe) - duplicate chain+address
+   XAUT0 (0x40461291347e1eCbb09499F3371D3f17f10d7159) - duplicate chain+address
+   THBILL (0xfDD22Ce6D1F66bc0Ec89b20BF16CcB6670F55A5a) - duplicate chain+address
+   FRXUSD (0x80Eede496655FB9047dd39d9f418d5483ED600df) - duplicate chain+address
+   EZETH (0x2416092f143378750bb29b79eD961ab195CcEea5) - duplicate chain+address
+   CHIP (0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e) - duplicate chain+address
+   FLUID (0x61E030A56D33e8260FdD81f03B162A79Fe3449Cd) - duplicate chain+address
+   SFRXETH (0x95aB45875cFFdba1E5f451B950bC2E42c0053f39) - duplicate chain+address
+   ATH (0xc87B37a581ec3257B734886d9d3a581F5A9d056c) - duplicate chain+address
+   RSR (0xCa5Ca9083702c56b481D1eec86F1776FDbd2e594) - duplicate chain+address
+   GMX (0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a) - duplicate chain+address
+   PGOLD (0x3e76BB02286BFeAA89DD35f11253f2CbCE634F91) - duplicate chain+address
+   WM (0x437cc33344a0B27A429f795ff6B469C72698B291) - duplicate chain+address
+   BSPX (0x7796F4E23a62eF3653829c21032A9E24bEaf4Cf5) - duplicate chain+address
+   CRCLX (0xfEbDEd1B0986a8ee107f5AB1a1c5a813491DeCEB) - duplicate chain+address
+   YFI (0x82e3A8F066a6989666b031d916c43672085b1582) - duplicate chain+address
+   XSOLVBTC (0x346c574C56e1A4aAa8dc88Cda8F7EB12b39947aB) - duplicate chain+address
+   EXOD (0x116998824ff90532906bab91Becea4A8e4cE06DB) - duplicate chain+address
+   COW (0xcb8b5CD20BdCaea9a010aC1F8d835824F5C87A04) - duplicate chain+address
+   RIF (0xe5e851b01DD3Eda24FDe709a407dB44555B6d1E0) - duplicate chain+address
+   LPT (0x289ba1701C2F088cf0faf8B3705246331cB8A839) - duplicate chain+address
+   MSTRX (0xAE2f842EF90C0d5213259Ab82639D5BBF649b08E) - duplicate chain+address
+   TSLAX (0x8aD3c73F833d3F9A523aB01476625F269aEB7Cf0) - duplicate chain+address
+   SUSHI (0xd4d42F0b6DEF4CE0383636770eF773390d85c61A) - duplicate chain+address
+   HOT (0x17E1E5c6bc9ebb11647C94e1c5e3Ba619F2781ea) - duplicate chain+address
+   W (0xB0fFa8000886e57F86dd5264b9582b2Ad87b2b91) - duplicate chain+address
+   DOLA (0x6A7661795C374c0bFC635934efAddFf3A7Ee23b6) - duplicate chain+address
+   ELG (0x89D59a38eb2A91dF58A709bB249BF1D13Ad11037) - duplicate chain+address
+   TETH (0xd09ACb80C1E8f2291862c4978A008791c9167003) - duplicate chain+address
+   WSRUSD (0x4809010926aec940b550D34a46A52739f996D75D) - duplicate chain+address
+   ESP (0x3b8db18e69d6686Ad9371A423aFe3Dd1065C94f1) - duplicate chain+address
+   AXL (0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f) - duplicate chain+address
+   SPYX (0x90A2a4c76b5D8c0bc892A69EA28Aa775a8f2dD48) - duplicate chain+address
+   XVS (0xc1Eb7689147C81aC840d4FF0D298489fc7986d52) - duplicate chain+address
+   TRB (0xd58D345Fd9c82262E087d2D0607624B410D88242) - duplicate chain+address
+   FIUSD (0xcDEd6B899edba762D793F44eD295248049440e1E) - duplicate chain+address
+   SQD (0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1) - duplicate chain+address
+   LION (0x527e8D368298deA5a53be257e5300F4DBafb7a97) - duplicate chain+address
+   EDU (0xf8173a39c56a554837C4C7f104153A005D284D11) - duplicate chain+address
+   ZCHF (0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553) - duplicate chain+address
+   ANKR (0xAeAeeD23478c3a4b798e4ed40D8B7F41366Ae861) - duplicate chain+address
+   GBPSAFO (0xBE023308aC2eF7E1c3799F4e6A3003EE6d342635) - duplicate chain+address
+   NVDAX (0xc845b2894dBddd03858fd2D643B4eF725fE0849d) - duplicate chain+address
+   SPCXX (0x68fa48B1C2FE52b3D776E1953e0E782b5044Ce28) - duplicate chain+address
+   DEGEN (0x9F07F8A82cB1af1466252e505b7b7ddee103bC91) - duplicate chain+address
+   RPL (0xB766039cc6DB368759C1E56B79AFfE831d0Cc507) - duplicate chain+address
+   APEX (0x61A1ff55C5216b636a294A07D77C6F4Df10d3B56) - duplicate chain+address
+   QQQX (0xa753A7395cAe905Cd615Da0B82A53E0560f250af) - duplicate chain+address
+   FOLKS (0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B) - duplicate chain+address
+   GOOGLX (0xe92f673Ca36C5E2Efd2DE7628f815f84807e803F) - duplicate chain+address
+   SFRXUSD (0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0) - duplicate chain+address
+   EURE (0x0c06cCF38114ddfc35e07427B9424adcca9F44F8) - duplicate chain+address
+   EURSPKCC (0x0e389C83Bc1d16d86412476F6103027555C03265) - duplicate chain+address
+   EUL (0x462cD9E0247b2e63831c3189aE738E5E9a5a4b64) - duplicate chain+address
+   SWETH (0xbc011A12Da28e8F0f528d9eE5E7039E22F91cf18) - duplicate chain+address
+   ORBS (0xf3C091ed43de9c270593445163a41A876A0bb3dd) - duplicate chain+address
+   BCSPX (0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59) - duplicate chain+address
+   RSWETH (0xB1Fe27b32fFb5CE54E272C096547F1e86c19e72F) - duplicate chain+address
+   WMTX (0xDBB5Cf12408a3Ac17d668037Ce289f9eA75439D7) - duplicate chain+address
+   VANA (0x7FF7Fa94b8b66Ef313f7970d4EEbd2CB3103a2C0) - duplicate chain+address
+   ACX (0x53691596d1BCe8CEa565b84d4915e69e03d9C99d) - duplicate chain+address
+   RLC (0xe649e6a1F2afc63ca268C2363691ceCAF75CF47C) - duplicate chain+address
+   TGBP (0x27f6c8289550fCE67f6B50BeD1F519966aFE5287) - duplicate chain+address
+   LUSD (0x93b346b6BC2548dA6A1E7d98E9a421B42541425b) - duplicate chain+address
+   KNC (0xe4DDDfe67E7164b0FE14E218d80dC4C08eDC01cB) - duplicate chain+address
+   UNIETH (0x3d15fD46CE9e551498328B1C83071D9509E2C3a0) - duplicate chain+address
+   EV (0xE7E7E741C23a4767831A56A8C99F522c5aC1E7E7) - duplicate chain+address
+   CX (0x000000000000012DeF132E61759048bE5b5C6033) - duplicate chain+address
+   CTSI (0x319f865b287fCC10b30d8cE6144e8b6D1b476999) - duplicate chain+address
+   CARV (0xc08Cd26474722cE93F4D0c34D16201461c10AA8C) - duplicate chain+address
+   HYPER (0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4) - duplicate chain+address
+   ROSA (0xEE0a242F28034fce0BDfAc33c0aD2A58ec35Fd38) - duplicate chain+address
+   LON (0x55678cd083fcDC2947a0Df635c93C838C89454A3) - duplicate chain+address
+   STG (0x6694340fc020c5E6B96567843da2df01b2CE1eb6) - duplicate chain+address
+   EUSD (0x12275DCB9048680c4Be40942eA4D92c74C63b844) - duplicate chain+address
+   BICO (0xa68Ec98D7ca870cF1Dd0b00EBbb7c4bF60A8e74d) - duplicate chain+address
+   LQTY (0xfb9E5D956D889D91a82737B9bFCDaC1DCE3e1449) - duplicate chain+address
+   SOPH (0x31DbA3c96481FDe3CD81C2aaF51F2D8bf618C742) - duplicate chain+address
+   WOO (0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b) - duplicate chain+address
+   WOETH (0xD8724322f44E5c58D7A815F542036fb17DbbF839) - duplicate chain+address
+   MLK (0x374c5FB7979d5fDBAAd2d95409e235e5CBdfD43C) - duplicate chain+address
+   PEAS (0x02f92800F57BCD74066F5709F1Daa1A4302Df875) - duplicate chain+address
+   ANKRETH (0xe05A08226c49b636ACf99c40Da8DC6aF83CE5bB3) - duplicate chain+address
+   ALETH (0x17573150d67d820542EFb24210371545a4868B03) - duplicate chain+address
+   SYN (0x080F6AEd32Fc474DD5717105Dba5ea57268F46eb) - duplicate chain+address
+   BIB01 (0xCA30c93B02514f86d5C86a6e375E3A330B435Fb5) - duplicate chain+address
+   POKT (0x764A726d9ceD0433A8D7643335919dEb03a9a935) - duplicate chain+address
+   CELR (0x3a8B787f78D775AECFEEa15706D4221B40F345AB) - duplicate chain+address
+   DODO (0x69Eb4FA4a2fbd498C257C57Ea8b7655a2559A581) - duplicate chain+address
+   MOR (0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86) - duplicate chain+address
+   RYZE (0x7712da72127d5dD213B621497D6E4899d5989e5C) - duplicate chain+address
+   RBTC (0x441Fcb23dFe8289cf572126FEDCf450974ADc891) - duplicate chain+address
+   HEGIC (0x431402e8b9dE9aa016C743880e04E517074D8cEC) - duplicate chain+address
+   XAI (0x4Cb9a7AE498CEDcBb5EAe9f25736aE7d428C9D66) - duplicate chain+address
+   ANIME (0x37a645648dF29205C6261289983FB04ECD70b4B3) - duplicate chain+address
+   MAGIC (0x539bdE0d7Dbd336b79148AA742883198BBF60342) - duplicate chain+address
+   WFRAX (0x64445f0aecC51E94aD52d8AC56b7190e764E561a) - duplicate chain+address
+   UKTBL (0x903d5990119bC799423e9C25c56518Ba7DD19474) - duplicate chain+address
+   DAI (0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1) - duplicate chain+address
+   JOE (0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07) - duplicate chain+address
+   SPELL (0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF) - duplicate chain+address
+   BIC (0xB1C3960aeeAf4C255A877da04b06487BBa698386) - duplicate chain+address
+   ORDER (0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8) - duplicate chain+address
+   CORN (0x44f49ff0da2498bCb1D3Dc7C0f999578F67FD8C6) - duplicate chain+address
+   OSAK (0xbFd5206962267c7b4b4A8B3D76AC2E1b2A5c4d5e) - duplicate chain+address
+   XSGD (0xE333e7754a2DC1E020a162Ecab019254b9DaB653) - duplicate chain+address
+   AAPLX (0x9d275685dC284C8eB1C79f6ABA7a63Dc75ec890a) - duplicate chain+address
+   ANT (0xa78d8321B20c4Ef90eCd72f2588AA985A4BDb684) - duplicate chain+address
+   OVER (0x5829D6FE7528bc8E92c4e81CC8F20a528820B51a) - duplicate chain+address
+   USDSM (0x26C358F7c5fEdB20a6ddEf108cD91Efb6B8Da0Cb) - duplicate chain+address
+   LAVA (0x11e969e9B3f89cB16D686a03Cd8508C9fC0361AF) - duplicate chain+address
+   HOODX (0xE1385FDd5ffB10081Cd52C56584F25EFa9084015) - duplicate chain+address
+   KERNEL (0x6E401189c8A68D05562c9Bab7f674f910821EAcF) - duplicate chain+address
+   NST (0x88a269Df8fe7F53E590c561954C52FCCC8EC0cFB) - duplicate chain+address
+   GNS (0x18c11FD286C5EC11c3b683Caa813B77f5163A122) - duplicate chain+address
+   LRC (0x46d0cE7de6247b0A95f67b43B589b4041BaE7fbE) - duplicate chain+address
+   PAW (0xc11158c5dA9db1D553ED28f0C2BA1CbEDD42CFcb) - duplicate chain+address
+   MPENDLE (0xB688BA096b7Bb75d7841e47163Cd12D18B36A5bF) - duplicate chain+address
+   YUSD (0x4772D2e014F9fC3a820C444e3313968e9a5C8121) - duplicate chain+address
+   ERA (0x00312400303d02c323295f6E8b7309bc30FB6BcE) - duplicate chain+address
+   BC3M (0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7) - duplicate chain+address
+   ALUSD (0xCB8FA9a76b8e203D8C3797bF438d8FB81Ea3326A) - duplicate chain+address
+   GLDX (0x2380F2673C640fB67E2d6B55B44C62F0E0e69DA9) - duplicate chain+address
+   MONEY (0x69420f9E38a4e60a62224C489be4BF7a94402496) - duplicate chain+address
+   ETH+ (0x18C14C2D707b2212e17d1579789Fc06010cfca23) - duplicate chain+address
+   FORT (0x3A1429d50E0cBBc45c997aF600541Fe1cc3D2923) - duplicate chain+address
+   YNETHX (0xE231DB5F348d709239Ef1741EA30961B3B635a61) - duplicate chain+address
+   HDN (0xB0F66Bdb39acBb043308eb9Dbe78F5bB47ea5430) - duplicate chain+symbol
+   EQB (0xBfbCFe8873fE28Dfa25f1099282b088D52bbAD9C) - duplicate chain+address
+
+AVALANCHE
+----------------------------------------------------------------------
+
+Successfully Added (11):
+   Midas Fasanara Global (MGLOBAL) - 0x25C2067D8b04931A6e2eb078eA8D65c8B8500031
+   Midas Wellington Income Opportunities (MWIN) - 0x61daEEb998bC5415DF8512A4Be1b71f4275Ef314
+   Unity (UTY) - 0xBA515304d8153c4b162dC79f867E152DF9c127eb
+   WisdomTree Floating Rate Treasury Fund (Dinari Tokenized ETF) (USFR) - 0x549d49BaF4C6f4437826E4E472c9dFAb5E5cF58E
+   Neuberger Securitize High Income Tokenized Fund (HINC) - 0xf5fA39A16449B1ee07AA52Ae79C6b00567c59f83
+   Space Exploration Technologies (Dinari Tokenized Stock) (SPCX) - 0x9b4Db2271EB1fa0aEe1abA7ed55E51C38cE514a3
+   Balanced (BALN) - 0x542245f2B93B30994a4670121541B38226f1208c
+   GLADIUS (GLADIUS) - 0x34a1D2105dd1b658A48EAD516A9CE3032082799C
+   Mountain Protocol USD (USDM) - 0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C
+   NVIDIA (Dinari Tokenized Stock) (NVDA) - 0x4B16f5251cd4c853f28998809DcA61ccCBcB898B
+   Strategy (Dinari Tokenized Stock) (MSTR) - 0x7944e6F238f13740121323f837f2f1022b38525e
+
+Excluded (14):
+   JAAA (0x58F93d6b1EF2F44eC379Cb975657C132CBeD3B6b) - manual review required: incoming symbol collision between 0x58f93d6b1ef2f44ec379cb975657c132cbed3b6b (topTokens_avalanche_200.json); 0x869d0329295c4a33076f2bbbd8147db44bc3356b (topTokens_avalanche_200.json)
+   FRAX (0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64) - manual review required: incoming symbol collision between 0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64 (topTokens_avalanche_200.json); 0x214db107654ff987ad859f34125307783fc8e387 (topTokens_avalanche_200.json)
+   JPYC (0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29) - manual review required: incoming symbol collision between 0xe7c3d8c9a439fede00d2600032d5db0be71c3c29 (topTokens_avalanche_200.json); 0x431d5dff03120afa4bdf332c61a6e1766ef37bdb (topTokens_avalanche_200.json)
+   YUSD (0xca2671Dcd031a72359f456C212F62A9bDa737cD7) - manual review required: incoming symbol collision between 0xca2671dcd031a72359f456c212f62a9bda737cd7 (topTokens_avalanche_200.json); 0x111111111111ed1d73f860f57b2798b683f2d325 (topTokens_avalanche_200.json)
+   USDC.E (0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664) - we have USDC already on avalanche
+   FRAX (0x214DB107654fF987AD859F34125307783fC8e387) - manual review required: incoming symbol collision between 0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64 (topTokens_avalanche_200.json); 0x214db107654ff987ad859f34125307783fc8e387 (topTokens_avalanche_200.json)
+   JPYC (0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB) - manual review required: incoming symbol collision between 0xe7c3d8c9a439fede00d2600032d5db0be71c3c29 (topTokens_avalanche_200.json); 0x431d5dff03120afa4bdf332c61a6e1766ef37bdb (topTokens_avalanche_200.json)
+   USDTE (0xc7198437980c041c805A1EDcbA50c1Ce5db95118) - We don't whant support USDT.e
+   YUSD (0x111111111111ed1D73f860F57b2798b683f2d325) - manual review required: incoming symbol collision between 0xca2671dcd031a72359f456c212f62a9bda737cd7 (topTokens_avalanche_200.json); 0x111111111111ed1d73f860f57b2798b683f2d325 (topTokens_avalanche_200.json)
+   MON (0xfc87D55bC8bF441AbfC24D04B2068a8f77BcFcC0) - MON can be confused with native MON
+   WGLUE (0x840B20fA3D48Ac709fD841fcd878c3E8aaBd7087) - Symbol mismatch - CoinGecko WGLUE vs on-chain GLUE
+   JAAA (0x869D0329295C4A33076F2BBBd8147dB44BC3356B) - manual review required: incoming symbol collision between 0x58f93d6b1ef2f44ec379cb975657c132cbed3b6b (topTokens_avalanche_200.json); 0x869d0329295c4a33076f2bbbd8147db44bc3356b (topTokens_avalanche_200.json)
+   YOM (0xb6314518b61b4864162c7aE7fdc36261e0A14C4b) - Symbol mismatch - CoinGecko $YOM vs on-chain YOM
+   BTC.ℏ (0x30C74769eA97C6454e2a4d4e9D2dA947C64cA1E0) - Symbol mismatch - CoinGecko BTC.ℏ vs on-chain BTC.ℏ[ava]
+
+Already Existed (141):
+   USDT (0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7) - duplicate chain+address
+   USDC (0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E) - duplicate chain+address
+   LINK (0x5947BB275c521040051D82396192181b413227A3) - duplicate chain+address
+   WBTC (0x0555E30da8f98308EdB960aa94C0Db47230d2B9c) - duplicate chain+address
+   AWETH (0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8) - duplicate chain+address
+   WEETH (0xA3D68b74bF0528fdD07263c60d6488749044914b) - duplicate chain+address
+   USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+   UNI (0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580) - duplicate chain+address
+   BUIDL (0x53FC82f14F009009b440a706e31c9021E1196A2F) - duplicate chain+address
+   AAVE (0x63a72806098Bd3D9520cC43356dD78afe5D386D9) - duplicate chain+address
+   ENA (0x58538e6A46E07434d7E7375Bc268D3cb839C0133) - duplicate chain+address
+   PEPE (0xA659D083b677D6bffe1cb704E1473B896727Be6d) - duplicate chain+address
+   SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+   RSETH (0xc430c78Da6E4AF49bD115F0329D154Bb135f1363) - duplicate chain+address
+   JTRSY (0xa5d465251fBCc907f5Dd6bB2145488DFC6a2627b) - duplicate chain+address
+   GHO (0xfc421aD3C883Bf9E7C4f42dE845C4e4405799e73) - duplicate chain+address
+   SPX (0x6F911b6B39Bcc665A463129c94B5380A4387b7eb) - duplicate chain+address
+   SOLVBTC (0xbc78D84Ba0c46dFe32cf2895a19939c86b81a777) - duplicate chain+address
+   TUSD (0x1C20E891Bab6b1727d14Da358FAe2984Ed9B59EB) - duplicate chain+address
+   EURC (0xC891EB4cbdEFf6e073e859e987815Ed1505c2ACD) - duplicate chain+address
+   ZRO (0x6985884C4392D348587B19cb9eAAf157F13271cd) - duplicate chain+address
+   KITE (0x904567252D8F48555b7447c67dCA23F0372E16be) - duplicate chain+address
+   BUSD (0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39) - duplicate chain+address
+   AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+   REUSD (0x180aF87b47Bf272B2df59dccf2D76a6eaFa625Bf) - duplicate chain+address
+   DOGE (0x846E52D0dd71C2FDC891538b2D37Ff84345c7B9f) - duplicate chain+address
+   COMP (0xc3048E19E76CB9a3Aa9d77D8C03c29Fc906e2437) - duplicate chain+address
+   GRT (0x8a0cAc13c7da965a312f08ea4229c37869e85cB9) - duplicate chain+address
+   SAVAX (0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE) - duplicate chain+address
+   BTC.B (0x152b9d0FdC40C096757F570A51E494bd4b943E50) - duplicate chain+address
+   WAVAX (0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7) - duplicate chain+address
+   AVUSD (0x24dE8771bC5DdB3362Db529Fc3358F2df3A0E346) - duplicate chain+address
+   1INCH (0xd501281565bf7789224523144Fe5D98e8B28f267) - duplicate chain+address
+   SNX (0xBeC243C995409E6520D7C41E404da5dEba4b209B) - duplicate chain+address
+   XAUT0 (0x2775d5105276781B4b85bA6eA6a6653bEeD1dd32) - duplicate chain+address
+   FRXUSD (0x80Eede496655FB9047dd39d9f418d5483ED600df) - duplicate chain+address
+   BAT (0x98443B96EA4b0858FDF3219Cd13e98C7A4690588) - duplicate chain+address
+   SAVUSD (0x06d47F3fb376649c3A9Dafe069B3D6E35572219E) - duplicate chain+address
+   ACRED (0x7C64925002BFA705834B118a923E9911BeE32875) - duplicate chain+address
+   GMX (0x62edc0692BD897D2295872a9FFCac5425011c661) - duplicate chain+address
+   YFI (0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc) - duplicate chain+address
+   BEAM (0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE) - duplicate chain+address
+   XSOLVBTC (0xCC0966D8418d412c599A6421b760a847eB169A8c) - duplicate chain+address
+   SUPER (0x09Fa58228bB791ea355c90DA1e4783452b9Bd8C3) - duplicate chain+address
+   SUSHI (0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76) - duplicate chain+address
+   WSRUSD (0x4809010926aec940b550D34a46A52739f996D75D) - duplicate chain+address
+   VBILL (0x7F4546eF315Efc65336187Fe3765ea779Ac90183) - duplicate chain+address
+   AXL (0x44c784266cf024a60e8acF2427b9857Ace194C5d) - duplicate chain+address
+   FT (0x5DD1A7A369e8273371d2DBf9d83356057088082c) - duplicate chain+address
+   BRZ (0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f) - duplicate chain+address
+   MOG (0xEb2729257280580694A06C499CB8C622e74215c8) - duplicate chain+address
+   ZCHF (0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553) - duplicate chain+address
+   ANKR (0xDF474B7109b73b7D57926d43598D5934131136b2) - duplicate chain+address
+   SB (0x7d1232B90D3F809A54eeaeeBC639C62dF8a8942f) - duplicate chain+address
+   REKT (0x0f875Ae3EB1fc8a3289657676FC2A288585982a5) - duplicate chain+address
+   FOLKS (0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B) - duplicate chain+address
+   UMA (0x3Bd2B1c7ED8D396dbb98DED3aEbb41350a5b2339) - duplicate chain+address
+   WETH (0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB) - duplicate chain+address
+   EUL (0x9ceeD3A7f753608372eeAb300486cc7c2F38AC68) - duplicate chain+address
+   ORBS (0x3Ab1C9aDb065F3FcA0059652Cd7A52B05C98f9a9) - duplicate chain+address
+   BCSPX (0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59) - duplicate chain+address
+   SECZ (0x5954fF4099ac47C4d6D098A9216f3278BB8C9506) - duplicate chain+address
+   DEP (0xD4d026322C88C2d49942A75DfF920FCfbC5614C1) - duplicate chain+address
+   NXPC (0x5E0E90E268BC247Cc850c789A0DB0d5c7621fb59) - duplicate chain+address
+   TGBP (0x27f6c8289550fCE67f6B50BeD1F519966aFE5287) - duplicate chain+address
+   KNC (0x39fC9e94Caeacb435842FADeDeCB783589F50f5f) - duplicate chain+address
+   WBTC.E (0x50b7545627a5162F82A992c33b87aDc75187B218) - duplicate chain+address
+   CX (0x000000000000012DeF132E61759048bE5b5C6033) - duplicate chain+address
+   CTSI (0x6b289CCeAA8639e3831095D75A3e43520faBf552) - duplicate chain+address
+   STG (0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590) - duplicate chain+address
+   HUNDRED (0x4586AF10ecceeD4E383e3f2Ec93b6C61e26500b5) - duplicate chain+address
+   WOO (0xaBC9547B534519fF73921b1FBA6E672b5f58D083) - duplicate chain+address
+   XAVA (0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4) - duplicate chain+address
+   ANKRETH (0x12D8CE035c5DE3Ce39B1fDD4C1d5a745EAbA3b8C) - duplicate chain+address
+   SYN (0x1f1E7c893855525b303f99bDF5c3c05Be09ca251) - duplicate chain+address
+   NXUSD (0xF14f4CE569cB3679E99d5059909E23B07bd2F387) - duplicate chain+address
+   BIB01 (0xCA30c93B02514f86d5C86a6e375E3A330B435Fb5) - duplicate chain+address
+   WFRAX (0x64445f0aecC51E94aD52d8AC56b7190e764E561a) - duplicate chain+address
+   CURR (0x787B8caD6f6539E90734780f370bFdDf299713E1) - duplicate chain+address
+   JOE (0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd) - duplicate chain+address
+   SPELL (0xCE1bFFBD5374Dac86a2893119683F4911a2F7814) - duplicate chain+address
+   ORDER (0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8) - duplicate chain+address
+   OSAK (0x96E1056a8814De39c8c3Cd0176042d6ceCD807d7) - duplicate chain+address
+   XSGD (0xb2F85b7AB3c2b6f62DF06dE6aE7D09c010a5096E) - duplicate chain+address
+   MMUI (0xFc8A21dBCAB432FB5E469d80F976E022C2f56Ea0) - duplicate chain+address
+   P33 (0x26e9dbe75aed331E41272BEcE932Ff1B48926Ca9) - duplicate chain+address
+   DAI (0xd586E7F844cEa2F87f50152665BCbc2C279D8d70) - duplicate chain+address
+   EUROP (0x8835A2F66A7AaCCB297Cb985831A616B75e2E16c) - duplicate chain+address
+   SBC (0xf9FB20B8E097904f0aB7d12e9DbeE88f2dcd0F16) - duplicate chain+address
+   GUN (0x26deBD39D5eD069770406FCa10A0E4f8d2c743eB) - duplicate chain+address
+   BC3M (0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7) - duplicate chain+address
+   QI (0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5) - duplicate chain+address
+   BCOIN (0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9) - duplicate chain+address
+   ANY (0xB44a9B6905aF7c801311e8F4E76932ee959c663C) - duplicate chain+address
+   TLOS (0x193f4A4a6ea24102F49b931DEeeb931f6E32405d) - duplicate chain+address
+   DEJAAA (0xAAA0008C8CF3A7Dca931adaF04336A5D808C82Cc) - duplicate chain+address
+   WILD (0x153374C6D6786B6ca2c4bc96f9C3A471428f2bC7) - duplicate chain+address
+   NUMI (0x59234B44214D88C57B7c54A6D2633334D95C5161) - duplicate chain+address
+   BAL (0xE15bCB9E0EA69e6aB9FA080c4c4A5632896298C3) - duplicate chain+address
+   COQ (0x420FcA0121DC28039145009570975747295f2329) - duplicate chain+address
+   PNG (0x60781C2586D68229fde47564546784ab3fACA982) - duplicate chain+address
+   STAVAX (0xA25EaF2906FA1a3a13EdAc9B9657108Af7B703e3) - duplicate chain+address
+   TREE (0x77146784315Ba81904d654466968e3a7c196d1f3) - duplicate chain+address
+   FBOMB (0x5C09A9cE08C4B332Ef1CC5f7caDB1158C32767Ce) - duplicate chain+address
+   TAVAX (0x14A84F1a61cCd7D1BE596A6cc11FE33A36Bc1646) - duplicate chain+address
+   SURE (0x5fC17416925789E0852FBFcd81c490ca4abc51F9) - duplicate chain+address
+   ARENA (0xB8d7710f7d8349A506b75dD184F05777c82dAd0C) - duplicate chain+address
+   XUSD (0x94f9bB5c972285728DCee7EAece48BeC2fF341ce) - duplicate chain+address
+   IDIA (0xfCAF13227dcBFa2dc2b1928acFcA03b85e2D25dd) - duplicate chain+address
+   SWEAT (0x1E4C0e060FbA7d62FA9FBb1AA624e58F796B4EFE) - duplicate chain+address
+   SWAP (0xc7B5D72C836e718cDA8888eaf03707fAef675079) - duplicate chain+address
+   ALEPH (0xc0Fbc4967259786C743361a5885ef49380473dCF) - duplicate chain+address
+   ANON (0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C) - duplicate chain+address
+   SPCM (0x7Cc9c624Efa62C2Decf0a2a028f7885eCea95A17) - duplicate chain+address
+   AUDF (0xd2a530170D71a9Cfe1651Fb468E2B98F7Ed7456b) - duplicate chain+address
+   AMPL (0x027dbcA046ca156De9622cD1e2D907d375e53aa7) - duplicate chain+address
+   PNIC (0x4f3c5C53279536fFcfe8bCafb78E612E933D53c6) - duplicate chain+address
+   DEXTF (0x03E8D118A1864c7Dc53bf91e007ab7D91f5A06fA) - duplicate chain+address
+   EVAUSDT (0x501eBf66d76A96D4FB26ccead42957653e16B8B8) - duplicate chain+address
+   FITFI (0x714f020C54cc9D104B6F4f6998C63ce2a31D1888) - duplicate chain+address
+   EVAUSDC (0x741bD193B6b40f8703d2e116FD1965421f290F58) - duplicate chain+address
+   BIBTA (0x52d134c6DB5889FaD3542A09eAf7Aa90C0fdf9E4) - duplicate chain+address
+   MXNB (0xF197FFC28c23E0309B5559e7a166f2c6164C80aA) - duplicate chain+address
+   AIN (0xD4423795fd904D9B87554940a95FB7016f172773) - duplicate chain+address
+   MYTH (0x9B9fd410d5F01a6A60acF4678a5A99D8027FA5A7) - duplicate chain+address
+   ERN (0x08d58F06DDfA9b99AE651f68232014BE3914C5cd) - duplicate chain+address
+   WXT (0xfcDe4A87b8b6FA58326BB462882f1778158B02F1) - duplicate chain+address
+   TAROT (0x5ECfeC22AA950CB5A3b4fd7249DC30B2BD160f18) - duplicate chain+address
+   USDP (0x9eE1963f05553eF838604Dd39403be21ceF26AA4) - duplicate chain+address
+   NYA (0x38F9bf9dCe51833Ec7f03C9dC218197999999999) - duplicate chain+address
+   XEN (0xC0C5AA69Dbe4d6DDdfBc89c0957686ec60F24389) - duplicate chain+address
+   MYST (0x0256B279D973C8d687264AC3eB36bE09232D4474) - duplicate chain+address
+   RAI (0x97Cd1CFE2ed5712660bb6c14053C0EcB031Bff7d) - duplicate chain+address
+   PHAR (0x13A466998Ce03Db73aBc2d4DF3bBD845Ed1f28E7) - duplicate chain+symbol
+   TRYB (0x564A341Df6C126f90cf3ECB92120FD7190ACb401) - duplicate chain+address
+   ROCO (0xb2a85C5ECea99187A977aC34303b80AcbDdFa208) - duplicate chain+address
+   WUSDM (0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812) - duplicate chain+address
+   ORNG (0x6c14c1898C843FF66cA51e87244690bBc28DF215) - duplicate chain+address
+   RISE (0xC17c30e98541188614dF99239cABD40280810cA3) - duplicate chain+address
+   ALOT (0x093783055F9047C2BfF99c4e414501F8A147bC69) - duplicate chain+address
+   SHRAP (0xd402298a793948698b9a63311404FBBEe944eAfD) - duplicate chain+address
+
+BASE
+----------------------------------------------------------------------
+
+Successfully Added (13):
+   Bittensor (TAO) - 0xf3081494B87e8D5fb7960f066E931D1D0e6E3d67
+   Alpha Bulgaria Warrants (ALFW) - 0x19CF86D38ae55d1dC08F50588f11b6acc297f977
+   Baby Claw (BABYCLAW) - 0x583edB23E5149cDad7618ea02E298AdA51b6BbD3
+   peaq (PEAQ) - 0x9B56B112BbD6343a8961a093315A9A60b8cB1F36
+   Midas Fasanara Global Open (MGLO) - 0xFCc9Cc1209651Ed8867332d6F664CF82743A2584
+   AllUnity CHF (CHFAU) - 0xBD4DfC058eb95b8De5ceAF39966A1a70F5556F78
+   Basecat (BASECAT) - 0xB2000000000000000000004c27f6523082f41D01
+   FLOCK (FLOCK) - 0x5aB3D4c385B400F3aBB49e80DE2fAF6a88A7B691
+   CLUSTER PROTOCOL (CP) - 0x001AAd84c21A5CD4d696C56d44866e9703c43F77
+   WYDE: End Hunger (EAT) - 0x680BC6ed5c7222E2f29bdBc87f8E8f3400D8Ce04
+   Usual (USUAL) - 0x4ACD4D03af6F9cc0fB7C5f0868B7b6287D7969c5
+   Sophon (SOPH) - 0x31DbA3c96481FDe3CD81C2aaF51F2D8bf618C742
+   Opal (OPAL) - 0x119B63B1605Be3A8ff4543c7F76f7f1f79eECd1f
+
+Excluded (3):
+   AP3X (0x9208d82F121806A34a39bB90733b4C5c54F3993e) - APEX symbol mismatch - CoinGecko AP3X vs on-chain bAP3X
+   USDT (0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2) - Base bridged USDT is not preferred
+   WDAG (0xEcFf4D80f54CF55c626E52F304a8891645961e72) - Symbol mismatch - CoinGecko WDAG vs on-chain DAG
+
+Already Existed (184):
+   USDC (0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913) - duplicate chain+address
+   USDS (0x820C137fa70C8691f0e44Dc420a5e53c168921Dc) - duplicate chain+symbol
+   LINK (0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196) - duplicate chain+address
+   WBTC (0x0555E30da8f98308EdB960aa94C0Db47230d2B9c) - duplicate chain+address
+   CBBTC (0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf) - duplicate chain+address
+   AWETH (0xD4a0e0b9149BCee3C920d2E00b5dE09138fd8bb7) - duplicate chain+address
+   WEETH (0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A) - duplicate chain+address
+   SUSDS (0x5875eEE11Cf8398102FdAd704C9E96607675467a) - duplicate chain+address
+   USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+   AAVE (0x63706e401c06ac8513145b7687A14804d17f814b) - duplicate chain+address
+   ICP (0x00f3C42833C3170159af4E92dbb451Fb3F708917) - duplicate chain+address
+   MORPHO (0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842) - duplicate chain+address
+   ENA (0x58538e6A46E07434d7E7375Bc268D3cb839C0133) - duplicate chain+address
+   SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+   EURSAFO (0xD879846CbE20751bDE8a9342a3CCa00A3E56CA47) - duplicate chain+address
+   CLBTC (0x8d2757EA27AaBf172DA4CCa4e5474c76016e3dC5) - duplicate chain+address
+   RSETH (0x1Bc71130A0e39942a7658878169764Bbd8A45993) - duplicate chain+address
+   JITOSOL (0x97bE14Dd8f994A5364573BC035D85309E7CB34de) - duplicate chain+address
+   SYRUPUSDC (0x660975730059246A68521a3e2FBD4740173100f5) - duplicate chain+address
+   RETH (0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c) - duplicate chain+address
+   VVV (0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf) - duplicate chain+address
+   EUTBL (0xa0769f7A8fC65e47dE93797b4e21C073c117Fc80) - duplicate chain+address
+   LBTC (0xecAc9C5F704e954931349Da37F60E39f515c11c1) - duplicate chain+address
+   JTRSY (0x8c213ee79581Ff4984583C6a801e5263418C4b86) - duplicate chain+address
+   LSETH (0xB29749498954A3A821ec37BdE86e386dF3cE30B6) - duplicate chain+address
+   CAKE (0x3055913c90Fcc1A6CE9a358911721eEb942013A1) - duplicate chain+address
+   JAAA (0x5a0F93D040De44e78F251b03c43be9CF317Dcf64) - duplicate chain+address
+   GHO (0x6Bb7a212910682DCFdbd5BCBb3e28FB4E8da10Ee) - duplicate chain+address
+   FBTC (0xC96dE26018A54D51c097160568752c4E3BD6C364) - duplicate chain+address
+   AERO (0x940181a94A35A4569E4529A3CDfB74e38FD98631) - duplicate chain+address
+   WETH (0x4200000000000000000000000000000000000006) - duplicate chain+address
+   CRV (0x8Ee73c484A26e0A5df2Ee2a4960B789967dd0415) - duplicate chain+address
+   ETHFI (0x6C240DDA6b5c336DF09A4D011139beAAa1eA2Aa2) - duplicate chain+address
+   USD0 (0x758a3e0b1F842C9306B783f8A4078C6C8C03a270) - duplicate chain+address
+   SPX (0x50dA645f148798F68EF2d7dB7C1CB22A6819bb2C) - duplicate chain+address
+   SOLVBTC (0x3B86Ad95859b6AB773f55f8d94B4b9d443EE931f) - duplicate chain+address
+   VIRTUAL (0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b) - duplicate chain+address
+   CBETH (0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22) - duplicate chain+address
+   SUSDAI (0x0B2b2B2076d95dda7817e785989fE353fe955ef9) - duplicate chain+address
+   EURC (0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42) - duplicate chain+address
+   ZRO (0x6985884C4392D348587B19cb9eAAf157F13271cd) - duplicate chain+address
+   PENDLE (0xA99F6e6785Da0F5d6fB42495Fe424BCE029Eeb3E) - duplicate chain+address
+   TBTC (0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b) - duplicate chain+address
+   APXUSD (0xD993935E13851dd7517af10687EC7e5022127228) - duplicate chain+address
+   OHM (0x060cb087a9730E13aa191f31A6d86bFF8DfcdCC0) - duplicate chain+address
+   USDAI (0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF) - duplicate chain+address
+   GTBTC (0xc2d09CF86b9ff43Cb29EF8ddCa57A4Eb4410D5f3) - duplicate chain+address
+   SYRUP (0x688AEe022AA544f150678B8E5720b6b96a9E9a2F) - duplicate chain+address
+   AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+   REUSD (0x7D214438D0F27AfCcC23B3d1e1a53906aCE5CFEa) - duplicate chain+address
+   CRVUSD (0x417Ac0e078398C154EdFadD9Ef675d30Be60Af93) - duplicate chain+address
+   UNIBTC (0x93919784C523f39CACaa98Ee0a9d96c3F32b593e) - duplicate chain+address
+   TIBBIR (0xA4A2E2ca3fBfE21aed83471D28b6f65A233C6e00) - duplicate chain+address
+   COMP (0x9e1028F5F1D5eDE59748FFceE5532509976840E0) - duplicate chain+address
+   EIGEN (0x2081Ab0D9EC9e4303234Ab26D86b20B3367946ee) - duplicate chain+address
+   WSTETH (0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452) - duplicate chain+address
+   APYUSD (0x2c271ddF484aC0386d216eB7eB9Ff02D4Dc0F6AA) - duplicate chain+address
+   CBXRP (0xcb585250f852C6c6bf90434AB21A00f02833a4af) - duplicate chain+address
+   USTBL (0xe4880249745eAc5F1eD9d8F7DF844792D560e750) - duplicate chain+address
+   TEL (0x09bE1692ca16e06f536F0038fF11D1dA8524aDB1) - duplicate chain+address
+   SDAI (0x99aC4484e8a1dbd6A185380B3A811913Ac884D87) - duplicate chain+address
+   SAFO (0x0BB754d8940e283D9Ff6855ab5dAfBC14165c059) - duplicate chain+address
+   DRV (0x9d0E8f5b25384C7310CB8C6aE32C8fbeb645d083) - duplicate chain+address
+   XCN (0x9c632E6Aaa3eA73f91554f8A3cB2ED2F29605e0C) - duplicate chain+address
+   NPC (0xB166E8B140D35D9D8226E40C09f757BAC5A4d87d) - duplicate chain+address
+   TRAC (0xA81a52B4dda010896cDd386C7fBdc5CDc835ba23) - duplicate chain+address
+   CHZ (0x70c8392DE9b39a1E48d12A70Af6FF4Be25D6D0A2) - duplicate chain+address
+   ACBETH (0xcf3D55c10DB69f28fD1A75Bd73f3D8A2d9c595ad) - duplicate chain+address
+   STEAKUSDC (0xbeeF010f9cb27031ad51e3333f9aF9C6B1228183) - duplicate chain+address
+   1INCH (0xc5fecC3a29Fb57B5024eEc8a2239d4621e111CBE) - duplicate chain+address
+   SNX (0x22e6966B799c4D5B13BE962E1D117b56327FDa66) - duplicate chain+address
+   ZEN (0xf43eB8De897Fbc7F2502483B2Bef7Bb9EA179229) - duplicate chain+address
+   SAND (0xac531Eb26Ca1d21b85126De8FB87E80E09002DcF) - duplicate chain+address
+   AWE (0x1B4617734C43F6159F3a70b7E06d883647512778) - duplicate chain+address
+   THBILL (0xfDD22Ce6D1F66bc0Ec89b20BF16CcB6670F55A5a) - duplicate chain+address
+   FRXUSD (0xe5020A6d073a794B6E7f05678707dE47986Fb0b6) - duplicate chain+address
+   EZETH (0x2416092f143378750bb29b79eD961ab195CcEea5) - duplicate chain+address
+   CHIP (0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e) - duplicate chain+symbol
+   FLUID (0x61E030A56D33e8260FdD81f03B162A79Fe3449Cd) - duplicate chain+address
+   SOSO (0x624e2e7fDc8903165F64891672267AB0FCB98831) - duplicate chain+address
+   RSR (0xaB36452DbAC151bE02b16Ca17d8919826072f64a) - duplicate chain+address
+   MAG7.SSI (0x9E6A46f294bB67c20F1D1E7AfB0bBEf614403B55) - duplicate chain+address
+   O (0x182FA643E5f29d5EcA75e7b9CF9336A3fe4620b2) - duplicate chain+address
+   YFI (0x9EaF8C1E34F05a589EDa6BAfdF391Cf6Ad3CB239) - duplicate chain+address
+   BR (0xd6122ddADa244913521F3d62006eaF756c157660) - duplicate chain+address
+   FXUSD (0x55380fe7A1910dFf29A47B622057ab4139DA42C5) - duplicate chain+address
+   BEAM (0x2A66d51407b84b82b5AFF3DeC4D49f72CBCD322a) - duplicate chain+address
+   XSOLVBTC (0xC26C9099BD3789107888c35bb41178079B282561) - duplicate chain+address
+   KAITO (0x98d0baa52b2D063E780DE12F615f963Fe8537553) - duplicate chain+address
+   SUPER (0x391359ab0CCef572DcaC78F74E47D7C06Db0b982) - duplicate chain+address
+   NOCK (0x9B5E262cF9bb04869ab40b19AF91D2dc85761722) - duplicate chain+address
+   COW (0xc694a91e6b071bF030A18BD3053A7fE09B6DaE69) - duplicate chain+address
+   RIF (0xe5e851b01DD3Eda24FDe709a407dB44555B6d1E0) - duplicate chain+address
+   CGUSD (0xCa72827a3D211CfD8F6b00Ac98824872b72CAb49) - duplicate chain+address
+   MTBILL (0xDD629E5241CbC5919847783e6C96B2De4754e438) - duplicate chain+address
+   BABYDOGE (0x58ecEF26335Af7b04A998105a6603B0Dc475aF33) - duplicate chain+address
+   BRLV (0xd2047ebdb205Ee6862b69ae9fB3501652cC97d36) - duplicate chain+address
+   SUSHI (0x7D49a065D17d6d4a55dc13649901fdBB98B2AFBA) - duplicate chain+address
+   HOT (0xf3dD141109Dfe8e4c006F88a2A8747a086e7C1f8) - duplicate chain+address
+   RAVE (0x1aA8fD5BCce2231C6100d55Bf8B377cff33Acfc3) - duplicate chain+address
+   RED (0x4eB92702bA4cfbF80561BAd64D89C706Ac824960) - duplicate chain+address
+   W (0xB0fFa8000886e57F86dd5264b9582b2Ad87b2b91) - duplicate chain+address
+   DIEM (0xF4d97F2da56e8c3098f3a8D538DB630A2606a024) - duplicate chain+address
+   DOLA (0x4621b7A9c75199271F773Ebd9A499dbd165c3191) - duplicate chain+address
+   SOON (0xb9E1Fd5A02D3A33b25a14d661414E6ED6954a721) - duplicate chain+address
+   TETH (0xd09ACb80C1E8f2291862c4978A008791c9167003) - duplicate chain+address
+   OMI (0x3792DBDD07e87413247DF995e692806aa13D3299) - duplicate chain+address
+   GPS (0x0C1dC73159e30c4b06170F2593D3118968a0DCa5) - duplicate chain+address
+   WSRUSD (0x62344be8CA1c339B46274a4017dd87AF436900B1) - duplicate chain+address
+   ALLO (0x032d86656Db142138AC97d2c5C4E3766E8c0482d) - duplicate chain+address
+   BIO (0x226A2FA2556C48245E57cd1cbA4C6c9e67077DD2) - duplicate chain+address
+   AXL (0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f) - duplicate chain+address
+   XVS (0xebB7873213c8d1d9913D8eA39Aa12d74cB107995) - duplicate chain+address
+   ACU (0xc5fEd7c8cCC75D8A72b601a66DffD7A489073F0b) - duplicate chain+address
+   FT (0x5DD1A7A369e8273371d2DBf9d83356057088082c) - duplicate chain+address
+   TOSHI (0xAC1Bd2486aAf3B5C0fc3Fd868558b082a531B2B4) - duplicate chain+address
+   BRETT (0x532f27101965dd16442E59d40670FaF5eBB142E4) - duplicate chain+address
+   BRBTC (0x3376eBCa0A85Fc8D791B1001a571C41fdd61514a) - duplicate chain+address
+   T (0x26f3901aC8a79c50fb0d8289C74f0d09AdC42E29) - duplicate chain+address
+   BIM (0x555FFF48549C1A25a723Bd8e7eD10870D82E8379) - duplicate chain+address
+   SQD (0xd4554BEa546EFa83C1E6B389ecac40EA999B3E78) - duplicate chain+address
+   MOG (0x2Da56AcB9Ea78330f947bD57C54119Debda7AF71) - duplicate chain+address
+   KTA (0xc0634090F2Fe6c6d75e61Be2b949464aBB498973) - duplicate chain+address
+   ZCHF (0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553) - duplicate chain+address
+   GBPSAFO (0x2f6c0e5E06b43512706a9cdf66cD21f723Fe0eC3) - duplicate chain+address
+   WRSETH (0xEDfa23602D0EC14714057867A78d01e94176BEA0) - duplicate chain+address
+   SXT (0xA2c22252cDc8b7cDdEe1B0b2E242818509fCf7b8) - duplicate chain+address
+   DEGEN (0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed) - duplicate chain+address
+   MOVE (0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073) - duplicate chain+address
+   ZORA (0x1111111111166b7FE7bd91427724B487980aFc69) - duplicate chain+address
+   AVNT (0x696F9436B67233384889472Cd7cD58A6fB5DF4f1) - duplicate chain+address
+   NEIRO (0x5Ca35eBC4f25B042d2cAE75914c7e882E631fA9A) - duplicate chain+address
+   PRO (0x18dD5B087bCA9920562aFf7A0199b96B9230438b) - duplicate chain+address
+   REKT (0xB3e3c89B8D9c88B1fe96856E382959eE6291ebbA) - duplicate chain+address
+   VELVET (0xbF927b841994731C573BDF09ceB0c6B0Aa887cDd) - duplicate chain+address
+   MOCA (0x2B11834Ed1FeAEd4b4b3a86A6F571315E25A884D) - duplicate chain+address
+   SUPEROETHB (0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3) - duplicate chain+address
+   FOLKS (0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B) - duplicate chain+address
+   BASEDHYPE (0x84a9183C9D11146d8E6A820Dfc675a61B11EaDeb) - duplicate chain+address
+   BOLD (0x03569CC076654F82679C4BA2124D64774781B01D) - duplicate chain+address
+   CYS (0x19e8d59ff3D7A31289e0Dc04Db48d43b02c7ffa6) - duplicate chain+address
+   MSETH (0x7Ba6F01772924a82D9626c126347A28299E98c98) - duplicate chain+address
+   MSUSD (0x526728DBc96689597F85ae4cd716d4f7fCcBAE9d) - duplicate chain+address
+   ELON (0x4a9f3ed92892c0168DC194eC3867f8316288B32a) - duplicate chain+address
+   EURSPKCC (0x4f33aCf823E6eEb697180d553cE0c710124C8D59) - duplicate chain+address
+   EUL (0xa153Ad732F831a79b5575Fa02e793EC4E99181b0) - duplicate chain+address
+   BCSPX (0xC3cE78B037DDA1B966D31EC7979d3f3a38571A8E) - duplicate chain+address
+   SIGN (0x868FCEd65edBF0056c4163515dD840e9f287A4c3) - duplicate chain+address
+   MUSD (0xdD468A1DDc392dcdbEf6db6e34E89AA338F9F186) - duplicate chain+address
+   IOTX (0xBCBAf311ceC8a4EAC0430193A528d9FF27ae38C1) - duplicate chain+address
+   WMTX (0x3e31966d4f81C72D2a55310A6365A56A4393E98D) - duplicate chain+address
+   VANA (0x7FF7Fa94b8b66Ef313f7970d4EEbd2CB3103a2C0) - duplicate chain+address
+   G (0x9C7BEBa8F6eF6643aBd725e45a4E8387eF260649) - duplicate chain+address
+   REZ (0xf757c9804cF2EE8d8Ed64e0A8936293Fe43a7252) - duplicate chain+address
+   ICNT (0xE0Cd4cAcDdcBF4f36e845407CE53E87717b6601d) - duplicate chain+address
+   ZBT (0xfAB99fCF605fD8f4593EDb70A43bA56542777777) - duplicate chain+address
+   DRB (0x3ec2156D4c0A9CBdAB4a016633b7BcF6a8d68Ea2) - duplicate chain+address
+   TGBP (0x27f6c8289550fCE67f6B50BeD1F519966aFE5287) - duplicate chain+address
+   LUSD (0x368181499736d0c0CC614DBB145E2EC1AC86b8c6) - duplicate chain+address
+   BSB (0x0dc28eFBA8c6E0C14Fa7391636B8Bec86C4C83D6) - duplicate chain+symbol
+   HOME (0x4BfAa776991E85e5f8b1255461cbbd216cFc714f) - duplicate chain+address
+   ROBO (0x407A5fb66CB1b3d50004f7091c08A27B42ba6d6F) - duplicate chain+address
+   CX (0x000000000000012DeF132E61759048bE5b5C6033) - duplicate chain+address
+   RIVER (0xdA7AD9dea9397cffdDAE2F8a052B82f1484252B3) - duplicate chain+address
+   CTSI (0x259Fac10c5CbFEFE3E710e1D9467f70a76138d45) - duplicate chain+address
+   CARV (0xc08Cd26474722cE93F4D0c34D16201461c10AA8C) - duplicate chain+address
+   AUKI (0xF9569cFb8FD265e91aa478d86ae8c78b8AF55Df4) - duplicate chain+address
+   LSK (0xac485391EB2d7D88253a7F1eF18C37f4242D1A24) - duplicate chain+address
+   SKL (0xb9cAA63e09c646C1ec79aCB2158d173e64a5FEd3) - duplicate chain+address
+   BNKR (0x22aF33FE49fD1Fa80c7149773dDe5890D3c76F3b) - duplicate chain+address
+   HYPER (0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4) - duplicate chain+address
+   OPG (0xFbC2051AE2265686a469421b2C5A2D5462FbF5eB) - duplicate chain+address
+   YGG (0xaAC78d1219c08AecC8e37e03858FE885f5EF1799) - duplicate chain+address
+   STG (0xE3B53AF74a4BF62Ae5511055290838050bf764Df) - duplicate chain+address
+   EUSD (0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4) - duplicate chain+address
+   AIXBT (0x4F9Fd6Be4a90f2620860d680c0d4d5Fb53d1A825) - duplicate chain+address
+   WOO (0xF3df0A31ec5EA438150987805e841F960b9471b6) - duplicate chain+address
+   MERC (0x8923947EAfaf4aD68F1f0C9eb5463eC876D79058) - duplicate chain+address
+   DUAL (0x832b55B0fA6397ca9e63B8c15DAdeF3f6E44614c) - duplicate chain+address
+   B3 (0xB3B32F9f8827D4634fE7d973Fa1034Ec9fdDB3B3) - duplicate chain+address
+   TIG (0x0C03Ce270B4826Ec62e7DD007f0B716068639F7B) - duplicate chain+address
+   PEAS (0x02f92800F57BCD74066F5709F1Daa1A4302Df875) - duplicate chain+address
+   MEY (0x8bFAc1b375bf2894D6F12fb2Eb48B1C1a7916789) - duplicate chain+address
+   SYN (0x432036208d2717394d2614d6697c46DF3Ed69540) - duplicate chain+address
+
+BSC
+----------------------------------------------------------------------
+
+Successfully Added (20):
+   MarsCoin (MARSCOIN) - 0xFe189E97832DA1573e4e4Ff034F4fFC3a15c7777
+   AntFun (ANTFUN) - 0x6CEd5c6d3F913b48D59Fa07AbBfe9060C409087C
+   DGrid AI (DGAI) - 0x10D4183389e99233db3cc981c43443Ebd28Ebd5e
+   Permacast (PWT) - 0x458CB0959b8FdC71ebBD92911777F8c9E814C29c
+   Bermuda Shorts (SHORT) - 0xACee924Ec7FCEB684369519e2d135DB2eAabE192
+   牛来 (Niu Lai) (牛来) - 0xBEEA1D618e533a387D941F58a7d4c9b7bD377777
+   peaq (PEAQ) - 0x8b9Ee39195eA99d6ddD68030F44131116bc218F6
+   BULLA (BULLA) - 0x595E21b20E78674F8a64C1566A20b2b316Bc3511
+   Cap (CAP) - 0x99991c6AAbba5a096f24f250b73580F5179b9999
+   MicroStrategy xStock (MSTRX) - 0xAE2f842EF90C0d5213259Ab82639D5BBF649b08E
+   Saturn Dollar (USDAT) - 0x0Bb150DFa86EA5d7742F07FEfCD8E8edA81D64eF
+   Royal Euro (REUR) - 0x3ed0b3C4c0168a560d34E361B8130DCCA4677736
+   龙虾 (Lobster) (龙虾) - 0xeCCBb861c0dda7eFd964010085488B69317e4444
+   SkyAI (SKYAI) - 0x92aa03137385F18539301349dcfC9EbC923fFb10
+   NOXO (NOXO) - 0x5191b13fc0E90026942dA71D619d64f4289Ddc69
+   ALD (ALD) - 0x3cBd513239d9E5538A4CAEd8ed53eF77009Df473
+   MEMETOON (MEME) - 0x193397BB76868c6873e733AD60D5953843EBc84e
+   哈基米 (Hajimi) (哈基米) - 0x82Ec31D69b3c289E541b50E30681FD1ACAd24444
+   DAPPOS (DOS) - 0xB0f09ea9ae0515C3551080D4a745C8115aA30e37
+   SQD (SQD) - 0xe50E3d1A46070444F44df911359033F2937fcC13
+
+Excluded (9):
+   USDF (0xb3b02E4A9Fb2bD28CC2ff97B0aB3F6B3Ec1eE9D2) - manual review required: incoming symbol collision between 0xb3b02e4a9fb2bd28cc2ff97b0ab3f6b3ec1ee9d2 (topTokens_bsc_200.json); 0x5a110fc00474038f6c02e89c707d638602ea44b5 (topTokens_bsc_200.json)
+   XAUT0 (0x21cAef8A43163Eea865baeE23b9C2E327696A3bf) - Symbol mismatch - CoinGecko XAUT0 vs on-chain XAUt
+   SOL (0x570A5D26f7765Ecb712C0924E4De545B89fD43dF) - SOL can be confused with native SOL
+   USDF (0x5A110fC00474038f6c02E89C707D638602EA44B5) - manual review required: incoming symbol collision between 0xb3b02e4a9fb2bd28cc2ff97b0ab3f6b3ec1ee9d2 (topTokens_bsc_200.json); 0x5a110fc00474038f6c02e89c707d638602ea44b5 (topTokens_bsc_200.json)
+   USDA (0x9356086146be5158E98aD827E21b5cF944699894) - manual review required: incoming symbol collision between 0x9356086146be5158e98ad827e21b5cf944699894 (topTokens_bsc_200.json); 0x17eafd08994305d8ace37efb82f1523177ec70ee (topTokens_bsc_200.json)
+   USDA (0x17EAfd08994305D8AcE37EfB82F1523177eC70EE) - manual review required: incoming symbol collision between 0x9356086146be5158e98ad827e21b5cf944699894 (topTokens_bsc_200.json); 0x17eafd08994305d8ace37efb82f1523177ec70ee (topTokens_bsc_200.json)
+   KAVA (0x9BAFC8d4b487cEBff201721702507a3E2C67ad79) - KAVA can be confused with native KAVA
+   WONE (0x03fF0ff224f904be3118461335064bB48Df47938) - Symbol mismatch: CoinGecko="wone" vs OnChain="ONE"
+   ONE (0x6bf62ca91e397B5A7d1D6bCe97D9092065d7A510) - Symbol mismatch: CoinGecko="one" vs OnChain="CROSS"
+
+Already Existed (171):
+   LINK (0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD) - duplicate chain+address
+   WBETH (0xa2E3356610840701BDf5611a53974510Ae27E2e1) - duplicate chain+address
+   WBTC (0x0555E30da8f98308EdB960aa94C0Db47230d2B9c) - duplicate chain+address
+   BSC-USD (0x55d398326f99059fF775485246999027B3197955) - duplicate chain+address
+   WEETH (0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A) - duplicate chain+address
+   USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+   UNI (0xBf5140A22578168FD562DCcF235E5D43A02ce9B1) - duplicate chain+address
+   USD1 (0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d) - duplicate chain+address
+   GRAM (0x76A797A59Ba2C17726896976B7B3747BfD1d220f) - duplicate chain+address
+   BUIDL (0x2D5BdC96D9C8AabBDB38c9A27398513e7E5ef84F) - duplicate chain+address
+   USYC (0x8D0fA28f221eB5735BC71d3a0Da67EE5bC821311) - duplicate chain+address
+   M (0x22b1458e780F8fA71E2F84502cEe8B5A3cc731Fa) - duplicate chain+address
+   USDY (0x608593d17A2decBbc4399e4185bE4922F97eD32E) - duplicate chain+address
+   ASTER (0x000Ae314E2A2172a039B26378814C252734f556A) - duplicate chain+address
+   AAVE (0xfb6115445Bff7b52FeB98650C87f44907E58f802) - duplicate chain+address
+   WLFI (0x47474747477b199288bF72a1D702f7Fe0Fb1DEeA) - duplicate chain+address
+   USDC (0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d) - duplicate chain+address
+   PEPE (0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00) - duplicate chain+address
+   HTX (0x61EC85aB89377db65762E234C946b5c25A56E99e) - duplicate chain+address
+   USDD (0x45E51bc23D592EB2DBA86da3985299f7895d66Ba) - duplicate chain+symbol
+   SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+   U (0xcE24439F2D9C6a2289F741120FE202248B666666) - duplicate chain+address
+   WETH (0x2170Ed0880ac9A755fd29B2688956BD959F933F8) - duplicate chain+symbol
+   BTW (0x444045B0EE1ee319A660a5E3d604CA0ffA35ACaA) - duplicate chain+address
+   WBNB (0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c) - duplicate chain+address
+   ATOM (0x0Eb3a705fc54725037CC9e008bDede697f62F335) - duplicate chain+address
+   LBTC (0xecAc9C5F704e954931349Da37F60E39f515c11c1) - duplicate chain+address
+   STABLE (0x011EBe7d75E2C9D1E0bD0be0bEf5C36f0A90075F) - duplicate chain+symbol
+   CAKE (0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82) - duplicate chain+address
+   JAAA (0x58F93d6b1EF2F44eC379Cb975657C132CBeD3B6b) - duplicate chain+address
+   FBTC (0xC96dE26018A54D51c097160568752c4E3BD6C364) - duplicate chain+address
+   M-BTC (0x9BFA177621119e64CecbEabE184ab9993E2ef727) - duplicate chain+address
+   INJ (0xa2B726B1145A4773F68593CF171187d8EBe4d495) - duplicate chain+address
+   BDX (0x9d10a1ec41Fe7878429BB457e31F9b050D38c633) - duplicate chain+address
+   USD0 (0x758a3e0b1F842C9306B783f8A4078C6C8C03a270) - duplicate chain+address
+   PENGU (0x6418c0dd099a9FDA397C766304CDd918233E8847) - duplicate chain+address
+   币安人生 (0x924fa68a0FC644485b8df8AbfA0A41C2e7744444) - duplicate chain+address
+   SOLVBTC (0x4aae823a6a0b376De6A78e74eCC5b079d38cBCf7) - duplicate chain+address
+   TUSD (0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9) - duplicate chain+address
+   XRP (0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE) - duplicate chain+address
+   AKE (0x2c3a8Ee94dDD97244a93Bc48298f97d2C412F7Db) - duplicate chain+address
+   FET (0x031b41e504677879370e9DBcF937283A8691Fa7f) - duplicate chain+address
+   ZRO (0x6985884C4392D348587B19cb9eAAf157F13271cd) - duplicate chain+address
+   SYRUPUSDT (0x8E9d4cEa39299323FE8eda678cAD449718556c4e) - duplicate chain+address
+   PENDLE (0xb3Ed0A426155B79B898849803E3B36552f7ED507) - duplicate chain+address
+   NIGHT (0xFe930c2d63AeD9b82fC4DBC801920dD2c1a3224F) - duplicate chain+address
+   FF (0xAC23B90A79504865D52B49B327328411a23d4dB2) - duplicate chain+address
+   PIEVERSE (0x0E63B9C287E32A05E6b9AB8ee8dF88A2760225A9) - duplicate chain+address
+   ENZOBTC (0x6A9A65B84843F5fD4aC9a0471C4fc11AFfFBce4a) - duplicate chain+address
+   FDUSD (0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409) - duplicate chain+address
+   UB (0x40b8129B786D766267A7a118cF8C07E31CDB6Fde) - duplicate chain+address
+   APXUSD (0x6b3788Fd6604BBF03c5378D24e57BB334BAAD4aF) - duplicate chain+address
+   BTT (0x352Cb5E19b12FC216548a2677bD0fce83BaE434B) - duplicate chain+address
+   KITE (0x904567252D8F48555b7447c67dCA23F0372E16be) - duplicate chain+address
+   BUSD (0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56) - duplicate chain+address
+   BONK (0xA697e272a73744b343528C3Bc4702F2565b2F422) - duplicate chain+address
+   GTBTC (0xc2d09CF86b9ff43Cb29EF8ddCa57A4Eb4410D5f3) - duplicate chain+address
+   REAL (0x65e7a112dB1142EAE919201b1232f7aA488Ed83c) - duplicate chain+address
+   AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+   ZEC (0x1Ba42e5193dfA8B03D15dd1B86a3113bbBEF8Eeb) - duplicate chain+address
+   REUSD (0xbA9425EC55ee0E72216D18e0ad8BBbA2553bFb60) - duplicate chain+address
+   TWT (0x4B0F1812e5Df2A09796481Ff14017e6005508003) - duplicate chain+address
+   CRVUSD (0xe2fb3F127f5450DeE44afe054385d74C392BdeF4) - duplicate chain+address
+   KOGE (0xe6DF05CE8C8301223373CF5B969AFCb1498c5528) - duplicate chain+address
+   UNIBTC (0x6B2a01A5f79dEb4c2f3c0eDa7b01DF456FbD726a) - duplicate chain+address
+   DOGE (0xbA2aE424d960c26247Dd6c32edC70B295c744C43) - duplicate chain+address
+   NFT (0x20eE7B720f4E4c4FFcB00C4065cdae55271aECCa) - duplicate chain+address
+   USELESS (0xbA38B3C706f7A515Ff7C8Db04Daa0A134eC46D2b) - duplicate chain+address
+   FRAX (0x90C97F71E18723b0Cf0dfa30ee176Ab653E89F40) - duplicate chain+address
+   COMP (0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8) - duplicate chain+address
+   SUSDD (0x8bA9dA757d1D66c58b1ae7e2ED6c04087348A82d) - duplicate chain+address
+   VUSDT (0xfD5840Cd36d94D7229439859C0112a4185BC0255) - duplicate chain+address
+   B (0x6bdcCe4A559076e37755a78Ce0c06214E59e4444) - duplicate chain+address
+   APYUSD (0xa14556f13516C53FF035858Ffd21E1625e7EADfd) - duplicate chain+address
+   ULTIMA (0x5668a83B46016B494A30Dd14066A451E5417A8B8) - duplicate chain+address
+   COCO (0x80F1fF15B887CB19295D88C8c16F89d47f6D8888) - duplicate chain+address
+   AXS (0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0) - duplicate chain+address
+   UAI (0x3E5d4f8aee0D9B3082d5f6DA5D6e225D17ba9ea0) - duplicate chain+address
+   XCN (0x7324c7C0d95CEBC73eEa7E85CbAac0dBdf88a05b) - duplicate chain+address
+   NPC (0xFEbfA339E44c28E2aa9E62Ea1027C9CB4e378605) - duplicate chain+address
+   FRXETH (0x64048A7eEcF3a2F1BA9e144aAc3D7dB6e58F555e) - duplicate chain+address
+   GOMINING (0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989) - duplicate chain+address
+   APE (0x8f86a15EC17cb3369d8b3E666dAdBC11daA82b79) - duplicate chain+address
+   SFP (0xD41FDb03Ba84762dD66a0af1a6C8540FF1ba5dfb) - duplicate chain+address
+   1INCH (0x111111111117dC0aa78b770fA6A738034120C302) - duplicate chain+address
+   ZAMA (0x6907A5986C4950Bdaf2F81828Ec0737ce787519f) - duplicate chain+address
+   CRCLON (0x992879Cd8ce0c312d98648875B5A8D6D042cbF34) - duplicate chain+address
+   Q (0xc07e1300dc138601FA6B0b59f8D0FA477e690589) - duplicate chain+address
+   FRXUSD (0x80Eede496655FB9047dd39d9f418d5483ED600df) - duplicate chain+address
+   EZETH (0x2416092f143378750bb29b79eD961ab195CcEea5) - duplicate chain+address
+   CHEEMS (0x0DF0587216a4a1bB7d5082fdc491d93d2dD4B413) - duplicate chain+address
+   SFRXETH (0x3Cd55356433C89E50DC51aB07EE0fa0A95623D53) - duplicate chain+address
+   CRCLB (0x80f3D493EBCe97e343c53D29a137942416B4ffC0) - duplicate chain+address
+   PROM (0xaF53d56ff99f1322515E54FdDE93FF8b3b7DAFd5) - duplicate chain+address
+   UUSD (0x61a10E8556BEd032eA176330e7F17D6a12a10000) - duplicate chain+address
+   FORM (0x5b73A93b4E5e4f1FD27D8b3F8C97D69908b5E284) - duplicate chain+symbol
+   ADA (0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47) - duplicate chain+address
+   GENIUS (0x1F12B85aAC097E43Aa1555b2881E98a51090e9A6) - duplicate chain+address
+   AB (0x95034f653D5D161890836Ad2B6b8cc49D14e029a) - duplicate chain+address
+   PLUME (0x5aFadCd1E8E3CA78Ee2D37100102f2aec8Bc0Aa8) - duplicate chain+address
+   VELO (0xf486ad071f3bEE968384D2E39e2D8aF0fCf6fd46) - duplicate chain+address
+   UP (0x000008D2175F9AEAdDb2430c26f8A6f73c5A0000) - duplicate chain+address
+   O (0x500A02a20B0B0A3F3efCCFc0559543F5743bd1C4) - duplicate chain+address
+   NEX (0x365DE036A1F7dcCb621530d517133521debB2013) - duplicate chain+address
+   ASBNB (0x77734e70b6E88b4d82fE632a168EDf6e700912b6) - duplicate chain+address
+   BSPX (0x7796F4E23a62eF3653829c21032A9E24bEaf4Cf5) - duplicate chain+address
+   CRCLX (0xfEbDEd1B0986a8ee107f5AB1a1c5a813491DeCEB) - duplicate chain+address
+   BANANAS31 (0x3d4f0513E8a29669B960f9dBcA61861548A9A760) - duplicate chain+address
+   XPR (0x5de3939b2F811A61d830E6F52d13B066881412ab) - duplicate chain+address
+   BR (0xFf7d6A96ae471BbCD7713aF9CB1fEeB16cf56B41) - duplicate chain+address
+   AIOZ (0x33d08D8C7a168333a85285a68C0042b39fC3741D) - duplicate chain+address
+   SUSD1+ (0x4F2760B32720F013E900DC92F65480137391199b) - duplicate chain+address
+   BEAM (0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE) - duplicate chain+address
+   XSOLVBTC (0x1346b618dC92810EC74163e4c27004c921D446a5) - duplicate chain+address
+   TAG (0x208bF3E7dA9639f1Eaefa2DE78c23396B0682025) - duplicate chain+address
+   COW (0x5BfdAa3f7C28B9994B56135403bF1aCEA02595b0) - duplicate chain+address
+   LISUSD (0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5) - duplicate chain+address
+   BABYDOGE (0xc748673057861a797275CD8A068AbB95A902e8de) - duplicate chain+address
+   XAUM (0x23AE4fd8E7844cdBc97775496eBd0E8248656028) - duplicate chain+address
+   TSLAX (0x8aD3c73F833d3F9A523aB01476625F269aEB7Cf0) - duplicate chain+address
+   IVVON (0x1104EB7e85E25eB45F88e638b0C27A06C1A91CB2) - duplicate chain+address
+   SAFE (0x5AC0C096549D9Df6bf2f709D8c169CEb92470267) - duplicate chain+address
+   SUSHI (0x947950BcC74888a40Ffa2593C5798F11Fc9124C4) - duplicate chain+address
+   DEXE (0x6E88056E8376Ae7709496Ba64d37fa2f8015ce3e) - duplicate chain+address
+   ZIG (0x8C907e0a72C3d55627E853f4ec6a96b0C8771145) - duplicate chain+address
+   RAVE (0x97693439EA2f0ecdeb9135881E49f354656a911c) - duplicate chain+address
+   BAS (0x0F0df6cB17ee5E883eddFEf9153fC6036BDB4e37) - duplicate chain+address
+   USDON (0x1f8955E640Cbd9abc3C3Bb408c9E2E1f5F20DfE6) - duplicate chain+address
+   NILA (0x00f8Da33734FeB9b946fEC2228C25072D2e2E41f) - duplicate chain+address
+   DOLA (0x2F29Bc0FFAF9bff337b31CBe6CB5Fb3bf12e5840) - duplicate chain+address
+   ELG (0x755341c49f4427e43d99d8254a8dD87056f1Ee00) - duplicate chain+address
+   SOON (0xb9E1Fd5A02D3A33b25a14d661414E6ED6954a721) - duplicate chain+address
+   SPCXB (0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1) - duplicate chain+address
+   GPS (0x9A4a67721573f2c9209DfFf972c52Be4E3F6642e) - duplicate chain+address
+   WSRUSD (0x4809010926aec940b550D34a46A52739f996D75D) - duplicate chain+address
+   ALLO (0xCCe5F304fD043d6A4E8cCB5376A4a4Fb583B98d5) - duplicate chain+address
+   MHORSE (0x9DAF1a070F882d870A8D58D7a27041c752F3B88D) - duplicate chain+address
+   COAI (0x0A8D6C86e1bcE73fE4D0bD531e1a567306836EA5) - duplicate chain+address
+   BIO (0x226A2FA2556C48245E57cd1cbA4C6c9e67077DD2) - duplicate chain+address
+   VBILL (0x14d72634328C4D03bBA184A48081Df65F1911279) - duplicate chain+address
+   ZETA (0x0000028a2eB8346cd5c0267856aB7594B7a55308) - duplicate chain+address
+   ZIL (0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787) - duplicate chain+address
+   ROSE (0xF00600eBC7633462BC4F9C61eA2cE99F5AAEBd4a) - duplicate chain+address
+   AXL (0x8b1f4432F943c465A973FeDC6d7aa50Fc96f1f65) - duplicate chain+address
+   SPYX (0x90A2a4c76b5D8c0bc892A69EA28Aa775a8f2dD48) - duplicate chain+address
+   DUSD (0xaf44A1E76F56eE12ADBB7ba8acD3CbD474888122) - duplicate chain+address
+   ACU (0x6EF2FFB38D64aFE18ce782DA280b300e358CFeAF) - duplicate chain+address
+   XVS (0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63) - duplicate chain+address
+   LAB (0x7ec43Cf65F1663F820427C62A5780b8f2E25593A) - duplicate chain+address
+   APES (0xfBd09f771D1D76275B58ECA4016978a8A8dc46DE) - duplicate chain+address
+   APR (0x299AD4299Da5b2b93Fba4c96967B040C7F611099) - duplicate chain+address
+   FT (0x5DD1A7A369e8273371d2DBf9d83356057088082c) - duplicate chain+symbol
+   TOSHI (0x6a2608Dabe09bc1128EEC7275B92DFB939D5Db3f) - duplicate chain+address
+   BRZ (0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb) - duplicate chain+address
+   BRETT (0xA7440029ecA41dEaBd8775Ef1D6086b37d4dF8D6) - duplicate chain+address
+   HOLO (0x1a5D7E4c3A7F940B240b7357a4bFED30D17f9497) - duplicate chain+address
+   SHIB (0x2859e4544C4bB03966803b044A93563Bd2D0DD4D) - duplicate chain+address
+   BRBTC (0x733a6c29eDA4a58931AE81b8d91e29f2EAf01df3) - duplicate chain+address
+   ID (0x2dfF88A56767223A5529eA5960Da7A3F5f766406) - duplicate chain+address
+   ELF (0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9) - duplicate chain+address
+   XAN (0x7427bd9542e64d1Ac207a540CfCE194B7390a07f) - duplicate chain+address
+   DUSK (0xB2BD0749DBE21f623d9BABa856D3B0f0e1BFEc9C) - duplicate chain+address
+   MASK (0x2eD9a5C8C13b93955103B9a7C167B67Ef4d568a3) - duplicate chain+address
+   GWEI (0x30117E4bC17d7B044194b76A38365C53b72F7D49) - duplicate chain+address
+   WKC (0x6Ec90334d89dBdc89E08A133271be3d104128Edb) - duplicate chain+address
+   BARD (0xd23A186A78c0B3B805505E5f8ea4083295ef9f3a) - duplicate chain+address
+   ALT (0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB) - duplicate chain+address
+   SPYON (0x6a708EAD771238919D85930b5a0f10454E1C331a) - duplicate chain+address
+   BEAT (0xcf3232B85b43BCa90E51D38cc06Cc8bB8C8A3E36) - duplicate chain+address
+   EDU (0xBdEAe1cA48894A1759A8374D63925f21f2Ee2639) - duplicate chain+address
+   MUON (0x8b6ACf6041A81567f012Ff6A4C6D96d5818d74bF) - duplicate chain+address
+
+ETHEREUM
+----------------------------------------------------------------------
+
+Successfully Added (9):
+   Blockchain Capital (BCAP) - 0x8347FfFB3abeb2fAe5C21b09E983bdEFa1A047dc
+   SoFiUSD (SOFID) - 0x0CB6d03B0aC88A463F67B7Ad99f9f3ec4678092E
+   JPYSC (JPYSC) - 0x6781d5631BFe47432b089e64e3EaB3b6eDd26177
+   Zama (ZAMA) - 0xA12CC123ba206d4031D1c7f6223D1C2Ec249f4f3
+   Quack AI (Q) - 0xc07e1300dc138601FA6B0b59f8D0FA477e690589
+   USD.AI (CHIP) - 0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e
+   Bitget Wrapped BTC (BGBTC) - 0x0520930F21b14Cafac7a27b102487beE7138a017
+   Wrapped Pulse (WPLS) - 0xA882606494D86804B5514E07e6Bd2D6a6eE6d68A
+   Nest BlackOpal LiquidStone II Vault (NOPAL) - 0x119Dd7dAFf816f29D7eE47596ae5E4bdC4299165
+
+Excluded (3):
+   BNB (0xB8c77482e45F1F44dE1745F52C74426C631bDD52) - BNB can be confused with native BNB
+   POL (0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6) - POL can be confused with native POL
+   ACBETH (0x977b6fc5dE62598B08C85AC8Cf2b745874E8b78c) - Symbol mismatch: CoinGecko="acbeth" vs OnChain="aEthcbETH"
+
+Already Existed (188):
+   USDT (0xdAC17F958D2ee523a2206206994597C13D831ec7) - duplicate chain+address
+   USDC (0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48) - duplicate chain+address
+   STETH (0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84) - duplicate chain+address
+   WSTETH (0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0) - duplicate chain+address
+   USDS (0xdC035D45d973E3EC169d2276DDab16f1e407384F) - duplicate chain+address
+   LINK (0x514910771AF9Ca656af840dff83E8264EcF986CA) - duplicate chain+address
+   WBETH (0xa2E3356610840701BDf5611a53974510Ae27E2e1) - duplicate chain+address
+   WBTC (0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599) - duplicate chain+address
+   WBT (0x925206b8a707096Ed26ae47C84747fE0bb734F59) - duplicate chain+address
+   LEO (0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3) - duplicate chain+address
+   CBBTC (0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf) - duplicate chain+address
+   AWETH (0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8) - duplicate chain+address
+   WEETH (0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee) - duplicate chain+address
+   WETH (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) - duplicate chain+address
+   SUSDS (0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD) - duplicate chain+address
+   DAI (0x6B175474E89094C44Da98b954EedeAC495271d0F) - duplicate chain+address
+   USDE (0x4c9EDD5852cd905f086C759E8383e09bff1E68B3) - duplicate chain+address
+   UNI (0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984) - duplicate chain+address
+   USD1 (0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d) - duplicate chain+address
+   GRAM (0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1) - duplicate chain+address
+   USDG (0xe343167631d89B6Ffc58B88d6b7fB0228795491D) - duplicate chain+address
+   SHIB (0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE) - duplicate chain+address
+   PYUSD (0x6c3ea9036406852006290770BEdFcAbA0e23A0e8) - duplicate chain+address
+   BUIDL (0x7712c34205737192402172409a8F7ccef8aA2AEc) - duplicate chain+address
+   CRO (0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b) - duplicate chain+address
+   XAUT (0x68749665FF8D2d112Fa859AA293F07A622782F38) - duplicate chain+address
+   USYC (0x136471a34f6ef19fE571EFFC1CA711fdb8E49f2b) - duplicate chain+address
+   RLUSD (0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD) - duplicate chain+address
+   OKB (0x75231F58b43240C9718Dd58B4967c5114342a86c) - duplicate chain+address
+   USDY (0x96F6eF951840721AdBF46Ac996b59E0235CB985C) - duplicate chain+address
+   MNT (0x3c3a81e81dc49A522A592e7622A7E711c06bf354) - duplicate chain+address
+   AAVE (0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9) - duplicate chain+address
+   PAXG (0x45804880De22913dAFE09f4980848ECE6EcbAf78) - duplicate chain+address
+   ONDO (0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3) - duplicate chain+address
+   WLFI (0xdA5e1988097297dCdc1f90D4dFE7909e847CBeF6) - duplicate chain+address
+   ICP (0x00f3C42833C3170159af4E92dbb451Fb3F708917) - duplicate chain+address
+   WLD (0x163f8C2467924be0ae7B5347228CABF260318753) - duplicate chain+address
+   MORPHO (0x58D97B57BB95320F9a05dC918Aef65434969c2B2) - duplicate chain+address
+   ENA (0x57e114B691Db790C35207b2e685D4A43181e6061) - duplicate chain+address
+   SKY (0x56072C95FAA701256059aa122697B133aDEd9279) - duplicate chain+address
+   PEPE (0x6982508145454Ce325dDbE47a25d4ec3d2311933) - duplicate chain+address
+   HTX (0x61EC85aB89377db65762E234C946b5c25A56E99e) - duplicate chain+address
+   USDD (0x4f8e5DE400DE08B164E7421B3EE387f461beCD1A) - duplicate chain+symbol
+   BGB (0x54D2252757e1672EEaD234D27B1270728fF90581) - duplicate chain+address
+   SUSDE (0x9D39A5DE30e57443BfF2A8307A4256c8797A3497) - duplicate chain+address
+   WTRX (0x50327c6c5a14DCaDE707ABad2E27eB517df87AB5) - duplicate chain+address
+   USDF (0xFa2B947eEc368f42195f24F36d2aF29f7c24CeC2) - duplicate chain+address
+   U (0xcE24439F2D9C6a2289F741120FE202248B666666) - duplicate chain+address
+   EURSAFO (0x0990b149e915cb08E2143a5c6f669c907edDC8B0) - duplicate chain+address
+   BTW (0x3A63DE3572c69a1307ff08394f3Ee7702C16d25d) - duplicate chain+address
+   LIT (0x232CE3bd40fCd6f80f3d55A522d03f25Df784Ee2) - duplicate chain+symbol
+   ARB (0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1) - duplicate chain+address
+   CLBTC (0xE7ae30C03395D66F30A26C49c91edAe151747911) - duplicate chain+address
+   RSETH (0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) - duplicate chain+address
+   GT (0xE66747a101bFF2dBA3697199DCcE5b743b454759) - duplicate chain+address
+   SYRUPUSDC (0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b) - duplicate chain+address
+   QNT (0x4a220E6096B25EADb88358cb44068A3248254675) - duplicate chain+address
+   RETH (0xae78736Cd615f374D3085123A210448E74Fc6393) - duplicate chain+address
+   EUTBL (0xa0769f7A8fC65e47dE93797b4e21C073c117Fc80) - duplicate chain+address
+   NEXO (0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206) - duplicate chain+address
+   LBTC (0x8236a87084f8B84306f72007F36F2618A5634494) - duplicate chain+address
+   RENDER (0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24) - duplicate chain+address
+   JTRSY (0x8c213ee79581Ff4984583C6a801e5263418C4b86) - duplicate chain+address
+   LSETH (0x8c1BEd5b9a0928467c9B1341Da1D7BD5e10b6549) - duplicate chain+address
+   USTB (0x43415eB6ff9DB7E26A15b704e7A3eDCe97d31C4e) - duplicate chain+address
+   CAKE (0x152649eA73beAb28c5b49B26eb48f7EAD6d4c898) - duplicate chain+address
+   JAAA (0x5a0F93D040De44e78F251b03c43be9CF317Dcf64) - duplicate chain+address
+   GHO (0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f) - duplicate chain+address
+   FBTC (0xC96dE26018A54D51c097160568752c4E3BD6C364) - duplicate chain+address
+   M-BTC (0x2F913C820ed3bEb3a67391a6eFF64E70c4B20b19) - duplicate chain+address
+   KBTC (0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98) - duplicate chain+address
+   INJ (0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30) - duplicate chain+address
+   PRIME (0x19ebb35279A16207Ec4ba82799CC64715065F7F6) - duplicate chain+symbol
+   METH (0xd5F7838F5C461fefF7FE49ea5ebaF7728bB0ADfa) - duplicate chain+address
+   CRV (0xD533a949740bb3306d119CC777fa900bA034cd52) - duplicate chain+address
+   ETHFI (0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB) - duplicate chain+address
+   USD0 (0x73A15FeD60Bf67631dC6cd7Bc5B6e8da8190aCF5) - duplicate chain+address
+   PENGU (0x6418c0dd099a9FDA397C766304CDd918233E8847) - duplicate chain+address
+   SPX (0xE0f63A424a4439cBE457D80E4f4b51aD25b2c56C) - duplicate chain+address
+   SOLVBTC (0x7A56E1C57C7475CCf742a1832B028F0456652F97) - duplicate chain+address
+   TUSD (0x0000000000085d4780B73119b644AE5ecd22b376) - duplicate chain+address
+   USDTB (0xC139190F447e929f090Edeb554D95AbB8b18aC1C) - duplicate chain+address
+   VIRTUAL (0x44ff8620b8cA30902395A7bD3F2407e1A091BF73) - duplicate chain+address
+   CBETH (0xBe9895146f7AF43049ca1c1AE358B0541Ea49704) - duplicate chain+address
+   SUSDAI (0x0B2b2B2076d95dda7817e785989fE353fe955ef9) - duplicate chain+address
+   EURC (0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c) - duplicate chain+address
+   A7A5 (0x6fA0BE17e4beA2fCfA22ef89BF8ac9aab0AB0fc9) - duplicate chain+address
+   FET (0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85) - duplicate chain+address
+   ZRO (0x6985884C4392D348587B19cb9eAAf157F13271cd) - duplicate chain+address
+   SYRUPUSDT (0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D) - duplicate chain+address
+   PENDLE (0x808507121B80c02388fAd14726482e061B8da827) - duplicate chain+address
+   OSETH (0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38) - duplicate chain+address
+   FF (0xFA1C09fC8B491B6A4d3Ff53A10CAd29381b3F949) - duplicate chain+address
+   LIQUIDETH (0xf0bb20865277aBd641a307eCe5Ee04E79073416C) - duplicate chain+address
+   OUSG (0x1B19C19393e2d034D8Ff31ff34c81252FcBbee92) - duplicate chain+address
+   PIEVERSE (0x0E63B9C287E32A05E6b9AB8ee8dF88A2760225A9) - duplicate chain+address
+   TBTC (0x18084fbA666a33d37592fA2633fD49a74DD93a88) - duplicate chain+address
+   KAU (0x14DAB79fD7B7B3f748d434812Fd6a9Aac460EA52) - duplicate chain+address
+   LDO (0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32) - duplicate chain+address
+   FDUSD (0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409) - duplicate chain+address
+   UB (0x6944E1DF6Bf5972305f9Ab25dF47ef10De01bcc8) - duplicate chain+address
+   STKAAVE (0x4da27a545c0c5B758a6BA100e3a049001de870f5) - duplicate chain+address
+   APXUSD (0x98A878b1Cd98131B271883B390f68D2c90674665) - duplicate chain+address
+   GNO (0x6810e776880C02933D47DB1b9fc05908e5386b96) - duplicate chain+address
+   OHM (0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5) - duplicate chain+address
+   BTT (0xC669928185DbCE49d2230CC9B0979BE6DC797957) - duplicate chain+address
+   KITE (0x118B70dF4F06Fa5678E7d543e6066e028C8ea0c0) - duplicate chain+symbol
+   USDAI (0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF) - duplicate chain+address
+   BONK (0x1151CB3d861920e07a38e03eEAd12C32178567F6) - duplicate chain+address
+   GTBTC (0xc2d09CF86b9ff43Cb29EF8ddCa57A4Eb4410D5f3) - duplicate chain+address
+   SYRUP (0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66) - duplicate chain+address
+   ENS (0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72) - duplicate chain+address
+   AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+   REUSD (0x5086bf358635B81D8C47C66d1C8b9E567Db70c72) - duplicate chain+symbol
+   KAG (0x56Ba8B58B7d1f6d384A1C4dD553F39ebc8741B8e) - duplicate chain+address
+   CRVUSD (0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E) - duplicate chain+address
+   UNIBTC (0x004E9C3EF86bc1ca1f0bB5C7662861Ee93350568) - duplicate chain+address
+   NFT (0x198d14F2Ad9CE69E76ea330B374DE4957C3F850a) - duplicate chain+address
+   BBTC (0x9BE89D2a4cd102D8Fecc6BF9dA793be995C22541) - duplicate chain+address
+   STRK (0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766) - duplicate chain+address
+   FRAX (0x853d955aCEf822Db058eb8505911ED77F175b99e) - duplicate chain+address
+   COMP (0xc00e94Cb662C3520282E6f5717214004A7f26888) - duplicate chain+address
+   GRT (0xc944E90C64B2c07662A292be6244BDf05Cda44a7) - duplicate chain+address
+   JASMY (0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC) - duplicate chain+address
+   ETHX (0xA35b1B31Ce002FBF2058D22F30f95D405200A15b) - duplicate chain+address
+   SENA (0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9) - duplicate chain+address
+   CVX (0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B) - duplicate chain+address
+   SUSDC (0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE) - duplicate chain+address
+   SUSDD (0xC5d6A7B61d18AfA11435a889557b068BB9f29930) - duplicate chain+address
+   EIGEN (0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83) - duplicate chain+address
+   EDGE (0xB0076DE78Dc50581770BBa1D211dDc0aD4F2a241) - duplicate chain+symbol
+   EARNETH (0xBBFC8683C8fE8cF73777feDE7ab9574935fea0A4) - duplicate chain+address
+   EURCV (0x5F7827FDeb7c20b443265Fc2F40845B715385Ff2) - duplicate chain+address
+   APYUSD (0x38EEb52F0771140d10c4E9A9a72349A329Fe8a6A) - duplicate chain+address
+   USAT (0x07041776f5007ACa2A54844F50503a18A72A8b68) - duplicate chain+address
+   EETH (0x35fA164735182de50811E8e2E824cFb9B6118ac2) - duplicate chain+address
+   BORG (0x64d0f55Cd8C7133a9D7102b13987235F486F2224) - duplicate chain+address
+   USTBL (0xe4880249745eAc5F1eD9d8F7DF844792D560e750) - duplicate chain+address
+   AXS (0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b) - duplicate chain+address
+   TEL (0x467Bccd9d29f223BcE8043b84E8C8B282827790F) - duplicate chain+address
+   SDAI (0x83F20F44975D03b1b09e64809B757c47f942BEeA) - duplicate chain+address
+   SAFO (0xcBaDe7D9BdEe88411CB6cbCbB29952b742036992) - duplicate chain+address
+   MX (0x11eeF04c884E24d9B7B4760e7476D06ddF797f36) - duplicate chain+address
+   DRV (0xB1D1eae60EEA9525032a6DCb4c1CE336a1dE71BE) - duplicate chain+address
+   XCN (0xA2cd3D43c775978A96BdBf12d733D5A1ED94fb18) - duplicate chain+address
+   STRCX (0x1Aad217B8F78dbA5E6693460e8470F8b1A3977f3) - duplicate chain+address
+   NPC (0x8eD97a637A790Be1feff5e888d43629dc05408F6) - duplicate chain+address
+   H (0xE76c5b78f93909d34404E9eb4C1f19e7582a5dE1) - duplicate chain+address
+   FRXETH (0x5E8422345238F34275888049021821E8E08CAa1f) - duplicate chain+address
+   TRAC (0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F) - duplicate chain+address
+   VSN (0x699Ccf919C1dfdFa4C374292f42CAdC9899BF753) - duplicate chain+address
+   CHZ (0x3506424F91fD33084466F402d5D97f05F8e3b4AF) - duplicate chain+address
+   MANA (0x0F5D2fB29fb7d3CFeE444a200298f468908cC942) - duplicate chain+address
+   GOMINING (0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989) - duplicate chain+address
+   APE (0x4d224452801ACEd8B2F0aebE155379bb5D594381) - duplicate chain+address
+   SHFL (0x8881562783028F5c1BCB985d2283D5E170D88888) - duplicate chain+address
+   SYRUPUSDG (0x87b65C4aAFFA76881f9E96F3e7ED945ddFC3Cd7A) - duplicate chain+address
+   SFP (0x12e2b8033420270db2F3b328E32370Cb5B2Ca134) - duplicate chain+address
+   BTSE (0x666d875C600AA06AC1cf15641361dEC3b00432Ef) - duplicate chain+address
+   RAIL (0xe76C6c83af64e4C60245D8C7dE953DF673a7A33D) - duplicate chain+address
+   1INCH (0x111111111117dC0aa78b770fA6A738034120C302) - duplicate chain+address
+   SNX (0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F) - duplicate chain+address
+   RLB (0x046EeE2cc3188071C02BfC1745A6b17c656e3f3d) - duplicate chain+address
+   CRCLON (0x3632DEa96A953C11dac2f00b4A05a32CD1063fAE) - duplicate chain+address
+   SAND (0x3845badAde8e6dFF049820680d1F14bD3903a5d0) - duplicate chain+address
+   THBILL (0x5FA487BCa6158c64046B2813623e20755091DA0b) - duplicate chain+address
+   IMX (0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF) - duplicate chain+address
+   FRXUSD (0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29) - duplicate chain+address
+   EZETH (0xbf5495Efe5DB9ce00f80364C8B423567e58d2110) - duplicate chain+address
+   BAT (0x0D8775F648430679A709E98d2b0Cb6250d2887EF) - duplicate chain+address
+   GLM (0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429) - duplicate chain+address
+   ZK (0x66A5cFB2e9c529f14FE6364Ad1075dF3a649C0A5) - duplicate chain+address
+   FLUID (0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb) - duplicate chain+address
+   NXM (0xd7c49CEE7E9188cCa6AD8FF264C1DA2e69D4Cf3B) - duplicate chain+address
+   SFRXETH (0xac3E018457B222d93114458476f3E3416Abbe38F) - duplicate chain+address
+   SOSO (0x76A0e27618462bDAC7a29104bdcfFf4E6BFCea2D) - duplicate chain+address
+   STAC (0x51C2d74017390CbBd30550179A16A1c28F7210fc) - duplicate chain+address
+   SENT (0x56A3BA04E95d34268A19b2a4474DC979baBDaf76) - duplicate chain+symbol
+   PROM (0xfc82bb4ba86045Af6F327323a46E80412b91b27d) - duplicate chain+address
+   CDCETH (0xfe18aE03741a5b84e39C295Ac9C856eD7991C38e) - duplicate chain+address
+   ATH (0xbe0Ed4138121EcFC5c0E56B40517da27E6c5226B) - duplicate chain+address
+   GALA (0xd1d2Eb1B1e90B638588728b4130137D262C87cae) - duplicate chain+address
+   ACRED (0x17418038ecF73BA4026c4f428547BF099706F27B) - duplicate chain+address
+   USDA (0x8A60E489004Ca22d775C5F2c657598278d17D9c2) - duplicate chain+address
+   WAETHUSDT (0x7Bc3485026Ac48b6cf9BaF0A377477Fff5703Af8) - duplicate chain+address
+   STEAKUSDC (0xbeef088055857739C12CD3765F20b7679Def0f51) - duplicate chain+symbol
+   OETH (0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3) - duplicate chain+address
+   RSR (0x320623b8E4fF03373931769A31Fc52A4E78B5d70) - duplicate chain+address
+
+GNOSIS
+----------------------------------------------------------------------
+
+Successfully Added (1):
+   Brazilian real (WBRL) - 0xD76f5Faf6888e24D9F04Bf92a0c8B921FE4390e0
+
+Excluded (6):
+   AWETH (0xa818F1B57c201E092C4A2017A91815034326Efd1) - AWETH symbol mismatch - CoinGecko AWETH vs on-chain aGnoWETH
+   EURE (0x420CA0f9B9b604cE0fd9C18EF134C705e5Fa3430) - manual review required: incoming symbol collision between 0x420ca0f9b9b604ce0fd9c18ef134c705e5fa3430 (topTokens_gnosis_200.json); 0xcb444e90d8198415266c6a2724b7900fb12fc56e (topTokens_gnosis_200.json)
+   EURE (0xcB444e90D8198415266c6a2724b7900fb12FC56E) - manual review required: incoming symbol collision between 0x420ca0f9b9b604ce0fd9c18ef134c705e5fa3430 (topTokens_gnosis_200.json); 0xcb444e90d8198415266c6a2724b7900fb12fc56e (topTokens_gnosis_200.json)
+   JPYC (0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB) - manual review required: incoming symbol collision between 0x431d5dff03120afa4bdf332c61a6e1766ef37bdb (topTokens_gnosis_200.json); 0x417602f4fbdd471a431ae29fb5fe0a681964c11b (topTokens_gnosis_200.json)
+   JPYC (0x417602f4fbdd471A431Ae29fB5fe0A681964C11b) - manual review required: incoming symbol collision between 0x431d5dff03120afa4bdf332c61a6e1766ef37bdb (topTokens_gnosis_200.json); 0x417602f4fbdd471a431ae29fb5fe0a681964c11b (topTokens_gnosis_200.json)
+   USDC.E (0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0) - we have USDC already on gnosis
+
+Already Existed (41):
+   LINK (0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2) - duplicate chain+address
+   UNI (0x4537e328Bf7e4eFA29D05CAeA260D7fE26af9D74) - duplicate chain+address
+   GHO (0xfc421aD3C883Bf9E7C4f42dE845C4e4405799e73) - duplicate chain+address
+   GNO (0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb) - duplicate chain+address
+   CRVUSD (0xaBEf652195F98A91E490f047A5006B71c85f058d) - duplicate chain+address
+   YFI (0xbf65bfcb5da067446CeE6A706ba3Fe2fB1a9fdFd) - duplicate chain+address
+   COW (0x177127622c4A00F3d409B75571e12cB3c8973d3c) - duplicate chain+address
+   SAFE (0x4d18815D14fe5c3304e87B3FA18318baa5c23820) - duplicate chain+address
+   XDAI (0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d) - duplicate chain+address
+   TRB (0xAAd66432d27737ecf6ED183160Adc5eF36aB99f2) - duplicate chain+address
+   SDAI (0xaf204776c7245bF4147c2612BF6e5972Ee483701) - duplicate chain+address
+   WSTETH (0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6) - duplicate chain+address
+   ZCHF (0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553) - duplicate chain+address
+   BCSPX (0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59) - duplicate chain+address
+   TGBP (0x1F34490F8e8E776FFc547b39B864364035Eaf44F) - duplicate chain+address
+   BRLA (0xFECB3F7c54E2CAAE9dC6Ac9060A822D47E053760) - duplicate chain+address
+   BIB01 (0xCA30c93B02514f86d5C86a6e375E3A330B435Fb5) - duplicate chain+address
+   USDC (0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83) - duplicate chain+address
+   MIMATIC (0x3F56e0c36d275367b8C502090EDF38289b3dEa0d) - duplicate chain+address
+   BC3M (0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7) - duplicate chain+address
+   BCOIN (0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9) - duplicate chain+address
+   OLAS (0xcE11e14225575945b8E6Dc0D4F2dD4C570f79d9f) - duplicate chain+address
+   WETH (0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1) - duplicate chain+address
+   HOPR (0xD057604A14982FE8D88c5fC25Aac3267eA142a08) - duplicate chain+address
+   BAL (0x7eF541E2a22058048904fE5744f9c7E4C57AF717) - duplicate chain+address
+   PNK (0x37b60f4E9A31A64cCc0024dce7D0fD07eAA0F7B3) - duplicate chain+address
+   BADGER (0xdfc20AE04ED70bd9c7D720F449eEDAe19F659D65) - duplicate chain+address
+   DPI (0xD3D47d5578e55C880505dC40648F7F9307C3e7A8) - duplicate chain+address
+   FOX (0x21a42669643f45Bc0e086b8Fc2ed70c23D67509d) - duplicate chain+address
+   AGVE (0x3a97704a1b25F08aa230ae53B352e2e72ef52843) - duplicate chain+address
+   MPS (0xfa57AA7beED63D03Aaf85fFd1753f5f6242588fb) - duplicate chain+address
+   PERP (0x7ecF26cd9A36990b8ea477853663092333f59979) - duplicate chain+address
+   BIBTA (0x52d134c6DB5889FaD3542A09eAf7Aa90C0fdf9E4) - duplicate chain+address
+   BZZ (0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da) - duplicate chain+address
+   ETHIX (0xec3f3e6d7907acDa3A7431abD230196CDA3FbB19) - duplicate chain+address
+   WBTC (0x8e5bBbb09Ed1ebdE8674Cda39A0c169401db4252) - duplicate chain+address
+   AURA (0x1509706a6c66CA549ff0cB464de88231DDBe213B) - duplicate chain+address
+   EURA (0x4b1E2c2762667331Bc91648052F646d1b0d35984) - duplicate chain+address
+   FUSE (0xD589F00Fa2Eb83367f732AB3CDA92eE0940389cF) - duplicate chain+address
+   USDT (0x4ECaBa5870353805a9F068101A40E0f32ed605C6) - duplicate chain+address
+   IDRX (0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22) - duplicate chain+address
+
+HYPEREVM
+----------------------------------------------------------------------
+
+Successfully Added (22):
+   Hybridge Bridged AAVE (AAVE0) - 0xaa3871e64cA8C09fBDDED327B1269224643Cb83C
+   ​​Stable (STABLE) - 0xa51dC81944a15623874981181a99D6c56B20ED56
+   Kite (KITE) - 0xbc28BEAC0B6765429c8EE7A6acAb2AF5A4e7a679
+   Derive (DRV) - 0x9628BBa16DB41EA7fe1FD84f9CE53bC27c63f59b
+   Matrixdock Gold (XAUM) - 0x14F0DFC32e8af769961B31ba3e89389bD6797652
+   SOON (SOON) - 0xF6F58c4a961759E4127523224BB0eC0f55460aC8
+   Aztec (AZTEC) - 0x5515b8079793CAa680df5391A6Ef4c73911a3920
+   FLOCK (FLOCK) - 0x5aB3D4c385B400F3aBB49e80DE2fAF6a88A7B691
+   Limitless (LMTS) - 0x588efAeEA621B2Fb8f2612fdb0eD7528D579c1FE
+   xRAM Liquid Staking Token (HYPERRAM) - 0x5555c2542836e7a6c8D3E133D5AA9773b65D5555
+   Ramses (RAM) - 0x555570a286F15EbDFE42B66eDE2f724Aa1AB5555
+   SPDR Gold Shares (Ondo Tokenized) (GLDON) - 0x95FebDd6f447B5278c9b98743B4254eB02c6EA1d
+   Harmonix Finance (HAR) - 0x391121D817dA42ED3434d281aedBbcC416a2aF18
+   Space Exploration Technologies (Dinari Tokenized Stock) (SPCX) - 0x9b4Db2271EB1fa0aEe1abA7ed55E51C38cE514a3
+   Brazilian real (WBRL) - 0xD76f5Faf6888e24D9F04Bf92a0c8B921FE4390e0
+   PerpMe (PERPME) - 0xCC643a9b6cb14e7D5fF9Bd81ABcD5103ECeB0999
+   rHYPURR (RHYPURR) - 0x0Df4f69CF9417b1817AB9579bF099537a694667B
+   xBTC (XBTC) - 0x97df58CE4489896F4eC7D16B59B64aD0a56243a8
+   alright buddy (BUDDY) - 0x47bb061C0204Af921F43DC73C7D7768d2672DdEE
+   egg (EGG) - 0xb75d5ee14708E7eFbea939311090061d72265608
+   NVIDIA (Dinari Tokenized Stock) (NVDA) - 0x4B16f5251cd4c853f28998809DcA61ccCBcB898B
+   ALT (ALT) - 0xa3882D42ed12B57C10C85E8Ec8fEBD0774600000
+
+Excluded (1):
+   UENA (0x58538e6A46E07434d7E7375Bc268D3cb839C0133) - Symbol mismatch: CoinGecko="uena" vs OnChain="ENA"
+
+Already Existed (93):
+   USDC (0xb88339CB7199b77E23DB6E890353E22632Ba630f) - duplicate chain+address
+   LINK (0x1AC2EE68b8d038C982C1E1f73F596927dd70De59) - duplicate chain+address
+   WEETH (0xA3D68b74bF0528fdD07263c60d6488749044914b) - duplicate chain+address
+   USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+   USDT0 (0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb) - duplicate chain+address
+   SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+   KHYPE (0xfD739d4e423301CE9385c1fb8850539D657C296D) - duplicate chain+address
+   PENGU (0xFa44C2634fF17CBE26dc3007D36BD61c79068c14) - duplicate chain+address
+   SOLVBTC (0xaE4EFbc7736f963982aACb17EFA37fCBAb924cB3) - duplicate chain+address
+   WHYPE (0x5555555555555555555555555555555555555555) - duplicate chain+address
+   PENDLE (0xD6Eb81136884713E843936843E286FD2a85A205A) - duplicate chain+address
+   UNIBTC (0xF9775085d726E782E83585033B58606f7731AB18) - duplicate chain+address
+   STHYPE (0xfFaa4a3D97fE9107Cef8a3F48c069F577Ff76cC1) - duplicate chain+address
+   APE (0xab11329560Fa9C9c860Bb21A9342215a1265BBB0) - duplicate chain+address
+   CRCLON (0x13a81c5e8b4AB05Fc721DfF7bA95e250b29458F8) - duplicate chain+address
+   XAUT0 (0xf4D9235269a96aaDaFc9aDAe454a0618eBE37949) - duplicate chain+address
+   THBILL (0xfDD22Ce6D1F66bc0Ec89b20BF16CcB6670F55A5a) - duplicate chain+address
+   XSOLVBTC (0xc99F5c922DAE05B6e2ff83463ce705eF7C91F077) - duplicate chain+address
+   FEUSD (0x02c6a2fA58cC01A18B8D9E00eA48d65E4dF26c70) - duplicate chain+address
+   WXRP (0xB73eE5488647a6302EBf5FEE8Af3152F6960AE4c) - duplicate chain+address
+   IVVON (0xAd26B6048cc3682f67Fe4C829b7Ac99dbF95920e) - duplicate chain+address
+   PURR (0x9b498C3c8A0b8CD8BA1D9851d40D186F1872b44E) - duplicate chain+address
+   KNTQ (0x000000000000780555bD0BCA3791f89f9542c2d6) - duplicate chain+address
+   WSRUSD (0x04716DB62C085D9e08050fcF6F7D775A03d07720) - duplicate chain+address
+   VKHYPE (0x9BA2EDc44E0A4632EB4723E81d4142353e1bB160) - duplicate chain+address
+   KMHYPE (0x360C140E5344A1A0593D44B4ea6Fc7C3DAf0C473) - duplicate chain+address
+   BRBTC (0xDfc7D2d003A053b2E0490531e9317A59962b511E) - duplicate chain+address
+   UBTC (0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463) - duplicate chain+address
+   SPYON (0x32eC2792aeC02122eDD9f28866B720db1e1c1B54) - duplicate chain+address
+   MUON (0x0f8E33F5CdefAE9C2E59de8fB61feD347046D046) - duplicate chain+address
+   CMETH (0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA) - duplicate chain+address
+   NVDAON (0xB989ad9b91886b1Aaed8DaADb26F028b29b40945) - duplicate chain+address
+   MOVE (0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073) - duplicate chain+address
+   NEIRO (0x226702c0ca528c29EB9252b773c4f06492510F4c) - duplicate chain+address
+   REKT (0xc12E26AB94D1e62F18373cF25e43AFA7B2AF1cDc) - duplicate chain+address
+   QQQON (0x911e2dCD2b70F44231F3F0f1C6ec9aF75068FD85) - duplicate chain+address
+   MSTRON (0x8a64FDf0857c1C734A594cd1DB20B3f8E3f133f6) - duplicate chain+address
+   SLVON (0xd53d98d13D93C817011645442c2e4d46E499B460) - duplicate chain+address
+   USDH (0x111111a1a0667d36bD57c0A9f569b98057111111) - duplicate chain+address
+   GOOGLON (0x4D34798f18Eb747F7225663F0553eA2D880cf75D) - duplicate chain+address
+   UETH (0xBe6727B535545C67d5cAa73dEa54865B92CF7907) - duplicate chain+address
+   INTCON (0x7bf529bb5Db370D679F33f4fe5420F48eE234bB7) - duplicate chain+address
+   SEDA (0x4F96b683714377C38123631f2d17cDF18b3F46a7) - duplicate chain+address
+   TSLAON (0x417883b1709545f1211A25b00ad13455fC7F1bc5) - duplicate chain+address
+   BASED (0x053f6755320d06b8fd6675581b0475B2E32399b1) - duplicate chain+address
+   HFUN (0xa320D9f65ec992EfF38622c63627856382Db726c) - duplicate chain+address
+   JOFF (0x62D5dD0190376c444a4B2E2e860aa392eC83Ed80) - duplicate chain+address
+   HLHYPE (0xBee62d1b61Af920098873BD0336b46a5EFdC0E83) - duplicate chain+address
+   METAON (0x46FA18Ffe2707bbecc46D457D40EFBE6B932f711) - duplicate chain+address
+   IAUON (0x83b01AC9e2D1632A70Dd1C813c5B8eDF29cd707f) - duplicate chain+address
+   LHYPE (0x5748ae796AE46A4F1348a1693de4b50560485562) - duplicate chain+address
+   SKHYX (0x58100046a4Afcd4eE4faDbD4244f3f895a341c56) - duplicate chain+address
+   COINON (0x639Bcd00422facAcA534063e3d860e8fcf78B46F) - duplicate chain+address
+   AAPLON (0x81db0DF77669b3BE563e7a0591685a2C8C3EE1c5) - duplicate chain+address
+   AMDON (0x33706203A7a7c82B6F6c09dd9Ae4E6e881d36386) - duplicate chain+address
+   MSFTON (0xD53471f6D493f7eD766181D88Ba9c2Bfc371399A) - duplicate chain+address
+   BRIDGE (0x29dbF86A8c48EA4331e28b3c1EAE824A2A45996a) - duplicate chain+address
+   SNDKON (0xB8927cfF399E23328eEC0e457e75c709DCfcF382) - duplicate chain+address
+   TREE (0x77146784315Ba81904d654466968e3a7c196d1f3) - duplicate chain+address
+   XHYPE (0xAc962FA04BF91B7fd0DC0c5C32414E0Ce3C51E03) - duplicate chain+address
+   LSTHYPE (0x81e064d0eB539de7c3170EDF38C1A42CBd752A76) - duplicate chain+address
+   AVLT (0xd0Ee0CF300DFB598270cd7F4D0c6E0D8F6e13f29) - duplicate chain+address
+   TSMON (0x3254cdffDDEDdb1F61B9eF6f67e178615CCb0E85) - duplicate chain+address
+   AMZNON (0xeD68F063264a01fd7f93087DC19CC1E0D614e8De) - duplicate chain+address
+   HOODON (0xF1Df92AC8E22763A16bf4Bd9a966EEBcD70fA5a3) - duplicate chain+address
+   ORCLON (0x4775e99a13651B1D077c2fa04Eb9BF007f684af5) - duplicate chain+address
+   HPL (0xBD6Dab50F03A305a80037294fA8D1A9DC0CaC91B) - duplicate chain+address
+   HAKHYPE (0x1368Ee9d1212AE5B26Ff166049220051a9EEbc42) - duplicate chain+address
+   ANON (0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C) - duplicate chain+address
+   HBUSDT (0x5e105266db42f78FA814322Bce7f388B4C2e61eb) - duplicate chain+address
+   USDUC (0x61ef9543F8919Bb06e374b3bb58A17725e34F9d9) - duplicate chain+address
+   JEFF (0x52e444545fbE9E5972a7A371299522f7871aec1F) - duplicate chain+address
+   LIQD (0x1Ecd15865D7F8019D546f76d095d9c93cc34eDFa) - duplicate chain+address
+   USDXL (0xca79db4B49f608eF54a5CB813FbEd3a6387bC645) - duplicate chain+address
+   USOON (0xA4dB50bB345151f3649539300523e83a8b8A6BC7) - duplicate chain+address
+   BABAON (0x799Bf997B733CAb2e1377D0411b63E35133991eb) - duplicate chain+address
+   NEST (0x07c57E32a3C29D5659bda1d3EFC2E7BF004E3035) - duplicate chain+address
+   LIMUSD (0x1822bd335489d84abdd0779a7dCAeDa0625e83c8) - duplicate chain+address
+   PLTRON (0x039358AB6919159f6026Ea4428595a5AaF12A35C) - duplicate chain+address
+   PIP (0x1bEe6762F0B522c606DC2Ffb106C0BB391b2E309) - duplicate chain+address
+   USOL (0x068f321Fa8Fb9f0D135f290Ef6a3e2813e1c8A29) - duplicate chain+address
+   USDM (0xE2d2959f89B6389DeB624bF076Fe7D9E5401f377) - duplicate chain+address
+   AUDX (0xD687759f35bb747A29246a4b9495C8f52C49E00C) - duplicate chain+address
+   HAHYPE (0xFde5B0626fC80E36885e2fA9cD5ad9d7768D725c) - duplicate chain+address
+   SWAP (0x03832767BDf9A8EF007449942125Ad605aCfADb8) - duplicate chain+address
+   HBHYPE (0x96C6cBB6251Ee1c257b2162ca0f39AA5Fa44B1FB) - duplicate chain+address
+   USDP (0xBE65F0F410A72BeC163dC65d46c83699e957D588) - duplicate chain+address
+   HWHYPE (0x4DE03cA1F02591B717495cfA19913aD56a2f5858) - duplicate chain+address
+   CRWVON (0xd616dDC3a9e13e12533d7124d5BD94B53Fb60A3f) - duplicate chain+address
+   COPXON (0x86E33197369a3560CeE2Ab6Bb12376AC7b29f3dD) - duplicate chain+address
+   WHLP (0x1359b05241cA5076c9F59605214f4F84114c0dE8) - duplicate chain+address
+   UPUMP (0x27eC642013bcB3D80CA3706599D3cdA04F6f4452) - duplicate chain+address
+   CHUSD (0x2222227d90046F1483B3Fb37990DEA31FCaBea02) - duplicate chain+address
+
+MONAD
+----------------------------------------------------------------------
+
+Successfully Added (4):
+   Chainlink (LINK) - 0x76f257B1DDA5cC71bee4eF637Fbdde4C801310A9
+   Ethena USDe (USDE) - 0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34
+   Ethena Staked USDe (SUSDE) - 0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2
+   Saturn Dollar (USDAT) - 0x0Bb150DFa86EA5d7742F07FEfCD8E8edA81D64eF
+
+Already Existed (40):
+   USDC (0x754704Bc059F8C67012fEd69BC8A327a5aafb603) - duplicate chain+address
+   WSTETH (0x10Aeaf63194db8d453d4D85a06E5eFE1dd0b5417) - duplicate chain+address
+   WBTC (0x0555E30da8f98308EdB960aa94C0Db47230d2B9c) - duplicate chain+address
+   CBBTC (0xd18B7EC58Cdf4876f6AFebd3Ed1730e4Ce10414b) - duplicate chain+address
+   WEETH (0xA3D68b74bF0528fdD07263c60d6488749044914b) - duplicate chain+address
+   USD1 (0x111111d2bf19e43C34263401e0CAd979eD1cdb61) - duplicate chain+address
+   USDT0 (0xe7cd86e13AC4309349F30B3435a9d337750fC82D) - duplicate chain+address
+   SYRUPUSDC (0xaB6e5a0C3799d020c790D34F7B2C02639e238AF7) - duplicate chain+address
+   JTRSY (0xC18e6f730896971a79D748E8deA61067A9Bc6040) - duplicate chain+address
+   JAAA (0xAD48F183E586e92A591A610397ebf534609DF797) - duplicate chain+address
+   GHO (0xfc421aD3C883Bf9E7C4f42dE845C4e4405799e73) - duplicate chain+address
+   SOLVBTC (0xaE4EFbc7736f963982aACb17EFA37fCBAb924cB3) - duplicate chain+address
+   PENDLE (0x5E49E1f85813F2B65858860A3FA231b4186f2e0E) - duplicate chain+address
+   AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+   APE (0x6a7E3F839382FBb6A6131D4Aae864AAEb362292d) - duplicate chain+address
+   XAUT0 (0x01bFF41798a0BcF287b996046Ca68b395DbC1071) - duplicate chain+address
+   XSOLVBTC (0xc99F5c922DAE05B6e2ff83463ce705eF7C91F077) - duplicate chain+address
+   SYZUSD (0x484be0540aD49f351eaa04eeB35dF0f937D4E73f) - duplicate chain+address
+   APR (0x0a332311633C0625f63CFc51EE33fC49826E0a3C) - duplicate chain+address
+   ACRDX (0x2FaBf1c784B8583d63C00c5c9C0377D8cf1a3245) - duplicate chain+address
+   MHYPERBTC (0xF7Cf282eC810fDed974F99c0163E792f432892BC) - duplicate chain+address
+   EBTC (0xd691b0aFed67F96CEC28Ab6308Cbe5b2C103b7e9) - duplicate chain+address
+   MHYPER (0xd90F6bFEd23fFDE40106FC4498DD2e9EDB95E4e7) - duplicate chain+address
+   FOLKS (0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B) - duplicate chain+address
+   NXPC (0xD33F18D8d48CbbB2f8b47063DE97f94De0D49B99) - duplicate chain+address
+   MUSD (0xacA92E438df0B2401fF60dA7E4337B687a2435DA) - duplicate chain+address
+   EARNAUSD (0x103222f020e98Bba0AD9809A011FDF8e6F067496) - duplicate chain+address
+   WETH (0xEE8c0E9f1BFFb4Eb878d8f15f368A02a35481242) - duplicate chain+address
+   WMON (0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A) - duplicate chain+address
+   SHMON (0x1B68626dCa36c7fE922fD2d55E4f631d962dE19c) - duplicate chain+address
+   LV (0x1001fF13bf368Aa4fa85F21043648079F00E1001) - duplicate chain+address
+   AZND (0x4917a5ec9fCb5e10f47CBB197aBe6aB63be81fE8) - duplicate chain+address
+   SMON (0xA3227C5969757783154C60bF0bC1944180ed81B9) - duplicate chain+address
+   MEDGE (0x1c8eE940B654bFCeD403f2A44C1603d5be0F50Fa) - duplicate chain+address
+   GMON (0x8498312A6B3CbD158bf0c93AbdCF29E6e4F55081) - duplicate chain+address
+   LVMON (0x91b81bfbe3A747230F0529Aa28d8b2Bc898E6D56) - duplicate chain+address
+   CHOG (0x350035555E10d9AfAF1566AaebfCeD5BA6C27777) - duplicate chain+address
+   LVUSD (0xFD44B35139Ae53FFF7d8F2A9869c503D987f00d1) - duplicate chain+address
+   WNAUSD (0x82c370ba90E38ef6Acd8b1b078d34fD86FC6bAC9) - duplicate chain+address
+   WNUSDT0 (0x4e8aaecCE10ad9394e96fE5f2bd4e587A7B04298) - duplicate chain+address
+
+OPTIMISM
+----------------------------------------------------------------------
+
+Successfully Added (6):
+   1INCH (1INCH) - 0xAd42D013ac31486B73b6b059e748172994736426
+   Midas Fasanara Global Open (MGLO) - 0x1Eaf7cceAA5DC6d605760718722fbcC58579b3Ff
+   Liquid Euro (WEEUR) - 0xcC476B1a49bcDf5192561e87b6Fb8ea78aa28C13
+   Balanced (BALN) - 0xD336c74B840f9962cF2c666f8666d6d61Ec24440
+   EtherFi Liquid Reserve (LIQUIDRESERVE) - 0xca5921DF65E2e1b0B98Ae91c0187BA80D4124898
+   Parallel Governance (PRL) - 0xfD28f108e95f4D41daAE9dbfFf707D677985998E
+
+Excluded (4):
+   USDC.E (0x7F5c764cBc14f9669B88837ca1490cCa17c31607) - Symbol mismatch - CoinGecko USDC.E vs on-chain USDC
+   ALUSD (0xCB8FA9a76b8e203D8C3797bF438d8FB81Ea3326A) - manual review required: incoming symbol collision between 0xcb8fa9a76b8e203d8c3797bf438d8fb81ea3326a (topTokens_optimism_200.json); 0x8eb270e296023e9d92081fdf967ddd7878724424 (topTokens_optimism_200.json)
+   ALUSD (0x8Eb270e296023E9D92081fdF967dDd7878724424) - manual review required: incoming symbol collision between 0xcb8fa9a76b8e203d8c3797bf438d8fb81ea3326a (topTokens_optimism_200.json); 0x8eb270e296023e9d92081fdf967ddd7878724424 (topTokens_optimism_200.json)
+   BEETS-LEGACY (0xb4Bc46bc6cB217B59ea8F4530BaE26Bf69F677f0) - Symbol mismatch - CoinGecko BEETS-LEGACY vs on-chain BEETS
+
+Already Existed (117):
+   USDC (0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85) - duplicate chain+address
+   LINK (0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6) - duplicate chain+address
+   WBTC (0x68f180fcCe6836688e9084f035309E29Bf0A2095) - duplicate chain+address
+   AWETH (0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8) - duplicate chain+address
+   WEETH (0x5A7fACB970D094B6C7FF1df0eA68D99E6e73CBFF) - duplicate chain+address
+   SUSDS (0xb5B2dc7fd34C249F4be7fB1fCea07950784229e0) - duplicate chain+address
+   USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+   UNI (0x6fd9d7AD17242c41f7131d257212c54A0e816691) - duplicate chain+address
+   USDT0 (0x01bFF41798a0BcF287b996046Ca68b395DbC1071) - duplicate chain+address
+   BUIDL (0xa1CDAb15bBA75a80dF4089CaFbA013e376957cF5) - duplicate chain+address
+   AAVE (0x76FB31fb4af56892A25e32cFC43De717950c9278) - duplicate chain+address
+   WLD (0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1) - duplicate chain+address
+   ENA (0x58538e6A46E07434d7E7375Bc268D3cb839C0133) - duplicate chain+address
+   SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+   CLBTC (0x1792865D493FE4DFdD504010D3c0f6da11E8046D) - duplicate chain+address
+   RSETH (0x4186BFC76E2E237523CBC30FD220FE055156b41F) - duplicate chain+address
+   RETH (0x9Bcef72be871e61ED4fBbc7630889beE758eb81D) - duplicate chain+address
+   KBTC (0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98) - duplicate chain+address
+   CRV (0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53) - duplicate chain+address
+   CBETH (0xadDb6A0412DE1BA0F936DCaeb8Aaa24578dcF3B2) - duplicate chain+address
+   EURC (0xDCB612005417Dc906fF72c87DF732e5a90D49e11) - duplicate chain+address
+   ZRO (0x6985884C4392D348587B19cb9eAAf157F13271cd) - duplicate chain+address
+   WHYPE (0xd83E3d560bA6F05094d9D8B3EB8aaEA571D1864E) - duplicate chain+address
+   PENDLE (0xBC7B1Ff1c6989f006a1185318eD4E7b5796e66E1) - duplicate chain+address
+   TBTC (0x6c84a8f1c29108F47a79964b5Fe888D4f4D0dE40) - duplicate chain+address
+   LDO (0xFdb794692724153d1488CcdBE0C56c252596735F) - duplicate chain+address
+   OHM (0x060cb087a9730E13aa191f31A6d86bFF8DfcdCC0) - duplicate chain+address
+   BUSD (0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39) - duplicate chain+address
+   OP (0x4200000000000000000000000000000000000042) - duplicate chain+address
+   CRVUSD (0xC52D7F23a2e460248Db6eE192Cb23dD12bDDCbf6) - duplicate chain+address
+   UNIBTC (0x93919784C523f39CACaa98Ee0a9d96c3F32b593e) - duplicate chain+address
+   FRAX (0x2E3D870790dC77A83DD1d18184Acc7439A53f475) - duplicate chain+address
+   SDAI (0x2218a117083f5B482B0bB821d27056Ba9c04b1D3) - duplicate chain+address
+   DRV (0x33800De7E817A70A694F31476313A7c572BBa100) - duplicate chain+address
+   FRXETH (0x6806411765Af15Bddd26f8f544A34cC40cb9838B) - duplicate chain+address
+   SNX (0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4) - duplicate chain+address
+   FRXUSD (0x80Eede496655FB9047dd39d9f418d5483ED600df) - duplicate chain+address
+   SFRXETH (0x484c2D6e3cDd945a8B2DF735e079178C1036578c) - duplicate chain+address
+   YFI (0x9046D36440290FfDE54FE0DD84Db8b1CfEE9107B) - duplicate chain+address
+   WXRP (0xB73eE5488647a6302EBf5FEE8Af3152F6960AE4c) - duplicate chain+address
+   DOLA (0x8aE125E8653821E851F12A49F7765db9a9ce7384) - duplicate chain+address
+   WSTETH (0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb) - duplicate chain+address
+   AXL (0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f) - duplicate chain+address
+   XVS (0x4a971e87ad1F61f7f3081645f52a99277AE917cF) - duplicate chain+address
+   TRB (0xaf8cA653Fa2772d58f4368B0a71980e9E3cEB888) - duplicate chain+address
+   T (0x747e42Eb0591547a0ab429B3627816208c734EA7) - duplicate chain+address
+   WETH (0x4200000000000000000000000000000000000006) - duplicate chain+address
+   ZCHF (0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553) - duplicate chain+address
+   ANKR (0xAeAeeD23478c3a4b798e4ed40D8B7F41366Ae861) - duplicate chain+address
+   WRSETH (0x87eEE96D50Fb761AD85B1c982d28A042169d61b1) - duplicate chain+address
+   OCEAN (0x2561aa2bB1d2Eb6629EDd7b0938d7679B8b49f9E) - duplicate chain+address
+   VELO (0x9560e827aF36c94D2Ac33a39bCE1Fe78631088Db) - duplicate chain+address
+   BOLD (0x03569CC076654F82679C4BA2124D64774781B01D) - duplicate chain+address
+   MSETH (0x1610e3c85dd44Af31eD7f33a63642012Dca0C5A5) - duplicate chain+address
+   MSUSD (0x9dAbAE7274D28A45F0B65Bf8ED201A5731492ca0) - duplicate chain+address
+   VANA (0x7FF7Fa94b8b66Ef313f7970d4EEbd2CB3103a2C0) - duplicate chain+address
+   ACX (0xFf733b2A3557a7ed6697007ab5D11B79FdD1b76B) - duplicate chain+address
+   LUSD (0xc40F949F8a4e094D1b49a23ea9241D289B7b2819) - duplicate chain+address
+   KNC (0xa00E3A3511aAC35cA78530c85007AFCd31753819) - duplicate chain+address
+   CX (0x000000000000012DeF132E61759048bE5b5C6033) - duplicate chain+address
+   CTSI (0xEc6adef5E1006bb305bB1975333e8fc4071295bf) - duplicate chain+address
+   HYPER (0x9923DB8d7FBAcC2E69E87fAd19b886C81cd74979) - duplicate chain+address
+   STG (0x296F55F8Fb28E498B858d0BcDA06D955B2Cb3f97) - duplicate chain+address
+   ANKRETH (0xe05A08226c49b636ACf99c40Da8DC6aF83CE5bB3) - duplicate chain+address
+   ALETH (0x3E29D3A9316dAB217754d13b28646B76607c5f04) - duplicate chain+address
+   SYN (0x5A5fFf6F753d7C11A56A52FE47a177a87e431655) - duplicate chain+address
+   CYBER (0x14778860E937f509e651192a90589dE711Fb88a9) - duplicate chain+address
+   POKT (0x764A726d9ceD0433A8D7643335919dEb03a9a935) - duplicate chain+address
+   WCT (0xeF4461891DfB3AC8572cCf7C794664A8DD927945) - duplicate chain+address
+   WFRAX (0x64445f0aecC51E94aD52d8AC56b7190e764E561a) - duplicate chain+address
+   ORDER (0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8) - duplicate chain+address
+   DAI (0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1) - duplicate chain+address
+   OSAK (0xbFd5206962267c7b4b4A8B3D76AC2E1b2A5c4d5e) - duplicate chain+address
+   OVER (0xedF38688b27036816A50185cAA430D5479e1C63e) - duplicate chain+address
+   MRE7ETH (0xE7Ba07519dFA06e60059563F484d6090dedF21B3) - duplicate chain+address
+   MPENDLE (0xa3B615667CBd33cfc69843Bf11Fbb2A1D926BD46) - duplicate chain+address
+   YUSD (0x4772D2e014F9fC3a820C444e3313968e9a5C8121) - duplicate chain+address
+   MONEY (0x69420f9E38a4e60a62224C489be4BF7a94402496) - duplicate chain+address
+   YNETHX (0xE231DB5F348d709239Ef1741EA30961B3B635a61) - duplicate chain+address
+   OLAS (0xFC2E6e6BCbd49ccf3A5f029c79984372DcBFE527) - duplicate chain+address
+   PIKA (0x9A601C5bb360811d96A23689066af316a30c3027) - duplicate chain+address
+   BAL (0xFE8B128bA8C78aabC59d4c64cEE7fF28e9379921) - duplicate chain+address
+   VEE (0xe3C332a5DcE0e1d9bC2cC72A68437790570C28a4) - duplicate chain+address
+   FBOMB (0x74ccbe53F77b08632ce0CB91D3A545bF6B8E0979) - duplicate chain+address
+   AVLT (0x74dB7a52773A52699dbC0c01b1254E5301E3e119) - duplicate chain+address
+   L3 (0x46777C76dBbE40fABB2AAB99E33CE20058e76C59) - duplicate chain+address
+   DOG (0x8F69Ee043d52161Fd29137AeDf63f5e70cd504D5) - duplicate chain+address
+   KRL (0x2ed6222CB75E353b8789bec7Bb443b7eC9022021) - duplicate chain+address
+   SWEAT (0x38761749330c23D681d136e8ea3FC47d4Bb93Db3) - duplicate chain+address
+   HLSCOPE (0x720f86f4B5b5d5d0ea3E5718EC43071d4d05134b) - duplicate chain+address
+   FOX (0xF1a0DA3367BC7aa04F8D94BA57B862ff37CeD174) - duplicate chain+address
+   SETH (0xE405de8F52ba7559f9df3C368500B6E6ae6Cee49) - duplicate chain+address
+   BOSON (0x647fE0cCA3DF596ba414C8c600D441BB3D10d616) - duplicate chain+address
+   GRG (0xEcF46257ed31c329F204Eb43E254C609dee143B3) - duplicate chain+address
+   VYUSD (0xF4F447E6AFa04c9D11Ef0e2fC0d7f19C24Ee55de) - duplicate chain+address
+   PERP (0x9e1028F5F1D5eDE59748FFceE5532509976840E0) - duplicate chain+address
+   DHT (0xAF9fE3B5cCDAe78188B1F8b9a49Da7ae9510F151) - duplicate chain+address
+   AIN (0xD4423795fd904D9B87554940a95FB7016f172773) - duplicate chain+address
+   ERN (0xc5b001DC33727F8F26880B184090D3E252470D45) - duplicate chain+address
+   TUSD (0xcB59a0A753fDB7491d5F3D794316F1adE197B21E) - duplicate chain+address
+   TAROT (0x1F514A61bcde34F94Bc39731235690ab9da737F7) - duplicate chain+address
+   SPECTRA (0x248f43B622cE2F35A14dB3FC528284730b619cD5) - duplicate chain+address
+   NYA (0x38F9bf9dCe51833Ec7f03C9dC218197999999999) - duplicate chain+address
+   PNP (0xC4a65A93dD6CD9717551ebE827E8baEe025d1d7E) - duplicate chain+address
+   XPRT (0xc7Edf7B7b3667a06992508e7B156eff794a9e1c8) - duplicate chain+address
+   EXTRA (0x2dAD3a13ef0C6366220f989157009e501e7938F8) - duplicate chain+address
+   THALES (0x217D47011b23BB961eB6D93cA9945B7501a5BB11) - duplicate chain+address
+   MTA (0x929B939f8524c3Be977af57A4A0aD3fb1E374b50) - duplicate chain+address
+   DEURO (0x1B5F7fA46ED0F487F049C42f374cA4827d65A264) - duplicate chain+address
+   GTUSDA (0x000000001DC8bd45d7E7829fb1c969cbe4D0D1eC) - duplicate chain+address
+   RAI (0x7FB688CCf682d58f86D7e38e03f9D22e7705448B) - duplicate chain+address
+   USDM (0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C) - duplicate chain+address
+   FUSE (0xe453d6649643F1F460C371dC3D1da98F7922fe51) - duplicate chain+address
+   WUSDM (0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812) - duplicate chain+address
+   PSP (0xd3594E879B358F430E20F82bea61e83562d49D48) - duplicate chain+address
+   USDGLO (0x4F604735c1cF31399C6E711D5962b2B3E0225AD3) - duplicate chain+address
+   MEED (0xDd462e9399624DFCF73018793BD50a7ef47940b9) - duplicate chain+address
+
+PLASMA
+----------------------------------------------------------------------
+
+Successfully Added (2):
+   USDC (USDC) - 0x2d661C89D812261039AF9764eceaAee884f5F67F
+   EURC (EURC) - 0x3EE196E78d4d4248b849B8E1C7F44C5457FAFD2C
+
+Already Existed (26):
+   LINK (0x76a443768A5e3B8d1AED0105FC250877841Deb40) - duplicate chain+address
+   WEETH (0xA3D68b74bF0528fdD07263c60d6488749044914b) - duplicate chain+address
+   USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+   USDT0 (0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb) - duplicate chain+address
+   SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+   RSETH (0x9eCaf80c1303CCA8791aFBc0AD405c8a35e8d9f1) - duplicate chain+address
+   GHO (0xb77E872A68C62CfC0dFb02C067Ecc3DA23B4bbf3) - duplicate chain+address
+   SUSDAI (0x0B2b2B2076d95dda7817e785989fE353fe955ef9) - duplicate chain+address
+   SYRUPUSDT (0xC4374775489CB9C56003BF2C9b12495fC64F0771) - duplicate chain+address
+   USDAI (0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF) - duplicate chain+address
+   XAUT0 (0x1B64B9025EEbb9A6239575dF9Ea4b9Ac46D4d193) - duplicate chain+address
+   FLUID (0x61E030A56D33e8260FdD81f03B162A79Fe3449Cd) - duplicate chain+address
+   SYZUSD (0xC8A8DF9B210243c55D31c73090F06787aD0A1Bf6) - duplicate chain+address
+   YZUSD (0x6695c0f8706C5ACe3Bdf8995073179cCA47926dc) - duplicate chain+address
+   WXPL (0x6100E367285b01F48D07953803A2d8dCA5D19873) - duplicate chain+address
+   WAPLAUSDT0 (0xE0126F0c4451B2B917064A93040fd4770D6774b5) - duplicate chain+address
+   MHYPER (0xb31BeA5c2a43f942a3800558B1aa25978da75F8a) - duplicate chain+address
+   MSETH (0x7230a9D42D622E18FDf7207041EcA18465F9F1bE) - duplicate chain+address
+   MSUSD (0x29AD7fE4516909b9e498B5a65339e54791293234) - duplicate chain+address
+   EUL (0xca632FA58397391C750c13F935DAA61AbBe0BaA6) - duplicate chain+address
+   WETH (0x9895D81bB462A195b4922ED7De0e3ACD007c32CB) - duplicate chain+address
+   EUROP (0x98658Bd74EF231158Cadc21d8AbA733a4E947e6a) - duplicate chain+address
+   XUSD (0x6eAf19b2FC24552925dB245F9Ff613157a7dbb4C) - duplicate chain+address
+   YZPP (0xEbFC8C2Fe73C431Ef2A371AeA9132110aaB50DCa) - duplicate chain+address
+   TRYB (0x90729a45948c3078890Bc80F2a4e7870A2Ea4C5E) - duplicate chain+address
+   CHUSD (0x22222215d4EdC5510d23D0886133E7ece7F5fdC1) - duplicate chain+address
+
+POLYGON
+----------------------------------------------------------------------
+
+Successfully Added (5):
+   AllUnity CHF (CHFAU) - 0xBD4DfC058eb95b8De5ceAF39966A1a70F5556F78
+   Emerald Security Token (EMRL.D) - 0xB91025710Adbc140a9fEe4b3E465545a2bF53E20
+   saffron.finance (SFI) - 0x35b937583F04A24963eb685F728a542240f28Dd8
+   Crypto Trading Fund (CTF) - 0x7B3bD12675c6B9d6993eB81283cb68E6eB9260b5
+   Nakamoto Games (NAKA) - 0x311434160D7537be358930def317AfB606C0D737
+
+Excluded (9):
+   POL (0x0000000000000000000000000000000000001010) - POL native special address should not be added as a token
+   USDC.E (0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174) - we have USDC already on polygon
+   FRAX (0x45c32fA6DF82ead1e2EF74d17b76547EDdFaFF89) - manual review required: incoming symbol collision between 0x45c32fa6df82ead1e2ef74d17b76547eddfaff89 (topTokens_polygon_200.json); 0x1a3acf6d19267e2d3e7f898f42803e90c9219062 (topTokens_polygon_200.json)
+   JPYC (0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29) - manual review required: incoming symbol collision between 0xe7c3d8c9a439fede00d2600032d5db0be71c3c29 (topTokens_polygon_200.json); 0x431d5dff03120afa4bdf332c61a6e1766ef37bdb (topTokens_polygon_200.json); 0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c (topTokens_polygon_200.json)
+   EURE (0xE0aEa583266584DafBB3f9C3211d5588c73fEa8d) - manual review required: incoming symbol collision between 0xe0aea583266584dafbb3f9c3211d5588c73fea8d (topTokens_polygon_200.json); 0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6 (topTokens_polygon_200.json)
+   EURE (0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6) - manual review required: incoming symbol collision between 0xe0aea583266584dafbb3f9c3211d5588c73fea8d (topTokens_polygon_200.json); 0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6 (topTokens_polygon_200.json)
+   FRAX (0x1a3acf6D19267E2d3e7f898f42803e90C9219062) - manual review required: incoming symbol collision between 0x45c32fa6df82ead1e2ef74d17b76547eddfaff89 (topTokens_polygon_200.json); 0x1a3acf6d19267e2d3e7f898f42803e90c9219062 (topTokens_polygon_200.json)
+   JPYC (0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB) - manual review required: incoming symbol collision between 0xe7c3d8c9a439fede00d2600032d5db0be71c3c29 (topTokens_polygon_200.json); 0x431d5dff03120afa4bdf332c61a6e1766ef37bdb (topTokens_polygon_200.json); 0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c (topTokens_polygon_200.json)
+   JPYC (0x6AE7Dfc73E0dDE2aa99ac063DcF7e8A63265108c) - manual review required: incoming symbol collision between 0xe7c3d8c9a439fede00d2600032d5db0be71c3c29 (topTokens_polygon_200.json); 0x431d5dff03120afa4bdf332c61a6e1766ef37bdb (topTokens_polygon_200.json); 0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c (topTokens_polygon_200.json)
+
+Already Existed (186):
+   USDC (0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359) - duplicate chain+address
+   LINK (0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39) - duplicate chain+address
+   AWETH (0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8) - duplicate chain+address
+   UNI (0xb33EaAd8d922B1083446DC23f610c2567fB5180f) - duplicate chain+address
+   USDT0 (0xc2132D05D31c914a87C6611C10748AEb04B58e8F) - duplicate chain+address
+   PYUSD (0x99aF3EeA856556646C98c8B9b2548Fe815240750) - duplicate chain+address
+   BUIDL (0x2893Ef551B6dD69F661Ac00F11D93E5Dc5Dc0e99) - duplicate chain+address
+   AAVE (0xD6DF932A45C0f255f85145f286eA0b292B21C90B) - duplicate chain+address
+   EURSAFO (0x272EA767712cc4839F4a27Ee35eB73116158C8a2) - duplicate chain+address
+   RETH (0x0266F4F08D82372CF0FcbCCc0Ff74309089c74d1) - duplicate chain+address
+   EUTBL (0xa0769f7A8fC65e47dE93797b4e21C073c117Fc80) - duplicate chain+address
+   NEXO (0x41b3966B4FF7b427969ddf5da3627d6AEAE9a48E) - duplicate chain+address
+   CRV (0x172370d5Cd63279eFa6d502DAB29171933a610AF) - duplicate chain+address
+   SOLVBTC (0xaE4EFbc7736f963982aACb17EFA37fCBAb924cB3) - duplicate chain+address
+   DAI (0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063) - duplicate chain+address
+   CBETH (0x4b4327dB1600B8B1440163F667e199CEf35385f5) - duplicate chain+address
+   ZRO (0x6985884C4392D348587B19cb9eAAf157F13271cd) - duplicate chain+address
+   OUSG (0xbA11C5effA33c4D6F8f593CFA394241CfE925811) - duplicate chain+address
+   TBTC (0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b) - duplicate chain+address
+   LDO (0xC3C7d422809852031b44ab29EEC9F1EfF2A58756) - duplicate chain+address
+   BUSD (0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39) - duplicate chain+address
+   BONK (0xe5B49820e5A1063F6F4DdF851327b5E8B2301048) - duplicate chain+address
+   AUSD (0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a) - duplicate chain+address
+   APEPE (0xA3f751662e282E83EC3cBc387d225Ca56dD63D3A) - duplicate chain+address
+   CRVUSD (0xc4Ce1D6F5D98D65eE25Cf85e9F2E9DcFEe6Cb5d6) - duplicate chain+address
+   WETH (0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619) - duplicate chain+address
+   COMP (0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c) - duplicate chain+address
+   GRT (0x5fe2B58c013d7601147DcdD68C143A77499f5531) - duplicate chain+address
+   PUSD (0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB) - duplicate chain+symbol
+   USTBL (0xe4880249745eAc5F1eD9d8F7DF844792D560e750) - duplicate chain+address
+   TEL (0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32) - duplicate chain+address
+   SAFO (0x6F64f47F95cf656f21B40E14798F6b49f80b3dc5) - duplicate chain+address
+   FRXETH (0xEe327F889d5947c1dc1934Bb208a1E792F953E96) - duplicate chain+address
+   WBTC (0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6) - duplicate chain+address
+   MANA (0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4) - duplicate chain+address
+   APE (0xB7b31a6BC18e48888545CE79e83E06003bE70930) - duplicate chain+address
+   SNX (0x50B728D8D964fd00C2d0AAD81718b71311feF68a) - duplicate chain+address
+   XAUT0 (0xF1815bd50389c46847f0Bda824eC8da914045D14) - duplicate chain+address
+   SAND (0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683) - duplicate chain+address
+   FRXUSD (0x80Eede496655FB9047dd39d9f418d5483ED600df) - duplicate chain+address
+   BAT (0x3Cef98bb43d732E2F285eE605a8158cDE967D219) - duplicate chain+address
+   FLUID (0xf50D05A1402d0adAfA880D36050736f9f6ee7dee) - duplicate chain+address
+   SFRXETH (0x6d1FdBB266fCc09A16a22016369210A15bb95761) - duplicate chain+address
+   GEOD (0xAC0F66379A6d7801D7726d5a943356A172549Adb) - duplicate chain+address
+   ACRED (0xFCe60bBc52a5705CeC5B445501FBAf3274Dc43D0) - duplicate chain+address
+   YFI (0xDA537104D6A5edd53c6fBba9A898708E465260b6) - duplicate chain+address
+   XSOLVBTC (0xc99F5c922DAE05B6e2ff83463ce705eF7C91F077) - duplicate chain+address
+   SUPER (0xa1428174F516F527fafdD146b883bB4428682737) - duplicate chain+address
+   COW (0x2F4efd3Aa42E15a1eC6114547151B63EE5D39958) - duplicate chain+address
+   XAUM (0xA7E22972a19dd924aFeEDf3Db28033B146801081) - duplicate chain+address
+   SUSHI (0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a) - duplicate chain+address
+   STAU (0x37C5eBfaE4E4dA225e9D8042B05063c4A2C94bb6) - duplicate chain+address
+   ZIG (0x7BeBd226154E865954A87650FAefA8F485d36081) - duplicate chain+address
+   ELG (0x8226AC9EdB26ff16DA19151042a8BA3BB2cC237F) - duplicate chain+address
+   AXL (0x6e4E624106Cb12E168E6533F8ec7c82263358940) - duplicate chain+address
+   BRZ (0x4eD141110F6EeeAbA9A1df36d8c26f684d2475Dc) - duplicate chain+address
+   TRB (0xE3322702BEdaaEd36CdDAb233360B939775ae5f1) - duplicate chain+address
+   MASK (0x2B9E7ccDF0F4e5B24757c1E1a80e311E34Cb10c7) - duplicate chain+address
+   RNT (0x27Ab6E82F3458eDbC0703DB2756391B899Ce6324) - duplicate chain+address
+   ZCHF (0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553) - duplicate chain+address
+   ANKR (0x101A023270368c0D50BFfb62780F4aFd4ea79C35) - duplicate chain+address
+   GBPSAFO (0x4FE515c67EEeAdb3282780325F09bB7c244FE774) - duplicate chain+address
+   REQ (0xB25e20De2F2eBb4CfFD4D16a55C7B395e8a94762) - duplicate chain+address
+   RPL (0x7205705771547cF79201111B4bd8aaF29467b9eC) - duplicate chain+address
+   OCEAN (0x282d8efCe846A88B159800bd4130ad77443Fa1A1) - duplicate chain+address
+   FOLKS (0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B) - duplicate chain+address
+   CXO (0xf2ae0038696774d65E67892c9D301C5f2CbbDa58) - duplicate chain+address
+   EURSPKCC (0x99F70A0e1786402a6796c6B0AA997ef340a5c6da) - duplicate chain+address
+   ELON (0xE0339c80fFDE91F3e20494Df88d4206D86024cdF) - duplicate chain+address
+   ORBS (0x614389EaAE0A6821DC49062D56BDA3d9d45Fa2ff) - duplicate chain+address
+   BCSPX (0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59) - duplicate chain+address
+   VANA (0x7FF7Fa94b8b66Ef313f7970d4EEbd2CB3103a2C0) - duplicate chain+address
+   ACX (0xF328b73B6c685831F238c30a23Fc19140CB4D8FC) - duplicate chain+address
+   AIPF (0x2c72D25530191EBD244Eb6325E1892480b0e6E28) - duplicate chain+address
+   TGBP (0x27f6c8289550fCE67f6B50BeD1F519966aFE5287) - duplicate chain+address
+   VATRENI (0xD60DebA014459F07BBcC077a5B817f31DaFD5229) - duplicate chain+address
+   LUSD (0x23001f892c0C82b79303EDC9B9033cD190BB21c7) - duplicate chain+address
+   KNC (0x1C954E8fe737F99f68Fa1CCda3e51ebDB291948C) - duplicate chain+address
+   PROS (0xEa0941C6E067A4fb4399436aD3e2510eB36b419D) - duplicate chain+symbol
+   WPOL (0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270) - duplicate chain+address
+   BRLA (0xE6A537a407488807F0bbeb0038B79004f19DDDFb) - duplicate chain+address
+   CTSI (0x2727Ab1c2D22170ABc9b595177B2D5C6E1Ab7B7B) - duplicate chain+address
+   GMT (0x714DB550b574b3E927af3D93E26127D15721D4C2) - duplicate chain+address
+   YGG (0x82617aA52dddf5Ed9Bb7B370ED777b3182A30fd1) - duplicate chain+address
+   STG (0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590) - duplicate chain+address
+   SOPH (0xEb971Fd26783f32694dbB392dD7289de23109148) - duplicate chain+address
+   WOO (0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603) - duplicate chain+address
+   NCT (0x4985E0B13554fB521840e893574D3848C10Fcc6f) - duplicate chain+address
+   CVC (0x66Dc5A08091d1968e08C16aA5b27BAC8398b02Be) - duplicate chain+address
+   IQ (0xB9638272aD6998708de56BBC0A290a1dE534a578) - duplicate chain+address
+   SYN (0xf8F9efC0db77d8881500bb06FF5D6ABc3070E695) - duplicate chain+address
+   BIB01 (0xCA30c93B02514f86d5C86a6e375E3A330B435Fb5) - duplicate chain+address
+   SPOL (0xd1CD49A08AeF3Af93457aEc17C786C2b7F48eCd7) - duplicate chain+address
+   POKT (0x764A726d9ceD0433A8D7643335919dEb03a9a935) - duplicate chain+address
+   CBK (0x4EC203dD0699Fac6adAF483CDd2519BC05D2c573) - duplicate chain+address
+   ADS (0x598e49f01bEfeB1753737934a5b11fea9119C796) - duplicate chain+address
+   B2M (0xE613a914bbb433855378183c3aB13003285da40A) - duplicate chain+address
+   DODO (0xe4Bf2864ebeC7B7fDf6Eeca9BaCAe7cDfDAffe78) - duplicate chain+address
+   ULT (0xf0059CC2b3E980065A906940fbce5f9Db7ae40A7) - duplicate chain+address
+   ARPA (0xEE800B277A96B0f490a1A732e1D6395FAD960A26) - duplicate chain+address
+   RYZE (0x44e3ae622c1570Dc6E492aDB8DE92d01cA923d26) - duplicate chain+address
+   WFRAX (0x64445f0aecC51E94aD52d8AC56b7190e764E561a) - duplicate chain+address
+   UKTBL (0x970E2aDC2fdF53AEa6B5fa73ca6dc30eAFEDfe3D) - duplicate chain+address
+   WSTETH (0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD) - duplicate chain+address
+   C98 (0x77f56cf9365955486B12C4816992388eE8606f0E) - duplicate chain+address
+   CRMC (0x61cA155F1660b0af117Ed00321d1c3EE264ef943) - duplicate chain+address
+   FTRB (0xC3f56d567E7663e8932E65d85ae4be7Eb5575cA7) - duplicate chain+address
+   ORDER (0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8) - duplicate chain+address
+   OSAK (0x11cd72f7A4B699c67f225ca8aBb20bC9F8DB90c7) - duplicate chain+address
+   XSGD (0xDC3326e71D45186F113a2F448984CA0e8D201995) - duplicate chain+address
+   ALI (0xbFc70507384047Aa74c29Cdc8c5Cb88D0f7213AC) - duplicate chain+address
+   FELY (0xEe997788f625809332BaABB3110BCf1BA7400824) - duplicate chain+address
+   MIMATIC (0xa3Fa99A148fA48D14Ed51d610c367C61876997F1) - duplicate chain+address
+   GNS (0xE5417Af564e4bFDA1c483642db72007871397896) - duplicate chain+address
+   PAW (0xc11158c5dA9db1D553ED28f0C2BA1CbEDD42CFcb) - duplicate chain+address
+   WRX (0x72d6066F486bd0052eefB9114B66ae40e0A6031a) - duplicate chain+address
+   PPC (0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65) - duplicate chain+address
+   EUROP (0x888883b5F5D21fb10Dfeb70e8f9722B9FB0E5E51) - duplicate chain+address
+   IXS (0x1BA17C639BdaeCd8DC4AAc37df062d17ee43a1b8) - duplicate chain+address
+   SBC (0xfdcC3dd6671eaB0709A4C0f3F53De9a333d80798) - duplicate chain+address
+   EUSD (0x14913815bCFDE78BAeAd2111F463D038Ac9C2949) - duplicate chain+address
+   BC3M (0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7) - duplicate chain+address
+   IDRT (0x554cd6bdD03214b10AafA3e0D4D42De0C5D2937b) - duplicate chain+address
+   FORT (0x9ff62d1FC52A907B6DCbA8077c2DDCA6E6a9d3e1) - duplicate chain+address
+   EDX (0xC114678C6e4654d041B2006C90f08478b444c4E2) - duplicate chain+address
+   HAVA (0x63334Cf286580f5075900c34988858658685e76f) - duplicate chain+address
+   BCOIN (0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9) - duplicate chain+address
+   SD (0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94) - duplicate chain+address
+   WALLET (0x564906ec1DF8399F00e4ad32c0eCAC0404a27A1c) - duplicate chain+address
+   JMPT (0x03cf5d93cA7c70Ce0A21a09F4D70779D2c66B25A) - duplicate chain+address
+   AMWETH (0x28424507fefb6f7f8E9D3860F56504E4e5f5f390) - duplicate chain+address
+   OLAS (0xFEF5d947472e72Efbb2E388c730B7428406F2F95) - duplicate chain+address
+   ANY (0x6aB6d61428fde76768D7b45D8BFeec19c6eF91A8) - duplicate chain+address
+   TLOS (0x193f4A4a6ea24102F49b931DEeeb931f6E32405d) - duplicate chain+address
+   WILD (0xaFdE2490236bc64950def5472296aa0D9758Db0d) - duplicate chain+address
+   BAL (0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3) - duplicate chain+address
+   SDT (0x361A5a4993493cE00f61C32d4EcCA5512b82CE90) - duplicate chain+address
+   MAUSDC (0x9719d867A500Ef117cC201206B8ab51e794d3F82) - duplicate chain+address
+   SOIL (0x43C73b90E0C2A355784dCf0Da12f477729b31e77) - duplicate chain+address
+   VEE (0xf1c1A3C2481A3a8A3f173A9ab5Ade275292A6fA3) - duplicate chain+address
+   EURS (0xE111178A87A3BFf0c8d18DECBa5798827539Ae99) - duplicate chain+address
+   GNUS (0x127E47abA094a9a87D084a3a93732909Ff031419) - duplicate chain+address
+   XRS (0x570a42849Ac23E3fdC45D8c31ddF7c09283e702d) - duplicate chain+address
+   NEX (0xA486c6BC102f409180cCB8a94ba045D39f8fc7cB) - duplicate chain+address
+   AVLT (0x74dB7a52773A52699dbC0c01b1254E5301E3e119) - duplicate chain+address
+   RENBTC (0xDBf31dF14B66535aF65AaC99C32e9eA844e14501) - duplicate chain+address
+   L3 (0x46777C76dBbE40fABB2AAB99E33CE20058e76C59) - duplicate chain+address
+   VNXAU (0xC8bB8eDa94931cA2F20EF43eA7dBD58E68400400) - duplicate chain+address
+   DOG (0xeEe3371B89FC43Ea970E908536Fcddd975135D8a) - duplicate chain+address
+   QUICK (0xB5C064F955D8e7F38fE0460C556a72987494eE17) - duplicate chain+address
+   SURE (0xF88332547c680F755481Bf489D890426248BB275) - duplicate chain+address
+   SPKCC (0x903d5990119bC799423e9C25c56518Ba7DD19474) - duplicate chain+address
+   USDQ (0xB291996477504506Bf5f583102B5B5ea5d1E40E0) - duplicate chain+address
+   EFI (0xae840dEab9916d80FADF42E218119a6051468169) - duplicate chain+address
+   DPI (0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369) - duplicate chain+address
+   DVO (0x8708cCEb45b218E93a4D2cfc95Eb8250AB13Fa9D) - duplicate chain+address
+   DOLZ (0x6ab4E20f36ca48B61ECd66c0450fDf665Fa130be) - duplicate chain+address
+   CAW (0xbbBBbBbBB7949dcC7d1539c91b81A5BF09E37bDB) - duplicate chain+address
+   EURQ (0xD571Edb2EF29DF10fcd6200fd6D0Ed2389983db3) - duplicate chain+address
+   RAIN (0x8E677CA17065eD74675BC27bCaBadB7Eef10A292) - duplicate chain+address
+   MLN (0xa9f37D84c856fDa3812ad0519Dad44FA0a3Fe207) - duplicate chain+address
+   SDEX (0x6899fAcE15c14348E1759371049ab64A3a06bFA6) - duplicate chain+address
+   ZARP (0xb755506531786C8aC63B756BaB1ac387bACB0C04) - duplicate chain+address
+   GBYTE (0xAB5F7a0e20b0d056Aed4Aa4528C78da45BE7308b) - duplicate chain+address
+   SWEAT (0x0Cc931c30F4Fc7fA36d290a4CD8d94AcD738826E) - duplicate chain+address
+   HLSCOPE (0x4C5cA366e26409845624E29B62C388a06961A792) - duplicate chain+address
+   UBT (0x7FBc10850caE055B27039aF31bD258430e714c62) - duplicate chain+address
+   SWAP (0x3809dcDd5dDe24B37AbE64A5a339784c3323c44F) - duplicate chain+address
+   DIMO (0xE261D618a959aFfFd53168Cd07D12E37B26761db) - duplicate chain+address
+   RIZE (0x9F1E8F87c6321b84baD7DDa7DfB86D5115A47605) - duplicate chain+address
+   FOX (0x65A05DB8322701724c197AF82C9CaE41195B0aA8) - duplicate chain+address
+   MATICX (0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6) - duplicate chain+address
+   SWCH (0x3ce1327867077B551ae9A6987bF10C9fd08edCE1) - duplicate chain+address
+   NRS (0x94615302bCB36309371ea7454f3e99A4002105dE) - duplicate chain+address
+   TRADE (0x692AC1e363ae34b6B489148152b12e2785a3d8d6) - duplicate chain+address
+   PHT (0xe75220cB014Dfb2D354bb59be26d7458bB8d0706) - duplicate chain+address
+   AUDF (0xd2a530170D71a9Cfe1651Fb468E2B98F7Ed7456b) - duplicate chain+address
+   THAT (0xd2E57e7019a8faea8b3E4a3738Ee5B269975008A) - duplicate chain+address
+   CHAIN (0xd55fCe7CDaB84d84f2EF3F99816D765a2a94a509) - duplicate chain+address
+   BOSON (0x9B3B0703D392321AD24338Ff1f846650437A43C9) - duplicate chain+address
+   MYST (0x1379E8886A944d2D9d440b3d88DF536Aea08d9F3) - duplicate chain+address
+   GHST (0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7) - duplicate chain+address
+   SUKU (0x60Ea918FC64360269Da4efBDA11d8fC6514617C6) - duplicate chain+address
+   GRG (0xBC0BEA8E634ec838a2a45F8A43E7E16Cd2a8BA99) - duplicate chain+address
+   CUBE (0x276C9cbaa4BDf57d7109a41e67BD09699536FA3d) - duplicate chain+address
+   BRL1 (0x5C067C80C00eCd2345b05E83A3e758eF799C40B5) - duplicate chain+address
+
+ROBINHOOD
+----------------------------------------------------------------------
+
+Successfully Added (106):
+   Chainlink (LINK) - 0x492641F648a4986844848E0beFE66D14817bCE34
+   Coinbase Wrapped BTC (CBBTC) - 0xCEC185eB182c47d1bA1EFc84e6959e18cd620Be4
+   Bittensor (TAO) - 0xf3081494B87e8D5fb7960f066E931D1D0e6E3d67
+   Pudgy Penguins (PENGU) - 0x74BE72AFFAFbC8de30F0C11247814036314D625f
+   Pons (PONS) - 0x39dBED3a2bd333467115dE45665cC57F813C4571
+   Artificial Inu (AI) - 0x2E8c31162b855A2ffa90F6F8634643Ad6F111e18
+   ApeCoin (APE) - 0x8f86a15EC17cb3369d8b3E666dAdBC11daA82b79
+   1INCH (1INCH) - 0x1755C2910c126eE1b0CF1E08a307Dc9E787285a0
+   Sushi (SUSHI) - 0x0bb40D7fbaE7f0C69Bc5910C601987dce697d85F
+   Midas Fasanara Global Open (MGLO) - 0xFEd493F38c1aAcb4EA4e6A11F8b9287849EE0096
+   Boner Coin (BONER) - 0x98096d17e191B3dA1d5f99a6D7b3584351b11E18
+   Degen (DEGEN) - 0x0830A9Dd26a04e959657AB6788d45f5725590c32
+   The Index (INDEX) - 0x56910D4409F3a0C78C64DD8D0545FF0705389870
+   pipedog (PIPEDOG) - 0x5Cb6F181081301b44905F3ae15419112ecaBd8A6
+   Chump Coin (CHUMP) - 0x0E0d2C89a5a019FE1cF762e5e33187631DACC21B
+   FLOCK (FLOCK) - 0x5aB3D4c385B400F3aBB49e80DE2fAF6a88A7B691
+   Orbio.so (ORBIO) - 0xAa07A0e9209e16aC99708C3EC70159c6eF3128A3
+   StonkBroker (STONKBROKER) - 0xe934e36A439C94017B64a3FecE66AF12099aBF50
+   Memory cow Moo (MOO) - 0xD9dB30BB0D2b8d2eae3826A1372117E058791e18
+   MUSHROOM (SHROOM) - 0xab093dEF657F15dF31b33922A95e047aDd645B29
+   ubik (UBIK) - 0x812486EAea648819853F8E372dc9f1516C7868Bd
+   DogBull (DOGO) - 0x77b0AA38451ccDC1b42587E2f80B9879A7f82356
+   Little John (JOHN) - 0xE170dC96ca10103E0D4C5d9293C5A3A72Ee365a5
+   ZZZ (ZZZ) - 0x7dbf38976f6D3b9c529e7D9484A71898B409eE6a
+   FATCOIN (FATCOIN) - 0x12D5ee7917cA430073C3A638ee1e6f0648A98a01
+   Hookr.fun (HOOKR) - 0x18E674231A58c239Dc7DaeDcffE15Ec3A24cff5c
+   microduck (MICRODUCK) - 0xD5f1afEA47b1A9eab414D2ee740cF1d6d039E725
+   Pare (PARE) - 0x15d36B6A28d8327ABc7aFABF0F106AE2c9Af5C4d
+   PAIR (PAIR) - 0x6b1d42927B1a84eC28Fa88d4fC6FA7AF404966be
+   Thinking Cat (HMM) - 0x7FE995a80075dF3Dc8Ae11A9b82c7FE4202CD87f
+   Delta (DELTA) - 0xe8ffd7e24187F72afB08d75B1bb13088A989a791
+   Statics Protocol (STATICS) - 0x2d8d6F4A93AcD7a916A5a654ec8b690bA3B3EAdd
+   Prologue (PROLOGUE) - 0xb9972CA7188e511174947E3936a5315ac7073277
+   What IF (IF) - 0x232CDFc415D10b673845D83Dc02ba2eaBe7e30d1
+   Lil' Shrub (SHRUB) - 0x5d9144d2d017386519a7134Fcc7f1E4bA22f920c
+   heyAura (ADX) - 0xF82119ebd01eb6AB67105C9536A713D61a25cf9f
+   Goose Token (GOOSE) - 0x348cC963411FB82CD6e0B64345714fEC94F242CB
+   YOLO (YOLO) - 0x62C71cd34a52c30d894419CBcc55Db2aFA8032eA
+   Robin the Frog (ROBIN) - 0x11B70d0243baf75E85CE03201A92b5B7C33BEB59
+   Longbow (BOW) - 0x451b42A15100C340CA12F7c66DE06fac5EA2D751
+   ROBINCAT (ROBINCAT) - 0xded852De9fe9bA9b6f27f39e8e81CF851A5C79cc
+   frong (FRONG) - 0x6245e67affA44a23077f0Ea7f981a8DC743a0c47
+   Bundle Cat (BUN) - 0x07EBB29a38Fbcb41563817e5E19f2ceC619C90D2
+   iCoin (ICOIN) - 0x5d6EF090a1461B11c9427aC319260122D1C61e18
+   Sherwood Protocol (WOOD) - 0xF8BC08092C06dB6148114DCf82AF881F1085f92b
+   Ramses (RAM) - 0x5173D45A1191eE33cBB7D8c7e65f21B04eD54802
+   Stratton Market (STRATTON) - 0xb7eaeCc89d3e2f9Fd597D61726aE824900dB8360
+   MowCat (MOW) - 0x76761d4aEE1e7D6b2B8DEdbd13925d6C220b0725
+   what the hook? (WTH) - 0xb8Fa8010833463Aac5595b55B9045479239EfF79
+   Good In The Hood (GOOD) - 0x5f62C57e5C537887117EeF828b7E3Ad41C009FEb
+   Touch Grass (GRASS) - 0x16391C40e85FB2246A2C8c17bfA2594C5d3EF84b
+   Golden Goose (GG) - 0xcaCB0e9caCcee63ec4d82952E561a291c68Bcb68
+   mooncat (MOON) - 0x862cDCCB67C8a22FDb247D09A08B1dAD09447777
+   PerpsHood (PERPSHOOD) - 0x7BA36BE14dD06ba492f08be6C1B2979c1d0B652C
+   Unstable Coin (USDUC) - 0xBbb8Ef3181661512CEAB66e0B213C29211B24b6c
+   dont blink (BLINK) - 0x7b630F080807DF83908b4aDE46BA6396EE66b098
+   this is not a website (WEBSITE) - 0x0762C1708F0D23F86b29D6B857121FF7DF357506
+   Biscotti (BISCOTTI) - 0x7CD7073A71eaF5F6E4febFA98460Ee66cd97dEb1
+   dopameme (DOPAMEME) - 0x2E8E2Dbf58B5F141f9A3D04Dba0812b416574e83
+   The Juggernaut (JUGGERNAUT) - 0xD7321801CAae694090694Ff55A9323139F043B88
+   Arbitrage Ape (AA) - 0xe2dAE1c072B9F66BeD999873b94798b2152af7e1
+   Voxelithic Protocol (VOXEL) - 0xA01Bc586CD5F4f253BfAB4e44400c52dbC18bC50
+   ProjectVex (VEX) - 0x8Ff92566f2e81BDd68EDfAa8cde73942A723796b
+   Swole Cat (SWOLE) - 0x2f36bA966BF29F702Bb290245406a5b0e3e1a66E
+   Auditchain (AUDT) - 0xbf7EB6679d1c833E6a58AC9A122c993c4E691B31
+   Bucket Shop (BUCKET) - 0xbc9E7b1c5C0081f4aE85e71eC95703d3dEC9ffaD
+   Sinjoh (INJOH) - 0x2cC0FAC44B8252f6B10208B091aFf2c94B4da77D
+   Flayer (FLAY) - 0x667f0926022E6B9e9F67A9314eD5830bE54346b2
+   OuroLayer (OURO) - 0x8Ea0eB3505f5B3Bd2BbEa0fEBae0cE850cC73ecc
+   RobinWifHat (WIF) - 0xE49A1C3033EcC6b804bc423021D3F71F1A3e0F9B
+   hotdog (HOTDOG) - 0x1C1DAEF0300551aDBfbE403e7d567b6c5aFF566f
+   Mancer (MANCER) - 0xc72F232a6869e6CF34dC06129AfFD07F8a2a246A
+   Crude Cat (CRUDECAT) - 0xBD957Cc9f1e94617792F37bC40f2F299e78AcF3e
+   Canopy Finance (CNPY) - 0x532c5583671870723CEEf573600208aF49c87c54
+   TA FUND (TA) - 0x9cA1cC0c90d97B4F36c5E2232d4fbD705a73c65d
+   NASDANQ (NASDANQ) - 0x51Fb76BE80ab6daAa345D818f4E06441816b4fEa
+   Wojak (WOJAK) - 0xaCE55FE98Bab14366dD49aB5AA5dF76aA11A3c6f
+   SLIPPY (SLIPPY) - 0xF0568863195770965a6D8abb0aa87F4314b80320
+   Zeal (ZEAL) - 0x9fA1C5E90A11294F83A9F135b81ad1b537A5FFdC
+   NinjaCat (NINJACAT) - 0x4A88cf518EA6B7D1184184D6eab78dF7252a74F1
+   flETH (FLETH) - 0x00000000043C1117DAFA3A3D0C7148Eb48B30130
+   Prism Assets (PRISM) - 0x20024E485c0B22b42855589700721b28320A7777
+   Ripe DAO Governance Token (RIPE) - 0x4D3f37a965b21aB4122e92Dd41D2693E742c883b
+   Robbie ($ROBBIE) - 0xe0eba1B76b73BE7bfA7716b6Ca96f724930e2263
+   Robinvista (VISTA) - 0xC35968C7F5475bb03a43C7382526F4118E01C0de
+   Denar Markets (DENAR) - 0x3786728a2c49C4617Bf4FE5BD82b90B6B0dF5508
+   Pushin' 🅿️ (🅿️) - 0xE1E5f00A9B0255ca4dF85B3130eE0F77d15acC2D
+   Yardkeeper (YARD) - 0xE3FA12dA7fa026B21817f16622E8AE48fA785166
+   The Dogestar (SIRIUS) - 0x3b4A0048a00787A644932cD648Faa043410C163e
+   LOXI (LOXI) - 0x834A24d16Bf56d692C2e5fFF9428f9d01f2f1ca5
+   Quantum Cats (QC) - 0xF2E122a481b440C40Eee7A7cA6D5EEF65A591B76
+   clan.tech (CLAN) - 0xCEbc0cFbc5DD0893A9E3B9D0f75b211DDf5934A0
+   pools.trade (POOLS) - 0x385b36Ff682Ab4C76E7c37A66b96aABC466471d5
+   United Founders Group (UFG) - 0xEfAb538Cf3C29237A47c6aFB145D50Ddf204A0A3
+   GRID by Virtuals (GRID) - 0x727701F88f09Fed71eb217Bcea88b3F314CF7079
+   Shibinhood (WOOF) - 0xe15db7C8547A0adD11eB26A700246cCa08aEfCe5
+   Doggie Mode (DOGGIE) - 0xa9eFe2Fc94dE79734C03051515F48f254Ce61e18
+   OrdoFi (ORDO) - 0xFE2f0fB0C00d19786A8ABf98d4B1f1AC8763b167
+   GIGA (GIGA) - 0x5BaaeC1B70864f01dbdb747358FF59F2E2cCF7D5
+   LADY Exchange (LDX) - 0x62CD5cd9d354A2A50AfFE9efa21c8918B9640a5B
+   Stonk.Fi (STONKFI) - 0xBD4802d70448fb1D776683bebEa592d66B623e29
+   Ponsancoin (PONSAN) - 0x97216593D3B2769DA6f0adEee6Fb8e36DA4E319F
+   Artificial Pepe (AP) - 0x71dff63057274f5d20330c5F18b5922B97660F9c
+   AUTSM (AU) - 0xd4aAe326dDd1a2537A92C00E6576E4605e5D1e18
+   Money Dog (MONEYDOG) - 0x8d8f709357203b4933Af3Ac410CC521C5680611f
+   StockRip (RIP) - 0xe4b8723d202FDD0298B1D7496A86656b2986C532
+
+Excluded (7):
+   AMC (0x385F4f8ae47651ce5F58F5265395a669f8281e18) - excluded in favor of verified Robinhood tokenized stock 0x05a3d1cd21d0c88145e82600e62e7e496e0f222b
+   DTF (0xeE5576Fa1Bcaa380e591D01245f406f3f384eb01) - manual review required: incoming symbol collision between 0xee5576fa1bcaa380e591d01245f406f3f384eb01 (topTokens_robinhood_200.json); 0x5edb417509a869b1d8222dea05257b8c8ba00361 (topTokens_robinhood_200.json)
+   GME (0xEF67e3064bEf1a27e81925eC7132f23E533bd5f6) - excluded in favor of verified Robinhood tokenized stock 0x1b0e319c6a659f002271b69db8a7df2f911c153e
+   NET (0xCA9c78Dd337A67F6e0077F65F5E9218719d30eDf) - excluded in favor of verified Robinhood tokenized stock 0x116f00968269b7bfbad4109ce591d6e74c0601d4
+   BULL (0x49bac47750F3dCdBa49350B5D74fd399e90f97C6) - excluded in favor of verified Robinhood tokenized stock 0xcef9027c7d6985b85f0ba431125073529a947a68
+   DTF (0x5Edb417509a869b1D8222dEa05257B8c8Ba00361) - manual review required: incoming symbol collision between 0xee5576fa1bcaa380e591d01245f406f3f384eb01 (topTokens_robinhood_200.json); 0x5edb417509a869b1d8222dea05257b8c8ba00361 (topTokens_robinhood_200.json)
+   $CLAWBANK (0x65b445518B1AD0d9C597731494f5bD2991b7EC08) - Symbol mismatch - CoinGecko $CLAWBANK vs on-chain ClawBank
+
+Already Existed (22):
+   USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+   USDG (0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168) - duplicate chain+address
+   VIRTUAL (0xc6911796042b15d7Fa4F6CDe69e245DdCd3d9c31) - duplicate chain+address
+   CASHCAT (0x020bfC650A365f8BB26819deAAbF3E21291018b4) - duplicate chain+address
+   NPC (0x241F3Caad03Db31137F641beF005A32176530024) - duplicate chain+address
+   SYRUPUSDG (0x40858070814a57FdF33a613ae84fE0a8b4a874f7) - duplicate chain+address
+   WETH (0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73) - duplicate chain+address
+   BNKR (0x178E54df3D091EE4D0B2534742eF9e3692b76526) - duplicate chain+address
+   TENDIES (0x45242320DBB855EeA8Fd36804C6487E10E97FCF9) - duplicate chain+address
+   SFI (0xE77d354898A44808ff3999947002785CD727BEd5) - duplicate chain+address
+   UP (0x57C0E45cB534413D1C20A4240955d6bB250BB4F1) - duplicate chain+address
+   HOOD (0xDAA8f3f54c66E9BE2c44C1B6b566cBD07229CED3) - duplicate chain+symbol
+   ARROW (0xf2915d1e3C1B0c769d0c756Ec43F1c1f6c99cD03) - duplicate chain+address
+   ANON (0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C) - duplicate chain+address
+   EARN (0xA3b6AEe90017b72c0812dC1e013De70eB2917ba3) - duplicate chain+symbol
+   RAXOL (0xf44702b17d9abD53815F703e772F35E9c71A53af) - duplicate chain+address
+   HOODRAT (0x8e62F281f282686fCa6dCB39288069a93fC23F1c) - duplicate chain+address
+   WEN (0xA80eb66b3E0CF66ccB46f8b8C9e7ff5803eEb820) - duplicate chain+address
+   WORTH (0xfB1bcB6817F7b8fA86896D3253b16aEB7Bd6A5A8) - duplicate chain+address
+   KITSU (0x8d4dFaaA4198b6486E0293Fec914C2B6a821D4DC) - duplicate chain+address
+   WETH (0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73) - duplicate chain+address
+   USDG (0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168) - duplicate chain+address
+
+SCROLL
+----------------------------------------------------------------------
+
+Already Existed (21):
+   LINK (0x548C6944cba02B9D1C0570102c89de64D258d3Ac) - duplicate chain+address
+   WEETH (0x01f0a31698C4d065659b9bdC21B3610292a1c506) - duplicate chain+address
+   USDE (0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34) - duplicate chain+address
+   ENA (0x58538e6A46E07434d7E7375Bc268D3cb839C0133) - duplicate chain+address
+   SUSDE (0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2) - duplicate chain+address
+   RSETH (0x65421ba909200b81640d98B979d07487C9781B66) - duplicate chain+address
+   ETHFI (0x056A5FA5da84ceb7f93d36e545C5905607D8bD81) - duplicate chain+address
+   FRXUSD (0x397F939C3b91A74C321ea7129396492bA9Cdce82) - duplicate chain+address
+   ANKR (0xDF474B7109b73b7D57926d43598D5934131136b2) - duplicate chain+address
+   WRSETH (0xa25b25548B4C98B0c7d3d27dcA5D5ca743d68b7F) - duplicate chain+address
+   EURE (0xd7BB130A48595fCDf9480E36C1aE97ff2938aC21) - duplicate chain+address
+   RSWETH (0x89f17aB70cAFB1468D633056161573efEfeA0713) - duplicate chain+address
+   STG (0x8731d54E9D02c286767d56ac03e8037C07e01e98) - duplicate chain+address
+   ANKRETH (0x12D8CE035c5DE3Ce39B1fDD4C1d5a745EAbA3b8C) - duplicate chain+address
+   WFRAX (0x879BA0EFE1AB0119FefA745A21585Fa205B07907) - duplicate chain+address
+   YNETHX (0xE231DB5F348d709239Ef1741EA30961B3B635a61) - duplicate chain+address
+   USDC (0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4) - duplicate chain+address
+   USDT (0xf55BEC9cafDbE8730f096Aa55dad6D22d44099Df) - duplicate chain+address
+   SCR (0xd29687c813D741E2F938F4aC377128810E217b1b) - duplicate chain+address
+   SIS (0x1467b62A6AE5CdcB10A6a8173cfe187DD2C5a136) - duplicate chain+address
+   WBTC (0x3C1BCa5a656e69edCD0D4E36BEbb3FcDAcA60Cf1) - duplicate chain+address
+
+SOLANA
+----------------------------------------------------------------------
+
+Successfully Added (16):
+   SoFiUSD (SOFID) - APhcqtzE73es3KAGiVksZFMLGwJDiAey5qZKUrQHEHfS
+   apxUSD (APXUSD) - HAYQtfJEQ9DbDbaHEhxfGsWbSZ3ywthdsVB3PuB72DYe
+   Re Protocol reUSD (REUSD) - 2uxaYT1fVrp6Fg2BrxQcyKSW91hefM6dG9krpbeDiirT
+   apyUSD (APYUSD) - Ex8hKasfFCfj3yGuN5TyYRUjHePgVs3uYUJRT8geT7rv
+   AntFun (ANTFUN) - CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt
+   STONK (STONK) - 6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx
+   Anonymous Cat (ZCAT) - HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR
+   peaq (PEAQ) - PEAQjk7SRS6rXHVFFmpRr7zrC4g5ZuEebpwTxvaLr3b
+   MEXC Staked SOL (MXSOL) - 7cBuurYDdaqxnem7KyMTci6SWhjJKroZ6NUjqH2ewEPB
+   BlackRock Daily Reinvestment Stablecoin Reserve Vehicle (BRSRV) - 9rX4yuAirQkm5JC26v3oSfGencsxwjB8kkmgf2dwWe9N
+   AllUnity CHF (CHFAU) - 3GJfXJvPcjuAu6VQZmcs9pAXQau8nz3z88CCpBztgQSv
+   Mantis (M) - Mant1sZcb8x2YMZe7RdqSfStCj4YxjmQByNKyHpLJK9
+   Securitize (SECZ) - 5VzwKkvynPJzcgwhBe7ESEyNgqMbo15yBu7Sehssd9ED
+   FLOCK (FLOCK) - FmysnoAQ7ifx3La6C7D9cM5tcpoTxEnakbnZPhrC2pJi
+   Not in Employment, Education, or Training (NEET) - Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump
+   Zylo Ecosystem (ZYLO) - HnGCbLLonRzNRAFHqv5AbvZ4FixMkUQztE2egh4sAmqZ
+
+Excluded (1):
+   HYPE (98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g) - HYPE can be confused with native HYPE
+
+Already Existed (183):
+   USDT (Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB) - duplicate chain+address
+   USDC (EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v) - duplicate chain+address
+   USDS (USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA) - duplicate chain+address
+   LINK (LinkhB3afbBKb2EQQu7s7umdZceV3wcvAUJhQAfQ23L) - duplicate chain+address
+   WBTC (5XZw2LKTyrfvfiskJ78AMpackRjPcyCif1WhUsPDuVqQ) - duplicate chain+symbol
+   CBBTC (cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij) - duplicate chain+address
+   USDE (DEkqHyPN7GMRJ5cArtQFAWefqbZb33Hyf6s5iCwjEonT) - duplicate chain+address
+   USD1 (USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB) - duplicate chain+address
+   USDG (2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH) - duplicate chain+address
+   PYUSD (2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo) - duplicate chain+address
+   BUIDL (GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr) - duplicate chain+address
+   USYC (7LWanZteUKtvFjv4MHYgKXXdAuCQYFPJysL9pxxdRQGn) - duplicate chain+address
+   USDY (A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6) - duplicate chain+address
+   AAVE (AavE1kKKnesPw4MuRJmJ9jZs9QzEE8CPxQ3ViczUDfc1) - duplicate chain+address
+   WLFI (WLFinEv6ypjkczcS83FZqFpgFZYwQXutRbxGe7oC16g) - duplicate chain+address
+   PUMP (pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn) - duplicate chain+address
+   ENA (72QvBVwpxqmheEPfaCwWSWqEFsUy3rhWt6JhQBMNTwD1) - duplicate chain+address
+   SUSDE (Eh6XEPhSwoLv5wFApukmnaVSHQ6sAnoD9BmgmwQoN2sN) - duplicate chain+address
+   USDGO (72puLt71H93Z9CzHuBRTwFpL4TG3WZUhnoCC7p8gxigu) - duplicate chain+address
+   WSOL (So11111111111111111111111111111111111111112) - duplicate chain+address
+   BNSOL (BNso1VUJnh4zcfpZa6986Ea66P6TCp59hvtNJ8b1X85) - duplicate chain+address
+   JITOSOL (J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn) - duplicate chain+address
+   SYRUPUSDC (AvZZF1YaZDziPY2RCK4oJrRVrbN3mTD9NL24hPeaZeUj) - duplicate chain+address
+   JLP (27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4) - duplicate chain+address
+   JUP (JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN) - duplicate chain+address
+   LBTC (LBTCgU4b3wsFKsPwBn1rRZDx5DoFutM6RPiEt1TPDsY) - duplicate chain+address
+   RENDER (rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof) - duplicate chain+address
+   USTB (CCz3SGVziFeLYk2xfEstkiqJfYkjaSWb2GCABYsVcjo2) - duplicate chain+address
+   CAKE (4qQeZ5LwSz6HuupUu8jCtgXyW1mYQcNbFAW1sWZp89HL) - duplicate chain+address
+   JAAA (AAAJXeGjpKu7W3X4QTSU4pm1Wbj4G2LPcdg7A6xJLLyG) - duplicate chain+address
+   FBTC (3orqhCKM5admbcHkHQhRAEKbXhUT5VPgsQqz7fBa6QdF) - duplicate chain+address
+   TRUMP (6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN) - duplicate chain+address
+   PRIME (3b8X44fLF9ooXaUm3hhSgjpmVs6rZZ3pPoGnGahc3Uu7) - duplicate chain+address
+   JUPSOL (jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v) - duplicate chain+address
+   PENGU (2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv) - duplicate chain+address
+   SPX (J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr) - duplicate chain+address
+   SOLVBTC (SoLvHDFVstC74Jr9eNLTDoG4goSUsn1RENmjNtFKZvW) - duplicate chain+address
+   USDTB (8yXrtJ54jZtE84xEBzTESKuegjcAkAuDrdAhRd8i8n3T) - duplicate chain+address
+   VIRTUAL (3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y) - duplicate chain+address
+   EURC (HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr) - duplicate chain+address
+   PYTH (HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3) - duplicate chain+address
+   OUSG (i7u4r16TcsJTgq1kAG8opmVZyVnAKBwLKu6ZPMwzxNc) - duplicate chain+address
+   TBTC (6DNSN2BJsaPFdFFc1zP37kkeNe4Usc1Sqkzr9C9vPWcU) - duplicate chain+address
+   FDUSD (9zNQRsGLjNKwCUU5Gq5LR8beUCPzQMVMqKAi3SSZh54u) - duplicate chain+address
+   RAY (4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R) - duplicate chain+address
+   OHM (2Xva1NeLRuBFdK41gEuXqgeWtnKKDve9PKeCnMEpNG6K) - duplicate chain+address
+   ONYC (5Y8NV33Vv7WbnLfq3zBcKSdYPrk7g2KoiQoe7M2tcxp5) - duplicate chain+address
+   DSOL (Dso1bDeDjCQxTrWHqUUi63oBvV7Mdm6WaobLbQ7gnPQ) - duplicate chain+address
+   PSTUSDC (59obFNBzyTBGowrkif5uK7ojS58vsuWz3ZCvg6tfZAGw) - duplicate chain+address
+   BONK (DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263) - duplicate chain+address
+   GTBTC (gtBTCGWvSRYYoZpU9UZj6i3eUGUpgksXzzsbHk2K9So) - duplicate chain+address
+   AUSD (AUSD1jCcCyPLybk1YnvPWsHQSrZ46dxwoMniN4N2UEB9) - duplicate chain+address
+   MSOL (mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So) - duplicate chain+address
+   USX (6FrrzDk5mQARGc1TDYoyVnSyRdds1t4PbtohCD6p3tgG) - duplicate chain+address
+   UNIBTC (uniBKsEV37qLRFZD7v3Z9drX6voyiCM8WcaePqeSSLc) - duplicate chain+address
+   JTO (jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL) - duplicate chain+address
+   GRASS (Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs) - duplicate chain+address
+   STRK (HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz) - duplicate chain+address
+   USELESS (Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk) - duplicate chain+address
+   WIF (EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm) - duplicate chain+address
+   INF (5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm) - duplicate chain+address
+   EURCV (DghpMkatCiUsofbTmid3M3kAbDTPqDwKiYHnudXeGG52) - duplicate chain+address
+   ZBCN (ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU) - duplicate chain+address
+   2Z (J6pQQ3FAcJQeWPPGppWRb4nM8jU3wLyYbRrLh7feMfvd) - duplicate chain+address
+   BORG (3dQTr7ror2QPKQ3GbBCokJUmjErGg8kTJzdnYjNfvi3Z) - duplicate chain+address
+   FARTCOIN (9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump) - duplicate chain+address
+   PSOL (pSo1f9nQXWgXibFtKf7NWYxb5enAM4qfP6UJSiXRQfL) - duplicate chain+symbol
+   STRCX (Xs78JED6PFZxWc2wCEPspZW9kL3Se5J7L5TChKgsidH) - duplicate chain+address
+   NPC (BeGY8KqKxboEwRbJd1q9H2K829jS4Rc5dEyNMYXCbV5p) - duplicate chain+address
+   WYLDS (8fr7WGTVFszfyNWRMXj6fRjZZAnDwmXwEpCrtzmUkdih) - duplicate chain+address
+   CHZ (6eftxVbSAunVEoxUWdGhPdxg5UdsJ8Wkwy5w5YFuxouw) - duplicate chain+address
+   SKR (SKRbvo6Gf7GondiT3BbTfuRDPqLWei4j2Qy2NPGZhW3) - duplicate chain+address
+   GOMINING (3KzAE8dPyJRgZ36Eh81v7WPwi6dm7bDhdMb8EAus2RAf) - duplicate chain+address
+   APE (C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f) - duplicate chain+address
+   VSOL (vSoLxydx6akxyMD9XEcPvGYNGq6Nn66oqVb3UkGkei7) - duplicate chain+address
+   DFDVSOL (sctmB7GPi5L2Q5G9tUSzXvhZ4YiDMEGcRov9KfArQpx) - duplicate chain+address
+   CARDS (CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp) - duplicate chain+address
+   KMNO (KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS) - duplicate chain+address
+   JSOL (7Q2afV64in6N6SeZsAAB81TJzwDoD6zpqmHkzi9Dcavn) - duplicate chain+address
+   BBSOL (Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B) - duplicate chain+address
+   ZAMA (4Zp52aF4hZi9fzH19xpbWKYKQvgLyCN67KFbrQDqeTKh) - duplicate chain+address
+   BP (BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy) - duplicate chain+address
+   CASH (CASHx9KJUStyftLFWGvEVf59SGeG9sh5FfcnZMVPCASH) - duplicate chain+address
+   CRCLON (6xHEyem9hmkGtVq6XGCiQUGpPsHBaoYuYdFNZa5ondo) - duplicate chain+address
+   XAUT0 (AymATz4TCL9sWNEEV9Kvyz45CHVhDZ6kUgjTJPzLpU9P) - duplicate chain+address
+   META (METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta) - duplicate chain+symbol
+   DOG (dog1viwbb2vWDpER5FrJ4YFG6gq6XuyFohUe9TXN65u) - duplicate chain+address
+   FRXUSD (GzX1ireZDU865FiMaKrdVB1H6AE8LAqWYCg6chrMrfBw) - duplicate chain+address
+   MELANIA (FUAfBo2jgks6gB4Z4LfZkqSZgzNucisEHqnNebaRxM1P) - duplicate chain+address
+   BAT (EPeUFDgHRxs9xxEPVaL6kfGQvCon7jmAWKVUHuux1Tpz) - duplicate chain+address
+   ZEC (A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS) - duplicate chain+address
+   MET (METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL) - duplicate chain+address
+   CHIP (chipCAT7vi5CZtbZsn9z7iMPXvFwyAnKz3QFu8XVuHm) - duplicate chain+address
+   FLUID (DuEy8wWrzCUun5ZbbG9hkVqXqqicpTQw8gB7nEAzpCHQ) - duplicate chain+address
+   BC (BCNT4t3rv5Hva8RnUtJUJLnxzeFAabcYp8CghC1SmWin) - duplicate chain+address
+   GEOD (7JA5eZdCzztSfQbJvS8aVVxMFfd81Rs9VvwnocV1mKHu) - duplicate chain+address
+   HNT (hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux) - duplicate chain+address
+   ATH (Dm5BxyMetG3Aq5PaG1BrG7rBYqEMtnkjvPNMExfacVk7) - duplicate chain+address
+   GALA (eEUiUs4JWYZrp72djAGF1A8PhpR6rHphGeGN7GbVLp6) - duplicate chain+address
+   HSOL (he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A) - duplicate chain+address
+   BSOL (bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1) - duplicate chain+address
+   ACRED (FubtUcvhSCr3VPXEcxouoQjKQ7NWTCzXyECe76B7L3f8) - duplicate chain+address
+   ORCA (orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE) - duplicate chain+address
+   ORDI (u9nmK5sQovm6ACVCQbbq8xUMpFqdPSYxdxVwXUX4sjY) - duplicate chain+address
+   UP (7Zhxshgt7Ft6pHFYMrHE1epWdWre7sJ1Af1GhEUnitas) - duplicate chain+address
+   SOETH (2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk) - duplicate chain+address
+   DBR (DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5) - duplicate chain+address
+   YZY (DrZ26cKJDksVRWib3DVVsjo9eeXccc7hKhDJviiYEEZY) - duplicate chain+address
+   WM (mzeroXDoBpRVhnEXBra27qzAMdxgpWVY3DzQW7xMVJp) - duplicate chain+address
+   BSPX (XsYMHtwJcWon5GkPHzdDbCCztKtKzEurJnbydxgjsqS) - duplicate chain+address
+   CRCLX (XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1) - duplicate chain+address
+   UNT (UNTyTuyNPhLufn4K4SMsW6BxbvfYEMgQ4qUT9orPapp) - duplicate chain+address
+   XSOLVBTC (SoLvAiHLF7LGEaiTN5KGZt1bNnraoWTi5mjcvRoDAX4) - duplicate chain+address
+   ANSEM (9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump) - duplicate chain+address
+   RIF (AAeENcfHbTExuTvs4q7r9Bjax98Dg6BGX3aMph4bTLdK) - duplicate chain+address
+   BABYDOGE (7dUKUopcNWW6CcU4eRxCHh1uiMh32zDrmGf6ufqhxann) - duplicate chain+address
+   WXRP (6UpQcMAb5xMzxc7ZfPaVMgx3KqsvKZdT5U718BzD5We2) - duplicate chain+address
+   MSTRX (XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ) - duplicate chain+address
+   XAUM (5aLhp9VnUEKcsdtkfsf2DUgpJfomx7GmYVny24dHUZoB) - duplicate chain+address
+   ARC (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump) - duplicate chain+address
+   AIX (AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF) - duplicate chain+address
+   SWOP (GAehkgN1ZDNvavX81FmzCcwRnzekKMkSyUNq8WkMsjX1) - duplicate chain+address
+   TSLAX (XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB) - duplicate chain+address
+   IVVON (CqW2pd6dCPG9xKZfAsTovzDsMmAGKJSDBNcwM96ondo) - duplicate chain+address
+   BAN (9PR7nCP9DpcUotnDPVLUBUZKu5WAYkwrCUx9wDnSpump) - duplicate chain+address
+   SUSHI (ChVzxWRmrTeSgwd3Ui3UumcN8KX7VK3WaD4KGeSKpypj) - duplicate chain+address
+   TURBO (2Dyzu65QA9zdX1UeE7Gx71k7fiwyUK6sZdrvJ7auq5wm) - duplicate chain+address
+   ZIG (26f12PmBk77wQV1TzLe8XKkNBvMFggbuypxdtMLzNLzz) - duplicate chain+address
+   W (85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ) - duplicate chain+address
+   SOON (4eDf52YYzL6i6gbZ6FXqrLUPXbtP61f1gPSFM66M4XHe) - duplicate chain+address
+   BOME (ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82) - duplicate chain+address
+   PRIZE (9DPToU6fkfE49vM7LqjjtK6BFfKKuAVrQDaKAnwXSDy9) - duplicate chain+address
+   WSRUSD (7bxM8cRFZpzonzZtzmrcWHNX1dijrEVU4VkjjtVyBmqE) - duplicate chain+address
+   XBTC (CtzPWv73Sn1dMGVU3ZtLv9yWSyUAanBni19YWDaznnkn) - duplicate chain+address
+   BIO (bioJ9JTqW62MLz7UKHU69gtKhPpGi1BQhccj2kmSvUJ) - duplicate chain+address
+   VBILL (34mJztT9am2jybSukvjNqRjgJBZqHJsHnivArx1P4xy1) - duplicate chain+address
+   SPYX (XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W) - duplicate chain+address
+   IO (BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K) - duplicate chain+address
+   JELLYJELLY (FeR8VBqNRSUD5NtXAj2n3j1dAHkZHfyDktKuLXD4pump) - duplicate chain+address
+   DUSD (DUSDt4AeLZHWYmcXnVGYdgAzjtzU5mXUVnTMdnSzAttM) - duplicate chain+address
+   BRZ (BRZbFNQDcWLfcdHmAkqEVnLHCAWKTRf6eHyEaWdZp3JN) - duplicate chain+symbol
+   POPCAT (7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr) - duplicate chain+address
+   HOLO (69RX85eQoEsnZvXGmLNjYcWgVkp9r2JjahVm99KbJETU) - duplicate chain+symbol
+   PNUT (2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump) - duplicate chain+address
+   OZA (67iVSrbgQKiPjttU9uXx9CXUoS1Si3XUhrXeiNAUUZSR) - duplicate chain+address
+   BRBTC (brBg8x9yT4WnQd8Z43aX7wfrGMrimLfT2WCWRibHo3d) - duplicate chain+address
+   T (4Njvi3928U3figEF5tf8xvjLC5GqUN33oe4XTJNe7xXC) - duplicate chain+address
+   JUPUSD (JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD) - duplicate chain+address
+   TROLL (5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2) - duplicate chain+address
+   LION (7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3) - duplicate chain+address
+   SPYON (k18WJUULWheRkSpSquYGdNNmtuE2Vbw1hpuUi92ondo) - duplicate chain+address
+   MOODENG (ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY) - duplicate chain+address
+   MUON (Fz9edBpaURPPzpKVRR1A8PENYDEgHqwx5D5th28ondo) - duplicate chain+address
+   USDU (9ckR7pPPvyPadACDTzLwK2ZAEeUJ3qGSnzPs8bVaHrSy) - duplicate chain+address
+   XUSD (4UbvZiomFvXDnZSz6vdHiDNiHozH2ykTEqjhhbVHiv9z) - duplicate chain+address
+   NVDAX (Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh) - duplicate chain+address
+   ME (MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u) - duplicate chain+address
+   SPCXX (Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8) - duplicate chain+address
+   DEGEN (A7n89LqW67HJKzJkdWZa2xojuK4N5GBKHz3dfjATCZPz) - duplicate chain+address
+   GOHOME (2Wu1g2ft7qZHfTpfzP3wLdfPeV1is4EwQ3CXBfRYAciD) - duplicate chain+address
+   MEW (MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5) - duplicate chain+address
+   NVDAON (gEGtLTPNQ7jcg25zTetkbmF7teoDLcrfTnQfmn2ondo) - duplicate chain+address
+   HUMA (HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw) - duplicate chain+address
+   REKT (vQoYWru2pbUdcVkUrRH74ktQDJgVjRcDvsoDbUzM5n9) - duplicate chain+address
+   ZEREBRO (8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn) - duplicate chain+address
+   BILL (Bi11Je4MH3PpyCNiuTAepRbsA5U6DK3DJy79ZFthddX) - duplicate chain+symbol
+   QQQX (Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ) - duplicate chain+address
+   MNGO (MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac) - duplicate chain+address
+   GOOGLX (XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN) - duplicate chain+address
+   QQQON (HrYNm6jTQ71LoFphjVKBTdAE4uja7WsmLG8VxB8ondo) - duplicate chain+address
+   ELON (7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5) - duplicate chain+address
+   ANA (5DkzT65YJvCsZcot9L6qwkJnsBCPmKHjJz3QU7t7QeRW) - duplicate chain+address
+   ARX (ARXwZkNAtzPfdcoqQiduJn8EPv9fKiDfGn2KyggyDrFs) - duplicate chain+address
+   DEP (BgwQjVNMWvt2d8CN51CsbniwRWyZ9H9HfHkEsvikeVuZ) - duplicate chain+address
+   $CWIF (7atgF8KQo4wJrD5ATGX7t1V2zVvykPJbFfNeVf1icFv1) - duplicate chain+address
+   WMTX (WMTXyYKUMTG3VuZA5beXuHVRLpyTwwaoP7h2i8YpuRH) - duplicate chain+address
+   ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump) - duplicate chain+address
+   USDP (HVbpJAQGNpkgBaYBZQBR1t7yFdvaYVp2vCQQfKKEN4tM) - duplicate chain+address
+   TDCCP (Hg8bKz4mvs8KNj9zew1cEF9tDw1x2GViB4RFZjVEmfrD) - duplicate chain+address
+   HIMSON (bdh3njeo19d2TBLAKTGvCWdSoArfVw8uZBAJHY4ondo) - duplicate chain+address
+   FO (JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o) - duplicate chain+address
+   REZ (3DK98MXPz8TRuim7rfQnebSLpA7VSoc79Bgiee1m4Zw5) - duplicate chain+address
+   NOS (nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7) - duplicate chain+address
+
+SONIC
+----------------------------------------------------------------------
+
+Successfully Added (1):
+   Foxify (FOX) - 0x261DFA2528dfa19011F10B168c856E02baaF0eb6
+
+Already Existed (35):
+   USDC (0x29219dd400f2Bf60E5a23d13Be72B486D4038894) - duplicate chain+address
+   LINK (0x71052BAe71C25C78E37fD12E5ff1101A71d9018F) - duplicate chain+address
+   WBTC (0x0555E30da8f98308EdB960aa94C0Db47230d2B9c) - duplicate chain+address
+   WEETH (0xA3D68b74bF0528fdD07263c60d6488749044914b) - duplicate chain+address
+   RSETH (0xd75787bA9ABa324420d522BdA84c08c87e5099b1) - duplicate chain+address
+   LBTC (0xecAc9C5F704e954931349Da37F60E39f515c11c1) - duplicate chain+address
+   FBTC (0xC96dE26018A54D51c097160568752c4E3BD6C364) - duplicate chain+address
+   SOLVBTC (0x541FD749419CA806a8bc7da8ac23D346f2dF8B77) - duplicate chain+address
+   PENDLE (0xf1eF7d2D4C0c881cd634481e0586ed5d2871A74B) - duplicate chain+address
+   UNIBTC (0xC3827A4BC8224ee2D116637023b124CED6db6e90) - duplicate chain+address
+   FRXUSD (0x80Eede496655FB9047dd39d9f418d5483ED600df) - duplicate chain+address
+   XSOLVBTC (0xCC0966D8418d412c599A6421b760a847eB169A8c) - duplicate chain+address
+   WSRUSD (0x4809010926aec940b550D34a46A52739f996D75D) - duplicate chain+address
+   FT (0x5DD1A7A369e8273371d2DBf9d83356057088082c) - duplicate chain+address
+   ZCHF (0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553) - duplicate chain+address
+   SFRXUSD (0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0) - duplicate chain+address
+   MSUSD (0xE5Fb2Ed6832deF99ddE57C0b9d9A56537C89121D) - duplicate chain+address
+   BCSPX (0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59) - duplicate chain+address
+   PEAS (0x02f92800F57BCD74066F5709F1Daa1A4302Df875) - duplicate chain+address
+   SODA (0x7c7d53EEcda37a87ce0D5bf8E0b24512A48dC963) - duplicate chain+address
+   WFRAX (0x64445f0aecC51E94aD52d8AC56b7190e764E561a) - duplicate chain+address
+   OGN (0x61647882acF21792e577a963D320d51e2c8f6194) - duplicate chain+address
+   YUSD (0x4772D2e014F9fC3a820C444e3313968e9a5C8121) - duplicate chain+address
+   WETH (0x50c42dEAcD8Fc9773493ED674b675bE577f2634b) - duplicate chain+address
+   ANON (0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C) - duplicate chain+address
+   STS (0xE5DA20F15420aD15DE0fa650600aFc998bbE3955) - duplicate chain+address
+   VYUSD (0xF4F447E6AFa04c9D11Ef0e2fC0d7f19C24Ee55de) - duplicate chain+address
+   EVAUSDT (0x501eBf66d76A96D4FB26ccead42957653e16B8B8) - duplicate chain+address
+   ASONUSDC (0x578Ee1ca3a8E1b54554Da1Bf7C583506C4CD11c6) - duplicate chain+address
+   EVAUSDC (0x741bD193B6b40f8703d2e116FD1965421f290F58) - duplicate chain+address
+   USSD (0x000000000eCcFf26B795F73fb0A70d48da657fEf) - duplicate chain+address
+   USDP (0x08417cdb7F52a5021bB4eb6E0deAf3f295c3f182) - duplicate chain+address
+   SCUSD (0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE) - duplicate chain+address
+   GS (0xf9F143705b2BBDE9b4ABfD0320F328aE59364f5e) - duplicate chain+address
+   PRL (0xfD28f108e95f4D41daAE9dbfFf707D677985998E) - duplicate chain+address
+
+Failed (1):
+   Euler (EUL) - 0x2117E8b79e8E176A670c9fCf945d4348556bfFad - Failed to fetch token info after 3 attempts: The contract function "symbol" returned no data ("0x").
+
+This could be due to any of the following:
+  - The contract does not have the function "symbol",
+  - The parameters passed to the contract function may be invalid, or
+  - The address is not a contract.
+ 
+Contract Call:
+  address:   0x2117E8b79e8E176A670c9fCf945d4348556bfFad
+  function:  symbol()
+
+Docs: https://viem.sh/docs/contract/multicall
+Version: viem@2.55.2
+
+TON
+----------------------------------------------------------------------
+
+Successfully Added (4):
+   SIXSEVEN (67) - 0:d3061b39da35c0f52ecfdf1b92bc2a21818a9b92541d2502d0f7c03736577b40
+   Herculis Gold Coin (XAUH) - 0:8c938fceba30a7938ea30291e72116e64ed61391299fba357d5fc61ed2abec1d
+   iShares Silver Trust xStock (SLVX) - 0:92380750fb3d1bef75a4a081cabec116f00ae76d5b517ce84f22e986e4fa6df1
+   Eli Lilly xStock (LLYX) - 0:dec5016a85bcaecbd5602b578c7475d9022e640b65816c77bbe261d611d1d557
+
+Already Existed (46):
+   USDT (0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe) - duplicate chain+address
+   USDE (0:086fa2a675f74347b08dd4606a549b8fdb98829cb282bc1949d3b12fbaed9dcc) - duplicate chain+address
+   GRAM (0:0000000000000000000000000000000000000000000000000000000000000000) - duplicate chain+address
+   SUSDE (0:d0e545323c7acb7102653c073377f7e3c67f122eb94d430a250739f109d4a57d) - duplicate chain+address
+   FDUSD (0:f412fa64e2d8a614e1e6cb84afde5fca1145e533e74dd7f2a1ae84c27c1db090) - duplicate chain+address
+   GOMINING (0:f495a8a4d0580757c68d7d185e6e2f060c6daba43c8a1977a6d0c05fc9afc4c3) - duplicate chain+address
+   XAUT0 (0:3547f2ee4022c794c80ea354b81bb63b5b571dd05ac091b035d19abbadd74ac6) - duplicate chain+address
+   BSPX (0:dcde4441c230ed57f2929b715b80636a53d3803f0d370ec035dce5a759c4e169) - duplicate chain+address
+   BABYDOGE (0:960e3e3d1c52274b04a4e3d780a38efa135601cb02e816e499e8e3b7c7b8e63f) - duplicate chain+address
+   TSLAX (0:78230a9664f51cce7b5daf2f2f48ddadb092adfbd17b8886fb80415111860e07) - duplicate chain+address
+   NOT (0:2f956143c461769579baef2e32cc2d7bc18283f40d20bb03e432cd603ac33ffc) - duplicate chain+address
+   CATI (0:fe72f474373e97032441bdb873f9a6d3ad10bab08e6dbc7befa5e42b695f5400) - duplicate chain+address
+   NVDAX (0:af6be39feda710754fe98800dd95c6f3b05b40fb127066872dcfc64e5c1741a1) - duplicate chain+address
+   GOOGLX (0:0bc09cd79f116372436cbab0a2f4eda4560ff46f529db633927ef39e765637ee) - duplicate chain+address
+   STON (0:3690254dc15b2297610cda60744a45f2b710aa4234b89adb630e99d79b01bd4f) - duplicate chain+address
+   UTYA (0:5a0a05303a873a80708d967fe82736f4995b3bf581bbc18a1abe1fa8d48b5a9d) - duplicate chain+address
+   MVL (0:f6c9acc0db07f9018da3a04cc65031a4d1c416c446b635d88fe1981ff7e785d3) - duplicate chain+address
+   DOGS (0:afc49cb8786f21c87045b19ede78fc6b46c51048513f8e9a6d44060199c1bf0c) - duplicate chain+address
+   PYBOBO (0:f7f83b1c76310cf79cd1996f77eaf195afa3bbb852755ba6bcfbeefe560debb5) - duplicate chain+address
+   TAC (0:44fe006b53798f23d8478e526847f918cab8508320850fa11459f6b8d96f13ec) - duplicate chain+address
+   AAPLX (0:ec8c0c1f2a8fba15566fd8462dfb509a65363f64bfa97e448877a8de41c84dc2) - duplicate chain+address
+   HMSTR (0:09f2e59dec406ab26a5259a45d7ff23ef11f3e5c7c21de0b0d2a1cbe52b76b3d) - duplicate chain+address
+   SKHYX (0:007a242f9534f2178f2c6f1d409bf9ae57987a1570b410c86b009c8aff2546da) - duplicate chain+address
+   METAX (0:f7720420e37d81882491962fa132cc2856ebcd9cee3616e31d73e017a9df3749) - duplicate chain+address
+   AMZNX (0:ad0f6fbbab11e1428361c6b8b6252cc7f9d9665aa298083b65119a918b7fb9ea) - duplicate chain+address
+   HGRAM (0:cf76af318c0872b58a9f1925fc29c156211782b9fb01f56760d292e56123bf87) - duplicate chain+address
+   MSFTX (0:c8f49c246131073364d214f49615bc339c1ab4eff238029cbd4c1871b0395968) - duplicate chain+address
+   REDO (0:59fdc69f3f20ebe4a513b3468dc61d194c3864a4464e3662c903648d1a52e6e0) - duplicate chain+address
+   AVGOX (0:ece24ecf4801f79ee5f0ddb5cf119eda15ab5c7a390aadffcc8b80afdfec8b02) - duplicate chain+address
+   00 (0:1e7efbd8cbc6914c981bb12a6bc1620100a3ddfc04dc4c1528df4458907c25d4) - duplicate chain+address
+   PINGO (0:915a941099f4a09692e9e83e5779b8b1e74012b41c637d040d92cb053ff22c89) - duplicate chain+address
+   ARTDRA (0:5644258b5c88a3bca7208e39dad9b5ac4513fa21f551ee037218cb08e644041c) - duplicate chain+address
+   EVAA (0:4a31f8d7fdafddb0e2e6fa3bb1c95672b453fbfca2a7cc6bfa274d6419cef681) - duplicate chain+address
+   PX (0:78db4c90b19a1b19ccb45580df48a1e91b6410970fa3d5ffed3eed49e3cf08ff) - duplicate chain+address
+   GMEE (0:aa9e166774119bc233e957c2bff1638ae7c66440f5e54bf6ec85abbd0ca5a700) - duplicate chain+address
+   GROYP (0:2dc28eaa30dc2daf489303d78a559df672e002149d1529defc1ab05639ef37f9) - duplicate chain+address
+   GRM (0:b8ef4f77a17e5785bd31ba4da50abd91852f2b8febee97ad6ee16d941f939198) - duplicate chain+address
+   STTON (0:cd872fa7c5816052acdf5332260443faec9aacc8c21cca4d92e7f47034d11892) - duplicate chain+address
+   HPO (0:d0114af42cf8bc9ba0fa1745abbeea24eed65b01caf4ca7d98ee12b6f7530ccc) - duplicate chain+address
+   HGPT (0:2ec34d649712fca8a7bd7018a84df8ecb7477a19d6a0839d7f73bdf3f17dbecc) - duplicate chain+address
+   MOEW (0:16b0818ca0695b8c9248b2293ef7fe80e088a875bd4cecb5b7926bb4e6ff2e8e) - duplicate chain+address
+   BRK.BX (0:f3eb6247f93e6ae305ba0e9cee2fe44e292729382702d6222ff1d5c09d854d21) - duplicate chain+address
+   PIRATE (0:c26f696830807c612e77184a36af68204bd016d43cfecd7fdab380edc57575bb) - duplicate chain+address
+   STORM (0:6ca2c99c66b0fa1478a303ba9618bc39c28fda1fc50de37e618bddf98c9fd24c) - duplicate chain+address
+   CHERRY (0:4a45235191e3f5fb68dc8394ff7ffff4b391e3fafadb7cd2cc432f1d9d9b3bc5) - duplicate chain+address
+   CVXX (0:cefa62b68c7340a90079365c992803be09be1a67991fd11f354cfd72a8450ee9) - duplicate chain+address
+
+Failed (2):
+   Ethena (ENA) - 0:0f87d442a6b820e642ae9ad262f2e07b9c529cb4f070b9152ef362604c69b392 - TON token not found in cache: 0:0F87D442A6B820E642AE9AD262F2E07B9C529CB4F070B9152EF362604C69B392
+   FORT Token (FRT) - 0:351080eb477df380bdb5af00c87c6a3b8781135a279e9ed52f83b8c84fedda3f - Invalid token_info for TON token: 0:351080EB477DF380BDB5AF00C87C6A3B8781135A279E9ED52F83B8C84FEDDA3F
+
+ZKSYNC
+----------------------------------------------------------------------
+
+Successfully Added (1):
+   1INCH (1INCH) - 0x3f0B8B206A7FBdB3ecFc08c9407CA83F5aB1Ce59
+
+Excluded (18):
+   USDC (0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4) - manual review required: incoming symbol collision between 0x1d17cbcf0d6d143135ae902365d2e5e2a16538d4 (topTokens_zksync_200.json); 0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4 (topTokens_zksync_200.json)
+   PC0000031 (0xAc4DE1E9A9e83524F24af77972Dd39D588De8164) - Tradable PC000 token
+   PC0000033 (0x6FF4fAfD8D604614c704a5936D9146C0af19BD1E) - Tradable PC000 token
+   PC0000097 (0x5aBe0a2ead1357F70E73F5b60E227dF64A54ddD5) - Tradable PC000 token
+   PC0000023 (0x5C8c39E167C604B036afd3FBB65426f9fe78Ce6d) - manual review required: incoming symbol collision between 0x5c8c39e167c604b036afd3fbb65426f9fe78ce6d (topTokens_zksync_200.json); 0xae0d8cad4ce522538ae34386c319c7ccd11fe428 (topTokens_zksync_200.json)
+   PC0000015 (0xd8916e15D351DC728414e99A4883c72010eE11f8) - Tradable PC000 token
+   PC0000085 (0xfeAfDE23fb2364896C297c3Fa6628f04601a035b) - Tradable PC000 token
+   PC0000077 (0x18012CB9e1478EF458C8c996F99b8DcEcA60795c) - Tradable PC000 token
+   PC0000101 (0x3D19625Bb8E4B52Ac4ca28ecec2B5E243ae2EE81) - Tradable PC000 token
+   PC0000019 (0x1F179A51Ab46252f469733DFcbD9115090A91f03) - Tradable PC000 token
+   PC0000023 (0xAE0d8cad4cE522538AE34386c319C7ccD11FE428) - manual review required: incoming symbol collision between 0x5c8c39e167c604b036afd3fbb65426f9fe78ce6d (topTokens_zksync_200.json); 0xae0d8cad4ce522538ae34386c319c7ccd11fe428 (topTokens_zksync_200.json)
+   PC0000049 (0xe53dBcEf6F700536a912c51CAEa4D0E2bE2b1388) - Tradable PC000 token
+   PC0000081 (0xA4b3dC5433EcAbDd1498cA7f3f4d890b185C0B0A) - Tradable PC000 token
+   PC0016245 (0xe3D53AdDadb3F87ADC38B4192171aAf5A07A3738) - Tradable PC000 token
+   PC0000027 (0xC629D9E3d1A4325DBfAff85D5a61Da956cc5e32b) - Tradable PC000 token
+   PC0000089 (0xfB3fCCdD38A96C3f769c62E578323f22c3BFCbEc) - Tradable PC000 token
+   USDC (0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4) - manual review required: incoming symbol collision between 0x1d17cbcf0d6d143135ae902365d2e5e2a16538d4 (topTokens_zksync_200.json); 0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4 (topTokens_zksync_200.json)
+   PC0000111 (0x53ACd3c88Ec04b8E22B8EF768EC4d928153d892E) - Tradable PC000 token
+
+Already Existed (32):
+   LINK (0x52869bae3E091e36b0915941577F2D47d8d8B534) - duplicate chain+address
+   WEETH (0xc1Fa6E2E8667d9bE0Ca938a54c7E0285E9Df924a) - duplicate chain+address
+   USDE (0x39Fe7a0DACcE31Bd90418e3e659fb0b5f0B3Db0d) - duplicate chain+address
+   ENA (0x686b311F82b407f0be842652a98e5619F64cC25F) - duplicate chain+address
+   SUSDE (0xAD17Da2f6Ac76746EF261E835C50b2651ce36DA8) - duplicate chain+address
+   BCAP (0x57fD71a86522Dc06D6255537521886057c1772A3) - duplicate chain+address
+   CAKE (0x3A287a06c66f9E95a56327185cA2BDF5f031cEcD) - duplicate chain+address
+   M-BTC (0xE757355edba7ced7B8c0271BBA4eFDa184aD75Ab) - duplicate chain+address
+   SOLVBTC (0x74eD17608cc2B5f30a59d6aF07C9aD1B1aB3A5b1) - duplicate chain+address
+   FRXUSD (0xEa77c590Bb36c43ef7139cE649cFBCFD6163170d) - duplicate chain+address
+   ZK (0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E) - duplicate chain+address
+   XVS (0xD78ABD81a3D57712a3af080dc4185b698Fe9ac5A) - duplicate chain+address
+   FIUSD (0x2AB105A3eAd22731082B790CA9A00D9A3A7627F9) - duplicate chain+address
+   WETH (0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91) - duplicate chain+address
+   WRSETH (0xd4169E045bcF9a86cC00101225d9ED61D2F51af2) - duplicate chain+address
+   USN (0x0469d9d1dE0ee58fA1153ef00836B9BbCb84c0B6) - duplicate chain+address
+   SUSN (0xB6a09d426861c63722Aa0b333a9cE5d5a9B04c4f) - duplicate chain+address
+   LUSD (0x503234F203fC7Eb888EEC8513210612a43Cf6115) - duplicate chain+address
+   KNC (0x6ee46Cb7cD2f15Ee1ec9534cf29a5b51C83283e6) - duplicate chain+address
+   WOO (0x9E22D758629761FC5708c171d06c2faBB60B5159) - duplicate chain+address
+   MAV (0x787c09494Ec8Bcb24DcAf8659E7d5D69979eE508) - duplicate chain+address
+   DEXTF (0x9929bCAC4417A21d7e6FC86F6Dae1Cc7f27A2e41) - duplicate chain+address
+   FUL (0xe593853b4d603d5b8f21036Bb4AD0D1880097a6e) - duplicate chain+address
+   TAROT (0x7F2FD959013eEC5144269ac6edD0015Cb10968Fc) - duplicate chain+address
+   SIS (0xdd9f72afED3631a6C85b5369D84875e6c42f1827) - duplicate chain+address
+   VNO (0xE75A17b4F5c4F844688d5670B684515d7c785E63) - duplicate chain+address
+   NODL (0xBD4372e44c5eE654dd838304006E1f0f69983154) - duplicate chain+address
+   WBTC (0xBBeB516fb02a01611cBBE0453Fe3c580D7281011) - duplicate chain+address
+   USDM (0x7715c206A14Ac93Cb1A6c0316A6E5f8aD7c9Dc31) - duplicate chain+address
+   ZFI (0x5d0d7BCa050e2E98Fd4A5e8d3bA823B49f39868d) - duplicate chain+address
+   WUSDM (0xA900cbE7739c96D2B153a273953620A701d5442b) - duplicate chain+address
+   IDO (0xDea6d5161978d36b5C0FA6a491faA754f4BC809C) - duplicate chain+address
+
+======================================================================
+ROBINHOOD TOKENIZED STOCKS
+======================================================================
+Processed: 66
+Successfully Added: 32
+Excluded: 0
+Already Existed: 34
+Failed: 0
+
+Successfully Added (32):
+   SK Hynix • Robinhood Token (SKHY) - 0x84CAb63bc87912E71ad199ff14A0bA45de68FeF8 - manually added with verified on-chain symbol
+   AMC Entertainment Holdings, Inc. • Robinhood Token (AMC) - 0x05a3d1Cd21d0C88145E82600E62e7E496e0F222B
+   SPDR Gold Shares • Robinhood Token (GLD) - 0xC9a981FEE1F9DEc688bb123ccDeCc63D0deBFC4e
+   Hims & Hers Health, Inc. • Robinhood Token (HIMS) - 0xCceE82fE024c36fA15E1005edE3E9e4787e23D09
+   Trump Media & Technology Group Corp. • Robinhood Token (DJT) - 0x1D11f0496982706C5e14A514D4E79F2e6BdE4516
+   Reddit • Robinhood Token (RDDT) - 0x05b37Fb53A299a1b874A619e1c4C404D52C36F4C
+   Take-Two Interactive Software • Robinhood Token (TTWO) - 0x5e81213613b6B86EaB4c6c50d718d34359459786
+   Costco • Robinhood Token (COST) - 0x4EA005168D7F09a7A0Ba9D1DEf21a479950E44C2
+   Snap Inc. • Robinhood Token (SNAP) - 0xF6589F11Bc40b669e584073F428B05562F568733
+   Lululemon • Robinhood Token (LULU) - 0x4e62068525Ab11FE768e29dfD00ef909B9803016
+   Netflix • Robinhood Token (NFLX) - 0xE0444EF8BF4eD74f74FD73686e2ddF4C1c5591E8
+   Roblox • Robinhood Token (RBLX) - 0xF0C4BF4C582cb3836e98394b1d4e7B7281101bE8
+   Moderna, Inc. • Robinhood Token (MRNA) - 0x43B07D15cE533bEc5476d70C22a78a1B2B662155
+   BlackBerry Limited • Robinhood Token (BB) - 0x48E39E56aCdbA37b09020C0b734A613C9a2f100A
+   Dell • Robinhood Token (DELL) - 0x941AE714EC6D8130c7B75d67160Ca08f1e7d11Dd
+   Figma, Inc. • Robinhood Token (FIG) - 0x41F4267525a8AFf329540eF24fD83d9044758B33
+   Quantum Computing • Robinhood Token (QUBT) - 0x59818904ab4cE163b3cE4FfB64f2D6Ca02c434B4
+   International Business Machines Corporation • Robinhood Token (IBM) - 0x980dcf6766FA79f5Cf0c4AAdb3ab477ff15a9619
+   Johnson & Johnson • Robinhood Token (JNJ) - 0x03DfbBE0AC4E7bCDaFd08eD41A400326B77D8c80
+   Webull Corporation • Robinhood Token (BULL) - 0xceF9027c7d6985b85f0BA431125073529A947A68
+   Marvell Technology • Robinhood Token (MRVL) - 0x62fd0668e10D8B72339BE2DCF7643001688ff13B
+   UPS • Robinhood Token (UPS) - 0xf23250dac154D05Bb671CB0d0eBEf3c635c79CE2
+   iShares MSCI India ETF • Robinhood Token (INDA) - 0xACEF2e09adb47aD6aBeBAD9fF06689E60615C2B6
+   Pfizer Inc. • Robinhood Token (PFE) - 0x7066A64c24e4206CD62E83bf198c1E7EB361F51e
+   WhiteFiber, Inc. • Robinhood Token (WYFI) - 0x9e7ABD3C9139D14E4c86DcE0e455AAB7A0C2FB3E
+   Boeing • Robinhood Token (BA) - 0x4D21483a44Bf67a86b77E3dA301411880797D452
+   Ford Motor • Robinhood Token (F) - 0x25C288E6D899b9BC30160965aD9644c67e73bE0C
+   Snowflake Inc. • Robinhood Token (SNOW) - 0xBa0CAB75495255d0cB58E22B648bFED4ECD1F47E
+   Cloudflare, Inc. • Robinhood Token (NET) - 0x116F00968269B7bfbaD4109cE591d6E74c0601d4
+   Shopify • Robinhood Token (SHOP) - 0xF53F66751B1Eff985311b693531E3290F600c410
+   Red Cat Holdings, Inc. • Robinhood Token (RCAT) - 0xFDE6b5d9BB419B10C23268c74e369AbFF39C0460
+   iShares Semiconductor ETF • Robinhood Token (SOXX) - 0x75742c18BC1f1C5c5f448f4C9D9C6F66dafAAa38
+
+Already Existed (34):
+   SPDR S&P 500 ETF Trust • Robinhood Token (SPY) - 0x117cc2133c37B721F49dE2A7a74833232B3B4C0C - duplicate chain+address
+   NVIDIA • Robinhood Token (NVDA) - 0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC - duplicate chain+address
+   SpaceX • Robinhood Token (SPCX) - 0x4a0E65A3EcceC6dBe60AE065F2e7bb85Fae35eEa - duplicate chain+address
+   Apple • Robinhood Token (AAPL) - 0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9 - duplicate chain+address
+   Tesla • Robinhood Token (TSLA) - 0x322F0929c4625eD5bAd873c95208D54E1c003b2d - duplicate chain+address
+   GameStop • Robinhood Token (GME) - 0x1b0E319c6A659F002271B69dB8A7df2F911c153E - duplicate chain+address
+   Eli Lilly • Robinhood Token (LLY) - 0x8005d266423c7ea827372c9c864491e5786600ea - duplicate chain+address
+   Invesco QQQ • Robinhood Token (QQQ) - 0xD5f3879160bc7c32ebb4dC785F8a4F505888de68 - duplicate chain+address
+   Alphabet Class A • Robinhood Token (GOOGL) - 0x2e0847E8910a9732eB3fb1bb4b70a580ADAD4FE3 - duplicate chain+address
+   Amazon • Robinhood Token (AMZN) - 0x12f190a9F9d7D37a250758b26824B97CE941bF54 - duplicate chain+address
+   Microsoft • Robinhood Token (MSFT) - 0xe93237C50D904957Cf27E7B1133b510C669c2e74 - duplicate chain+address
+   Strategy Inc. • Robinhood Token (MSTR) - 0xec262a75e413fAfD0dF80480274532C79D42da09 - duplicate chain+address
+   Circle Internet Group • Robinhood Token (CRCL) - 0xdF0992E440dD0be65BD8439b609d6D4366bf1CB5 - duplicate chain+address
+   iShares 0-3 Month Treasury Bond ETF • Robinhood Token (SGOV) - 0x92FD66527192E3e61d4DDd13322Aa222DE86F9B5 - duplicate chain+address
+   AMD • Robinhood Token (AMD) - 0x86923f96303D656E4aa86D9d42D1e57ad2023fdC - duplicate chain+address
+   Palantir Technologies • Robinhood Token (PLTR) - 0x894E1EC2D74FFE5AEF8Dc8A9e84686acCB964F2A - duplicate chain+address
+   Sandisk Corporation • Robinhood Token (SNDK) - 0xB90A19fF0Af67f7779afF50A882A9CfF42446400 - duplicate chain+address
+   Meta Platforms • Robinhood Token (META) - 0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35 - duplicate chain+address
+   Coinbase • Robinhood Token (COIN) - 0x6330D8C3178a418788dF01a47479c0ce7CCF450b - duplicate chain+address
+   United States Oil Fund • Robinhood Token (USO) - 0xa30FA36Db767ad9eD3f7a60fC79526fB4d56D344 - duplicate chain+address
+   Taiwan Semiconductor Manufacturing • Robinhood Token (TSM) - 0x58FfE4a942d3885bAa22D7520691F611EF09e7AA - duplicate chain+address
+   Intel • Robinhood Token (INTC) - 0xc72b96e0E48ecd4DC75E1e45396e26300BC39681 - duplicate chain+address
+   iShares Silver Trust • Robinhood Token (SLV) - 0x411eFb0E7f985935DAec3D4C3ebaEa0d0AD7D89f - duplicate chain+address
+   Bloom Energy • Robinhood Token (BE) - 0x822CC93fFD030293E9842c30BBD678F530701867 - duplicate chain+address
+   Alibaba • Robinhood Token (BABA) - 0xad25Ac6C84D497db898fa1E8387bf6Af3532a1c4 - duplicate chain+address
+   USA Rare Earth • Robinhood Token (USAR) - 0xd917B029C761D264c6A312BBbcDA868658eF86a6 - duplicate chain+address
+   Oracle • Robinhood Token (ORCL) - 0xb0992820E760d836549ba69BC7598b4af75dEE03 - duplicate chain+address
+   Micron Technology • Robinhood Token (MU) - 0xfF080c8ce2E5feadaCa0Da81314Ae59D232d4afD - duplicate chain+address
+   iShares MSCI South Korea fund • Robinhood Token (EWY) - 0x7f0aBeF0C07280F82c6a08ead09dEd6BAE2C13Fc - duplicate chain+address
+   CoreWeave • Robinhood Token (CRWV) - 0x5f10A1C971B69e47e059e1dC91901B59b3fB49C3 - duplicate chain+address
+   Rivian Automotive • Robinhood Token (RIVN) - 0xB1BF26c1D20ff267A4f93550d1E0d06ac40a114B - duplicate chain+address
+   Penguin Solutions • Robinhood Token (PENG) - 0x9b23573b156B52565012F5cE02CDF60AFBaa70Be - duplicate chain+address
+   ASML Holding NV • Robinhood Token (ASML) - 0x47F93d52cBeC7C6D2CfC080e154002370a60dAEA - duplicate chain+address
+   Nu • Robinhood Token (NU) - 0x408c14038a04f7bD235329E26d2bf569ee20e250 - duplicate chain+address
+
+======================================================================
+OVERALL SUMMARY
+======================================================================
+Total Chains Processed: 17
+Total Tokens Processed: 2091
+Successfully Added: 261
+Excluded: 78
+Already Existed: 1749
+Failed: 3
+======================================================================
+
+Report generated at: 2026-09-07T20:46:29.621Z

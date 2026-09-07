@@ -173,3 +173,25 @@ This document provides guidelines for filling out and maintaining a token list. 
    - Confirm `coingecko` identifiers are accurate.
 
 ---
+
+## **Tokenized Asset Lookup (`isStock.json`)**
+
+The [`isStock.json`](./isStock.json) file identifies tokens on Robinhood Chain that represent tokenized real-world assets, such as stocks and exchange-traded funds. It does not store a chain ID because every address in this file belongs exclusively to Robinhood Chain.
+
+It is stored as a JSON map where each key is the token's exact EIP-55 checksummed contract address and every value is `true`:
+
+```json
+{
+    "0x84CAb63bc87912E71ad199ff14A0bA45de68FeF8": true
+}
+```
+
+This structure allows applications to determine whether a token is a tokenized asset with a direct, O(1) lookup:
+
+```ts
+const isTokenizedAsset = isStock[token.address] === true;
+```
+
+The file must remain synchronized with [`token-list.json`](./token-list.json). An address must be removed from `isStock.json` when its token is removed from the token list, and newly supported tokenized assets must be added using the exact address stored in the token list.
+
+---
