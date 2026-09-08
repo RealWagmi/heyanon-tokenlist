@@ -1,0 +1,89 @@
+======================================================================
+TOKEN UPDATE REPORT - MANUAL ROBINHOOD STOCK ADDITIONS
+======================================================================
+
+Report Date: 2026-09-08
+Generated At: 2026-09-08T16:34:40.311Z
+
+This report documents two Robinhood tokenized-stock additions discovered
+by checking every asset from the Robinhood Assets API against CoinGecko by
+contract address and applying the $200,000 market-cap filter.
+
+======================================================================
+SUMMARY
+======================================================================
+
+Total Updates: 5
+- Token Additions: 2
+- Stock Map Additions: 3
+
+======================================================================
+DETAILED CHANGES
+======================================================================
+
+1. BROADCOM ROBINHOOD TOKEN ADDITION
+----------------------------------------------------------------------
+Action: Manually add Broadcom • Robinhood Token
+Reason: The token passes the $200,000 CoinGecko market-cap filter but was
+        not returned by the existing CoinGecko category-based flow.
+
+Robinhood:
+  Name: Broadcom • Robinhood Token
+  Symbol: AVGO
+  Address: 0x156E175DD063a8cE274C50654eF40e0032b3fbcF
+  Decimals: 18
+  ISIN: US11135F1012
+
+CoinGecko ID: broadcom-robinhood-tokenized-stock
+Timestamp: 2026-09-08T16:34:40.311Z
+
+----------------------------------------------------------------------
+
+2. LUMENTUM ROBINHOOD TOKEN ADDITION
+----------------------------------------------------------------------
+Action: Manually add Lumentum • Robinhood Token
+Reason: The token passes the $200,000 CoinGecko market-cap filter but was
+        not returned by the existing CoinGecko category-based flow.
+
+Robinhood:
+  Name: Lumentum • Robinhood Token
+  Symbol: LITE
+  Address: 0x8eF20885F94e3D9bc7eB3080279188Bd5ED7c08C
+  Decimals: 18
+  ISIN: US55024U1097
+
+CoinGecko ID: lumentum-robinhood-tokenized-stock
+Timestamp: 2026-09-08T16:34:40.311Z
+
+----------------------------------------------------------------------
+
+3. ROBINHOOD STOCK MAP SYNCHRONIZATION
+----------------------------------------------------------------------
+Action: Add three missing addresses to isStock.json
+Reason: AVGO and LITE are new token-list additions. NBIS is already in
+        token-list.json but its address is missing from isStock.json.
+
+Additions:
+  AVGO: 0x156E175DD063a8cE274C50654eF40e0032b3fbcF
+  LITE: 0x8eF20885F94e3D9bc7eB3080279188Bd5ED7c08C
+  NBIS: 0x9D9c6684F596F66a64C030B93A886D51Fd4D7931
+
+Note: NBIS is a stock-map correction only. It is not a new token-list
+      addition.
+
+======================================================================
+NOTES
+======================================================================
+
+1. Robinhood contract addresses and ISIN values were taken from the
+   Robinhood Assets API response.
+
+2. CoinGecko IDs and market-cap eligibility were verified by contract
+   address rather than relying only on the Robinhood stocks category.
+
+3. The token list and isStock.json must remain synchronized after these
+   manual changes.
+
+======================================================================
+END OF REPORT
+======================================================================

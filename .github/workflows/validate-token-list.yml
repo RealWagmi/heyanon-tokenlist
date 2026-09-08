@@ -3,7 +3,9 @@ name: Validate Token List
 on:
   pull_request:
     paths:
-      - 'token-list.json' # Only trigger validation when this file changes
+      - 'token-list.json'
+      - 'isStock.json'
+      - 'scripts/validate-token-list.js'
 
 jobs:
   validate:

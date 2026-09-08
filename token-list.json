@@ -200761,6 +200761,36 @@
       ],
       "timestamp": "2026-09-07T19:15:15.164Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/102175527/small/SKYHY.png?1786610155"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Broadcom • Robinhood Token",
+      "symbol": "AVGO",
+      "address": "0x156E175DD063a8cE274C50654eF40e0032b3fbcF",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "broadcom-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-09-08T16:34:40.311Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174164/large/0x156e175dd063a8ce274c50654ef40e0032b3fbcf.png?1782444707"
+    },
+    {
+      "chain": "robinhood",
+      "name": "Lumentum • Robinhood Token",
+      "symbol": "LITE",
+      "address": "0x8eF20885F94e3D9bc7eB3080279188Bd5ED7c08C",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "lumentum-robinhood-tokenized-stock"
+        }
+      ],
+      "timestamp": "2026-09-08T16:34:40.311Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174138/large/0x8ef20885f94e3d9bc7eb3080279188bd5ed7c08c.png?1782444637"
     }
   ]
 }

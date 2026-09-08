@@ -3,11 +3,14 @@ const path = require('path');
 const { getAddress } = require('viem');
 
 const tokenListPath = '../token-list.json';
+const isStockPath = '../isStock.json';
 
 try {
   // Read and parse the token list
   const data = readFileSync(path.join(__dirname, tokenListPath), 'utf-8');
   const tokenList = JSON.parse(data);
+  const isStockData = readFileSync(path.join(__dirname, isStockPath), 'utf-8');
+  const isStock = JSON.parse(isStockData);
 
   const errors = [];
   const chainAddressTokens = new Map(); // Track unique combinations of chain + address
@@ -142,12 +145,47 @@ try {
     });
   }
 
+  if (!isStock || typeof isStock !== 'object' || Array.isArray(isStock)) {
+    errors.push('isStock.json must contain a JSON object.');
+  } else {
+    const stockEntries = Object.entries(isStock);
+    const seenStockAddresses = new Map();
+
+    console.log(`Processing ${stockEntries.length} addresses from isStock.json...`);
+
+    stockEntries.forEach(([address, value], index) => {
+      const stockPath = `isStock[${JSON.stringify(address)}]`;
+
+      if (value !== true) {
+        errors.push(`${stockPath} must have the value true.`);
+      }
+
+      const normalizedAddress = address.toLowerCase();
+      if (seenStockAddresses.has(normalizedAddress)) {
+        errors.push(`${stockPath} duplicates the address at entry ${seenStockAddresses.get(normalizedAddress)} with different casing.`);
+      } else {
+        seenStockAddresses.set(normalizedAddress, index);
+      }
+
+      try {
+        const checksummedAddress = getAddress(address);
+        if (checksummedAddress !== address) {
+          errors.push(`${stockPath} is not correctly checksummed. Expected: ${checksummedAddress}, Got: ${address}`);
+        }
+      } catch (error) {
+        errors.push(`${stockPath} is not a valid address: ${address}`);
+      }
+    });
+  }
+
   if (errors.length > 0) {
     console.error('Validation errors found:\n', errors.join('\n'));
     process.exit(1);
   } else {
     console.log('Token list is valid. All addresses are correctly checksummed. No duplicate tokens found (chain+address, chain+symbol).');
+    console.log('isStock.json is valid. All address keys are correctly checksummed and unique.');
   }
 } catch (error) {
   console.error('Error reading or parsing token list:', error.message);
+  process.exitCode = 1;
 }

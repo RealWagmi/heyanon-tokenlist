@@ -2,15 +2,21 @@ const { readFileSync, writeFileSync } = require('fs');
 const path = require('path');
 const { getAddress } = require('viem');
 
-const filePath = '../token-list.json';
+const tokenListPath = '../token-list.json';
+const isStockPath = '../isStock.json';
 
 try {
     // Read and parse the token list
-    const data = readFileSync(path.join(__dirname, filePath), 'utf-8');
+    const data = readFileSync(path.join(__dirname, tokenListPath), 'utf-8');
     const tokenList = JSON.parse(data);
+    const isStockData = readFileSync(path.join(__dirname, isStockPath), 'utf-8');
+    const isStock = JSON.parse(isStockData);
 
     if (!tokenList.tokens || !Array.isArray(tokenList.tokens)) {
         throw new Error('The "tokens" field is missing or not an array.');
+    }
+    if (!isStock || typeof isStock !== 'object' || Array.isArray(isStock)) {
+        throw new Error('isStock.json must contain a JSON object.');
     }
 
     // Normalize addresses in the token list
@@ -61,13 +67,34 @@ try {
         tokens: normalizedTokens
     };
 
+    const normalizedIsStock = {};
+    const normalizedStockAddresses = new Set();
+
+    for (const [address, value] of Object.entries(isStock)) {
+        const normalizedAddress = getAddress(address);
+        const normalizedKey = normalizedAddress.toLowerCase();
+
+        if (normalizedStockAddresses.has(normalizedKey)) {
+            throw new Error(`Duplicate isStock.json address after normalization: ${address}`);
+        }
+
+        normalizedStockAddresses.add(normalizedKey);
+        normalizedIsStock[normalizedAddress] = value;
+    }
+
     // Write the normalized token list to the output file
     writeFileSync(
-        path.join(__dirname, filePath),
+        path.join(__dirname, tokenListPath),
         JSON.stringify(normalizedTokenList, null, 2)
     );
+    writeFileSync(
+        path.join(__dirname, isStockPath),
+        `${JSON.stringify(normalizedIsStock, null, 2)}\n`
+    );
 
-    console.log(`Addresses normalized successfully. Output written to ${path.join(__dirname, filePath)}`);
+    console.log(`Token addresses normalized successfully. Output written to ${path.join(__dirname, tokenListPath)}`);
+    console.log(`isStock.json address keys normalized successfully. Output written to ${path.join(__dirname, isStockPath)}`);
 } catch (error) {
     console.error('Error normalizing addresses:', error.message);
+    process.exitCode = 1;
 }

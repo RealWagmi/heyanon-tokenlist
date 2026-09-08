@@ -11,6 +11,8 @@ This document provides guidelines for filling out and maintaining a token list. 
 - Before adding a new token, ensure its `symbol` are not already present in the list.
 - Use validate-token-list.js and normalize-token-addresses.js before pr
 
+`npm run validate` checks `token-list.json` and `isStock.json` without changing either file. `npm run normalize` normalizes EVM addresses in both files.
+
 ### **Data Format**
 - The token list must adhere to the JSON format.
 - All fields must be filled out according to the specified structure.
