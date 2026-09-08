@@ -150,14 +150,23 @@ try {
   } else {
     const stockEntries = Object.entries(isStock);
     const seenStockAddresses = new Map();
+    const robinhoodTokensByAddress = new Map(
+      (Array.isArray(tokenList.tokens) ? tokenList.tokens : [])
+        .filter(token => token.chain === 'robinhood' && typeof token.address === 'string')
+        .map(token => [token.address.toLowerCase(), token])
+    );
 
     console.log(`Processing ${stockEntries.length} addresses from isStock.json...`);
 
     stockEntries.forEach(([address, value], index) => {
       const stockPath = `isStock[${JSON.stringify(address)}]`;
 
-      if (value !== true) {
-        errors.push(`${stockPath} must have the value true.`);
+      const isValidTicker =
+        typeof value === 'string' &&
+        value === value.trim().toUpperCase() &&
+        /^[A-Z0-9.^-]+$/.test(value);
+      if (!isValidTicker) {
+        errors.push(`${stockPath} must have a valid uppercase ticker value.`);
       }
 
       const normalizedAddress = address.toLowerCase();
@@ -165,6 +174,11 @@ try {
         errors.push(`${stockPath} duplicates the address at entry ${seenStockAddresses.get(normalizedAddress)} with different casing.`);
       } else {
         seenStockAddresses.set(normalizedAddress, index);
+      }
+
+      const robinhoodToken = robinhoodTokensByAddress.get(normalizedAddress);
+      if (!robinhoodToken) {
+        errors.push(`${stockPath} does not match a token on the Robinhood chain in token-list.json.`);
       }
 
       try {
@@ -183,7 +197,7 @@ try {
     process.exit(1);
   } else {
     console.log('Token list is valid. All addresses are correctly checksummed. No duplicate tokens found (chain+address, chain+symbol).');
-    console.log('isStock.json is valid. All address keys are correctly checksummed and unique.');
+    console.log('isStock.json is valid. All address keys are checksummed, unique Robinhood tokens with valid ticker values.');
   }
 } catch (error) {
   console.error('Error reading or parsing token list:', error.message);

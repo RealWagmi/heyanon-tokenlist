@@ -69,17 +69,35 @@ try {
 
     const normalizedIsStock = {};
     const normalizedStockAddresses = new Set();
+    const robinhoodTokensByAddress = new Map(
+        normalizedTokens
+            .filter(token => token.chain === 'robinhood' && typeof token.address === 'string')
+            .map(token => [token.address.toLowerCase(), token])
+    );
 
     for (const [address, value] of Object.entries(isStock)) {
         const normalizedAddress = getAddress(address);
         const normalizedKey = normalizedAddress.toLowerCase();
+        if (typeof value !== 'string') {
+            throw new Error(`isStock.json value for ${address} must be a ticker string.`);
+        }
+
+        const normalizedTicker = value.trim().toUpperCase();
+        if (!normalizedTicker || !/^[A-Z0-9.^-]+$/.test(normalizedTicker)) {
+            throw new Error(`Invalid isStock.json ticker for ${address}: ${value}`);
+        }
 
         if (normalizedStockAddresses.has(normalizedKey)) {
             throw new Error(`Duplicate isStock.json address after normalization: ${address}`);
         }
 
+        const robinhoodToken = robinhoodTokensByAddress.get(normalizedKey);
+        if (!robinhoodToken) {
+            throw new Error(`isStock.json address does not match a Robinhood token in token-list.json: ${address}`);
+        }
+
         normalizedStockAddresses.add(normalizedKey);
-        normalizedIsStock[normalizedAddress] = value;
+        normalizedIsStock[normalizedAddress] = normalizedTicker;
     }
 
     // Write the normalized token list to the output file
@@ -93,7 +111,7 @@ try {
     );
 
     console.log(`Token addresses normalized successfully. Output written to ${path.join(__dirname, tokenListPath)}`);
-    console.log(`isStock.json address keys normalized successfully. Output written to ${path.join(__dirname, isStockPath)}`);
+    console.log(`isStock.json address keys and ticker values normalized successfully. Output written to ${path.join(__dirname, isStockPath)}`);
 } catch (error) {
     console.error('Error normalizing addresses:', error.message);
     process.exitCode = 1;
