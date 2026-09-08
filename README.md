@@ -180,7 +180,7 @@ This document provides guidelines for filling out and maintaining a token list. 
 
 The [`isStock.json`](./isStock.json) file identifies tokens on Robinhood Chain that represent tokenized real-world assets, such as stocks and exchange-traded funds. It does not store a chain ID because every address in this file belongs exclusively to Robinhood Chain.
 
-It is stored as a JSON map where each key is the token's exact EIP-55 checksummed contract address and the value is the corresponding stock-market ticker:
+It is stored as a JSON map where each key is the token's exact EIP-55 checksummed contract address and the value is the corresponding ticker recognized by the [Tiingo](https://www.tiingo.com/) market-data service:
 
 ```json
 {
@@ -195,8 +195,8 @@ const stockTicker = isStock[token.address];
 const isTokenizedAsset = stockTicker !== undefined;
 ```
 
-The market ticker may differ from the token's on-chain symbol. Applications should use the value from `isStock.json` when requesting stock-market data.
+The Tiingo ticker may differ from the token's on-chain symbol. Applications should use the value from `isStock.json` when requesting stock-market data from Tiingo.
 
-The file must remain synchronized with [`token-list.json`](./token-list.json). An address must be removed from `isStock.json` when its token is removed from the token list, and newly supported tokenized assets must be added using the exact address stored in the token list and their correct market ticker.
+The file must remain synchronized with [`token-list.json`](./token-list.json). An address must be removed from `isStock.json` when its token is removed from the token list, and newly supported tokenized assets must be added using the exact address stored in the token list and their correct Tiingo ticker.
 
 ---
