@@ -181779,21 +181779,6 @@
     },
     {
       "chain": "ton",
-      "name": "Gram",
-      "symbol": "GRAM",
-      "address": "0:b8ef4f77a17e5785bd31ba4da50abd91852f2b8febee97ad6ee16d941f939198",
-      "decimals": 9,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "gram-2"
-        }
-      ],
-      "timestamp": "2025-10-13T10:30:03.890Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/35039/small/avatar.png?1707192340"
-    },
-    {
-      "chain": "ton",
       "name": "uTON",
       "symbol": "UTON",
       "address": "0:1f1798f724c2296652e6002bfb51bed11fb5a689532e5788af7203581ef367a8",
