@@ -1,0 +1,1714 @@
+======================================================================
+TOKEN UPDATE REPORT - MANUAL SYMBOL UPDATES
+======================================================================
+
+Report Date: 2026-10-06
+
+This report documents manually approved token updates following the
+on-chain symbol audit and review of project and CoinGecko information.
+
+======================================================================
+SUMMARY
+======================================================================
+
+Total Updates: 84
+- Token Renames: 50
+- Contract Changes: 0
+- Token Additions: 7
+- Token Removals: 27
+- Reviewed Without Changes: 9 (excluded from Total Updates)
+
+======================================================================
+DETAILED CHANGES
+======================================================================
+
+1. AGEUR TO EURA RENAME
+----------------------------------------------------------------------
+Action: Rename the name and symbol from agEUR to EURA on five chains.
+Reason: agEUR was rebranded to EURA on the existing contract. CoinGecko
+        retains the API ID ageur.
+
+Ethereum:
+  Name: agEUR -> EURA
+  Symbol: agEUR -> EURA
+  Address: 0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8 (unchanged)
+  Decimals: 18 (unchanged)
+
+polygon:
+  Name: agEUR -> EURA
+  Symbol: agEUR -> EURA
+  Address: 0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4 (unchanged)
+  Decimals: 18 (unchanged)
+
+bsc:
+  Name: agEUR -> EURA
+  Symbol: agEUR -> EURA
+  Address: 0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89 (unchanged)
+  Decimals: 18 (unchanged)
+
+gnosis:
+  Name: agEUR -> EURA
+  Symbol: agEUR -> EURA
+  Address: 0x4b1E2c2762667331Bc91648052F646d1b0d35984 (unchanged)
+  Decimals: 18 (unchanged)
+
+arbitrum:
+  Name: agEUR -> EURA
+  Symbol: agEUR -> EURA
+  Address: 0xFA5Ed56A203466CbBC2430a43c66b9D8723528E7 (unchanged)
+  Decimals: 18 (unchanged)
+
+CoinGecko ID: ageur (unchanged on all five chains)
+
+Sources:
+  https://www.coingecko.com/en/coins/eura
+  https://resources.cryptocompare.com/asset-management/1742/1755875841628.pdf
+  https://angle.money/eura
+
+2. AKROPOLIS TO KAON RENAME
+----------------------------------------------------------------------
+Action: Rename Akropolis (AKRO) to Kaon (KAON) on Ethereum.
+Reason: Following governance approval of AIP-017, the team announced a
+        shift from DeFi yield products toward Project Omega, a Bitcoin
+        UTXO sidechain with EVM compatibility. The rebrand reflects this
+        new direction and the planned broader role of the token as a
+        network utility token. CoinGecko now lists Kaon / KAON, and the
+        existing Ethereum contract reports KAON.
+
+Ethereum:
+  Name: Akropolis -> Kaon
+  Symbol: AKRO -> KAON
+  Address: 0x8Ab7404063Ec4DBcfd4598215992DC3F8EC853d7 (unchanged)
+  Decimals: 18 (unchanged)
+
+CoinGecko ID: akropolis (unchanged)
+
+Note: This is an Ethereum metadata update. No new contract was added,
+      and no migration to a native-chain asset was applied.
+
+Sources:
+  https://kaonlabs.substack.com/p/operational-updates-following-aip
+  https://www.coingecko.com/en/coins/kaon
+
+3. AETHC TO ANKRETH RENAME
+----------------------------------------------------------------------
+Action: Rename aETHc to ankrETH on Ethereum and BSC, and update the name
+        to Ankr Staked ETH.
+Reason: Ankr standardized its reward-bearing staking-token names to
+        simplify the liquid-staking experience and make naming consistent.
+        Its announcement explicitly maps aETHc to ankrETH and states that
+        the rename is automatic, with no action required from holders.
+        CoinGecko lists both existing deployments as Ankr Staked ETH.
+
+Ethereum:
+  Name: Ankr ETH2 Reward Bearing Certificate -> Ankr Staked ETH
+  Symbol: aETHc -> ankrETH
+  Address: 0xE95A203B1a91a908F9B9CE46459d101078c2c3cb (unchanged)
+  Decimals: 18 (unchanged)
+
+BSC:
+  Name: Ankr ETH2 Reward Bearing Certificate -> Ankr Staked ETH
+  Symbol: aETHc -> ankrETH
+  Address: 0xe05A08226c49b636ACf99c40Da8DC6aF83CE5bB3 (unchanged)
+  Decimals: 18 (unchanged)
+
+CoinGecko ID: ankreth (unchanged on both chains)
+
+Note: This is a metadata update on the existing contracts. No token
+      conversion or contract replacement was applied.
+
+Sources:
+  https://www.ankr.com/blog/ankr-announces-token-model-change-for-all-reward-bearing-and-earning-tokens/
+  https://www.coingecko.com/en/coins/ankr-staked-eth
+
+4. AMATICC SYMBOL UPDATES
+----------------------------------------------------------------------
+Action: Match each listed symbol to its audited on-chain symbol.
+Reason: The user chose the exact contract symbols: ankrPOL on Ethereum
+        and ankrMATIC on Polygon and BSC. Ankr's current official address
+        registry calls all three existing deployments ankrPOL, but the
+        Polygon and BSC contracts retain the older ankrMATIC metadata.
+        No replacement contract is required for this symbol update.
+
+ethereum:
+  Symbol: aMATICc -> ankrPOL
+  Address: 0x26dcFbFa8Bc267b250432c01C982Eaf81cC5480C (unchanged)
+
+polygon:
+  Symbol: aMATICc -> ankrMATIC
+  Address: 0x0E9b89007eEE9c958c0EDA24eF70723C2C93dD58 (unchanged)
+
+bsc:
+  Symbol: aMATICc -> ankrMATIC
+  Address: 0x738d96Caf7096659DB4C1aFbf1E1BDFD281f388C (unchanged)
+
+Name: Ankr MATIC Reward Bearing Certificate (unchanged on all three)
+CoinGecko ID: ankr-reward-earning-matic (unchanged)
+
+Note: The old CoinGecko ID returned HTTP 404 and no replacement ID was
+      found in the current coin list. The user's Ethereum lookup also
+      returned coingecko_coin_id: null. This approval covers symbol
+      changes only; the CoinGecko source was not removed or replaced.
+      Addresses, decimals, names, and other token metadata are unchanged.
+
+Sources:
+  https://www.ankr.com/docs/staking-extra/ls-sc-addresses-mn/
+  https://api.coingecko.com/api/v3/coins/ankr-reward-earning-matic
+  https://api.coingecko.com/api/v3/coins/list?include_platform=true
+
+5. ECOX REMOVAL
+----------------------------------------------------------------------
+Action: Remove the Ethereum ECOx entry from token-list.json.
+Reason: Etherscan carries a business-closure notice for Eco and identifies
+        this exact contract as 0xgone, matching the audited on-chain
+        symbol. The user approved removal rather than renaming ECOx to
+        0xgone. No verified successor contract was found.
+
+Removed token:
+  Chain: Ethereum
+  Name: ECOx
+  Symbol: ECOx
+  Address: 0xcccD1Ba9f7acD6117834E0D28F25645dECb1736a
+  Decimals: 18
+  CoinGecko ID: ecox
+
+Note: This removes the token-list entry only. The original token metadata
+      and audit record are retained in done.json for reference.
+
+Source:
+  https://etherscan.io/token/0xcccd1ba9f7acd6117834e0d28f25645decb1736a?a=0xd3687dad30460fbe230fdceb5035b407dcf9717a
+
+6. ENERGI SYMBOL CORRECTION
+----------------------------------------------------------------------
+Action: Change the Ethereum Energi token symbol from NRGE to NRG.
+Reason: Energi's official wallet guide specifies NRG for this exact
+        Ethereum contract, matching its audited on-chain symbol. This
+        corrects the listed ticker; it does not require token migration.
+
+Ethereum:
+  Name: Energi (unchanged)
+  Symbol: NRGE -> NRG
+  Address: 0x1416946162B1C2c871A73B07E932D2fB6C932069 (unchanged)
+  Decimals: 18 (unchanged)
+
+CoinGecko ID: energi (existing value retained)
+
+Source:
+  https://wiki.energi.world/docs/energiswap/add-nrg-token
+
+7. EUROC TO EURC RENAME
+----------------------------------------------------------------------
+Action: Rename Euro Coin / EUROC to EURC on Ethereum and Avalanche.
+Reason: Circle made EURC the official name and symbol of its euro-backed
+        stablecoin, phasing out Euro Coin and EUROC. Circle explicitly
+        confirms that the existing token addresses remain unchanged and
+        that no separate token is introduced.
+
+Ethereum:
+  Name: Euro Coin -> EURC
+  Symbol: EUROC -> EURC
+  Address: 0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c (unchanged)
+  Decimals: 6 (unchanged)
+
+Avalanche:
+  Name: Euro Coin -> EURC
+  Symbol: EUROC -> EURC
+  Address: 0xC891EB4cbdEFf6e073e859e987815Ed1505c2ACD (unchanged)
+  Decimals: 6 (unchanged)
+
+CoinGecko ID: euro-coin (unchanged on both chains; verified on CoinGecko)
+
+Sources:
+  https://www.circle.com/eurc
+  https://www.coingecko.com/en/coins/eurc
+
+8. GTCOIN REMOVAL
+----------------------------------------------------------------------
+Action: Remove Game tree Coin (GTCOIN) on Ethereum from token-list.json.
+Reason: The user chose removal after reviewing the unresolved GTCOIN /
+        RUSH symbol mismatch and the supplied Etherscan holder screenshot.
+        The screenshot shows a holder labelled Fake_Phishing936568 and
+        several separate holders each displayed at 100% of supply. These
+        are warning signs and inconsistent displayed holder statistics;
+        they do not by themselves establish that the token is fraudulent.
+        No official rebrand or replacement contract was verified.
+
+Removed token:
+  Chain: Ethereum
+  Name: Game tree Coin
+  Listed Symbol: GTCOIN
+  Audited On-chain Symbol: RUSH
+  Address: 0x5d5E244660cA05C42073c9a526616d99f2c99516
+  Decimals: 18
+  CoinGecko ID: game-tree
+
+Note: No replacement token was added. The removed token metadata and
+      audit record are retained in done.json for reference.
+
+Evidence:
+  User-provided Etherscan holder screenshot in this review conversation.
+  https://etherscan.io/token/0x5d5E244660cA05C42073c9a526616d99f2c99516
+
+9. GENETH TO INETH RENAME AND COINGECKO SOURCE REMOVAL
+----------------------------------------------------------------------
+Action: Rename the Ethereum token to Inception Restaked ETH / InETH and
+        remove its inactive CoinGecko source.
+Reason: GenesisLRT merged with Inception and renamed genETH to inETH.
+        The audited contract returns InETH; the user approved that exact
+        spelling. The old CoinGecko API ID returned HTTP 404, and the
+        user's on-chain token lookup returned coingecko_coin_id: null
+        and price_usd: null. No replacement CoinGecko ID was verified.
+
+Ethereum:
+  Name: GenesisLRT restaked ETH -> Inception Restaked ETH
+  Symbol: genETH -> InETH
+  Address: 0xf073bAC22DAb7FaF4a3Dd6c6189a70D54110525C (unchanged)
+  Decimals: 18 (unchanged)
+  Logo: unchanged
+
+Removed source:
+  Type: coingecko
+  ID: genesislrt-restaked-eth
+
+Note: The sources array is now empty. No replacement pricing source or
+      contract was added. The existing logo URL was retained.
+      This token counts as one update, including its source removal.
+
+Sources:
+  https://www.coingecko.com/en/coins/inception-restaked-eth/bnb
+  https://api.coingecko.com/api/v3/coins/genesislrt-restaked-eth
+  User-provided on-chain token lookup in this review conversation.
+
+10. ETHEREUM KING COIN REMOVAL
+----------------------------------------------------------------------
+Action: Remove the Ethereum KING Coin entry.
+Reason: This is the Wormhole-bridged representation of the unrelated
+        Solana meme token, not King Protocol. The user chose removal
+        after reviewing the symbol conflict and limited tracked activity.
+        CoinGecko returned only a Solana market, and DexScreener returned
+        no Ethereum pools during review. This does not prove that no
+        Ethereum market exists or that the token is fraudulent.
+
+Removed token:
+  Chain: Ethereum
+  Name: KING
+  Symbol: KING
+  Address: 0xE28027c99C7746fFb56B0113e5d9708aC86fAE8f
+  CoinGecko ID: king-2
+
+Note: Removal applies only to this Ethereum entry. No Solana token was
+      removed. Original token metadata is retained with the decision
+      for the associated LRT2 audit entry in done.json.
+
+Sources:
+  https://github.com/wormhole-foundation/wormhole-token-list/blob/main/content/dest_ethereum.md
+  https://www.coingecko.com/en/coins/king-coin
+  https://api.dexscreener.com/tokens/v1/ethereum/0xE28027c99C7746fFb56B0113e5d9708aC86fAE8f
+
+11. LRT2 TO KING PROTOCOL RENAME
+----------------------------------------------------------------------
+Action: Rename LrtSquare / LRT2 to King Protocol / KING on Ethereum.
+Reason: LRT Squared officially rebranded to King Protocol. Its KING
+        token represents a share of pooled restaking rewards. The
+        existing Ethereum contract reports KING, and CoinGecko confirms
+        the rebrand under its retained ID lrt-squared. Removing the
+        unrelated Ethereum KING Coin entry resolves the symbol conflict.
+
+Ethereum:
+  Name: LrtSquare -> King Protocol
+  Symbol: LRT2 -> KING
+  Address: 0x8F08B70456eb22f6109F57b8fafE862ED28E6040 (unchanged)
+  Decimals: 18 (unchanged)
+
+CoinGecko ID: lrt-squared (unchanged)
+
+Sources:
+  https://docs.kingprotocol.org/whitepaper
+  https://www.coingecko.com/en/coins/king-protocol
+
+12. SMURFCAT SYMBOL RETAINED
+----------------------------------------------------------------------
+Decision: Keep SMURFCAT for Real Smurf Cat on Ethereum.
+Reason: CoinGecko uses SMURFCAT for this exact contract. The on-chain
+        symbol is a Cyrillic alternative for the same asset, rather than
+        evidence of a token migration. The user approved retaining the
+        existing display symbol.
+
+Ethereum:
+  Name: Real Smurf Cat (unchanged)
+  Listed Symbol: SMURFCAT (unchanged)
+  Audited On-chain Symbol: шайлушай
+  Address: 0xfF836A5821E69066c87E268bC51b849FaB94240C (unchanged)
+  CoinGecko ID: real-smurf-cat (unchanged)
+
+Note: No token-list fields were changed. This is a resolved review
+      decision and is not counted as a token update.
+
+Source:
+  https://www.coingecko.com/en/coins/real-smurf-cat
+
+13. SOLVBTC.BBN TO XSOLVBTC RENAME
+----------------------------------------------------------------------
+Action: Rename SolvBTC.BBN to xSolvBTC on Ethereum, Avalanche, Base,
+        BSC, Arbitrum, and HyperEVM.
+Reason: Solv explicitly announces that SolvBTC.BBN is now xSolvBTC.
+        The audited contracts return xSolvBTC, and CoinGecko identifies
+        all six existing addresses as Solv Protocol Staked BTC under
+        the same API ID. This updates the old Babylon-specific branding
+        to the current product name and symbol.
+
+ethereum:
+  Name: SolvBTC Babylon -> Solv Protocol Staked BTC
+  Symbol: SolvBTC.BBN -> xSolvBTC
+  Address: 0xd9D920AA40f578ab794426F5C90F6C731D159DEf (unchanged)
+  Decimals: 18 (unchanged)
+
+avalanche:
+  Name: SolvBTC Babylon -> Solv Protocol Staked BTC
+  Symbol: SolvBTC.BBN -> xSolvBTC
+  Address: 0xCC0966D8418d412c599A6421b760a847eB169A8c (unchanged)
+  Decimals: 18 (unchanged)
+
+base:
+  Name: SolvBTC Babylon -> Solv Protocol Staked BTC
+  Symbol: SolvBTC.BBN -> xSolvBTC
+  Address: 0xC26C9099BD3789107888c35bb41178079B282561 (unchanged)
+  Decimals: 18 (unchanged)
+
+bsc:
+  Name: SolvBTC Babylon -> Solv Protocol Staked BTC
+  Symbol: SolvBTC.BBN -> xSolvBTC
+  Address: 0x1346b618dC92810EC74163e4c27004c921D446a5 (unchanged)
+  Decimals: 18 (unchanged)
+
+arbitrum:
+  Name: SolvBTC Babylon -> Solv Protocol Staked BTC
+  Symbol: SolvBTC.BBN -> xSolvBTC
+  Address: 0x346c574C56e1A4aAa8dc88Cda8F7EB12b39947aB (unchanged)
+  Decimals: 18 (unchanged)
+
+hyperevm:
+  Name: SolvBTC Babylon -> Solv Protocol Staked BTC
+  Symbol: SolvBTC.BBN -> xSolvBTC
+  Address: 0xc99F5c922DAE05B6e2ff83463ce705eF7C91F077 (unchanged)
+  Decimals: 18 (unchanged)
+
+CoinGecko ID: solv-protocol-solvbtc-bbn (unchanged on all six chains)
+
+Note: These are metadata updates on the existing contracts. No contract
+      replacement or bridge transaction was applied.
+
+Sources:
+  https://app.solv.finance/solvbtc?source=BitgetWallet
+  https://docs.solv.finance/developer-guide/contracts
+  https://www.coingecko.com/en/coins/solv-protocol-staked-btc
+
+14. ST-YCRV TO YVYCRV SYMBOL UPDATE
+----------------------------------------------------------------------
+Action: Rename st-yCRV to yvyCRV on Ethereum.
+Reason: Yearn's official yCRV deployment list identifies this exact
+        contract as yvyCRV, its auto-compounding yCRV vault. This matches
+        the audited on-chain symbol. CoinGecko still uses the old ticker
+        but its existing API ID maps to this same contract.
+
+Ethereum:
+  Name: Staked Yearn CRV Vault (unchanged)
+  Symbol: st-yCRV -> yvyCRV
+  Address: 0x27B5739e22ad9033bcBf192059122d163b60349D (unchanged)
+  CoinGecko ID: staked-yearn-crv-vault (unchanged)
+
+No symbol conflict exists on Ethereum in the current token list.
+Sources:
+  https://ycrv.yearn.fi/about
+  https://www.coingecko.com/en/coins/staked-yearn-crv-vault
+
+15. SEURO TO EUROs SYMBOL UPDATE
+----------------------------------------------------------------------
+Action: Rename SEURO to EUROs on Ethereum.
+Reason: TheStandard's official contract list identifies this exact
+        Ethereum address as EUROs, matching the audited on-chain symbol.
+        The existing contract can be kept; no replacement is needed.
+
+Ethereum:
+  Name: sEURO (unchanged)
+  Symbol: SEURO -> EUROs
+  Address: 0xb399511642FE1666c6a07f83483e6E4feAed9A00 (unchanged)
+  CoinGecko ID: the-standard-euro (unchanged)
+
+No symbol conflict exists on Ethereum in the current token list.
+Source:
+  https://docs.thestandard.io/tst/introduction/important-links-and-addresses
+
+16. USD0++ TO BUSD0 SYMBOL UPDATE
+----------------------------------------------------------------------
+Action: Rename USD0++ to bUSD0 on Ethereum.
+Reason: Usual documents the rename to bUSD0 under UIP-12 in November
+        2025. Its official address matches the existing token contract,
+        and the audited on-chain symbol is bUSD0. No replacement
+        contract is needed.
+
+Ethereum:
+  Name: USD0 Liquid Bond (unchanged)
+  Symbol: USD0++ -> bUSD0
+  Address: 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 (unchanged)
+  CoinGecko ID: usd0-liquid-bond (unchanged)
+
+No symbol conflict exists on Ethereum in the current token list.
+Sources:
+  https://help.usual.money/en/articles/14686744-what-is-busd0
+  https://docs.usual.money/resources-and-ecosystem/fact-sheets/usual-products/busd0
+
+17. PAUTO TO oAUTO SYMBOL UPDATE
+----------------------------------------------------------------------
+Action: Rename PAUTO to oAUTO on Polygon.
+Reason: oAUTO matches the audited on-chain symbol. Orbit's documentation
+        explains the o prefix for Orbit-bridged assets. CoinGecko ID auto
+        maps to this same Polygon address. The approved rename supersedes
+        the earlier recommendation to retain the PAUTO display alias.
+
+Polygon:
+  Name: Orbit Bridge Polygon AUTOv2 (unchanged)
+  Symbol: PAUTO -> oAUTO
+  Address: 0x7f426F6Dc648e50464a0392E60E1BB465a67E9cf (unchanged)
+  CoinGecko ID: auto (unchanged)
+
+Migration investigation:
+  No verified successor contract was found. The CoinGecko-linked Netlify
+  migration page behaves like a wallet drainer: its code requests full
+  balances of AUTO and unrelated tokens, then native funds, to
+  0x773F5d9eEc75629A2624EEd5D95472910D6c651a. The inspected code contains no
+  replacement-token delivery. Transfers require wallet approval. This
+  notice is not evidence of a legitimate migration or grounds to replace
+  our token address. Current bridge redemption support remains unverified.
+
+No symbol conflict exists on Polygon in the current token list.
+Sources:
+  https://www.coingecko.com/en/coins/auto
+  https://bridge-docs.orbitchain.io/faq/general-en
+  https://autotokens.netlify.app/app.js
+  https://autotokens.netlify.app/config/tokens.js
+
+18. DAVOS TO DUSD SYMBOL UPDATE
+----------------------------------------------------------------------
+Action: Rename DAVOS to DUSD on Polygon and remove the inactive
+        CoinGecko source davos-protocol.
+Reason: Davos documentation calls the stablecoin DUSD. PolygonScan
+        identifies this exact deployment as Davos Protocol: DUSD Token,
+        matching the audited on-chain symbol. The CoinGecko API returned
+        404 for davos-protocol; the user approved removing that source.
+
+Polygon:
+  Name: Davos (unchanged)
+  Symbol: DAVOS -> DUSD
+  Address: 0xEC38621e72D86775a89C7422746de1f52bbA5320 (unchanged)
+  CoinGecko ID: davos-protocol -> removed
+  Sources: []
+
+No symbol conflict exists on Polygon in the current token list.
+Sources:
+  https://docs.davos.xyz/davos-explained/benefits-of-using-davos-protocol
+  https://polygonscan.com/tx/0xb0d0ba7fb5ea0cc19c538bc409100c1500df7b6120dba75007cf09c41247c099
+  https://api.coingecko.com/api/v3/coins/davos-protocol
+
+19. IDRX LEGACY RENAME AND NEW SOLANA MINT ADDITION
+----------------------------------------------------------------------
+Action: Retain the old Solana mint as OLDIDRX and add the replacement
+        mint as IDRX. Both entries remain in the token list.
+Reason: The issuer explicitly deprecates the old mint and publishes the
+        replacement. OLDIDRX matches the old mint's audited metadata,
+        distinguishes existing holdings, and frees IDRX for the new mint.
+        The user chose retention rather than deleting the old entry.
+
+Existing Solana entry:
+  Name: IDRX (unchanged)
+  Symbol: IDRX -> OLDIDRX
+  Address: idrxTdNftk6tYedPv2M7tCFHBVCpk5rkiNRd8yUArhr (unchanged)
+  Decimals: 2 (unchanged)
+  CoinGecko ID: idrx (existing source retained)
+
+New Solana entry:
+  Name: IDRX
+  Symbol: IDRX
+  Address: idrxZcP8xiKkYk6XGD4uz1dxEYCWSgKDHqgjsBbwDur
+  Decimals: 2
+  CoinGecko ID: idrx (API confirms the new Solana mint)
+  Logo: reused from the existing IDRX entry
+
+The old mint is deprecated. Issuer support offers 1:1 redemption into
+new IDRX or Rupiah. Adding this entry does not migrate existing balances;
+each mint remains a separate asset. CoinGecko's current Solana mapping
+is the new mint, not independent market verification of the old mint.
+No mint duplication or symbol conflict exists in the updated list.
+
+Sources:
+  https://docs.idrx.co/introduction/supported-chain-and-contract-address
+  https://api.coingecko.com/api/v3/coins/idrx
+
+20. VEUR REVIEW - KEEP UNCHANGED
+----------------------------------------------------------------------
+Action: Keep VEUR on Solana. No token-list changes.
+Reason: The audited on-chain metadata returns the literal text symbol,
+        which appears to be a placeholder. VNX uses VEUR as its ticker.
+        The user explicitly requested only to keep VEUR.
+
+Solana:
+  Name: VNX Euro (unchanged)
+  Symbol: VEUR (unchanged)
+  Address: C4Kkr9NZU3VbyedcgutU6LKmi6MKz81sx6gRmk5pX519 (unchanged)
+  CoinGecko source: retained unchanged
+
+The CoinGecko API returned 404 for vnx-euro during review. Removal was
+proposed but not approved; the existing source is retained.
+This review is excluded from Total Updates.
+Source:
+  https://vnx.community/
+
+21. GGAVAX / STAVAX REMOVAL
+----------------------------------------------------------------------
+Action: Remove the ggAVAX entry from the Avalanche token list entirely.
+Reason: GoGoPool / Hypha's end-of-life notice announces shutdown on
+        August 15, 2026 and asks holders to redeem stAVAX for AVAX.
+        ggAVAX was renamed stAVAX on the same contract, but the user
+        explicitly chose removal instead of retaining the renamed token.
+
+Removed Avalanche entry:
+  Name: GoGoPool Liquid Staking Token
+  Symbol: ggAVAX (audited on-chain symbol: stAVAX)
+  Address: 0xA25EaF2906FA1a3a13EdAc9B9657108Af7B703e3
+  CoinGecko sources: [{"type":"coingecko","data":"gogopool-ggavax"}]
+
+No replacement entry was added. This removes listing metadata only;
+existing on-chain holdings are unaffected. Original token metadata is
+preserved in done.json with the removal decision.
+Sources:
+  https://eol.gogopool.com/
+  https://github.com/multisig-labs/docs.gogopool.com/blob/main/faq.md
+
+22. AVAIL.W TO AVAIL SYMBOL UPDATE
+----------------------------------------------------------------------
+Action: Rename AVAIL.W to AVAIL on Base.
+Reason: Avail's official Base announcement names this exact deployment
+        AVAIL, matching the audited on-chain symbol. The bridge identity
+        remains in the existing name Avail (Wormhole). This approved
+        decision supersedes the earlier recommendation to keep AVAIL.W.
+
+Base:
+  Name: Avail (Wormhole) (unchanged)
+  Symbol: AVAIL.W -> AVAIL
+  Address: 0xd89d90d26B48940FA8F58385Fe84625d468E057a (unchanged)
+  CoinGecko ID: avail (unchanged)
+
+No symbol conflict exists on Base in the current token list.
+Source:
+  https://blog.availproject.org/aerodrome-finance-welcomes-the-avail-token-on-base/
+
+23. $PORT TO PORT SYMBOL UPDATE
+----------------------------------------------------------------------
+Action: Rename $PORT to PORT on Base.
+Reason: Remove the leading dollar sign to match the audited on-chain
+        symbol and CoinGecko ticker. CoinGecko confirms the same Base
+        contract under ID dataport-navigator-by-virtuals.
+
+Base:
+  Name: DataPort Navigator (unchanged)
+  Symbol: $PORT -> PORT
+  Address: 0x4225658360C731a2b4c34555E45fea3b4b0181D5 (unchanged)
+  CoinGecko sources: [{"type":"coingecko","data":"dataport-navigator-by-virtuals"}] (unchanged)
+
+No symbol conflict exists on Base in the current token list.
+Source:
+  https://www.coingecko.com/en/coins/dataport-navigator-by-virtuals
+
+24. WEETH.BASE REVIEW - KEEP UNCHANGED
+----------------------------------------------------------------------
+Action: Keep weETH.base on Base. No token-list fields changed.
+Reason: The user chose to retain the existing display symbol after
+        checking the SDK. BaseScan identifies this deployment as
+        weETH.base, while the audited on-chain symbol is weETH.
+
+Base:
+  Name: Wrapped eETH (unchanged)
+  Symbol: weETH.base (unchanged)
+  Address: 0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A (unchanged)
+  CoinGecko source: retained unchanged
+
+SDK comparison: Base WETH9 is WETH at
+0x4200000000000000000000000000000000000006. It is a different token,
+not the ether.fi wrapped eETH deployment reviewed here.
+This review is excluded from Total Updates.
+Sources:
+  https://basescan.org/token/0x04c0599ae5a44757c0af6f9ec3b93da8976c150a
+  C:/New/WagmiV3/hey-anon-V2/node_modules/@heyanon/sdk/dist/index.js:203
+  C:/New/WagmiV3/hey-anon-V2/node_modules/@real-wagmi/sdk/dist/index.js:214
+
+25. $BRO TO BRO SYMBOL UPDATE
+----------------------------------------------------------------------
+Action: Rename $BRO to BRO on Base.
+Reason: Remove the leading dollar sign to match the audited on-chain
+        symbol and CoinGecko ticker. CoinGecko ID neurobro confirms the
+        same Base contract.
+
+Base:
+  Name: Neurobro (unchanged)
+  Symbol: $BRO -> BRO
+  Address: 0xc796E499CC8f599A2a8280825d8BdA92F7a895e0 (unchanged)
+  CoinGecko sources: [{"type":"coingecko","data":"neurobro"}] (unchanged)
+
+No symbol conflict exists on Base in the current token list.
+Source:
+  https://www.coingecko.com/en/coins/neurobro
+
+26. OETHB TO SUPEROETHB RENAME
+----------------------------------------------------------------------
+Action: Rename OETH Base / OETHb to Super OETH / superOETHb on Base.
+Reason: Origin's official documentation identifies its Base product as
+        Super OETH (superOETHb), matching the audited on-chain symbol.
+        CoinGecko ID super-oeth confirms this same contract. No new
+        contract or migration is needed for this metadata correction.
+
+Base:
+  Name: OETH Base -> Super OETH
+  Symbol: OETHb -> superOETHb
+  Address: 0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3 (unchanged)
+  CoinGecko ID: super-oeth (unchanged)
+
+No symbol conflict exists on Base in the current token list.
+Sources:
+  https://docs.originprotocol.com/yield-bearing-tokens/super-oeth-superoethb
+  https://www.coingecko.com/en/coins/super-oeth
+
+27. ISTEP REMOVAL
+----------------------------------------------------------------------
+Action: Remove ISTEP from the BSC token list.
+Reason: User approved removal following investigation. Two independent
+        BSC RPCs returned an empty symbol; name() also returned empty.
+        The project website failed DNS resolution, CoinGecko ID istep
+        returned HTTP 404, and DexScreener returned no indexed pairs.
+        The public contract repository was last pushed May 12, 2022.
+        No verified successor or migration announcement was found.
+
+Removed BSC entry:
+  Name: ISTEP
+  Symbol: ISTEP
+  Address: 0x67343c29c0fD9827F33E675e0eB80773f9444444
+  CoinGecko ID: istep
+
+Proxy implementation still has deployed code at
+0xe8ff4499f6fb28792ee17281011175842ab61ce4. Empty metadata is not caused
+by an absent implementation. Evidence suggests abandonment, but no
+official shutdown was confirmed. No indexed pairs does not prove zero
+liquidity everywhere. No replacement entry was added. Original metadata
+is preserved in done.json with this decision.
+Sources:
+  https://bscscan.com/token/0x67343c29c0fd9827f33e675e0eb80773f9444444
+  https://github.com/istepofficial/token-smartcontract
+  https://api.coingecko.com/api/v3/coins/istep
+  https://api.dexscreener.com/latest/dex/tokens/0x67343c29c0fd9827f33e675e0eb80773f9444444
+RPC checks:
+  https://bsc-dataseed.binance.org/
+  https://bsc-rpc.publicnode.com
+
+28. JTS REVIEW - KEEP UNCHANGED
+----------------------------------------------------------------------
+Action: Keep Jetset / JTS on BSC. No token-list fields changed.
+Reason: Jetset's whitepaper and CoinGecko use JTS as the public ticker.
+        CoinGecko ID jetset confirms the same BSC contract. The user
+        chose to retain JTS despite the audited on-chain symbol JET.
+
+BSC:
+  Name: Jetset (unchanged)
+  Symbol: JTS (unchanged)
+  Address: 0x405BE90996e7F995A08C2FBD8d8822EF5b03466C (unchanged)
+  CoinGecko ID: jetset (unchanged)
+
+This review is excluded from Total Updates.
+Sources:
+  https://jetsettoken.com/wp-content/uploads/2024/04/JetSet-Whitepaper-2024.pdf
+  https://www.coingecko.com/en/coins/jetset
+
+29. PIRATECOIN REVIEW - KEEP UNCHANGED
+----------------------------------------------------------------------
+Action: Keep PirateCoin on BSC. No token-list fields changed.
+Reason: The mismatch is only the decorative skull appended to the
+        on-chain symbol. The user approved retaining PirateCoin as the
+        readable display alias. CoinGecko ID piratecoin confirms the
+        same BSC contract, although its ticker also includes the skull.
+
+BSC:
+  Name: Pirate Coin (unchanged)
+  Symbol: PirateCoin (unchanged)
+  Address: 0x041640eA980e3fE61e9C4ca26D9007Bc70094C15 (unchanged)
+  CoinGecko ID: piratecoin (unchanged)
+
+This review is excluded from Total Updates.
+Source:
+  https://www.coingecko.com/en/coins/piratecoin
+
+30. XIL REMOVAL
+----------------------------------------------------------------------
+Action: Remove XIL (Project X / Xillion) from the BSC token list.
+Reason: User approved removal after both name() and symbol() returned
+        empty strings on two independent BSC RPCs. The website failed
+        DNS resolution, CoinGecko ID projectx returned HTTP 404, and
+        DexScreener returned no indexed pairs. Gate announced suspension
+        of XIL trading effective September 3, 2025.
+
+Removed BSC entry:
+  Name: XIL
+  Symbol: XIL
+  Address: 0xf3bE1A4a47576208C1592Cc027087CE154B00672
+  CoinGecko ID: projectx
+
+The issuer announced a BSC-to-Polygon migration in December 2022; its
+April 2023 update still described migration as unfinished. No verified
+completion or replacement address was found, so no replacement is added.
+The proxy implementation has deployed code at
+0xabab788ade2ef960ad7a970aef54795c785bc7d7. No indexed pairs does not prove
+zero liquidity everywhere. Original metadata is preserved in done.json.
+Sources:
+  https://www.gate.com/announcements/article/46803
+  https://projectxnft.medium.com/important-announcement-xil-blockchain-migration-846843cb1b58
+  https://projectxnft.medium.com/xillion-update-april-2023-91c10e005305
+  https://api.coingecko.com/api/v3/coins/projectx
+  https://api.dexscreener.com/latest/dex/tokens/0xf3be1a4a47576208c1592cc027087ce154b00672
+RPC checks:
+  https://bsc-dataseed.binance.org/
+  https://bsc-rpc.publicnode.com
+
+31. REDFEG REVIEW - KEEP UNCHANGED
+----------------------------------------------------------------------
+Action: Keep REDFEG on BSC. No token-list fields changed.
+Reason: The mismatch is only a decorative gorilla emoji appended to the
+        on-chain symbol. CoinGecko uses REDFEG without the emoji and ID
+        redfeg confirms the same BSC contract. The user approved keeping
+        the existing readable symbol.
+
+BSC:
+  Name: RedFeg (unchanged)
+  Symbol: REDFEG (unchanged)
+  Address: 0x25574Cad6F03FFacD9D08b288e8D5d88997fb2f3 (unchanged)
+  CoinGecko ID: redfeg (unchanged)
+
+This review is excluded from Total Updates.
+Source:
+  https://www.coingecko.com/en/coins/redfeg
+
+32. SOLVBTC.ENA TO SOLVBTC.TRADING SYMBOL UPDATE
+----------------------------------------------------------------------
+Action: Rename SolvBTC.ENA to SolvBTC.TRADING on BSC and Arbitrum;
+        remove the inactive CoinGecko source solv-protocol-solvbtc-ena
+        from both entries.
+Reason: Both audited contracts return SolvBTC.TRADING. Solv's official
+        registry confirms the BSC deployment under that name. Its
+        Arbitrum entry still uses the older ENA label for the same
+        contract. The user approved applying the same rename on both
+        chains. The shared CoinGecko ID returned HTTP 404.
+
+BSC:
+  Name: SolvBTC Ethena (unchanged)
+  Symbol: SolvBTC.ENA -> SolvBTC.TRADING
+  Address: 0x53E63a31fD1077f949204b94F431bCaB98F72BCE (unchanged)
+
+Arbitrum:
+  Name: SolvBTC Ethena (unchanged)
+  Symbol: SolvBTC.ENA -> SolvBTC.TRADING
+  Address: 0xaFAfd68AFe3fe65d376eEC9Eab1802616cFacCb8 (unchanged)
+
+Both entries:
+  CoinGecko ID: solv-protocol-solvbtc-ena -> removed
+  Sources: []
+
+No symbol conflict exists on either chain in the current token list.
+Sources:
+  https://docs.solv.finance/developer-guide/contracts
+  https://api.coingecko.com/api/v3/coins/solv-protocol-solvbtc-ena
+
+33. UNREADABLE SOLANA TOKEN REMOVAL
+----------------------------------------------------------------------
+Action: Remove the Solana entry whose name and symbol are quotes around
+        a space.
+Reason: Neither the listed symbol nor the audited on-chain symbol is a
+        readable ticker. The on-chain value is an ideographic space
+        (U+3000). The user approved removal for metadata quality; this
+        decision does not assert fraud or invent a replacement identity.
+
+Removed Solana entry:
+  Name: quotation mark + space + quotation mark
+  Symbol: quotation mark + space + quotation mark
+  Address: 9qriMjPPAJTMCtfQnz7Mo9BsV2jAWTr2ff7yc3JWpump
+  CoinGecko sources: [{"type":"coingecko","data":"-6"}]
+
+No replacement entry was added. Original metadata is preserved in
+ done.json with the audit and removal decision.
+Evidence: local token-list entry and audited Solana Metaplex metadata.
+
+34. $BC TO BC SYMBOL UPDATE
+----------------------------------------------------------------------
+Action: Rename $BC to BC on Solana.
+Reason: Remove the leading dollar sign to match the audited on-chain
+        symbol and CoinGecko ticker. CoinGecko ID bc-token confirms
+        the same Solana mint.
+
+Solana:
+  Name: BCGame Coin (unchanged)
+  Symbol: $BC -> BC
+  Address: BCNT4t3rv5Hva8RnUtJUJLnxzeFAabcYp8CghC1SmWin (unchanged)
+  CoinGecko sources: [{"type":"coingecko","data":"bc-token"}] (unchanged)
+
+No symbol conflict exists on Solana in the current token list.
+Source:
+  https://www.coingecko.com/en/coins/bc-token
+
+35. PASTERNAK / LAUNCHCOIN REMOVAL AND BELIEVE ADDITION
+----------------------------------------------------------------------
+Action: Remove the old Solana mint and add BELIEVE as a separate asset.
+Reason: PASTERNAK became LAUNCHCOIN, then migrated to a different mint
+        as BELIEVE. The project announced LAUNCHCOIN's wind-down. Gate
+        completed its 1:1 migration on October 29, 2025 and ended support
+        for old tokens. Archived project posts give November 26, 2025
+        as the final claim deadline. CoinGecko ID ben-pasternak now maps
+        to the new BELIEVE mint.
+
+Removed Solana entry:
+  Name: Ben Pasternak (clout.me)
+  Symbol: PASTERNAK (audited symbol: LAUNCHCOIN)
+  Address: Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk
+
+Added Solana entry:
+  Name: Believe
+  Symbol: BELIEVE
+  Address: BLVxek8YMXUQhcKmMvrFTrzh5FXg8ec88Crp6otEaCMf
+  Decimals: 9 (verified with Solana RPC and CoinGecko)
+  CoinGecko ID: ben-pasternak
+  Logo: current CoinGecko small image
+
+The old Raydium pool still showed approximately USD 26,219 liquidity
+and USD 269 volume over 24 hours during review. Removal is based on
+retirement and migration, not a claim that no trading remains.
+Current migration availability was not verified. This list change does
+not convert holdings. Original and replacement metadata are recorded
+in done.json. No duplicate mint or symbol conflict was found.
+Counted as one removal and one addition, not an in-place contract rename.
+Sources:
+  https://www.gate.com/announcements/article/47879
+  https://www.coingecko.com/en/coins/launch-coin-on-believe
+  https://twstalker.com/believeapp
+  https://dexscreener.com/solana/YrrUStgPugDp8BbfosqDeFssen6sA75ZS1QJvgnHtmY
+
+36. BILLION DOLLAR CAT REMOVAL
+----------------------------------------------------------------------
+Action: Remove BDC (on-chain symbol BILLY) from Solana.
+Reason: User chose removal due to very low Solana liquidity and daily
+        volume. The largest returned pool had approximately USD 2,251
+        liquidity and USD 48 volume over 24 hours during review.
+        Renaming to BILLY would also conflict with the other retained
+        Solana BILLY token. User declined a separate display alias.
+
+Removed entry:
+  Name: Billion Dollar Cat Rune
+  Symbol: BDC
+  Address: BDCs2xEqzXyRpp9P6uPDnAvERpLKBfzHPEzbe3BfCxDY
+  CoinGecko ID: billion-dollar-cat-runes
+
+The official website and CoinGecko confirm this mint. No replacement
+mint is required or added. Removal does not imply fraud or shutdown.
+The other BILLY token remains unchanged. Original metadata and the
+removal decision are preserved in done.json.
+Sources:
+  https://billiondollarcat.com/
+  https://www.coingecko.com/en/coins/billion-dollar-cat-runes
+  https://dexscreener.com/solana/4mq7vu2a2qrtvpcd3pqnbx27ifevntkesem7hur2zzxz
+
+37. DEAN TO ISLAND REBRAND
+----------------------------------------------------------------------
+Action: Rename DEAN to ISLAND and Dean's List to IslandDAO on Solana.
+Reason: CoinGecko explicitly confirms the rebrand and the same mint.
+        Its ISLAND ticker agrees with the on-chain symbol audit.
+
+Solana:
+  Name: Dean's List -> IslandDAO
+  Symbol: DEAN -> ISLAND
+  Address: Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a (unchanged)
+  CoinGecko ID: dean-s-list (unchanged)
+  Last updated: 2026-10-06T18:02:46.015Z
+
+No symbol conflict exists on Solana. No contract migration is required.
+Source:
+  https://www.coingecko.com/en/coins/islanddao
+
+38. DXL REMOVAL AND XLAB ADDITION
+----------------------------------------------------------------------
+Action: Remove the deprecated Solana DXL mint and add XLAB.
+Reason: Dexlab's official documentation says the old DXL tokenomics is
+        deprecated and migrated into XLAB. The old mint reports DXLC
+        in the audit and is listed as Dexlab [Old] by CoinGecko.
+        The official XLAB mint matches CoinGecko API ID dexlab-3.
+
+Removed Solana entry:
+  Name: Dexlab
+  Symbol: DXL (audited symbol: DXLC)
+  Address: GsNzxJfFn6zQdJGeYsupJWzUAm57Ba7335mfhWvFiE9Z
+  CoinGecko ID: dexlab
+
+Added Solana entry:
+  Name: Dexlab
+  Symbol: XLAB
+  Address: XLnpFRQ3rSWupCRjuQfx74mgVoT3ezVJKE1CogRZxhH
+  Decimals: 6 (confirmed by Solana RPC and CoinGecko)
+  CoinGecko ID: dexlab-3
+  Last updated: 2026-10-06T18:04:45.906Z
+  Logo: current CoinGecko small image
+
+CoinGecko's webpage uses dexlab-2, but its API ID is dexlab-3.
+No duplicate Solana mint or symbol was found. This is one removal and
+one addition. This list update does not convert holdings; migration
+eligibility and conversion terms have not been verified.
+Original and replacement entries are preserved in done.json.
+Sources:
+  https://docs.dexlab.space/dxl-token
+  https://www.coingecko.com/en/coins/dexlab-2
+  https://api.coingecko.com/api/v3/coins/dexlab-3
+
+39. GEOD(SOL) TO GEOD SYMBOL UPDATE
+----------------------------------------------------------------------
+Action: Rename GEOD(SOL) to GEOD on Solana.
+Reason: GEOD matches the audited on-chain symbol and CoinGecko ticker.
+        CoinGecko confirms the existing Solana mint. The chain is
+        already stored separately, and no GEOD symbol conflict exists.
+
+Solana:
+  Name: Geodnet Token (unchanged)
+  Symbol: GEOD(SOL) -> GEOD
+  Address: 7JA5eZdCzztSfQbJvS8aVVxMFfd81Rs9VvwnocV1mKHu (unchanged)
+  CoinGecko ID: geodnet (unchanged)
+  Last updated: 2026-10-06T18:40:35.682Z
+
+Source:
+  https://www.coingecko.com/en/coins/geodnet
+
+40. KNOB REMOVAL
+----------------------------------------------------------------------
+Action: Remove KNOB from the active Solana token list.
+Reason: User approved removal due to negligible trading activity and
+        unresolved token identity. A fresh Solana RPC read confirms
+        name and symbol BOG, with editable metadata, while CoinGecko
+        still identifies this exact mint as KNOB$ (API ID knob).
+        No reliable rebrand announcement or successor mint was found.
+
+Removed entry:
+  Name: KNOB$
+  Symbol: KNOB (audited and freshly verified symbol: BOG)
+  Address: 5ritAPtFPqQtEFHcHVqNjR5oFNUJqcmgKtZyPd2AyLLy
+  CoinGecko ID: knob
+
+During review, GeckoTerminal's main Raydium pool reported approximately
+USD 11,038 liquidity and USD 0.012 volume over 24 hours from one trade.
+CoinGecko's market data was last updated October 2, 2026, and its only
+returned ticker was marked stale. The project website timed out, and
+the on-chain metadata URI returned HTTP 403. These observations do not
+establish fraud or an official shutdown. No replacement was added.
+Original metadata and the removal decision are preserved in done.json.
+Sources:
+  https://www.coingecko.com/en/coins/knob
+  https://www.geckoterminal.com/solana/pools/4NqJNZQr5ffSdtHw5XscEeooxY3qQuhMH29uW64Unfpw
+  https://solscan.io/token/5ritAPtFPqQtEFHcHVqNjR5oFNUJqcmgKtZyPd2AyLLy
+
+41. RAPR REMOVAL
+----------------------------------------------------------------------
+Action: Remove RAPR from the active Solana token list.
+Reason: User approved removal for negligible trading activity and
+        unclear project maintenance. Fresh on-chain metadata reports
+        name Retarded and symbol R, with an active update authority.
+        CoinGecko still identifies the same mint as RetardedAPR / RAPR.
+        No reliable rebrand announcement or successor was verified.
+
+Removed entry:
+  Name: RetardedAPR
+  Symbol: RAPR (audited and freshly verified symbol: R)
+  Address: RAPRz9fd87y9qcBGj1VVqUbbUM6DaBggSDA58zc3N2b
+  CoinGecko ID: retardedapr
+
+During review, the main RAPR/USDC pool reported approximately USD 10,726
+liquidity and USD 0.53 volume over 24 hours from one trade. Other checked
+pools had no daily trades. CoinGecko's sole returned ticker was stale,
+last updated October 1, 2026; its USD 28 volume was not current data.
+The project website and metadata JSON could not be retrieved.
+These observations do not establish an official shutdown or fraud.
+No replacement was added. Original metadata and the removal decision
+are preserved in done.json.
+Sources:
+  https://www.coingecko.com/en/coins/retardedapr
+  https://www.geckoterminal.com/solana/pools/F7EaruvRQDto4sYgMtYahXYQKbou96U2dvVVySMDpSTK
+  https://solscan.io/token/RAPRz9fd87y9qcBGj1VVqUbbUM6DaBggSDA58zc3N2b
+
+42. OLD SLERF SYMBOL UPDATE AND NEW SLERF ADDITION
+----------------------------------------------------------------------
+Action: Keep the old mint as Old Slerf and add the new mint as SLERF.
+Reason: CoinGecko confirms migration and separately identifies both
+        mints. User chose the exact audited on-chain symbol Old Slerf
+        for the retained old token, rather than a custom display alias.
+        The old token still trades: its main Raydium pool reported
+        about USD 373 daily volume, 29 trades and USD 20.52 million
+        liquidity during review. CoinGecko's fresh ticker agreed on
+        approximately USD 371 daily volume.
+
+Retained Solana entry:
+  Name: SLERF (unchanged)
+  Symbol: SLERF -> Old Slerf
+  Address: 7BgBvyjrZX1YKz4oh9mjb8ZScatkkwb8DzFx7LoiVkM3 (unchanged)
+  CoinGecko ID: slerf (unchanged)
+  Last updated: 2026-10-06T18:51:46.134Z
+
+Added Solana entry:
+  Name: Slerf
+  Symbol: SLERF
+  Address: 9999FVbjHioTcoJpoBiSjpxHW6xEn3witVuXKqBh2RFQ
+  CoinGecko ID: slerf-2
+  Decimals: 9 (confirmed by Solana RPC and CoinGecko)
+  Last updated: 2026-10-06T18:51:46.134Z
+  Logo: current CoinGecko small image
+
+Counted as one rename and one addition. No duplicate symbol or mint
+exists on Solana after this update. Balances remain separate assets;
+current migration availability and conversion terms were not verified.
+Sources:
+  https://www.coingecko.com/en/coins/slerf-old
+  https://www.coingecko.com/en/coins/slerf
+  https://dexscreener.com/solana/agfnrluscrd2e4nwqxw73hdbsn7ekeub2jhx7tx9ytyc
+
+43. HUBSOL TO RASOL REBRAND
+----------------------------------------------------------------------
+Action: Rename hubSOL to raSOL and update the name to Hubra staked SOL.
+Reason: CoinGecko explicitly confirms the SolanaHub to Hubra rebrand
+        and identifies the same mint under the existing API ID.
+        The raSOL symbol matches the on-chain audit.
+
+Solana:
+  Name: SolanaHub staked SOL -> Hubra staked SOL
+  Symbol: hubSOL -> raSOL
+  Address: HUBsveNpjo5pWqNkH57QzxjQASdTVXcSK7bVKTSZtcSX (unchanged)
+  CoinGecko ID: solanahub-staked-sol (unchanged)
+  Last updated: 2026-10-06T18:53:38.132Z
+
+No symbol conflict exists on Solana. No contract migration is required.
+Source:
+  https://www.coingecko.com/en/coins/hubra-staked-sol
+
+44. DLCBTC / IBTC ARBITRUM REMOVAL
+----------------------------------------------------------------------
+Action: Remove the Arbitrum DLCBTC entry (on-chain symbol IBTC).
+Reason: User approved removal due to inactive markets and unclear
+        current support. All five checked Arbitrum pools reported
+        zero volume and zero trades over 24 hours, with reported
+        liquidity approximately USD 1,088 to USD 3,036 per pool.
+
+Removed entry:
+  Name: dlcBTC
+  Symbol: DLCBTC (freshly verified on-chain symbol: IBTC)
+  Address: 0x050C24dBf1eEc17babE5fc585F06116A259CC77A
+  CoinGecko ID: dlc-link-dlcbtc
+
+CoinGecko returned no tickers; its USD 1.73 volume was stale data last
+updated October 3, 2026. DEX Screener returned no pairs. The old project
+website redirects to BitSafe, whose current site focuses on CBTC and
+Canton infrastructure. This does not establish a company shutdown or
+a migration of this token into CBTC. No replacement contract or current
+redemption confirmation was verified. No replacement was added.
+Original metadata and the removal decision are preserved in done.json.
+Sources:
+  https://www.coingecko.com/en/coins/ibtc
+  https://www.geckoterminal.com/arbitrum/tokens/0x050C24dBf1eEc17babE5fc585F06116A259CC77A
+  https://bitsafe.finance/
+
+45. AGUSD TO USDA SYMBOL UPDATE
+----------------------------------------------------------------------
+Action: Keep the Optimism entry and rename agUSD to USDA.
+Reason: USDA matches the audited on-chain symbol. User approved keeping
+        the entry while redemption remains available. Angle's official
+        notice says the protocol is winding down, remains fully
+        collateralized, and USDA is redeemable 1:1 before March 1, 2027.
+
+Optimism:
+  Name: Angle USD (unchanged)
+  Symbol: agUSD -> USDA
+  Address: 0x0000206329b97DB379d5E1Bf586BbDB969C63274 (unchanged)
+  CoinGecko ID: angle-usd (unchanged)
+  Last updated: 2026-10-06T18:57:47.429Z
+
+No USDA symbol conflict exists on Optimism. No removal or contract
+migration was applied. The decision overrides the earlier audit
+recommendation to remove the token from active discovery.
+Source:
+  https://angle.money/eura
+
+46. BORPA / GORPLE GROUP REMOVAL - FIVE CHAINS
+----------------------------------------------------------------------
+Action: Remove four BORPA entries and the existing Solana GORPLE entry.
+Reason: User approved removal of the whole group for inactive markets
+        and low reported liquidity. The historical Gorples rebrand is
+        confirmed, but all checked pools had zero 24-hour volume and
+        zero trades during this review.
+
+Removed entries:
+  solana: Gorples Coin (GORPLE)
+    Address: BorpaZo2RdiYcriLJu2GRefZdgQPmv63nA8jsVVsMV7W
+    CoinGecko ID: borpatoken
+  ethereum: BorpaToken (BORPA)
+    Address: 0xfF33A6b3dC0127862eEdD3978609404b22298A54
+    CoinGecko ID: borpatoken
+  base: BorpaToken (BORPA)
+    Address: 0x0002BcDaf53f4889BF2f43A3252d7c03Fe1b80bc
+    CoinGecko ID: borpatoken
+  bsc: BorpaToken (BORPA)
+    Address: 0x0002BcDaf53f4889BF2f43A3252d7c03Fe1b80bc
+    CoinGecko ID: borpatoken
+  arbitrum: BorpaToken (BORPA)
+    Address: 0x0002BcDaf53f4889BF2f43A3252d7c03Fe1b80bc
+    CoinGecko ID: borpatoken
+
+Reported liquidity in checked pools:
+  Ethereum: approximately USD 4.50
+  Base: approximately USD 0.25 combined across three checked pools
+  BSC: approximately USD 199.63
+  Arbitrum: approximately USD 34.56
+  Solana: approximately USD 1,435, USD 1,700, and USD 648
+
+CoinGecko API IDs borpatoken and gorples returned HTTP 404. The cached
+Gorples webpage identifies borpatoken as its API ID. Search result
+borpa maps to a different Solana mint, with no verified migration link.
+DEX Screener returned no pairs for the checked addresses. The project
+website timed out. No verified successor or official shutdown notice
+was found; removal does not assert fraud or confirmed abandonment.
+No replacements were added. Four mismatch entries moved to done.json;
+the additional Solana removal is recorded with the Ethereum decision.
+Original metadata for all five removed entries is preserved there.
+Sources:
+  https://medium.com/@gorplescoin/gorplenomics-next-generation-fairness-ea40808e8f6d
+  https://www.coingecko.com/en/coins/gorples
+  https://www.geckoterminal.com/eth/pools/0xa9b69403554f3dd70acbc6daf6ec68e8d2f481cd
+  https://www.geckoterminal.com/base/pools/0x936be91f9706c456d329236a2f233c6fc1d07b1e
+  https://www.geckoterminal.com/bsc/pools/0x6edeb8161a990f76d2fb4f4f3ecf6ca815ab1ffa
+  https://www.geckoterminal.com/arbitrum/pools/0x412c470351231c93025a441dedb6a0f65c92b781
+  https://www.geckoterminal.com/solana/tokens/BorpaZo2RdiYcriLJu2GRefZdgQPmv63nA8jsVVsMV7W
+
+47. BOZO BENK NAME UPDATE
+----------------------------------------------------------------------
+Action: Update the name to Bozo Benk and retain symbol bozo.
+Reason: CoinGecko confirms the rebrand to Bozo Benk for the existing
+        mint. The audited on-chain symbol is empty and is not a usable
+        replacement for the listed ticker. User approved keeping bozo.
+
+Solana:
+  Name: bozo -> Bozo Benk
+  Symbol: bozo (unchanged)
+  Address: EJPtJEDogxzDbvM8qvAsqYbLmPj5n1vQeqoAzj9Yfv3q (unchanged)
+  CoinGecko ID: bozo-hybrid (unchanged)
+  Last updated: 2026-10-06T19:03:44.742Z
+
+Counted as one token rename because its display name changed.
+Source:
+  https://www.coingecko.com/en/coins/bozo-benk
+
+48. CLOUD TO SANC REBRAND
+----------------------------------------------------------------------
+Action: Rename Cloud to Sanctum and CLOUD to SANC on Solana.
+Reason: Sanctum officially announced the ticker change to connect the
+        token's identity with the protocol. The announcement explicitly
+        retains the same mint. CoinGecko confirms Sanctum / SANC under
+        the existing API ID sanctum-2; the audit also returns SANC.
+
+Solana:
+  Name: Cloud -> Sanctum
+  Symbol: CLOUD -> SANC
+  Address: CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu (unchanged)
+  CoinGecko ID: sanctum-2 (unchanged)
+  Last updated: 2026-10-06T19:04:43.878Z
+  Logo: unchanged; already matches current CoinGecko image URL
+
+No symbol conflict exists on Solana. No contract migration is required.
+Source:
+  https://research.sanctum.so/t/cloud-008-should-sanctum-burn-1-4-of-total-cloud-supply/2001
+
+49. ENTANGLE ETHEREUM REMOVAL
+----------------------------------------------------------------------
+Action: Remove the Ethereum NGL entry; no replacement added.
+Reason: User approved removal after the market review found about
+        $7,802 in reported reserves across nine indexed pools and zero
+        observed 24-hour volume. CoinGecko ID entangle returns 404.
+        The NTGL rebrand is supported, but low activity does not justify
+        retaining this active listing. No successor was verified.
+
+Ethereum:
+  Name: Entangle
+  Symbol: NGL (audited on-chain symbol: NTGL)
+  Address: 0x12652C6d93FDB6F4f37d48A8687783C782BB0d10
+  CoinGecko ID: entangle
+  Removed at: 2026-10-06T19:24:11.066Z
+
+This does not establish that the project is dead. Reported reserves
+are not executable liquidity. Original metadata and research evidence
+are preserved with the resolved audit entry in done.json.
+Sources:
+  https://api.geckoterminal.com/api/v2/networks/eth/tokens/0x12652C6d93FDB6F4f37d48A8687783C782BB0d10/pools
+  https://api.coingecko.com/api/v3/coins/entangle
+  https://entangle.fi/documents/UDF%20Whitepaper.pdf
+
+50. PLEBBIT LEGACY REMOVAL AND CURRENT BITSOCIAL ADDITION
+----------------------------------------------------------------------
+Action: Remove the old Ethereum PLEB entry and add current BSO.
+Reason: Bitsocial identifies the old address as Gen 2 and publishes
+        the current Gen 3 contract. Its official history describes a
+        passive 1:1 airdrop. RPC confirms Bitsocial / BSO / 18 decimals;
+        CoinGecko bitsocial confirms this exact new Ethereum address.
+        The old plebbit CoinGecko ID returns 404.
+
+Removed Ethereum entry:
+  Name: Plebbit
+  Symbol: PLEB
+  Address: 0xEA81DaB2e0EcBc6B5c4172DE4c22B6Ef6E55Bd8f
+
+Added Ethereum entry:
+  Name: Bitsocial
+  Symbol: BSO
+  Address: 0xB50cea4c109dc223A10d44c14f521CaeD91DaB5A
+  Decimals: 18
+  CoinGecko ID: bitsocial
+  Logo: current CoinGecko small image
+  Last updated: 2026-10-06T19:25:21.740Z
+
+Counted as one removal and one addition. No BSO symbol or address
+conflict exists on Ethereum. Token-list replacement does not migrate
+holdings; balances on the new contract must be read independently.
+Original metadata and verification are preserved in done.json.
+Sources:
+  https://docs.bitsocial.net/token-history/
+  https://api.coingecko.com/api/v3/coins/bitsocial
+  https://etherscan.io/token/0xB50cea4c109dc223A10d44c14f521CaeD91DaB5A
+
+51. LODE AVALANCHE REMOVAL
+----------------------------------------------------------------------
+Action: Remove the Avalanche LODE entry; no replacement added.
+Reason: User approved removal for low trading activity. The saved
+        review found about $2,182 reported reserves across four indexed
+        pools and zero observed 24-hour volume. CoinGecko confirms the
+        exact contract and LOD3 rebrand, but its market data is stale.
+        No successor contract was established.
+
+Avalanche:
+  Name: LODE Token
+  Symbol: LODE (audited on-chain symbol: LOD3)
+  Address: 0xbBAAA0420D474B34Be197f95A323C2fF3829E811
+  CoinGecko ID: lode-token
+  Removed at: 2026-10-06T19:25:58.499Z
+
+Reported pool reserves are not executable liquidity. Removal does not
+assert that the project is dead. Original metadata and research notes
+are preserved with the resolved audit entry in done.json.
+Sources:
+  https://api.geckoterminal.com/api/v2/networks/avax/tokens/0xbBAAA0420D474B34Be197f95A323C2fF3829E811/pools
+  https://api.coingecko.com/api/v3/coins/lode-token
+
+52. BEMO TON SYMBOL RENAMES
+----------------------------------------------------------------------
+Action: Rename stton to stGRAM and BMTON to bmGRAM.
+Reason: Bemo officially announced these symbol changes without changing
+        jetton addresses or requiring a migration. The on-chain audit
+        matches both new symbols. User approved both renames.
+
+TON:
+  Name: Staked TON (unchanged)
+  Symbol: stton -> stGRAM
+  Address: 0:cd872fa7c5816052acdf5332260443faec9aacc8c21cca4d92e7f47034d11892 (unchanged)
+  CoinGecko ID: bemo-staked-ton (unchanged)
+  Last updated: 2026-10-06T19:27:08.419Z
+
+TON:
+  Name: Bemo (unchanged)
+  Symbol: BMTON -> bmGRAM
+  Address: 0:92c4664f1ea6b74ed9ce0e031a9fc0843348dfe87a58faea27fcd31e1608caaa (unchanged)
+  CoinGecko ID: bemo (unchanged)
+  Last updated: 2026-10-06T19:27:08.419Z
+
+These remain separate staking tokens; no balances or contracts merged.
+No target-symbol conflicts exist on TON. Only symbols and last-updated
+timestamps changed. Both audit entries moved to done.json.
+Source:
+  https://t.me/s/bemofinance
+
+53. SILO SONIC RECEIPT SYMBOL CORRECTION
+----------------------------------------------------------------------
+Action: Rename SiloWS to bwS-25 on Sonic.
+Reason: The audited on-chain symbol and SonicScan evidence identify this
+        specific Silo receipt as bwS-25. User approved matching that
+        symbol while retaining the existing contract.
+
+Sonic:
+  Name: Silo Wrapped Sonic (unchanged)
+  Symbol: SiloWS -> bwS-25
+  Address: 0x016C306e103FbF48EC24810D078C65aD13c5f11B (unchanged)
+  Last updated: 2026-10-06T19:28:20.073Z
+
+No target-symbol conflict exists on Sonic. Only the symbol and timestamp
+changed. This receipt remains distinct from wS and other Silo receipts.
+The saved pool snapshot reported about $3,639 reserves and $977 daily
+volume from one trade; actual redemption capacity was not tested.
+Source:
+  https://sonicscan.org/tx/0x194509cf178a8d239edae3032e5664b97e71ece7789d6f9d832a1067eadb9885/advanced
+
+54. LEGACY WCTC RENAME AND CURRENT WCTC ADDITION
+----------------------------------------------------------------------
+Action: Rename old wCTC to OLDWCTC, remove its wrapped-ctc CoinGecko
+        source, and add the current Ethereum WCTC contract.
+Reason: Creditcoin confirms both deployments. The old contract remains
+        functional, but its liquidity is being deprecated. CoinGecko
+        wrapped-ctc now identifies the new contract, so that source
+        cannot remain attached to OLDWCTC. User approved these changes.
+
+Existing Ethereum entry:
+  Name: wCTC (unchanged)
+  Symbol: wCTC -> OLDWCTC
+  Address: 0xAAfec8e08d524D534327fa13fB306F440B5F88EB (unchanged)
+  CoinGecko ID: wrapped-ctc removed
+  Last updated: 2026-10-06T19:29:49.551Z
+
+Added Ethereum entry:
+  Name: Wrapped CTC
+  Symbol: WCTC
+  Address: 0xeB32AD88b09fB94129a8B972876Ad02EaAc91E53
+  Decimals: 18
+  CoinGecko ID: wrapped-ctc
+  Logo: current CoinGecko small image
+  Last updated: 2026-10-06T19:29:49.551Z
+
+RPC and CoinGecko confirm the new metadata and address. Case-insensitive
+checks found no other Ethereum WCTC or OLDWCTC entry. Renaming the old
+entry frees WCTC for the new contract. Counted as one rename and one
+addition. Existing holdings are not migrated or rewritten.
+Sources:
+  https://creditcoin.org/blog/wctc-new/
+  https://api.coingecko.com/api/v3/coins/wrapped-ctc
+
+55. ALCHEMIST MIST SYMBOL RETAINED
+----------------------------------------------------------------------
+Action: Keep MIST unchanged and resolve the symbol audit entry.
+Reason: User approved retaining the readable MIST ticker instead of the
+        emoji returned by the contract. CoinGecko alchemist confirms
+        MIST and this exact Ethereum contract.
+
+Ethereum:
+  Symbol: MIST (unchanged)
+  Address: 0x88ACDd2a6425c3FaAE4Bc9650Fd7E27e0Bebb7aB (unchanged)
+  CoinGecko ID: alchemist (unchanged)
+  Decision recorded: 2026-10-06T19:30:31.499Z
+
+Token metadata and timestamp were not changed because this is a review
+without a token-list update. Counted under Reviewed Without Changes.
+Source:
+  https://api.coingecko.com/api/v3/coins/alchemist
+
+56. MIMATIC TO MAI ON GNOSIS
+----------------------------------------------------------------------
+Action: Rename MIMATIC to MAI on Gnosis.
+Reason: The audited contract returns MAI, and CoinGecko confirms this
+        exact Gnosis deployment under API ID mimatic. User approved
+        changing the symbol while retaining the address and source.
+
+Gnosis:
+  Name: MAI (unchanged)
+  Symbol: MIMATIC -> MAI
+  Address: 0x3F56e0c36d275367b8C502090EDF38289b3dEa0d (unchanged)
+  CoinGecko ID: mimatic (unchanged)
+  Last updated: 2026-10-06T19:31:18.738Z
+
+No case-insensitive MAI symbol conflict exists on Gnosis. Only the
+symbol and timestamp changed. The audit entry moved to done.json.
+Source:
+  https://api.coingecko.com/api/v3/coins/mimatic
+
+57. AXLFRXETH SCROLL REMOVAL
+----------------------------------------------------------------------
+Action: Remove the Scroll AXLFRXETH entry; no replacement added.
+Reason: User approved removal for low liquidity and activity. The saved
+        review found about $118 in reported reserves across two indexed
+        pools and zero observed 24-hour volume. CoinGecko API ID
+        axelar-bridged-frax-ether returned 404. A symbol-only rename to
+        frxETH would not resolve the low liquidity or bridge identity.
+
+Scroll:
+  Name: Axelar Bridged Frax Ether
+  Symbol: AXLFRXETH (audited on-chain symbol: frxETH)
+  Address: 0xEcc68d0451E20292406967Fe7C04280E5238Ac7D
+  CoinGecko ID: axelar-bridged-frax-ether
+  Removed at: 2026-10-06T19:31:50.727Z
+
+Reported reserves are not executable liquidity. This removal does not
+assert project abandonment or bridge insolvency. Original metadata and
+research notes are preserved with the resolved entry in done.json.
+Sources:
+  https://api.geckoterminal.com/api/v2/networks/scroll/tokens/0xEcc68d0451E20292406967Fe7C04280E5238Ac7D/pools
+  https://api.coingecko.com/api/v3/coins/axelar-bridged-frax-ether
+
+58. DESCRIPTIVE SOLANA SYMBOL RETAINED
+----------------------------------------------------------------------
+Action: Keep 1-COIN-CAN-CHANGE-YOUR-LIFE unchanged.
+Reason: User approved keeping the descriptive display symbol for easier
+        identification instead of the on-chain symbol 1. Saved research
+        found active trading and no verified migration.
+
+Solana:
+  Symbol: 1-COIN-CAN-CHANGE-YOUR-LIFE (unchanged)
+  Address: GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk (unchanged)
+  Decision recorded: 2026-10-06T19:56:26.040Z
+
+Token metadata and timestamp were not changed because this is a review
+without a token-list update. Counted under Reviewed Without Changes.
+The audit entry moved to done.json.
+Source:
+  https://www.coingecko.com/en/coins/1-coin-can-change-your-life
+
+59. TON SUSDE TO TSUSDE SYMBOL CORRECTION
+----------------------------------------------------------------------
+Action: Rename SUSDE to tsUSDe on TON.
+Reason: The jetton uses tsUSDe. CoinGecko explicitly maps this exact
+        TON address to ethena-staked-usde, and GeckoTerminal confirms
+        the symbol, 6 decimals, and the same CoinGecko ID. User approved
+        the rename after this mapping was verified.
+
+TON:
+  Name: Ethena Staked USDe (unchanged)
+  Symbol: SUSDE -> tsUSDe
+  Address: 0:d0e545323c7acb7102653c073377f7e3c67f122eb94d430a250739f109d4a57d (unchanged)
+  CoinGecko ID: ethena-staked-usde (unchanged)
+  Last updated: 2026-10-06T19:58:01.954Z
+
+No target-symbol conflict exists on TON. Only the symbol and timestamp
+changed. The mapping is verified, but aggregate CoinGecko pricing and
+local TON market quotes may differ. The audit entry moved to done.json.
+Sources:
+  https://api.coingecko.com/api/v3/coins/ethena-staked-usde
+  https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQDQ5UUyPHrLcQJlPAczd_fjxn8SLrlNQwolBznxCdSlfQwr
+
+60. WATC TON REMOVAL
+----------------------------------------------------------------------
+Action: Remove the TON WATC entry; no replacement added.
+Reason: User approved removal after identity and market checks. The
+        returned pool had about $0.07 reserves, zero daily volume and
+        zero trades. CoinGecko watcoin-2 returned 404. BitMart delisted
+        WATC at the project's request, closing trading December 9, 2025.
+        Its original listing confirms this exact TON address.
+
+TON:
+  Name: WATCoin
+  Symbol: WATC (audited on-chain symbol: WAT)
+  Address: 0:27381992a2a7cd7f0fdb1846158ee1b9eaa2d05dc446055e3b2e202766ae4fc5
+  CoinGecko ID: watcoin-2
+  Removed at: 2026-10-06T19:59:43.580Z
+
+No verified successor contract was found. Original metadata and the
+follow-up evidence are preserved with the resolved entry in done.json.
+Sources:
+  https://bitmart.zendesk.com/hc/en-us/articles/30300076280347-WATcoin-WATC
+  https://bitmart.zendesk.com/hc/en-us/articles/44185320046619-Announcement-on-the-Delisting-of-WATC
+  https://api.coingecko.com/api/v3/coins/watcoin-2
+  https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQAnOBmSoqfNfw_bGEYVjuG56qLQXcRGBV47LiAnZq5Pxfvo/pools
+
+61. HIPO TON SYMBOL RENAME
+----------------------------------------------------------------------
+Action: Rename HTON to hGRAM on TON.
+Reason: Hipo's official FAQ uses hGRAM, matching the audited on-chain
+        jetton symbol. User approved the rename with the same address.
+
+TON:
+  Name: Hipo Staked TON (unchanged)
+  Symbol: HTON -> hGRAM
+  Address: 0:cf76af318c0872b58a9f1925fc29c156211782b9fb01f56760d292e56123bf87 (unchanged)
+  CoinGecko ID: hipo-staked-ton (unchanged)
+  Last updated: 2026-10-06T20:00:16.579Z
+
+No target-symbol conflict exists on TON. Only the symbol and timestamp
+changed. The saved research found trading and a documented unstaking
+route; actual redemption was not executed. Audit entry moved to done.
+Source:
+  https://hipo.finance/faq/
+
+62. OLD ACE ENTRY REMOVAL
+----------------------------------------------------------------------
+Action: Remove $ACE on Solana; keep the existing ACE entry unchanged.
+Reason: User approved removal after the official roadmap identified
+        GnHp...pump as the current ecosystem token. The removed mint
+        had about $36,782 indexed reserves and $5.72 daily volume,
+        versus about $87,995 and $1,262 for the retained mint.
+
+Removed Solana entry:
+  Name: Ace Data Cloud
+  Symbol: $ACE
+  Address: GEuuznWpn6iuQAJxLKQDVGXPtrqXHNWTk3gZqqvJpump
+  CoinGecko ID: ace-data-cloud
+  Removed at: 2026-10-06T20:02:32.619Z
+
+Retained Solana entry (unchanged):
+  Symbol: ACE
+  Address: GnHpRsrcyfHSMZNzmpjAzTFQA26vnbRMzbKQ11ZKpump
+  CoinGecko ID: ace-data-cloud-2
+
+Both CoinGecko IDs remain valid. No new token was added. Migration
+conversion terms and current claim availability were not verified;
+this listing change does not migrate holdings. Original metadata and
+research are preserved in done.json.
+Sources:
+  https://roadmap.acedata.cloud/config/roadmap.json
+  https://api.coingecko.com/api/v3/coins/ace-data-cloud
+  https://api.coingecko.com/api/v3/coins/ace-data-cloud-2
+
+63. AVALANCHE TLOS ADDRESS CORRECTION
+----------------------------------------------------------------------
+Action: Remove the incorrect Avalanche entry and add official TLOS.
+Reason: Telos official documentation specifies a different Avalanche
+        contract. The old address returns an empty symbol; live RPC
+        confirms TLOS and 18 decimals at the official address.
+        User approved replacing the incorrect entry.
+
+Avalanche:
+  Removed address: 0x193f4A4a6ea24102F49b931DEeeb931f6E32405d
+  Added address: 0xed667dc80a45b77305cc395db56d997597dc6ddd
+  Name: Telos
+  Symbol: TLOS
+  Decimals: 18
+  CoinGecko ID: telos
+  Last updated: 2026-10-06T20:03:30.489Z
+
+CoinGecko's telos platform map still lists the old Avalanche address,
+contradicting issuer documentation. The asset ID is retained based on
+issuer-confirmed identity; an exact CoinGecko address match is NOT
+claimed. This discrepancy is preserved with verification in done.json.
+
+No other TLOS symbol or official-address entry exists on Avalanche.
+Counted as one removal and one addition. This list correction does not
+migrate holdings. Other chains were not changed.
+Sources:
+  https://docs.telos.net/users/knowledge-base/faqs/
+  https://api.coingecko.com/api/v3/coins/telos
+
+64. XTN POLYGON REMOVAL
+----------------------------------------------------------------------
+Action: Remove XTN on Polygon; no replacement added.
+Reason: User approved removal for negligible local liquidity. Saved
+        research found about $2.51 in indexed pool reserves and zero
+        observed 24-hour volume. CoinGecko confirms the Polygon address
+        and XTN identity; the old USDN on-chain symbol is not the reason
+        for removal. Other chains were not changed.
+
+Polygon:
+  Name: Neutrino Index Token
+  Symbol: XTN (audited on-chain symbol: USDN)
+  Address: 0x013F9c3fAc3e2759d7e90AcA4F9540F75194A0d7
+  CoinGecko ID: neutrino
+  Removed at: 2026-10-06T20:09:34.689Z
+
+Original metadata and research are preserved in done.json. Reported
+reserves are not executable liquidity or proof of project abandonment.
+Sources:
+  https://api.coingecko.com/api/v3/coins/neutrino
+  https://api.geckoterminal.com/api/v2/networks/polygon_pos/tokens/0x013F9c3fAc3e2759d7e90AcA4F9540F75194A0d7/pools
+
+65. LEGACY SOLLET SOETH REMOVAL
+----------------------------------------------------------------------
+Action: Remove SOETH on Solana; no replacement added.
+Reason: User approved removal because restored backing and redemption
+        have not been verified after the FTX collapse. The Solana
+        Foundation's historical notice describes uncertainty about
+        underlying Sollet assets. Indexed trading still exists; this
+        removal does not claim that the token stopped trading.
+
+Solana:
+  Name: Wrapped Ethereum (Sollet)
+  Symbol: SOETH (audited on-chain symbol: ETH)
+  Address: 2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk
+  CoinGecko ID: wrapped-ethereum-sollet
+  Removed at: 2026-10-06T20:10:21.520Z
+
+The ETH symbol does not establish ETH redemption. No other bridge mint
+was substituted and no holdings were migrated. Original metadata and
+research are preserved with the resolved entry in done.json.
+Sources:
+  https://solana.com/news/solana-facts-ftx-bankruptcy
+  https://www.coingecko.com/en/coins/wrapped-ethereum-sollet
+
+66. SOLANA CUSDO IDENTITY AND PRICE SOURCE CORRECTION
+----------------------------------------------------------------------
+Action: Rename USDO to cUSDO, update the name to Compounding USDO,
+        and remove the openeden-open-dollar CoinGecko source.
+Reason: OpenEden identifies this exact mint as the compounding cUSDO
+        wrapper. CoinGecko and GeckoTerminal currently associate it
+        with the USDO listing. The separate compounding-open-dollar
+        record lists Ethereum, BSC and Base, but not Solana. User
+        approved removing the source until this conflict is resolved.
+
+Solana:
+  Name: OpenEden OpenDollar -> Compounding USDO
+  Symbol: USDO -> cUSDO
+  Address: BnANu5CtUogLqcvBNByJuwaRvRxNtVuDcAytwjsUUtqs (unchanged)
+  CoinGecko ID: openeden-open-dollar removed; no replacement assigned
+  Last updated: 2026-10-06T20:15:27.908Z
+
+USDO rebases while cUSDO accrues value in its price, so using the USDO
+price may misvalue this receipt. No cUSDO symbol conflict exists on
+Solana. Decimals and logo were retained. Audit entry moved to done.json.
+Sources:
+  https://docs.openeden.com/usdo/cusdo-token
+  https://api.coingecko.com/api/v3/coins/openeden-open-dollar
+  https://api.coingecko.com/api/v3/coins/compounding-open-dollar
+
+67. NYC DISPLAY SYMBOL RETAINED
+----------------------------------------------------------------------
+Action: Keep NYC unchanged and resolve the final audit entry.
+Reason: User approved retaining NYC as the display symbol instead of
+        the audited $NYC. The difference is a dollar-sign prefix.
+
+solana:
+  Symbol: NYC (unchanged)
+  Address: Ho5fkxk9uqUuVN5kt7TUFacduWCpKPAuYkM9HD3KAXA2 (unchanged)
+  Decision recorded: 2026-10-06T20:15:59.799Z
+
+Token metadata and timestamp remain unchanged. Counted under Reviewed
+Without Changes. All 84 original mismatch entries are now resolved.
+
+REVIEW COMPLETION AND ELAPSED TIME
+----------------------------------------------------------------------
+Completed at: 2026-10-06T20:15:59.799Z
+Per-token review started: 2026-10-06T16:34:13.266Z
+Elapsed per-token review: 3h 41m 46s
+Initial research started: 2026-10-06T16:07:32.145Z
+Elapsed including initial research: 4h 8m 27s
+These are wall-clock durations, including research, execution and user
+waiting. Active work time cannot be separated reliably from this data.
+
+======================================================================
+NOTES
+======================================================================
+
+1. EURA was updated on five chains; Kaon on Ethereum; ankrETH on
+   Ethereum and BSC; aMATICc symbols on Ethereum, Polygon, and BSC.
+   Contract addresses for renamed tokens are unchanged. CoinGecko IDs
+   are unchanged except the inactive genETH source removed in item 9
+   the inactive Davos source removed in item 18, and the inactive
+   SolvBTC.ENA source removed in item 32.
+   The Ethereum ECOx and GTCOIN entries were removed; Energi was
+   corrected to NRG.
+   EURC was renamed on Ethereum and Avalanche. LRT2 was renamed to KING,
+   and the unrelated Ethereum KING Coin entry was removed.
+
+2. Angle is winding down, with redemption before March 1, 2027 according
+   to its official notice. This update changes the name and symbol only;
+   no delisting was applied.
+
+3. JSON validity and symbol uniqueness on each affected chain were
+   checked after the update. All eighty-four resolved audit entries are now in done.json.
+   The additional KING Coin removal resolves the LRT2 symbol conflict
+   and is recorded with that decision. SMURFCAT and VEUR were kept unchanged;
+   Six SolvBTC.BBN entries were renamed to xSolvBTC;
+   total token updates are eighty-four.
+
+======================================================================
+END OF REPORT
+======================================================================

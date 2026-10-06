@@ -2603,8 +2603,8 @@
     },
     {
       "chain": "ethereum",
-      "name": "agEUR",
-      "symbol": "agEUR",
+      "name": "EURA",
+      "symbol": "EURA",
       "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
       "decimals": 18,
       "sources": [
@@ -2613,13 +2613,13 @@
           "data": "ageur"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.344Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/19479/small/agEUR-4.png?1710726218"
     },
     {
       "chain": "polygon",
-      "name": "agEUR",
-      "symbol": "agEUR",
+      "name": "EURA",
+      "symbol": "EURA",
       "address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
       "decimals": 18,
       "sources": [
@@ -2628,13 +2628,13 @@
           "data": "ageur"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.344Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/19479/small/agEUR-4.png?1710726218"
     },
     {
       "chain": "bsc",
-      "name": "agEUR",
-      "symbol": "agEUR",
+      "name": "EURA",
+      "symbol": "EURA",
       "address": "0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89",
       "decimals": 18,
       "sources": [
@@ -2643,13 +2643,13 @@
           "data": "ageur"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.344Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/19479/small/agEUR-4.png?1710726218"
     },
     {
       "chain": "gnosis",
-      "name": "agEUR",
-      "symbol": "agEUR",
+      "name": "EURA",
+      "symbol": "EURA",
       "address": "0x4b1E2c2762667331Bc91648052F646d1b0d35984",
       "decimals": 18,
       "sources": [
@@ -2658,13 +2658,13 @@
           "data": "ageur"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.344Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/19479/small/agEUR-4.png?1710726218"
     },
     {
       "chain": "arbitrum",
-      "name": "agEUR",
-      "symbol": "agEUR",
+      "name": "EURA",
+      "symbol": "EURA",
       "address": "0xFA5Ed56A203466CbBC2430a43c66b9D8723528E7",
       "decimals": 18,
       "sources": [
@@ -2673,7 +2673,7 @@
           "data": "ageur"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.344Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/19479/small/agEUR-4.png?1710726218"
     },
     {
@@ -3068,8 +3068,8 @@
     },
     {
       "chain": "ethereum",
-      "name": "Akropolis",
-      "symbol": "AKRO",
+      "name": "Kaon",
+      "symbol": "KAON",
       "address": "0x8Ab7404063Ec4DBcfd4598215992DC3F8EC853d7",
       "decimals": 18,
       "sources": [
@@ -3078,7 +3078,7 @@
           "data": "akropolis"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.344Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/3328/small/kaon.jpg?1730712283"
     },
     {
@@ -4403,8 +4403,8 @@
     },
     {
       "chain": "ethereum",
-      "name": "Ankr ETH2 Reward Bearing Certificate",
-      "symbol": "aETHc",
+      "name": "Ankr Staked ETH",
+      "symbol": "ankrETH",
       "address": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
       "decimals": 18,
       "sources": [
@@ -4413,13 +4413,13 @@
           "data": "ankreth"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.345Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/13403/small/aETHc.png?1696513165"
     },
     {
       "chain": "bsc",
-      "name": "Ankr ETH2 Reward Bearing Certificate",
-      "symbol": "aETHc",
+      "name": "Ankr Staked ETH",
+      "symbol": "ankrETH",
       "address": "0xe05A08226c49b636ACf99c40Da8DC6aF83CE5bB3",
       "decimals": 18,
       "sources": [
@@ -4428,7 +4428,7 @@
           "data": "ankreth"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.345Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/13403/small/aETHc.png?1696513165"
     },
     {
@@ -4524,7 +4524,7 @@
     {
       "chain": "ethereum",
       "name": "Ankr MATIC Reward Bearing Certificate",
-      "symbol": "aMATICc",
+      "symbol": "ankrPOL",
       "address": "0x26dcFbFa8Bc267b250432c01C982Eaf81cC5480C",
       "decimals": 18,
       "sources": [
@@ -4533,13 +4533,13 @@
           "data": "ankr-reward-earning-matic"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.345Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/25742/small/a-matic-c-da4ec10dc9723e695700e25dbf8c8edf.png?1696524833"
     },
     {
       "chain": "polygon",
       "name": "Ankr MATIC Reward Bearing Certificate",
-      "symbol": "aMATICc",
+      "symbol": "ankrMATIC",
       "address": "0x0E9b89007eEE9c958c0EDA24eF70723C2C93dD58",
       "decimals": 18,
       "sources": [
@@ -4548,13 +4548,13 @@
           "data": "ankr-reward-earning-matic"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.345Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/25742/small/a-matic-c-da4ec10dc9723e695700e25dbf8c8edf.png?1696524833"
     },
     {
       "chain": "bsc",
       "name": "Ankr MATIC Reward Bearing Certificate",
-      "symbol": "aMATICc",
+      "symbol": "ankrMATIC",
       "address": "0x738d96Caf7096659DB4C1aFbf1E1BDFD281f388C",
       "decimals": 18,
       "sources": [
@@ -4563,7 +4563,7 @@
           "data": "ankr-reward-earning-matic"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.345Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/25742/small/a-matic-c-da4ec10dc9723e695700e25dbf8c8edf.png?1696524833"
     },
     {
@@ -20543,21 +20543,6 @@
     },
     {
       "chain": "ethereum",
-      "name": "ECOx",
-      "symbol": "ECOx",
-      "address": "0xcccD1Ba9f7acD6117834E0D28F25645dECb1736a",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "ecox"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.346Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/27962/small/_ECOx.png?1696526981"
-    },
-    {
-      "chain": "ethereum",
       "name": "ECOREAL",
       "symbol": "ECOREAL",
       "address": "0x7ECbb21346C501Fd07eb165E406120fA32381C16",
@@ -21099,7 +21084,7 @@
     {
       "chain": "ethereum",
       "name": "Energi",
-      "symbol": "NRGE",
+      "symbol": "NRG",
       "address": "0x1416946162B1C2c871A73B07E932D2fB6C932069",
       "decimals": 18,
       "sources": [
@@ -21108,7 +21093,7 @@
           "data": "energi"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.346Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/5795/small/3218.png?1696506239"
     },
     {
@@ -22508,8 +22493,8 @@
     },
     {
       "chain": "ethereum",
-      "name": "Euro Coin",
-      "symbol": "EUROC",
+      "name": "EURC",
+      "symbol": "EURC",
       "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
       "decimals": 6,
       "sources": [
@@ -22518,13 +22503,13 @@
           "data": "euro-coin"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.347Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/26045/small/EURC.png?1769615705"
     },
     {
       "chain": "avalanche",
-      "name": "Euro Coin",
-      "symbol": "EUROC",
+      "name": "EURC",
+      "symbol": "EURC",
       "address": "0xC891EB4cbdEFf6e073e859e987815Ed1505c2ACD",
       "decimals": 6,
       "sources": [
@@ -22533,7 +22518,7 @@
           "data": "euro-coin"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.347Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/26045/small/EURC.png?1769615705"
     },
     {
@@ -25763,21 +25748,6 @@
     },
     {
       "chain": "ethereum",
-      "name": "Game tree Coin",
-      "symbol": "GTCOIN",
-      "address": "0x5d5E244660cA05C42073c9a526616d99f2c99516",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "game-tree"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.347Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/24719/small/hUEmunGU_400x400.jpg?1696523883"
-    },
-    {
-      "chain": "ethereum",
       "name": "Gamium [via ChainPort.io]",
       "symbol": "GMM",
       "address": "0x4B19C70Da4c6fA4bAa0660825e889d2F7eaBc279",
@@ -26153,17 +26123,12 @@
     },
     {
       "chain": "ethereum",
-      "name": "GenesisLRT restaked ETH",
-      "symbol": "genETH",
+      "name": "Inception Restaked ETH",
+      "symbol": "InETH",
       "address": "0xf073bAC22DAb7FaF4a3Dd6c6189a70D54110525C",
       "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "genesislrt-restaked-eth"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.347Z",
+      "sources": [],
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/34127/small/inETH.png?1715036464"
     },
     {
@@ -36203,8 +36168,8 @@
     },
     {
       "chain": "ethereum",
-      "name": "LrtSquare",
-      "symbol": "LRT2",
+      "name": "King Protocol",
+      "symbol": "KING",
       "address": "0x8F08B70456eb22f6109F57b8fafE862ED28E6040",
       "decimals": 18,
       "sources": [
@@ -36213,7 +36178,7 @@
           "data": "lrt-squared"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.348Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/51041/small/crown-circle.png?1738143389"
     },
     {
@@ -56168,8 +56133,8 @@
     },
     {
       "chain": "ethereum",
-      "name": "SolvBTC Babylon",
-      "symbol": "SolvBTC.BBN",
+      "name": "Solv Protocol Staked BTC",
+      "symbol": "xSolvBTC",
       "address": "0xd9D920AA40f578ab794426F5C90F6C731D159DEf",
       "decimals": 18,
       "sources": [
@@ -56178,13 +56143,13 @@
           "data": "solv-protocol-solvbtc-bbn"
         }
       ],
-      "timestamp": "2025-05-28T12:20:15.463Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/39384/small/xSolvBTC.png?1744170824"
     },
     {
       "chain": "avalanche",
-      "name": "SolvBTC Babylon",
-      "symbol": "SolvBTC.BBN",
+      "name": "Solv Protocol Staked BTC",
+      "symbol": "xSolvBTC",
       "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
       "decimals": 18,
       "sources": [
@@ -56193,13 +56158,13 @@
           "data": "solv-protocol-solvbtc-bbn"
         }
       ],
-      "timestamp": "2025-05-28T12:20:15.463Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/39384/small/xSolvBTC.png?1744170824"
     },
     {
       "chain": "base",
-      "name": "SolvBTC Babylon",
-      "symbol": "SolvBTC.BBN",
+      "name": "Solv Protocol Staked BTC",
+      "symbol": "xSolvBTC",
       "address": "0xC26C9099BD3789107888c35bb41178079B282561",
       "decimals": 18,
       "sources": [
@@ -56208,13 +56173,13 @@
           "data": "solv-protocol-solvbtc-bbn"
         }
       ],
-      "timestamp": "2025-05-28T12:20:15.463Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/39384/small/xSolvBTC.png?1744170824"
     },
     {
       "chain": "bsc",
-      "name": "SolvBTC Babylon",
-      "symbol": "SolvBTC.BBN",
+      "name": "Solv Protocol Staked BTC",
+      "symbol": "xSolvBTC",
       "address": "0x1346b618dC92810EC74163e4c27004c921D446a5",
       "decimals": 18,
       "sources": [
@@ -56223,13 +56188,13 @@
           "data": "solv-protocol-solvbtc-bbn"
         }
       ],
-      "timestamp": "2025-05-28T12:20:15.463Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/39384/small/xSolvBTC.png?1744170824"
     },
     {
       "chain": "arbitrum",
-      "name": "SolvBTC Babylon",
-      "symbol": "SolvBTC.BBN",
+      "name": "Solv Protocol Staked BTC",
+      "symbol": "xSolvBTC",
       "address": "0x346c574C56e1A4aAa8dc88Cda8F7EB12b39947aB",
       "decimals": 18,
       "sources": [
@@ -56238,13 +56203,13 @@
           "data": "solv-protocol-solvbtc-bbn"
         }
       ],
-      "timestamp": "2025-05-28T12:20:15.463Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/39384/small/xSolvBTC.png?1744170824"
     },
     {
       "chain": "hyperevm",
-      "name": "SolvBTC Babylon",
-      "symbol": "SolvBTC.BBN",
+      "name": "Solv Protocol Staked BTC",
+      "symbol": "xSolvBTC",
       "address": "0xc99F5c922DAE05B6e2ff83463ce705eF7C91F077",
       "decimals": 18,
       "sources": [
@@ -56253,7 +56218,7 @@
           "data": "solv-protocol-solvbtc-bbn"
         }
       ],
-      "timestamp": "2025-05-28T12:20:15.463Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/39384/small/xSolvBTC.png?1744170824"
     },
     {
@@ -57684,7 +57649,7 @@
     {
       "chain": "ethereum",
       "name": "Staked Yearn CRV Vault",
-      "symbol": "st-yCRV",
+      "symbol": "yvyCRV",
       "address": "0x27B5739e22ad9033bcBf192059122d163b60349D",
       "decimals": 18,
       "sources": [
@@ -57693,7 +57658,7 @@
           "data": "staked-yearn-crv-vault"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.350Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/27623/small/st-yCRV-128-0x27B5739e22ad9033bcBf192059122d163b60349D.png?1696526654"
     },
     {
@@ -60819,7 +60784,7 @@
     {
       "chain": "ethereum",
       "name": "sEURO",
-      "symbol": "SEURO",
+      "symbol": "EUROs",
       "address": "0xb399511642FE1666c6a07f83483e6E4feAed9A00",
       "decimals": 18,
       "sources": [
@@ -60828,7 +60793,7 @@
           "data": "the-standard-euro"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.351Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/32231/small/EUROs-coingecko.png?1696936278"
     },
     {
@@ -63984,7 +63949,7 @@
     {
       "chain": "ethereum",
       "name": "USD0 Liquid Bond",
-      "symbol": "USD0++",
+      "symbol": "bUSD0",
       "address": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
       "decimals": 18,
       "sources": [
@@ -63993,7 +63958,7 @@
           "data": "usd0-liquid-bond"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.351Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/39169/small/bUSD0_%281%29.png?1765558850"
     },
     {
@@ -71198,7 +71163,7 @@
     {
       "chain": "polygon",
       "name": "Orbit Bridge Polygon AUTOv2",
-      "symbol": "PAUTO",
+      "symbol": "oAUTO",
       "address": "0x7f426F6Dc648e50464a0392E60E1BB465a67E9cf",
       "decimals": 18,
       "sources": [
@@ -71207,7 +71172,7 @@
           "data": "auto"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.352Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/13751/small/autofarm_icon_200x200.png?1696513494"
     },
     {
@@ -72068,16 +72033,11 @@
     {
       "chain": "polygon",
       "name": "Davos",
-      "symbol": "DAVOS",
+      "symbol": "DUSD",
       "address": "0xEC38621e72D86775a89C7422746de1f52bbA5320",
       "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "davos-protocol"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.352Z",
+      "sources": [],
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/28775/small/dusd_logo_200x200.png?1696527754"
     },
     {
@@ -73297,7 +73257,7 @@
     {
       "chain": "solana",
       "name": "IDRX",
-      "symbol": "IDRX",
+      "symbol": "OLDIDRX",
       "address": "idrxTdNftk6tYedPv2M7tCFHBVCpk5rkiNRd8yUArhr",
       "decimals": 2,
       "sources": [
@@ -73306,7 +73266,22 @@
           "data": "idrx"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.352Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
+      "logoURI": "https://assets.geckoterminal.com/0e2lsgwduz0dcuo844l82x90qq7c"
+    },
+    {
+      "chain": "solana",
+      "name": "IDRX",
+      "symbol": "IDRX",
+      "address": "idrxZcP8xiKkYk6XGD4uz1dxEYCWSgKDHqgjsBbwDur",
+      "decimals": 2,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "idrx"
+        }
+      ],
+      "timestamp": "2026-10-06T17:28:24.232Z",
       "logoURI": "https://assets.geckoterminal.com/0e2lsgwduz0dcuo844l82x90qq7c"
     },
     {
@@ -78726,21 +78701,6 @@
     },
     {
       "chain": "avalanche",
-      "name": "GoGoPool Liquid Staking Token",
-      "symbol": "ggAVAX",
-      "address": "0xA25EaF2906FA1a3a13EdAc9B9657108Af7B703e3",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "gogopool-ggavax"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.353Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/33543/small/stAVAX.png?1750256766"
-    },
-    {
-      "chain": "avalanche",
       "name": "GRELF",
       "symbol": "GRELF[ava]",
       "address": "0x945cA41D03ec19B6a6EBf2eF0F4D0A50B23E4f2c",
@@ -81202,7 +81162,7 @@
     {
       "chain": "base",
       "name": "Avail (Wormhole)",
-      "symbol": "AVAIL.W",
+      "symbol": "AVAIL",
       "address": "0xd89d90d26B48940FA8F58385Fe84625d468E057a",
       "decimals": 18,
       "sources": [
@@ -81211,7 +81171,7 @@
           "data": "avail"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.353Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/37372/small/avail-logo-200-200.png?1761925657"
     },
     {
@@ -83257,7 +83217,7 @@
     {
       "chain": "base",
       "name": "DataPort Navigator",
-      "symbol": "$PORT",
+      "symbol": "PORT",
       "address": "0x4225658360C731a2b4c34555E45fea3b4b0181D5",
       "decimals": 18,
       "sources": [
@@ -83266,7 +83226,7 @@
           "data": "dataport-navigator-by-virtuals"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.354Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/53386/small/avatar-aiport-trade.png?1778834866"
     },
     {
@@ -86347,7 +86307,7 @@
     {
       "chain": "base",
       "name": "Neurobro",
-      "symbol": "$BRO",
+      "symbol": "BRO",
       "address": "0xc796E499CC8f599A2a8280825d8BdA92F7a895e0",
       "decimals": 18,
       "sources": [
@@ -86356,7 +86316,7 @@
           "data": "neurobro"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.354Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/52649/small/neurobro_logo_red_eyes_200_200.png?1764684610"
     },
     {
@@ -88476,8 +88436,8 @@
     },
     {
       "chain": "base",
-      "name": "OETH Base",
-      "symbol": "OETHb",
+      "name": "Super OETH",
+      "symbol": "superOETHb",
       "address": "0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3",
       "decimals": 18,
       "sources": [
@@ -88486,7 +88446,7 @@
           "data": "super-oeth"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.354Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/39828/small/Super_OETH.png?1724208268"
     },
     {
@@ -100232,21 +100192,6 @@
     },
     {
       "chain": "bsc",
-      "name": "ISTEP",
-      "symbol": "ISTEP",
-      "address": "0x67343c29c0fD9827F33E675e0eB80773f9444444",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "istep"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.355Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/25888/small/ISTEP.png?1696524970"
-    },
-    {
-      "chain": "bsc",
       "name": "ITAM",
       "symbol": "ITAM",
       "address": "0x04C747b40Be4D535fC83D09939fb0f626F32800B",
@@ -106036,21 +105981,6 @@
     },
     {
       "chain": "bsc",
-      "name": "XIL",
-      "symbol": "XIL",
-      "address": "0xf3bE1A4a47576208C1592Cc027087CE154B00672",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "projectx"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.356Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/18247/small/projectx.PNG?1696517743"
-    },
-    {
-      "chain": "bsc",
       "name": "XENO Governance Token",
       "symbol": "GXE",
       "address": "0x510975edA48A97E0cA228dD04d1217292487bea6",
@@ -108272,31 +108202,21 @@
     {
       "chain": "bsc",
       "name": "SolvBTC Ethena",
-      "symbol": "SolvBTC.ENA",
+      "symbol": "SolvBTC.TRADING",
       "address": "0x53E63a31fD1077f949204b94F431bCaB98F72BCE",
       "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "solv-protocol-solvbtc-ena"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.356Z",
+      "sources": [],
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/38931/small/BTC_ena.png?1719562313"
     },
     {
       "chain": "arbitrum",
       "name": "SolvBTC Ethena",
-      "symbol": "SolvBTC.ENA",
+      "symbol": "SolvBTC.TRADING",
       "address": "0xaFAfd68AFe3fe65d376eEC9Eab1802616cFacCb8",
       "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "solv-protocol-solvbtc-ena"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.356Z",
+      "sources": [],
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/38931/small/BTC_ena.png?1719562313"
     },
     {
@@ -112591,21 +112511,6 @@
     },
     {
       "chain": "solana",
-      "name": "\" \"",
-      "symbol": "\" \"",
-      "address": "9qriMjPPAJTMCtfQnz7Mo9BsV2jAWTr2ff7yc3JWpump",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "-6"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.357Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/52360/small/blank.png?1733193825"
-    },
-    {
-      "chain": "solana",
       "name": "777FuckIlluminatiWorldwide",
       "symbol": "FIW",
       "address": "FeKmTunVrXDKEoDJbuTwZi8vfFFw3MHzpPB79JD8ARYU",
@@ -114602,7 +114507,7 @@
     {
       "chain": "solana",
       "name": "BCGame Coin",
-      "symbol": "$BC",
+      "symbol": "BC",
       "address": "BCNT4t3rv5Hva8RnUtJUJLnxzeFAabcYp8CghC1SmWin",
       "decimals": 6,
       "sources": [
@@ -114611,7 +114516,7 @@
           "data": "bc-token"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.357Z",
+      "timestamp": "2026-10-06T17:54:49.447Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/53197/small/Graphic_Only-200black.png?1746867614"
     },
     {
@@ -114706,9 +114611,9 @@
     },
     {
       "chain": "solana",
-      "name": "Ben Pasternak (clout.me)",
-      "symbol": "PASTERNAK",
-      "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+      "name": "Believe",
+      "symbol": "BELIEVE",
+      "address": "BLVxek8YMXUQhcKmMvrFTrzh5FXg8ec88Crp6otEaCMf",
       "decimals": 9,
       "sources": [
         {
@@ -114716,8 +114621,8 @@
           "data": "ben-pasternak"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.357Z",
-      "logoURI": "https://assets.geckoterminal.com/zceg37x564qgzf268az8m35vgll8"
+      "timestamp": "2026-10-06T17:52:29.363Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/53916/small/launchcoin.jpg?1747131421"
     },
     {
       "chain": "solana",
@@ -114928,21 +114833,6 @@
       ],
       "timestamp": "2025-04-18T14:25:01.357Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/38745/small/BILLY.jpg?1718680214"
-    },
-    {
-      "chain": "solana",
-      "name": "Billion Dollar Cat Rune",
-      "symbol": "BDC",
-      "address": "BDCs2xEqzXyRpp9P6uPDnAvERpLKBfzHPEzbe3BfCxDY",
-      "decimals": 9,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "billion-dollar-cat-runes"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.357Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/38389/small/IMG_2824.PNG?1728733256"
     },
     {
       "chain": "solana",
@@ -116067,21 +115957,6 @@
       ],
       "timestamp": "2025-04-18T14:25:01.357Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/39123/small/photo_2024-07-09_11-30-31.png?1720627699"
-    },
-    {
-      "chain": "solana",
-      "name": "Gorples Coin",
-      "symbol": "GORPLE",
-      "address": "BorpaZo2RdiYcriLJu2GRefZdgQPmv63nA8jsVVsMV7W",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "borpatoken"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.357Z",
-      "logoURI": "https://assets.geckoterminal.com/ij4ahiixkpa2qd33qt67e5shqj8n"
     },
     {
       "chain": "solana",
@@ -119519,8 +119394,8 @@
     },
     {
       "chain": "solana",
-      "name": "Dean's List",
-      "symbol": "DEAN",
+      "name": "IslandDAO",
+      "symbol": "ISLAND",
       "address": "Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a",
       "decimals": 6,
       "sources": [
@@ -119529,7 +119404,7 @@
           "data": "dean-s-list"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.358Z",
+      "timestamp": "2026-10-06T18:02:46.015Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/36197/small/IslandDAO_LOGO_LIGHT.png?1744356087"
     },
     {
@@ -119925,17 +119800,17 @@
     {
       "chain": "solana",
       "name": "Dexlab",
-      "symbol": "DXL",
-      "address": "GsNzxJfFn6zQdJGeYsupJWzUAm57Ba7335mfhWvFiE9Z",
+      "symbol": "XLAB",
+      "address": "XLnpFRQ3rSWupCRjuQfx74mgVoT3ezVJKE1CogRZxhH",
       "decimals": 6,
       "sources": [
         {
           "type": "coingecko",
-          "data": "dexlab"
+          "data": "dexlab-3"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.358Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/17276/small/3_GradientSymbol.png?1696516830"
+      "timestamp": "2026-10-06T18:04:45.906Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/67863/small/x-lab-symbol-256_%281%29.png?1754109283"
     },
     {
       "chain": "solana",
@@ -123525,7 +123400,7 @@
     {
       "chain": "solana",
       "name": "Geodnet Token",
-      "symbol": "GEOD(SOL)",
+      "symbol": "GEOD",
       "address": "7JA5eZdCzztSfQbJvS8aVVxMFfd81Rs9VvwnocV1mKHu",
       "decimals": 9,
       "sources": [
@@ -123534,7 +123409,7 @@
           "data": "geodnet"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.358Z",
+      "timestamp": "2026-10-06T18:40:35.682Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/31608/small/Circular_White.png?1696530424"
     },
     {
@@ -127181,21 +127056,6 @@
       ],
       "timestamp": "2025-04-18T14:25:01.359Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/52767/small/Knut_From_Zoo.jpg?1734268584"
-    },
-    {
-      "chain": "solana",
-      "name": "KNOB$",
-      "symbol": "KNOB",
-      "address": "5ritAPtFPqQtEFHcHVqNjR5oFNUJqcmgKtZyPd2AyLLy",
-      "decimals": 9,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "knob"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.359Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/33615/small/AD703A54-9F21-4B0A-814E-626C7B680CE3.jpeg?1702514765"
     },
     {
       "chain": "solana",
@@ -135074,21 +134934,6 @@
     },
     {
       "chain": "solana",
-      "name": "RetardedAPR",
-      "symbol": "RAPR",
-      "address": "RAPRz9fd87y9qcBGj1VVqUbbUM6DaBggSDA58zc3N2b",
-      "decimals": 9,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "retardedapr"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.360Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/39905/small/RAPR.jpg?1724737022"
-    },
-    {
-      "chain": "solana",
       "name": "Retardia",
       "symbol": "Retardia",
       "address": "7RrLheV7dSecVka3MfjYb4Wa6Z6uegNyzhpFeERsfFZP",
@@ -137100,7 +136945,7 @@
     {
       "chain": "solana",
       "name": "SLERF",
-      "symbol": "SLERF",
+      "symbol": "Old Slerf",
       "address": "7BgBvyjrZX1YKz4oh9mjb8ZScatkkwb8DzFx7LoiVkM3",
       "decimals": 9,
       "sources": [
@@ -137109,8 +136954,23 @@
           "data": "slerf"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.360Z",
+      "timestamp": "2026-10-06T18:51:46.134Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/36178/small/slerf.jpeg?1710753228"
+    },
+    {
+      "chain": "solana",
+      "name": "Slerf",
+      "symbol": "SLERF",
+      "address": "9999FVbjHioTcoJpoBiSjpxHW6xEn3witVuXKqBh2RFQ",
+      "decimals": 9,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "slerf-2"
+        }
+      ],
+      "timestamp": "2026-10-06T18:51:46.134Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/70236/small/slerf.jpeg?1761161524"
     },
     {
       "chain": "solana",
@@ -137669,8 +137529,8 @@
     },
     {
       "chain": "solana",
-      "name": "SolanaHub staked SOL",
-      "symbol": "hubSOL",
+      "name": "Hubra staked SOL",
+      "symbol": "raSOL",
       "address": "HUBsveNpjo5pWqNkH57QzxjQASdTVXcSK7bVKTSZtcSX",
       "decimals": 9,
       "sources": [
@@ -137679,7 +137539,7 @@
           "data": "solanahub-staked-sol"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.360Z",
+      "timestamp": "2026-10-06T18:53:38.132Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/36204/small/rasol.png?1778859226"
     },
     {
@@ -145768,21 +145628,6 @@
     },
     {
       "chain": "arbitrum",
-      "name": "dlcBTC",
-      "symbol": "DLCBTC",
-      "address": "0x050C24dBf1eEc17babE5fc585F06116A259CC77A",
-      "decimals": 8,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "dlc-link-dlcbtc"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/37289/small/iBTC_main.png?1742022373"
-    },
-    {
-      "chain": "arbitrum",
       "name": "Dominator Domain",
       "symbol": "DomDom",
       "address": "0x635d0e13f98e107Cf6C5cDFbF52C19843F87e76a",
@@ -147718,7 +147563,7 @@
     {
       "chain": "optimism",
       "name": "Angle USD",
-      "symbol": "agUSD",
+      "symbol": "USDA",
       "address": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
       "decimals": 18,
       "sources": [
@@ -147727,7 +147572,7 @@
           "data": "angle-usd"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.361Z",
+      "timestamp": "2026-10-06T18:57:47.429Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/34510/small/agUSD-coingecko.png?1705288392"
     },
     {
@@ -152111,66 +151956,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/34094/small/BORK.jpg?1703947837"
     },
     {
-      "chain": "ethereum",
-      "name": "BorpaToken",
-      "symbol": "BORPA",
-      "address": "0xfF33A6b3dC0127862eEdD3978609404b22298A54",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "borpatoken"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.362Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/38681/small/Round_Avatar.png?1720520435"
-    },
-    {
-      "chain": "base",
-      "name": "BorpaToken",
-      "symbol": "BORPA",
-      "address": "0x0002BcDaf53f4889BF2f43A3252d7c03Fe1b80bc",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "borpatoken"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.362Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/38681/small/Round_Avatar.png?1720520435"
-    },
-    {
-      "chain": "bsc",
-      "name": "BorpaToken",
-      "symbol": "BORPA",
-      "address": "0x0002BcDaf53f4889BF2f43A3252d7c03Fe1b80bc",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "borpatoken"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.362Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/38681/small/Round_Avatar.png?1720520435"
-    },
-    {
-      "chain": "arbitrum",
-      "name": "BorpaToken",
-      "symbol": "BORPA",
-      "address": "0x0002BcDaf53f4889BF2f43A3252d7c03Fe1b80bc",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "borpatoken"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.362Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/38681/small/Round_Avatar.png?1720520435"
-    },
-    {
       "chain": "base",
       "name": "Boshi",
       "symbol": "Boshi",
@@ -152247,7 +152032,7 @@
     },
     {
       "chain": "solana",
-      "name": "bozo",
+      "name": "Bozo Benk",
       "symbol": "bozo",
       "address": "EJPtJEDogxzDbvM8qvAsqYbLmPj5n1vQeqoAzj9Yfv3q",
       "decimals": 9,
@@ -152257,7 +152042,7 @@
           "data": "bozo-hybrid"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.362Z",
+      "timestamp": "2026-10-06T19:03:44.742Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/34555/small/bozo.png?1705370111"
     },
     {
@@ -153612,8 +153397,8 @@
     },
     {
       "chain": "solana",
-      "name": "Cloud",
-      "symbol": "CLOUD",
+      "name": "Sanctum",
+      "symbol": "SANC",
       "address": "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
       "decimals": 9,
       "sources": [
@@ -153622,7 +153407,7 @@
           "data": "sanctum-2"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.362Z",
+      "timestamp": "2026-10-06T19:04:43.878Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/38485/small/CLOUD_128x128.png?1721331750"
     },
     {
@@ -159521,21 +159306,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/19224/small/NFTL-256x256.png?1696518671"
     },
     {
-      "chain": "ethereum",
-      "name": "Entangle",
-      "symbol": "NGL",
-      "address": "0x12652C6d93FDB6F4f37d48A8687783C782BB0d10",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "entangle"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.362Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/34522/small/Logo_-_Icon_Square.png?1733260911"
-    },
-    {
       "chain": "solana",
       "name": "nick",
       "symbol": "nick",
@@ -161236,18 +161006,18 @@
     },
     {
       "chain": "ethereum",
-      "name": "Plebbit",
-      "symbol": "PLEB",
-      "address": "0xEA81DaB2e0EcBc6B5c4172DE4c22B6Ef6E55Bd8f",
+      "name": "Bitsocial",
+      "symbol": "BSO",
+      "address": "0xB50cea4c109dc223A10d44c14f521CaeD91DaB5A",
       "decimals": 18,
       "sources": [
         {
           "type": "coingecko",
-          "data": "plebbit"
+          "data": "bitsocial"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.362Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/31903/small/logo-transparent-180.png?1778996308"
+      "timestamp": "2026-10-06T19:25:21.740Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102174326/small/icon.png?1790743322"
     },
     {
       "chain": "avalanche",
@@ -169260,21 +169030,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/35722/small/photo_2024-03-05_01-23-59_%281%29.jpg?1709632285"
     },
     {
-      "chain": "ethereum",
-      "name": "KING",
-      "symbol": "KING",
-      "address": "0xE28027c99C7746fFb56B0113e5d9708aC86fAE8f",
-      "decimals": 9,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "king-2"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.363Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/30183/small/king.png?1696529102"
-    },
-    {
       "chain": "solana",
       "name": "KING",
       "symbol": "KING",
@@ -171390,21 +171145,6 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/38646/small/lockin.png?1718212159"
     },
     {
-      "chain": "avalanche",
-      "name": "LODE Token",
-      "symbol": "LODE",
-      "address": "0xbBAAA0420D474B34Be197f95A323C2fF3829E811",
-      "decimals": 17,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "lode-token"
-        }
-      ],
-      "timestamp": "2025-04-18T14:25:01.363Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/28296/small/LOD3_200.png?1731506903"
-    },
-    {
       "chain": "solana",
       "name": "LOGE",
       "symbol": "LOGE",
@@ -173492,7 +173232,7 @@
     {
       "chain": "ton",
       "name": "Staked TON",
-      "symbol": "stton",
+      "symbol": "stGRAM",
       "address": "0:cd872fa7c5816052acdf5332260443faec9aacc8c21cca4d92e7f47034d11892",
       "decimals": 9,
       "sources": [
@@ -173501,7 +173241,7 @@
           "data": "bemo-staked-ton"
         }
       ],
-      "timestamp": "2025-04-18T14:25:01.364Z",
+      "timestamp": "2026-10-06T19:27:08.419Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/36516/small/Bemo_logo-01.jpg?1723600714"
     },
     {
@@ -173576,11 +173316,11 @@
     {
       "chain": "sonic",
       "name": "Silo Wrapped Sonic",
-      "symbol": "SiloWS",
+      "symbol": "bwS-25",
       "address": "0x016C306e103FbF48EC24810D078C65aD13c5f11B",
       "decimals": 18,
       "sources": [],
-      "timestamp": "2025-04-18T14:25:01.364Z"
+      "timestamp": "2026-10-06T19:28:20.073Z"
     },
     {
       "chain": "ethereum",
@@ -176300,8 +176040,18 @@
     {
       "chain": "ethereum",
       "name": "wCTC",
-      "symbol": "wCTC",
+      "symbol": "OLDWCTC",
       "address": "0xAAfec8e08d524D534327fa13fB306F440B5F88EB",
+      "decimals": 18,
+      "sources": [],
+      "timestamp": "2026-10-06T19:29:49.551Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/54774/small/WCTC_32px.png?1741515061"
+    },
+    {
+      "chain": "ethereum",
+      "name": "Wrapped CTC",
+      "symbol": "WCTC",
+      "address": "0xeB32AD88b09fB94129a8B972876Ad02EaAc91E53",
       "decimals": 18,
       "sources": [
         {
@@ -176309,8 +176059,8 @@
           "data": "wrapped-ctc"
         }
       ],
-      "timestamp": "2025-05-27T15:17:04.354Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/54774/small/WCTC_32px.png?1741515061"
+      "timestamp": "2026-10-06T19:29:49.551Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/54774/small/WCTC_200px.png?1761924042"
     },
     {
       "chain": "base",
@@ -178797,7 +178547,7 @@
     {
       "chain": "gnosis",
       "name": "MAI",
-      "symbol": "MIMATIC",
+      "symbol": "MAI",
       "address": "0x3F56e0c36d275367b8C502090EDF38289b3dEa0d",
       "decimals": 18,
       "sources": [
@@ -178806,7 +178556,7 @@
           "data": "mimatic"
         }
       ],
-      "timestamp": "2025-10-09T16:39:26.876Z",
+      "timestamp": "2026-10-06T19:31:18.738Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/15264/small/mimatic-red.png?1696514916"
     },
     {
@@ -180309,21 +180059,6 @@
     },
     {
       "chain": "scroll",
-      "name": "Axelar Bridged Frax Ether",
-      "symbol": "AXLFRXETH",
-      "address": "0xEcc68d0451E20292406967Fe7C04280E5238Ac7D",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "axelar-bridged-frax-ether"
-        }
-      ],
-      "timestamp": "2025-10-09T16:39:34.967Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/38976/small/Screen_Shot_2024-06-18_at_12.55.54_PM_2.png?1719714886"
-    },
-    {
-      "chain": "scroll",
       "name": "Danjuan Scroll Cat",
       "symbol": "CAT",
       "address": "0xdd6a49995ad38Fe7409B5d5Cb5539261Bd1bC901",
@@ -181615,7 +181350,7 @@
     {
       "chain": "ton",
       "name": "Ethena Staked USDe",
-      "symbol": "SUSDE",
+      "symbol": "tsUSDe",
       "address": "0:d0e545323c7acb7102653c073377f7e3c67f122eb94d430a250739f109d4a57d",
       "decimals": 6,
       "sources": [
@@ -181624,7 +181359,7 @@
           "data": "ethena-staked-usde"
         }
       ],
-      "timestamp": "2025-10-13T10:30:03.890Z",
+      "timestamp": "2026-10-06T19:58:01.954Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/33669/small/sUSDe-Symbol-Color.png?1716307680"
     },
     {
@@ -181823,20 +181558,6 @@
     },
     {
       "chain": "ton",
-      "name": "WATCoin",
-      "symbol": "WATC",
-      "address": "0:27381992a2a7cd7f0fdb1846158ee1b9eaa2d05dc446055e3b2e202766ae4fc5",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "watcoin-2"
-        }
-      ],
-      "timestamp": "2025-10-13T10:30:03.890Z"
-    },
-    {
-      "chain": "ton",
       "name": "Tower",
       "symbol": "TOWER",
       "address": "0:b8ed87d52d6a3e53fcfbb3a8843a4600004285fc2d3e801881f0a24beace66e0",
@@ -181957,7 +181678,7 @@
     {
       "chain": "ton",
       "name": "Hipo Staked TON",
-      "symbol": "HTON",
+      "symbol": "hGRAM",
       "address": "0:cf76af318c0872b58a9f1925fc29c156211782b9fb01f56760d292e56123bf87",
       "decimals": 9,
       "sources": [
@@ -181966,7 +181687,7 @@
           "data": "hipo-staked-ton"
         }
       ],
-      "timestamp": "2025-10-13T10:30:03.891Z",
+      "timestamp": "2026-10-06T20:00:16.579Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/37437/small/hTON-logo.png?1715885977"
     },
     {
@@ -182091,7 +181812,7 @@
     {
       "chain": "ton",
       "name": "Bemo",
-      "symbol": "BMTON",
+      "symbol": "bmGRAM",
       "address": "0:92c4664f1ea6b74ed9ce0e031a9fc0843348dfe87a58faea27fcd31e1608caaa",
       "decimals": 9,
       "sources": [
@@ -182100,7 +181821,7 @@
           "data": "bemo"
         }
       ],
-      "timestamp": "2025-10-13T10:30:03.891Z"
+      "timestamp": "2026-10-06T19:27:08.419Z"
     },
     {
       "chain": "ton",
@@ -183241,21 +182962,6 @@
       ],
       "timestamp": "2025-11-24T20:12:45.108Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/69942/small/logo_512x512.png?1760119751"
-    },
-    {
-      "chain": "solana",
-      "name": "Ace Data Cloud",
-      "symbol": "$ACE",
-      "address": "GEuuznWpn6iuQAJxLKQDVGXPtrqXHNWTk3gZqqvJpump",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "ace-data-cloud"
-        }
-      ],
-      "timestamp": "2025-11-24T20:12:45.108Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/54501/small/6hHwGFLK_400x400_%281%29.jpg?1740032482"
     },
     {
       "chain": "solana",
@@ -188841,7 +188547,7 @@
       "chain": "avalanche",
       "name": "Telos",
       "symbol": "TLOS",
-      "address": "0x193f4A4a6ea24102F49b931DEeeb931f6E32405d",
+      "address": "0xed667dC80a45b77305Cc395DB56D997597Dc6DdD",
       "decimals": 18,
       "sources": [
         {
@@ -188849,7 +188555,7 @@
           "data": "telos"
         }
       ],
-      "timestamp": "2026-07-14T13:51:26.523Z",
+      "timestamp": "2026-10-06T20:18:18.873Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/7588/small/tlos_png.png?1722391289"
     },
     {
@@ -194704,21 +194410,6 @@
     },
     {
       "chain": "polygon",
-      "name": "Neutrino Index Token",
-      "symbol": "XTN",
-      "address": "0x013F9c3fAc3e2759d7e90AcA4F9540F75194A0d7",
-      "decimals": 18,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "neutrino"
-        }
-      ],
-      "timestamp": "2026-07-14T13:51:34.026Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/10117/small/XTN.png?1712339473"
-    },
-    {
-      "chain": "polygon",
       "name": "IBS",
       "symbol": "IBS",
       "address": "0xB9dF5FDa1c435cD4017a1F1F9111996520b64439",
@@ -196084,21 +195775,6 @@
     },
     {
       "chain": "solana",
-      "name": "Wrapped Ethereum (Sollet)",
-      "symbol": "SOETH",
-      "address": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
-      "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "wrapped-ethereum-sollet"
-        }
-      ],
-      "timestamp": "2026-07-14T13:51:35.005Z",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/24918/small/6250754.png?1696524074"
-    },
-    {
-      "chain": "solana",
       "name": "USDu",
       "symbol": "USDU",
       "address": "9ckR7pPPvyPadACDTzLwK2ZAEeUJ3qGSnzPs8bVaHrSy",
@@ -196684,17 +196360,12 @@
     },
     {
       "chain": "solana",
-      "name": "OpenEden OpenDollar",
-      "symbol": "USDO",
+      "name": "Compounding USDO",
+      "symbol": "cUSDO",
       "address": "BnANu5CtUogLqcvBNByJuwaRvRxNtVuDcAytwjsUUtqs",
       "decimals": 6,
-      "sources": [
-        {
-          "type": "coingecko",
-          "data": "openeden-open-dollar"
-        }
-      ],
-      "timestamp": "2026-07-14T13:51:35.008Z",
+      "sources": [],
+      "timestamp": "2026-10-06T20:15:27.908Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/53750/small/USDO_LOGO-white.png?1737181887"
     },
     {
