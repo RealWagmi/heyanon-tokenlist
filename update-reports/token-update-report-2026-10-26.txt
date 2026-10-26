@@ -1,0 +1,94 @@
+======================================================================
+TOKEN UPDATE SUMMARY REPORT
+======================================================================
+
+Date: 2026-10-26
+File: token-list.json
+
+SUMMARY
+----------------------------------------------------------------------
+Added: 7 tokens (Base AERO and xAERO on six other chains).
+Updated: 1 existing symbol. Removed: 0 tokens.
+
+1. EXISTING AERODROME TOKEN
+----------------------------------------------------------------------
+Chain: base
+Name: Aerodrome (unchanged)
+Symbol: AERO -> Old AERO
+Address: 0x940181a94A35A4569E4529A3CDfB74e38FD98631
+All other fields remain unchanged. This is a token-list display label,
+not an on-chain symbol change.
+
+2. ADDED TOKENS
+----------------------------------------------------------------------
+base: Aero (AERO)
+  Address: 0x3f5bF3EdAc59d650D8fDf9657a71F2f904A3a4Ee
+  Decimals: 18
+  Sources: [{"type": "coingecko", "data": "aero"}]
+  Timestamp: 2026-10-26T15:45:48.206Z
+
+ethereum: Aero (xAERO)
+  Address: 0x9e148C5716b5aAdCFD3B71cEAE9EE7a9e22C29E2
+  Decimals: 18
+  Sources: []
+  Timestamp: 2026-10-26T16:00:11.351Z
+
+optimism: Aero (xAERO)
+  Address: 0xbdEaeA5205d16f34Cb40038052d91235D87B4C54
+  Decimals: 18
+  Sources: []
+  Timestamp: 2026-10-26T16:00:11.351Z
+
+arbitrum: Aero (xAERO)
+  Address: 0x436a085B2751cB87db270FFa66f8d698F87bEC82
+  Decimals: 18
+  Sources: []
+  Timestamp: 2026-10-26T16:00:11.351Z
+
+ink: Aero (xAERO)
+  Address: 0x9e148C5716b5aAdCFD3B71cEAE9EE7a9e22C29E2
+  Decimals: 18
+  Sources: []
+  Timestamp: 2026-10-26T16:00:11.351Z
+
+robinhood: Aero (xAERO)
+  Address: 0x9e148C5716b5aAdCFD3B71cEAE9EE7a9e22C29E2
+  Decimals: 18
+  Sources: []
+  Timestamp: 2026-10-26T16:00:11.351Z
+
+arc: Aero (xAERO)
+  Address: 0x20077cC0d5E385A0Fe9C91bbC7DC744f51559307
+  Decimals: 18
+  Sources: []
+  Timestamp: 2026-10-26T16:00:11.351Z
+
+3. METADATA AND LOGO
+----------------------------------------------------------------------
+Base AERO uses CoinGecko ID "aero". xAERO has empty sources because no
+direct CoinGecko mapping was returned for those contracts.
+
+All seven additions use the main AERO logo:
+https://coin-images.coingecko.com/coins/images/102179737/small/aero-token.png?1792751076
+
+The updater was run in memory using CoinGecko Pro for all six xAERO
+tokens. None returned a logo. The developer approved reusing the main
+AERO logo. Robinhood mapping was supplied in memory; updater files were
+not changed.
+
+4. VERIFICATION AND SOURCES
+----------------------------------------------------------------------
+Addresses checked against official Aero documentation. On-chain metadata
+confirmed Aero / 18 decimals on all seven networks, with AERO on Base
+and xAERO elsewhere. Base metadata retrieved through work.js.
+JSON validation passed; each added chain+address occurs exactly once.
+
+Official contract addresses:
+https://app.aero.xyz/docs/security#contract-addresses
+Receipt-token explanation:
+https://app.aero.xyz/docs/about/aero-and-saero#xaero-receipt-tokens
+CoinGecko listing:
+https://www.coingecko.com/en/coins/aero
+
+Base also has a separate xAERO receipt contract. It was not added in
+this update; the six xAERO additions cover the other supported chains.
