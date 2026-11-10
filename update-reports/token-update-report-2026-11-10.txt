@@ -1,0 +1,98 @@
+======================================================================
+TOKEN UPDATE SUMMARY REPORT
+======================================================================
+
+Date: 2026-11-10
+File: token-list.json
+
+SUMMARY
+----------------------------------------------------------------------
+Added: 5 tokens on Kinetiq Elysium.
+Updated: 0 existing tokens. Removed: 0 existing tokens.
+Internal chain key: elysium
+Chain ID: 99901
+CoinGecko platform: elysium-kinetiq
+CoinGecko category: elysium-kinetiq-ecosystem
+
+1. ADDED TOKENS
+----------------------------------------------------------------------
+elysium: ETIQPURR (ETIQPURR)
+  Address: 0x8091b356D496817D3802C58a3Fb244E38fdB5634
+  Decimals: 18
+  Sources: [{"type": "coingecko", "data": "etiqpurr"}]
+
+elysium: Clu (CLU)
+  Address: 0x13C83fd2DF0Ae8C7B462D344a458275D1f6B5b82
+  Decimals: 18
+  Sources: [{"type": "coingecko", "data": "clu-2"}]
+
+elysium: Kinetiq Wrapped HYPE (WHYPE)
+  Address: 0xbA876237B0F021A6c6D852d6c26E107997cC5E81
+  Decimals: 18
+  Sources: [{"type": "coingecko", "data": "kinetiq-wrapped-hype"}]
+
+elysium: USDC (USDC)
+  Address: 0xb47c4C8F73F009CC0C0d3f92B388d13E293F0B65
+  Decimals: 6
+  Sources: [{"type": "coingecko", "data": "usd-coin"}]
+
+elysium: Kinetiq (KNTQ)
+  Address: 0xe45a355d9e9cAd2aD85F2d03E3eE3102A036acF0
+  Decimals: 18
+  Sources: [{"type": "coingecko", "data": "kinetiq"}]
+
+All five entries use timestamp 2026-11-10T11:55:04.865Z.
+Logos come from CoinGecko's Elysium (Kinetiq) token list.
+
+2. VERIFICATION AND SOURCES
+----------------------------------------------------------------------
+CoinGecko's elysium-kinetiq token list returned all five contracts with
+chain ID 99901. CoinGecko's coins list supplied their price-source IDs.
+The public RPC returned chain ID 99901. Contract symbol() and decimals()
+reads matched the entries for all five tokens.
+Official Elysium documentation confirmed canonical WHYPE and USDC.
+
+Official network details:
+https://elysium.kinetiq.xyz/docs/connecting-to-elysium
+Official contract addresses:
+https://elysium.kinetiq.xyz/docs/contract-addresses
+Public RPC used for verification:
+https://rpc.elysium.kinetiq.xyz
+CoinGecko platform definitions:
+https://api.coingecko.com/api/v3/asset_platforms
+CoinGecko token list:
+https://tokens.coingecko.com/elysium-kinetiq/all.json
+CoinGecko contract-to-coin mappings:
+https://api.coingecko.com/api/v3/coins/list?include_platform=true
+CoinGecko category:
+https://www.coingecko.com/en/categories/elysium-kinetiq-ecosystem
+
+3. PLATFORM AMBIGUITY
+----------------------------------------------------------------------
+CoinGecko distinguishes elysium (chain ID 1339, native coin LAVA) from
+elysium-kinetiq (chain ID 99901, native coin HYPE).
+
+BOXA and VOLTA appeared under CoinGecko's elysium platform. Contracts
+at the listed addresses also returned matching symbols and decimals on
+chain 99901. Those reads alone do not establish project identity or
+explain the conflicting platform assignment. Both candidates were
+excluded from the final additions pending project confirmation of their
+network and contract addresses. No conclusion about their legitimacy
+was established.
+
+4. METHOD AND VALIDATION
+----------------------------------------------------------------------
+Added the five entries manually using the verified source data.
+The list-generation updater was not required for this batch.
+Addresses were converted to EIP-55 checksum format.
+npm run validate passed for 14,114 tokens and 69 isStock.json addresses.
+No duplicate chain+address or chain+symbol combinations were found.
+git diff --check passed for the token-list change.
+
+5. TOKEN SERVER IMPORT DEPENDENCY
+----------------------------------------------------------------------
+The inspected local heyanon-token-server package uses @heyanon/sdk 2.6.0.
+Its installed SDK returned undefined for Chain.ELYSIUM, while the token
+schema restricts chain values to that enum. The server needs an SDK
+version that supports Elysium before it can import these entries.
+The local SDK source already defines elysium with chain ID 99901.

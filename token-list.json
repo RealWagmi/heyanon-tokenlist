@@ -211772,6 +211772,81 @@
       ],
       "timestamp": "2026-10-13T18:51:37.479Z",
       "logoURI": "https://coin-images.coingecko.com/coins/images/877/small/Chainlink_Logo_500.png?1760023405"
+    },
+    {
+      "chain": "elysium",
+      "name": "ETIQPURR",
+      "symbol": "ETIQPURR",
+      "address": "0x8091b356D496817D3802C58a3Fb244E38fdB5634",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "etiqpurr"
+        }
+      ],
+      "timestamp": "2026-11-10T11:55:04.865Z",
+      "logoURI": "https://assets.coingecko.com/coins/images/102180193/thumb/etiqpurr-logo-256.png?1794301518"
+    },
+    {
+      "chain": "elysium",
+      "name": "Clu",
+      "symbol": "CLU",
+      "address": "0x13C83fd2DF0Ae8C7B462D344a458275D1f6B5b82",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "clu-2"
+        }
+      ],
+      "timestamp": "2026-11-10T11:55:04.865Z",
+      "logoURI": "https://assets.coingecko.com/coins/images/102180192/thumb/clu-logo-256.png?1794295079"
+    },
+    {
+      "chain": "elysium",
+      "name": "Kinetiq Wrapped HYPE",
+      "symbol": "WHYPE",
+      "address": "0xbA876237B0F021A6c6D852d6c26E107997cC5E81",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "kinetiq-wrapped-hype"
+        }
+      ],
+      "timestamp": "2026-11-10T11:55:04.865Z",
+      "logoURI": "https://assets.coingecko.com/coins/images/102180191/thumb/whype.png?1794279115"
+    },
+    {
+      "chain": "elysium",
+      "name": "USDC",
+      "symbol": "USDC",
+      "address": "0xb47c4C8F73F009CC0C0d3f92B388d13E293F0B65",
+      "decimals": 6,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "usd-coin"
+        }
+      ],
+      "timestamp": "2026-11-10T11:55:04.865Z",
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USDC.png?1769615602"
+    },
+    {
+      "chain": "elysium",
+      "name": "Kinetiq",
+      "symbol": "KNTQ",
+      "address": "0xe45a355d9e9cAd2aD85F2d03E3eE3102A036acF0",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "kinetiq"
+        }
+      ],
+      "timestamp": "2026-11-10T11:55:04.865Z",
+      "logoURI": "https://assets.coingecko.com/coins/images/70252/thumb/kntq.png?1761279547"
     }
   ]
 }
