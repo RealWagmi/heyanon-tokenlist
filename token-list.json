@@ -211847,6 +211847,141 @@
       ],
       "timestamp": "2026-11-10T11:55:04.865Z",
       "logoURI": "https://assets.coingecko.com/coins/images/70252/thumb/kntq.png?1761279547"
+    },
+    {
+      "chain": "elysium",
+      "name": "Volta",
+      "symbol": "VOLTA",
+      "address": "0x0f79931689Af199e7CF868ed1107bBA2C83c68f7",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "volta-family"
+        }
+      ],
+      "timestamp": "2026-11-11T09:45:17.333Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102180195/small/volta_400x400.jpg?1794309815"
+    },
+    {
+      "chain": "elysium",
+      "name": "Aether",
+      "symbol": "AETHER",
+      "address": "0xf31BceD2eA8F160052D54c8a3fD03381FEDD8E0D",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "aether"
+        }
+      ],
+      "timestamp": "2026-11-11T09:45:17.333Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102180203/small/aether_400x400.jpg?1794318390"
+    },
+    {
+      "chain": "elysium",
+      "name": "MAXIMUS CAT",
+      "symbol": "MAXIMUS",
+      "address": "0xEb8bCC0fdE0e76D26F1FBcB38BF476C837b92927",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "maximus-cat"
+        }
+      ],
+      "timestamp": "2026-11-11T09:45:17.333Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102180211/small/maxcat_400x400.jpg?1794320212"
+    },
+    {
+      "chain": "elysium",
+      "name": "Boxa",
+      "symbol": "BOXA",
+      "address": "0xa3C1d6a8648dF3978A38ce1478fbC284c75D95D7",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "boxa-club"
+        }
+      ],
+      "timestamp": "2026-11-11T09:45:17.333Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102180194/small/boxa_400x400.jpg?1794304260"
+    },
+    {
+      "chain": "elysium",
+      "name": "voidcash",
+      "symbol": "VOID",
+      "address": "0xD31B21Cb80E431AC996269deC31A40fCf048B77f",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "voidcash"
+        }
+      ],
+      "timestamp": "2026-11-11T09:45:17.333Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102180205/small/voidcash_400x400.jpg?1794318740"
+    },
+    {
+      "chain": "elysium",
+      "name": "Forge",
+      "symbol": "FORGE",
+      "address": "0xA5fCE95872A29d90cF2dF528106165fa92b5D4d0",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "forge-2"
+        }
+      ],
+      "timestamp": "2026-11-11T09:45:17.333Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102180206/small/forge_400x400.jpg?1794318973"
+    },
+    {
+      "chain": "elysium",
+      "name": "Evermor",
+      "symbol": "EVERMOR",
+      "address": "0x7f4f3b9770648262fe5133B9CB8A2155173be0d4",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "evermor"
+        }
+      ],
+      "timestamp": "2026-11-11T09:45:17.333Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102180208/small/evernore_400x400.jpg?1794319374"
+    },
+    {
+      "chain": "elysium",
+      "name": "nmeows",
+      "symbol": "NMEOWS",
+      "address": "0xc6088Be9C99787463A5FC655091E589Cb0dA0c3A",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "nmeows"
+        }
+      ],
+      "timestamp": "2026-11-11T09:45:17.333Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102180210/small/nmeows_400x400.jpg?1794319755"
+    },
+    {
+      "chain": "elysium",
+      "name": "e/acc",
+      "symbol": "e/acc",
+      "address": "0x8df4f39d592de2aAee15838B265C2392d19A4128",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "e-acc"
+        }
+      ],
+      "timestamp": "2026-11-11T09:45:17.333Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/102180202/small/eacc_400x400.jpg?1794317510"
     }
   ]
 }

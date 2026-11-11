@@ -1,0 +1,135 @@
+======================================================================
+TOKEN UPDATE SUMMARY REPORT
+======================================================================
+
+Date: 2026-11-11
+File: token-list.json
+
+SUMMARY
+----------------------------------------------------------------------
+Added: 9 tokens on Kinetiq Elysium.
+Updated: 0 existing tokens. Removed: 0 existing tokens.
+Internal chain key: elysium
+Chain ID: 99901
+Entry timestamp: 2026-11-11T09:45:17.333Z
+Total tokens after addition: 14123
+
+1. ADDED TOKENS
+----------------------------------------------------------------------
+elysium: Volta (VOLTA)
+  Address: 0x0f79931689Af199e7CF868ed1107bBA2C83c68f7
+  Decimals: 18
+  Sources: [{"type":"coingecko","data":"volta-family"}]
+  Logo: https://coin-images.coingecko.com/coins/images/102180195/small/volta_400x400.jpg?1794309815
+
+elysium: Aether (AETHER)
+  Address: 0xf31BceD2eA8F160052D54c8a3fD03381FEDD8E0D
+  Decimals: 18
+  Sources: [{"type":"coingecko","data":"aether"}]
+  Logo: https://coin-images.coingecko.com/coins/images/102180203/small/aether_400x400.jpg?1794318390
+
+elysium: MAXIMUS CAT (MAXIMUS)
+  Address: 0xEb8bCC0fdE0e76D26F1FBcB38BF476C837b92927
+  Decimals: 18
+  Sources: [{"type":"coingecko","data":"maximus-cat"}]
+  Logo: https://coin-images.coingecko.com/coins/images/102180211/small/maxcat_400x400.jpg?1794320212
+
+elysium: Boxa (BOXA)
+  Address: 0xa3C1d6a8648dF3978A38ce1478fbC284c75D95D7
+  Decimals: 18
+  Sources: [{"type":"coingecko","data":"boxa-club"}]
+  Logo: https://coin-images.coingecko.com/coins/images/102180194/small/boxa_400x400.jpg?1794304260
+
+elysium: voidcash (VOID)
+  Address: 0xD31B21Cb80E431AC996269deC31A40fCf048B77f
+  Decimals: 18
+  Sources: [{"type":"coingecko","data":"voidcash"}]
+  Logo: https://coin-images.coingecko.com/coins/images/102180205/small/voidcash_400x400.jpg?1794318740
+
+elysium: Forge (FORGE)
+  Address: 0xA5fCE95872A29d90cF2dF528106165fa92b5D4d0
+  Decimals: 18
+  Sources: [{"type":"coingecko","data":"forge-2"}]
+  Logo: https://coin-images.coingecko.com/coins/images/102180206/small/forge_400x400.jpg?1794318973
+
+elysium: Evermor (EVERMOR)
+  Address: 0x7f4f3b9770648262fe5133B9CB8A2155173be0d4
+  Decimals: 18
+  Sources: [{"type":"coingecko","data":"evermor"}]
+  Logo: https://coin-images.coingecko.com/coins/images/102180208/small/evernore_400x400.jpg?1794319374
+
+elysium: nmeows (NMEOWS)
+  Address: 0xc6088Be9C99787463A5FC655091E589Cb0dA0c3A
+  Decimals: 18
+  Sources: [{"type":"coingecko","data":"nmeows"}]
+  Logo: https://coin-images.coingecko.com/coins/images/102180210/small/nmeows_400x400.jpg?1794319755
+
+elysium: e/acc (e/acc)
+  Address: 0x8df4f39d592de2aAee15838B265C2392d19A4128
+  Decimals: 18
+  Sources: [{"type":"coingecko","data":"e-acc"}]
+  Logo: https://coin-images.coingecko.com/coins/images/102180202/small/eacc_400x400.jpg?1794317510
+
+2. OFFICIAL RPC VERIFICATION
+----------------------------------------------------------------------
+RPC: https://rpc.elysium.kinetiq.xyz
+Verified at: 2026-11-11T09:43:03.152Z
+Block: 4666694
+eth_chainId returned 99901.
+eth_getCode returned deployed bytecode for every added address.
+eth_call for name(), symbol() and decimals() returned matching metadata.
+All nine added contracts returned 18 decimals.
+The RPC checks establish deployment and the returned token metadata.
+
+3. COINGECKO PLATFORM MAPPING
+----------------------------------------------------------------------
+CoinGecko lists these nine contracts under platform elysium, whose
+platform definition points to chain 1339. Their exact addresses were
+verified directly on Kinetiq Elysium, chain 99901, before this addition.
+Price-source IDs and logos come from each CoinGecko coin record.
+
+VOLTA's official documentation also confirms its exact address and
+chain 99901. BOXA's own asset page identifies its contract as the
+protocol token. This resolves the pending VOLTA/BOXA exclusions recorded
+in the 2026-11-10 report for the scope of this user-approved addition.
+
+4. USER-REQUESTED EXCLUSIONS
+----------------------------------------------------------------------
+HYPEPE:  0x5dCFb191f0cDB853BAc3A6A4385e160E779e377F
+ELYSCAN: 0x86f2f8C31E51ec5bBa5D230d266B271A00DeA53a
+EGG:     0x88E49f7E08c503e1d89ebc56eBC1119cD594DfB1
+These three contracts passed the same RPC checks and were excluded at
+the user's request. The five Elysium entries added on 2026-11-10 remain.
+
+5. SOURCES
+----------------------------------------------------------------------
+Official RPC:
+https://rpc.elysium.kinetiq.xyz
+Official network documentation:
+https://elysium.kinetiq.xyz/docs/connecting-to-elysium
+VOLTA documentation:
+https://www.volta.family/docs
+BOXA asset page:
+https://boxa.club/asset?address=0xa3c1d6a8648df3978a38ce1478fbc284c75d95d7
+CoinGecko category:
+https://www.coingecko.com/en/categories/elysium-ecosystem
+CoinGecko platform definitions:
+https://api.coingecko.com/api/v3/asset_platforms
+CoinGecko coin records:
+https://www.coingecko.com/en/coins/volta-family
+https://www.coingecko.com/en/coins/aether
+https://www.coingecko.com/en/coins/maximus-cat
+https://www.coingecko.com/en/coins/boxa-club
+https://www.coingecko.com/en/coins/voidcash
+https://www.coingecko.com/en/coins/forge-2
+https://www.coingecko.com/en/coins/evermor
+https://www.coingecko.com/en/coins/nmeows
+https://www.coingecko.com/en/coins/e-acc
+
+6. METHOD
+----------------------------------------------------------------------
+Manually appended the nine entries using CoinGecko metadata and the
+completed official RPC verification. Addresses use EIP-55 checksums.
+npm run validate passed for 14,123 tokens and 69 isStock.json addresses.
+No duplicate chain+address or chain+symbol combinations were found.
+git diff --check passed for the token-list change.
