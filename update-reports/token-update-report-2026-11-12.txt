@@ -1,0 +1,140 @@
+======================================================================
+TOKEN UPDATE SUMMARY REPORT
+======================================================================
+
+Date: 2026-11-12
+File: token-list.json
+
+SUMMARY
+----------------------------------------------------------------------
+Added: 6 scrvUSD entries across Optimism, BSC, Sonic, Base, Avalanche
+and Arbitrum.
+Verified existing: 1 scrvUSD entry on Ethereum.
+Updated: 0 existing tokens. Removed: 0 existing tokens.
+Entry timestamp for additions: 2026-11-12T11:25:07.330Z
+Total tokens before addition: 14123
+Total tokens after addition: 14129
+
+1. ADDED TOKENS
+----------------------------------------------------------------------
+optimism: Savings crvUSD (scrvUSD)
+  Chain ID: 10
+  Address: 0x289f635106d5b822A505b39AC237A0AE9189335B
+  Decimals: 18
+  Sources: []
+  CoinGecko contract mapping: unavailable at verification.
+  Logo: https://coin-images.coingecko.com/coins/images/51712/small/scrvusd.jpg?1746671018
+
+bsc: Savings crvUSD (scrvUSD)
+  Chain ID: 56
+  Address: 0x0094Ad026643994c8fB2136ec912D508B15fe0E5
+  Decimals: 18
+  Sources: []
+  CoinGecko contract mapping: unavailable at verification.
+  Logo: https://coin-images.coingecko.com/coins/images/51712/small/scrvusd.jpg?1746671018
+
+sonic: Savings crvUSD (scrvUSD)
+  Chain ID: 146
+  Address: 0xB5f0edecFF09081354DB252CeEc000b213186fac
+  Decimals: 18
+  Sources: []
+  CoinGecko contract mapping: unavailable at verification.
+  Logo: https://coin-images.coingecko.com/coins/images/51712/small/scrvusd.jpg?1746671018
+
+base: Savings crvUSD (scrvUSD)
+  Chain ID: 8453
+  Address: 0x646A737B9B6024e49f5908762B3fF73e65B5160c
+  Decimals: 18
+  Sources: [{"type":"coingecko","data":"superbridge-bridged-scrvusd"}]
+  Logo: https://coin-images.coingecko.com/coins/images/53088/small/scrvusd_150.png?1746696772
+
+avalanche: Savings crvUSD (scrvUSD)
+  Chain ID: 43114
+  Address: 0xA3ea433509F7941df3e33857D9c9f212Ad4A4e64
+  Decimals: 18
+  Sources: []
+  CoinGecko contract mapping: unavailable at verification.
+  Logo: https://coin-images.coingecko.com/coins/images/51712/small/scrvusd.jpg?1746671018
+
+arbitrum: Savings crvUSD (scrvUSD)
+  Chain ID: 42161
+  Address: 0xEfB6601Df148677A338720156E2eFd3c5Ba8809d
+  Decimals: 18
+  Sources: []
+  CoinGecko contract mapping: unavailable at verification.
+  Logo: https://coin-images.coingecko.com/coins/images/51712/small/scrvusd.jpg?1746671018
+
+2. VERIFIED EXISTING ENTRY
+----------------------------------------------------------------------
+ethereum: Savings crvUSD (scrvUSD)
+  Chain ID: 1
+  Address: 0x0655977FEb2f289A4aB78af67BAB0d17aAb84367
+  Decimals: 18
+  Sources: [{"type":"coingecko","data":"savings-crvusd"}]
+  Existing timestamp: 2025-04-18T14:25:01.363Z
+  Logo: https://coin-images.coingecko.com/coins/images/51712/small/scrvusd.jpg?1746671018
+
+3. ON-CHAIN METADATA VERIFICATION
+----------------------------------------------------------------------
+Read name(), symbol() and decimals() for all seven contracts using live
+RPCs. Related reads for each contract used the same block number.
+Every contract returned Savings crvUSD, scrvUSD and 18 decimals.
+
+Ethereum:  block 26398542
+Optimism:  block 159441951
+BSC:       block 133151657
+Sonic:     block 82440626
+Base:      block 56461525
+Avalanche: block 100107042
+Arbitrum:  block 523549462
+
+Configured Alchemy RPCs supplied the Ethereum, Optimism, BSC, Base,
+Avalanche and Arbitrum reads. Sonic used https://rpc.soniclabs.com.
+The contract addresses also matched Curve's official deployment registry.
+
+4. COINGECKO IDS AND LOGOS
+----------------------------------------------------------------------
+Lookups used getOneToken() and getFullOneCoinInfo() from work.js,
+followed by an exact-address scan of CoinGecko's coins list with
+include_platform=true.
+
+Verified contract-to-ID mappings:
+  Ethereum: savings-crvusd
+  Base: superbridge-bridged-scrvusd
+
+The Savings crvUSD CoinGecko record maps to the Ethereum contract.
+The Superbridge Bridged scrvUSD record maps to the Base contract.
+The active coins list returned no contract mappings for the five other
+checked deployments. Their sources arrays are empty, so these entries
+currently provide no configured price source.
+
+All entries use the on-chain name and symbol. Base uses the logo from
+its own CoinGecko record. The five additions without a CoinGecko mapping
+use the canonical Savings crvUSD logo. Both logo URLs returned HTTP 200.
+
+5. VALIDATION
+----------------------------------------------------------------------
+npm run normalize: passed.
+npm run validate: passed for 14129 tokens and 69 isStock.json entries.
+git diff --check: passed.
+All token addresses are EIP-55 checksummed.
+No duplicate chain/address or chain/symbol combinations were found.
+A comparison confirmed identical contents for all 14123 existing tokens.
+The token-list diff contains exactly six additions, totaling 65 lines.
+
+6. SOURCES
+----------------------------------------------------------------------
+Curve deployment registry:
+https://docs.curve.finance/deployments.json
+Curve deployment directory:
+https://docs.curve.finance/developer/deployments/
+Savings crvUSD documentation:
+https://docs.curve.finance/developer/scrvusd/overview/
+CoinGecko contract-to-ID mappings:
+https://pro-api.coingecko.com/api/v3/coins/list?include_platform=true
+CoinGecko Ethereum record:
+https://www.coingecko.com/en/coins/savings-crvusd
+CoinGecko Base record:
+https://www.coingecko.com/en/coins/superbridge-bridged-scrvusd
+GeckoTerminal token lookup:
+https://api.geckoterminal.com/api/v2/networks/{network}/tokens/multi/{address}

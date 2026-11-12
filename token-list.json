@@ -163090,6 +163090,71 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/51712/small/scrvusd.jpg?1746671018"
     },
     {
+      "chain": "optimism",
+      "name": "Savings crvUSD",
+      "symbol": "scrvUSD",
+      "address": "0x289f635106d5b822A505b39AC237A0AE9189335B",
+      "decimals": 18,
+      "sources": [],
+      "timestamp": "2026-11-12T11:25:07.330Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/51712/small/scrvusd.jpg?1746671018"
+    },
+    {
+      "chain": "bsc",
+      "name": "Savings crvUSD",
+      "symbol": "scrvUSD",
+      "address": "0x0094Ad026643994c8fB2136ec912D508B15fe0E5",
+      "decimals": 18,
+      "sources": [],
+      "timestamp": "2026-11-12T11:25:07.330Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/51712/small/scrvusd.jpg?1746671018"
+    },
+    {
+      "chain": "sonic",
+      "name": "Savings crvUSD",
+      "symbol": "scrvUSD",
+      "address": "0xB5f0edecFF09081354DB252CeEc000b213186fac",
+      "decimals": 18,
+      "sources": [],
+      "timestamp": "2026-11-12T11:25:07.330Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/51712/small/scrvusd.jpg?1746671018"
+    },
+    {
+      "chain": "base",
+      "name": "Savings crvUSD",
+      "symbol": "scrvUSD",
+      "address": "0x646A737B9B6024e49f5908762B3fF73e65B5160c",
+      "decimals": 18,
+      "sources": [
+        {
+          "type": "coingecko",
+          "data": "superbridge-bridged-scrvusd"
+        }
+      ],
+      "timestamp": "2026-11-12T11:25:07.330Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/53088/small/scrvusd_150.png?1746696772"
+    },
+    {
+      "chain": "avalanche",
+      "name": "Savings crvUSD",
+      "symbol": "scrvUSD",
+      "address": "0xA3ea433509F7941df3e33857D9c9f212Ad4A4e64",
+      "decimals": 18,
+      "sources": [],
+      "timestamp": "2026-11-12T11:25:07.330Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/51712/small/scrvusd.jpg?1746671018"
+    },
+    {
+      "chain": "arbitrum",
+      "name": "Savings crvUSD",
+      "symbol": "scrvUSD",
+      "address": "0xEfB6601Df148677A338720156E2eFd3c5Ba8809d",
+      "decimals": 18,
+      "sources": [],
+      "timestamp": "2026-11-12T11:25:07.330Z",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/51712/small/scrvusd.jpg?1746671018"
+    },
+    {
       "chain": "ethereum",
       "name": "Stader",
       "symbol": "SD",
